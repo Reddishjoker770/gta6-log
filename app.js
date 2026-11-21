@@ -1,4 +1,4 @@
-const APP_VERSION = "v5 · images";
+const APP_VERSION = "v6 · photos";
 
 const ICONS = {
   home: '<path d="M4 11.5 12 4l8 7.5"/><path d="M6.5 10.5V20h11V10.5"/>',
@@ -197,6 +197,10 @@ function inferIcon(item, catId) {
 }
 
 function thumbSpec(item, catId) {
+  const photo = item && item.img;
+  if (photo && String(photo).includes("/")) {
+    return { type: "image", src: String(photo) };
+  }
   const raw = item && item.thumb;
   if (raw && (String(raw).startsWith("img/") || String(raw).includes("/"))) {
     return { type: "image", src: String(raw) };
@@ -269,6 +273,39 @@ function sourceHref(source) {
   return isChat(source) ? null : source[0];
 }
 
+
+const IMAGE_SITES = {
+  "gta6notebook.com": "GTA 6 Notebook",
+  "keengamer.com": "KeenGamer",
+  "powerpyx.com": "PowerPyx",
+  "pcgamer.com": "PC Gamer",
+  "gta6zero.com": "GTA6Zero",
+  "howtovideogame.com": "HowToVideoGame",
+  "dexerto.com": "Dexerto",
+  "beebom.com": "Beebom",
+  "thegamer.com": "TheGamer",
+  "vice.com": "VICE",
+  "games.gg": "Games.gg",
+  "insider-gaming.com": "Insider Gaming",
+  "gtasnaps.com": "GTA Snaps",
+};
+
+function imageSiteName(url) {
+  if (!url) return "source";
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    return IMAGE_SITES[host] || host;
+  } catch (err) {
+    return "source";
+  }
+}
+
+function imageCreditHtml(item) {
+  if (!item || !item.img || !item.imgSource) return "";
+  const name = imageSiteName(item.imgSource);
+  return `<p class="img-credit">Image: <a href="${escapeHtml(item.imgSource)}" target="_blank" rel="noreferrer">${escapeHtml(name)}</a></p>`;
+}
+
 function itemMatches(item, query) {
   if (!query) return true;
   const blob = `${item.item} ${item.location} ${item.note} ${sourceLabel(item.source)}`.toLowerCase();
@@ -299,18 +336,18 @@ function badges(item, highlightCurrent, catId) {
   return parts.join("");
 }
 
-function cardHtml(item, highlightCurrent, catId) {
+function cardHtml(item, highlightCurrent, catId, tappable) {
   const kind = missionKind(item);
   const isCurrent = highlightCurrent && kind === "current";
   const mono = item.location.length <= 8 ? " mono" : "";
   const src = isChat(item.source)
     ? ""
     : `<p class="src"><a href="${escapeHtml(sourceHref(item.source))}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel(item.source))}</a></p>`;
-  const mappable = MAP_CATEGORIES.has(catId);
-  const tapAttrs = mappable
+  const canTap = tappable !== false && catId;
+  const tapAttrs = canTap
     ? ` role="button" tabindex="0" data-cat="${escapeHtml(catId)}" data-item="${escapeHtml(item.item)}"`
     : "";
-  return `<article class="card${isCurrent ? " current" : ""}${mappable ? " card-tap" : ""}"${tapAttrs}>
+  return `<article class="card${isCurrent ? " current" : ""}${canTap ? " card-tap" : ""}"${tapAttrs}>
     <div class="card-row">
       ${thumbHtml(item, catId, "sm")}
       <div class="card-body">
@@ -572,6 +609,21 @@ function detailHtml(cat, item) {
   const caption = marked
     ? `Approximate location: ${escapeHtml(item.area || "unknown")}`
     : "Location not confirmed yet";
+  const showMap = MAP_CATEGORIES.has(cat.id);
+  const photo = thumbSpec(item, cat.id);
+  const hero = photo.type === "image"
+    ? `<div class="detail-hero">
+        <img class="detail-photo" src="${escapeHtml(photo.src)}" alt="${escapeHtml(thumbAlt(item, photo))}" width="640" height="360" loading="lazy">
+      </div>
+      ${imageCreditHtml(item)}`
+    : "";
+  const mapBlock = showMap
+    ? `<div class="map-frame">
+      <img class="map-image" src="${MAP_SRC}" alt="${escapeHtml(MAP_ALT)}" width="1600" height="2190" />
+      ${marker}
+    </div>
+    <p class="map-caption">${caption}</p>`
+    : "";
   return `<header class="app-header map-header">
       <button class="back-chevron back" type="button" data-back="1" aria-label="Back">‹</button>
       ${thumbHtml(item, cat.id, "lg")}
@@ -580,14 +632,11 @@ function detailHtml(cat, item) {
         <p class="sub">${escapeHtml(cat.heading)}</p>
       </div>
     </header>
-    <div class="map-frame">
-      <img class="map-image" src="${MAP_SRC}" alt="${escapeHtml(MAP_ALT)}" width="1600" height="2190" />
-      ${marker}
-    </div>
+    ${hero}
     <div class="sheet">
-      ${cardHtml(item, false, cat.id)}
-      <p class="map-caption">${caption}</p>
-    </div>`;
+      ${cardHtml(item, false, cat.id, false)}
+    </div>
+    ${mapBlock}`;
 }
 
 function scrollKey(view, query) {
@@ -642,7 +691,7 @@ function renderPhone(view, innerHtml, options = {}) {
   const root = document.getElementById("app");
   root.innerHTML = `<div class="phone">
     ${statusBarHtml()}
-    <div class="content${options.detail ? " content-map" : ""}">${innerHtml}</div>
+    <div class="content${options.detail ? " content-detail" : ""}${options.detail && MAP_CATEGORIES.has(view) ? " content-map" : ""}">${innerHtml}</div>
     ${dockHtml(DATA, shellView)}
   </div>`;
   if (!options.detail) bindSearch(shellView);
@@ -683,7 +732,7 @@ function render() {
   const { view, query, itemName } = parseRoute();
   const cat = currentCat(view);
   const shellView = cat ? view : "home";
-  const isDetail = Boolean(itemName) && MAP_CATEGORIES.has(view);
+  const isDetail = Boolean(itemName) && Boolean(cat);
   const wasDetail = currentView && String(currentView).endsWith("::detail");
   const shellKey = isDetail ? `${shellView}::detail` : shellView;
 
@@ -698,7 +747,7 @@ function render() {
   }
 
   const input = document.getElementById("q");
-  const hasShell = document.querySelector(".phone") && document.querySelector(".content") && !document.querySelector(".map-image");
+  const hasShell = document.querySelector(".phone") && document.querySelector(".content") && !document.querySelector(".content-detail");
 
   if (!hasShell || currentView !== shellView) {
     renderShell(shellView, query);

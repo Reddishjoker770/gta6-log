@@ -41,7 +41,9 @@
           "location": "0300",
           "note": "Office in the northeast corner; enter the leading zero. Also on the Brooks Boatworks wall map.",
           "source": "Our chats",
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/kingpin-bowling-safe.webp",
+          "imgSource": "https://gta6notebook.com/secrets/where-is-the-gutterball-shotgun-in-gta-6/"
         },
         {
           "item": "Brooks Boatworks safe",
@@ -105,7 +107,9 @@
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
           ],
-          "thumb": "door"
+          "thumb": "door",
+          "img": "img/items/crab-outpost-dock-building.webp",
+          "imgSource": "https://www.thegamer.com/grand-theft-auto-6-giant-crab-location-crabshack-vf5-legendary-smg-research-code-safe-double-success-guide/"
         },
         {
           "item": "Casa de Empeño safe",
@@ -203,7 +207,9 @@
           "mx": 32.15,
           "my": 35.6,
           "area": "Port Gellhorn",
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/gutterball-moreland-850.webp",
+          "imgSource": "https://gta6notebook.com/walkthrough/hit-kingpin-bowling/"
         },
         {
           "item": "Clunker 556",
@@ -226,7 +232,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/crabshack-vf5.webp",
+          "imgSource": "https://www.thegamer.com/grand-theft-auto-6-giant-crab-location-crabshack-vf5-legendary-smg-research-code-safe-double-success-guide/"
         },
         {
           "item": "Swamp Bait Akulus revolver",
@@ -259,7 +267,9 @@
           "mx": 56.8,
           "my": 83.0,
           "area": "Key Lento",
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/donnies-hl-38.webp",
+          "imgSource": "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/"
         },
         {
           "item": "Hunter's Laird 350",
@@ -289,7 +299,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/kingfishers-w-22.webp",
+          "imgSource": "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/"
         },
         {
           "item": "Conspiracist Type 9",
@@ -359,7 +371,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/killtelligence-sm-69.webp",
+          "imgSource": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/"
         }
       ]
     },
@@ -498,7 +512,9 @@
           "mx": 30.2,
           "my": 41.7,
           "area": "Gellhorn Raceway",
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/annis-drifter-elegy.webp",
+          "imgSource": "https://gta6zero.com/en/guides/where-to-find-3-rare-cars-in-gta-6"
         },
         {
           "item": "Annis Hellion (Moses job)",
@@ -912,7 +928,9 @@
           "location": "Yard sale, south Port Gellhorn, blue house with balloons and an American flag",
           "note": "Chapter 2 only. Guides place it on Orchard Avenue, northwest of Dirt Merchants, as a Genuine Cowboy Hat on a guitar case on a white couch. Sold cheap; guides disagree on the exact price, so it is omitted here.",
           "source": "Our chats",
-          "thumb": "hat"
+          "thumb": "hat",
+          "img": "img/items/arthur-morgans-hat.webp",
+          "imgSource": "https://www.pcgamer.com/games/grand-theft-auto/arthur-morgan-hat-location-rdr2/"
         },
         {
           "item": "Dexter apartment",
@@ -1077,7 +1095,9 @@
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
           ],
-          "thumb": "fence"
+          "thumb": "fence",
+          "img": "img/items/yasmani-fence.webp",
+          "imgSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/"
         },
         {
           "item": "Moses (vehicles)",
@@ -1162,7 +1182,9 @@
             "https://howtovideogame.com/gta-6-headlights/",
             "HowToVideoGame"
           ],
-          "thumb": "headlights"
+          "thumb": "headlights",
+          "img": "img/items/headlights-menu.webp",
+          "imgSource": "https://howtovideogame.com/gta-6-headlights/"
         },
         {
           "item": "Headlights (shortcut)",
@@ -1428,7 +1450,9 @@
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
           ],
-          "thumb": "texture"
+          "thumb": "texture",
+          "img": "img/items/ship-vehicle-pop-in.webp",
+          "imgSource": "https://beebom.com/gta-6-bugs-tracker/"
         },
         {
           "item": "NPCs walk into walls and get stuck",
@@ -1488,7 +1512,9 @@
             "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
             "Dexerto"
           ],
-          "thumb": "glitch"
+          "thumb": "glitch",
+          "img": "img/items/ps5-first-person-mode-glitch.webp",
+          "imgSource": "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/"
         },
         {
           "item": "Red barn save/reload loot respawn",
