@@ -1,4 +1,4 @@
-const APP_VERSION = "v6 · photos";
+const APP_VERSION = "v7 · saved";
 
 const ICONS = {
   home: '<path d="M4 11.5 12 4l8 7.5"/><path d="M6.5 10.5V20h11V10.5"/>',
@@ -15,6 +15,9 @@ const ICONS = {
   chevron: '<path d="M9 6l6 6-6 6"/>',
   signal: '<path d="M2 10h2v4H2zM6 8h2v6H6zM10 6h2v8h-2zM14 4h2v10h-2z" fill="currentColor" stroke="none"/>',
   battery: '<rect x="1.5" y="3.5" width="14" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="5" width="10" height="6" rx="0.5" fill="currentColor" stroke="none"/><path d="M16.5 6.5v3c.8-.3 1.2-.8 1.2-1.5S17.3 6.8 16.5 6.5Z" fill="currentColor" stroke="none"/>',
+  saved: '<path d="M12 3.2 14.6 8.6l5.9.7-4.4 4 .9 5.7L12 16.8l-5 2.2.9-5.7-4.4-4 5.9-.7Z"/>',
+  star: '<path d="M12 3.2 14.6 8.6l5.9.7-4.4 4 .9 5.7L12 16.8l-5 2.2.9-5.7-4.4-4 5.9-.7Z"/>',
+  target: '<circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="2.6"/><path d="M12 2.5v3.2M12 18.3v3.2M2.5 12h3.2M18.3 12h3.2"/>',
 };
 
 const APP_COLORS = {
@@ -28,6 +31,7 @@ const APP_COLORS = {
   shops: "#22c55e",
   mechanics: "#64748b",
   glitches: "#f97316",
+  saved: "#f5c518",
 };
 
 
@@ -178,6 +182,7 @@ function inferIcon(item, catId) {
     if (hasText(blob, ["random"])) return "note";
     return "dpad";
   }
+  if (catId === "saved" || catId === "custom") return "note";
   if (catId === "glitches") {
     if (hasText(blob, ["softlock", "does not register", "cutscene fails"])) return "softlock";
     if (hasText(blob, ["crash", "reboot", "ce-108255"])) return "crash";
@@ -266,11 +271,13 @@ function isChat(source) {
 }
 
 function sourceLabel(source) {
-  return isChat(source) ? "Our chats" : source[1];
+  if (!source || isChat(source)) return "Our chats";
+  return source[1] || "";
 }
 
 function sourceHref(source) {
-  return isChat(source) ? null : source[0];
+  if (!source || isChat(source)) return null;
+  return source[0];
 }
 
 
@@ -308,20 +315,22 @@ function imageCreditHtml(item) {
 
 function itemMatches(item, query) {
   if (!query) return true;
-  const blob = `${item.item} ${item.location} ${item.note} ${sourceLabel(item.source)}`.toLowerCase();
+  const blob = `${item.item || ""} ${item.location || ""} ${item.note || ""} ${sourceLabel(item.source)}`.toLowerCase();
   return blob.includes(query);
 }
 
 function missionKind(item) {
-  if (item.item === "Discharge Time" || item.note.startsWith("Current")) return "current";
-  if (item.note.startsWith("Done")) return "done";
-  if (item.note.startsWith("Not started")) return "later";
+  const note = item && item.note ? item.note : "";
+  if ((item && item.item === "Discharge Time") || note.startsWith("Current")) return "current";
+  if (note.startsWith("Done")) return "done";
+  if (note.startsWith("Not started")) return "later";
   return null;
 }
 
 function chapterOf(item) {
-  if (item.location.startsWith("Chapter 1")) return "Chapter 1";
-  if (item.location.startsWith("Chapter 2")) return "Chapter 2";
+  const location = item && item.location ? item.location : "";
+  if (location.startsWith("Chapter 1")) return "Chapter 1";
+  if (location.startsWith("Chapter 2")) return "Chapter 2";
   return null;
 }
 
@@ -332,17 +341,574 @@ function badges(item, highlightCurrent, catId) {
   if (kind === "done") parts.push('<span class="badge done">Done</span>');
   if (kind === "later") parts.push('<span class="badge later">Not started</span>');
   if (isChat(item.source)) parts.push('<span class="badge chat">Our chats</span>');
+  if (item.missing) parts.push('<span class="badge missing">No longer in log</span>');
+  if (item.custom) parts.push('<span class="badge custom">Custom</span>');
   if (MAP_CATEGORIES.has(catId)) parts.push('<span class="badge map">View map</span>');
   return parts.join("");
 }
 
-function cardHtml(item, highlightCurrent, catId, tappable) {
+function slugify(name) {
+  return String(name || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "item";
+}
+
+function entryId(catId, name) {
+  return `${catId}/${slugify(name)}`;
+}
+
+const SAVED_KEY = "gta6-log-saved";
+const IDB_NAME = "gta6-log";
+const IDB_STORE = "kv";
+
+function emptySaved() {
+  return { version: 1, favourites: {}, tracking: {} };
+}
+
+let SAVED = emptySaved();
+let savedNoteTimer = 0;
+let savedStatusTimer = 0;
+
+function normalizeSaved(raw) {
+  const out = emptySaved();
+  if (!raw || typeof raw !== "object") return out;
+  for (const key of ["favourites", "tracking"]) {
+    const bag = raw[key];
+    if (!bag || typeof bag !== "object" || Array.isArray(bag)) continue;
+    for (const [id, rec] of Object.entries(bag)) {
+      if (!rec || typeof rec !== "object") continue;
+      const item = String(rec.item || "").trim();
+      if (!item) continue;
+      const record = {
+        id: String(rec.id || id),
+        catId: String(rec.catId || (key === "tracking" && rec.custom ? "custom" : "") || "custom"),
+        item,
+        location: String(rec.location || ""),
+        logNote: String(rec.logNote || ""),
+        thumb: rec.thumb ? String(rec.thumb) : "",
+        img: rec.img ? String(rec.img) : "",
+        imgSource: rec.imgSource ? rec.imgSource : "",
+        source: rec.source || null,
+        personalNote: String(rec.personalNote || rec.note || ""),
+        custom: Boolean(rec.custom),
+        addedAt: rec.addedAt || new Date().toISOString(),
+        found: Boolean(rec.found),
+        foundAt: rec.foundAt || null,
+      };
+      out[key][record.id] = record;
+    }
+  }
+  return out;
+}
+
+function loadSavedFromLocalStorage() {
+  try {
+    const raw = localStorage.getItem(SAVED_KEY);
+    if (raw) {
+      SAVED = normalizeSaved(JSON.parse(raw));
+      return true;
+    }
+  } catch (err) {}
+  return false;
+}
+
+function openSavedDb() {
+  return new Promise((resolve, reject) => {
+    if (!("indexedDB" in window)) {
+      reject(new Error("no idb"));
+      return;
+    }
+    const req = indexedDB.open(IDB_NAME, 1);
+    req.onupgradeneeded = () => {
+      const db = req.result;
+      if (!db.objectStoreNames.contains(IDB_STORE)) db.createObjectStore(IDB_STORE);
+    };
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+async function idbSetSaved(data) {
+  const db = await openSavedDb();
+  await new Promise((resolve, reject) => {
+    const tx = db.transaction(IDB_STORE, "readwrite");
+    tx.objectStore(IDB_STORE).put(data, SAVED_KEY);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+async function idbGetSaved() {
+  const db = await openSavedDb();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(IDB_STORE, "readonly");
+    const req = tx.objectStore(IDB_STORE).get(SAVED_KEY);
+    req.onsuccess = () => resolve(req.result || null);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+function persistSaved() {
+  const payload = { version: 1, favourites: SAVED.favourites, tracking: SAVED.tracking };
+  try {
+    localStorage.setItem(SAVED_KEY, JSON.stringify(payload));
+  } catch (err) {}
+  idbSetSaved(payload).catch(() => {});
+}
+
+async function loadSaved() {
+  const fromLs = loadSavedFromLocalStorage();
+  if (fromLs) {
+    persistSaved();
+    return;
+  }
+  try {
+    const fromIdb = await idbGetSaved();
+    if (fromIdb) {
+      SAVED = normalizeSaved(fromIdb);
+      try {
+        localStorage.setItem(SAVED_KEY, JSON.stringify(SAVED));
+      } catch (err) {}
+    }
+  } catch (err) {}
+}
+
+function isFav(id) {
+  return Boolean(SAVED.favourites[id]);
+}
+
+function isTracked(id) {
+  return Boolean(SAVED.tracking[id]);
+}
+
+function isSavedId(id) {
+  return isFav(id) || isTracked(id);
+}
+
+function uniqueSavedCount() {
+  const ids = new Set([...Object.keys(SAVED.favourites), ...Object.keys(SAVED.tracking)]);
+  return ids.size;
+}
+
+function liveItem(catId, name) {
+  const cat = currentCat(catId);
+  return cat ? findItem(cat, name) : null;
+}
+
+function itemIsMissing(catId, name, rec) {
+  if (rec && rec.custom) return false;
+  return !liveItem(catId, name);
+}
+
+function snapshotItem(catId, item, existing) {
+  return {
+    id: entryId(catId, item.item),
+    catId,
+    item: item.item,
+    location: item.location || "",
+    logNote: item.note || "",
+    thumb: item.thumb || "",
+    img: item.img || "",
+    personalNote: (existing && existing.personalNote) || "",
+    custom: false,
+    addedAt: (existing && existing.addedAt) || new Date().toISOString(),
+    found: existing ? Boolean(existing.found) : false,
+    foundAt: existing ? existing.foundAt || null : null,
+  };
+}
+
+function displayItemFromSaved(rec) {
+  const live = rec.custom ? null : liveItem(rec.catId, rec.item);
+  if (live) return live;
+  return {
+    item: rec.item,
+    location: rec.location || "",
+    note: rec.logNote || "",
+    source: rec.custom ? null : rec.source || null,
+    thumb: rec.thumb || (rec.custom ? "note" : ""),
+    img: rec.img || "",
+    imgSource: rec.imgSource || "",
+    custom: Boolean(rec.custom),
+    missing: itemIsMissing(rec.catId, rec.item, rec),
+  };
+}
+
+function getPersonalNote(id) {
+  const rec = SAVED.favourites[id] || SAVED.tracking[id];
+  return (rec && rec.personalNote) || "";
+}
+
+function setPersonalNote(id, text) {
+  const value = String(text || "").slice(0, 400);
+  if (SAVED.favourites[id]) SAVED.favourites[id].personalNote = value;
+  if (SAVED.tracking[id]) SAVED.tracking[id].personalNote = value;
+  persistSaved();
+}
+
+function catHeading(catId) {
+  if (catId === "custom" || catId === "saved") return "Custom";
+  const cat = currentCat(catId);
+  return cat ? cat.heading : catId;
+}
+
+function catShort(catId) {
+  if (catId === "custom" || catId === "saved") return "Custom";
+  const cat = currentCat(catId);
+  return cat ? cat.short : catId;
+}
+
+function toggleFavourite(catId, name, recHint) {
+  const custom = Boolean(recHint && recHint.custom) || catId === "custom" || catId === "saved";
+  const id = custom && recHint ? recHint.id : entryId(catId, name);
+  if (SAVED.favourites[id]) {
+    delete SAVED.favourites[id];
+  } else {
+    if (custom) {
+      const src = recHint || SAVED.tracking[id];
+      if (!src) return id;
+      SAVED.favourites[id] = { ...src, id, personalNote: getPersonalNote(id) };
+    } else {
+      const live = liveItem(catId, name);
+      const existing = SAVED.tracking[id] || SAVED.favourites[id];
+      if (live) SAVED.favourites[id] = snapshotItem(catId, live, existing);
+      else if (existing) SAVED.favourites[id] = { ...existing, personalNote: getPersonalNote(id) };
+    }
+  }
+  persistSaved();
+  return id;
+}
+
+function toggleTracking(catId, name, recHint) {
+  const custom = Boolean(recHint && recHint.custom) || catId === "custom" || catId === "saved";
+  const id = custom && recHint ? recHint.id : entryId(catId, name);
+  if (SAVED.tracking[id]) {
+    const wasCustom = SAVED.tracking[id].custom;
+    delete SAVED.tracking[id];
+    if (wasCustom && !SAVED.favourites[id]) {
+      delete SAVED.favourites[id];
+    }
+  } else {
+    if (custom) {
+      const src = recHint || SAVED.favourites[id];
+      if (!src) return id;
+      SAVED.tracking[id] = { ...src, id, found: false, foundAt: null, personalNote: getPersonalNote(id) };
+    } else {
+      const live = liveItem(catId, name);
+      const existing = SAVED.favourites[id] || SAVED.tracking[id];
+      if (live) SAVED.tracking[id] = { ...snapshotItem(catId, live, existing), found: false, foundAt: null };
+      else if (existing) SAVED.tracking[id] = { ...existing, found: false, foundAt: null, personalNote: getPersonalNote(id) };
+    }
+  }
+  persistSaved();
+  return id;
+}
+
+function setTrackedFound(id, found) {
+  const rec = SAVED.tracking[id];
+  if (!rec) return;
+  rec.found = Boolean(found);
+  rec.foundAt = rec.found ? new Date().toISOString() : null;
+  persistSaved();
+}
+
+function addCustomTracking(title, note) {
+  const item = String(title || "").trim();
+  if (!item) return null;
+  const base = `custom/${slugify(item)}`;
+  let id = base;
+  let n = 2;
+  while (SAVED.tracking[id] || SAVED.favourites[id]) {
+    id = `${base}-${n}`;
+    n += 1;
+  }
+  SAVED.tracking[id] = {
+    id,
+    catId: "custom",
+    item,
+    location: "",
+    logNote: "",
+    thumb: "note",
+    img: "",
+    personalNote: String(note || "").trim().slice(0, 400),
+    custom: true,
+    addedAt: new Date().toISOString(),
+    found: false,
+    foundAt: null,
+  };
+  persistSaved();
+  return id;
+}
+
+function formatFoundDate(iso) {
+  if (!iso) return "";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat(undefined, { day: "numeric", month: "short", year: "numeric" }).format(date);
+}
+
+const STAR_PATH = '<path d="M12 3.2 14.6 8.6l5.9.7-4.4 4 .9 5.7L12 16.8l-5 2.2.9-5.7-4.4-4 5.9-.7Z"/>';
+const TARGET_PATH = '<circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="2.6"/><path d="M12 2.5v3.2M12 18.3v3.2M2.5 12h3.2M18.3 12h3.2"/>';
+
+function saveButtonsHtml(catId, item, recHint) {
+  const custom = Boolean(recHint && recHint.custom) || catId === "custom" || catId === "saved";
+  const id = custom && recHint ? recHint.id : entryId(catId, item.item);
+  const fav = isFav(id);
+  const track = isTracked(id);
+  const favLabel = fav ? "Remove from Favourites" : "Add to Favourites";
+  const trackLabel = track ? "Stop tracking this item" : "Track this item";
+  return `<div class="save-btns">
+    <button type="button" class="save-btn save-fav${fav ? " is-on" : ""}" data-save="fav" data-id="${escapeHtml(id)}" data-cat="${escapeHtml(catId)}" data-name="${escapeHtml(item.item)}" aria-pressed="${fav ? "true" : "false"}" aria-label="${favLabel}">
+      <svg viewBox="0 0 24 24" aria-hidden="true">${STAR_PATH}</svg>
+    </button>
+    <button type="button" class="save-btn save-track${track ? " is-on" : ""}" data-save="track" data-id="${escapeHtml(id)}" data-cat="${escapeHtml(catId)}" data-name="${escapeHtml(item.item)}" aria-pressed="${track ? "true" : "false"}" aria-label="${trackLabel}">
+      <svg viewBox="0 0 24 24" aria-hidden="true">${TARGET_PATH}</svg>
+    </button>
+  </div>`;
+}
+
+function paintSaveButtons(root) {
+  const scope = root || document;
+  scope.querySelectorAll("[data-save]").forEach((btn) => {
+    const id = btn.getAttribute("data-id");
+    const kind = btn.getAttribute("data-save");
+    const on = kind === "fav" ? isFav(id) : isTracked(id);
+    btn.classList.toggle("is-on", on);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    if (kind === "fav") btn.setAttribute("aria-label", on ? "Remove from Favourites" : "Add to Favourites");
+    else btn.setAttribute("aria-label", on ? "Stop tracking this item" : "Track this item");
+  });
+  const count = uniqueSavedCount();
+  scope.querySelectorAll("[data-saved-count]").forEach((el) => {
+    el.textContent = String(count);
+    if (el.classList.contains("dock-badge") || el.hasAttribute("data-hide-zero")) {
+      el.hidden = count === 0;
+    }
+  });
+}
+
+function personalNoteHtml(id) {
+  if (!isSavedId(id)) {
+    return `<p class="save-note-hint">Star or track this item to add a personal note.</p>`;
+  }
+  const note = getPersonalNote(id);
+  return `<label class="save-note-wrap">Your note
+    <textarea class="save-note" data-note-id="${escapeHtml(id)}" maxlength="400" rows="3" placeholder="Add a short personal note">${escapeHtml(note)}</textarea>
+  </label>`;
+}
+
+function exportSavedJson() {
+  return JSON.stringify({ version: 1, favourites: SAVED.favourites, tracking: SAVED.tracking }, null, 2);
+}
+
+function importSavedJson(text) {
+  const parsed = JSON.parse(text);
+  const next = normalizeSaved(parsed);
+  const favs = Object.keys(next.favourites).length;
+  const tracks = Object.keys(next.tracking).length;
+  if (favs === 0 && tracks === 0 && text.trim() && !parsed.favourites && !parsed.tracking) {
+    throw new Error("That file does not look like a Saved backup.");
+  }
+  SAVED = next;
+  persistSaved();
+  return { favs, tracks };
+}
+
+function showSavedStatus(message) {
+  const el = document.querySelector(".saved-status");
+  if (!el) return;
+  el.textContent = message;
+  clearTimeout(savedStatusTimer);
+  savedStatusTimer = setTimeout(() => {
+    if (el.textContent === message) el.textContent = "";
+  }, 3500);
+}
+
+function savedToolsHtml() {
+  return `<div class="saved-tools">
+    <h2>Backup</h2>
+    <p class="saved-tools-copy">Copy or download your Favourites and Tracking list, or paste a backup to restore it on this phone.</p>
+    <div class="saved-tool-row">
+      <button type="button" class="tool-btn" data-export="copy">Copy JSON</button>
+      <button type="button" class="tool-btn" data-export="download">Download</button>
+      <button type="button" class="tool-btn" data-import-toggle>Import</button>
+    </div>
+    <div class="import-panel" hidden>
+      <label class="save-note-wrap">Paste backup JSON
+        <textarea class="save-note import-json" rows="5" placeholder='{"version":1,"favourites":{},"tracking":{}}'></textarea>
+      </label>
+      <label class="import-file">Or choose a file <input type="file" accept="application/json,.json" class="import-file-input"></label>
+      <button type="button" class="tool-btn tool-btn-solid" data-import-apply>Import backup</button>
+    </div>
+    <p class="saved-status" role="status"></p>
+  </div>`;
+}
+
+function savedBody(tab, filterCat) {
+  const favTab = tab !== "tracking";
+  const count = uniqueSavedCount();
+  return `<header class="app-header">
+      <button class="back-chevron" type="button" data-go="home" aria-label="Back">‹</button>
+      <div>
+        <h1>Saved</h1>
+        <p class="sub">${count} ${count === 1 ? "item" : "items"} you have starred or tracked</p>
+      </div>
+    </header>
+    <div class="segments" role="tablist" aria-label="Saved lists">
+      <button type="button" class="segment${favTab ? " is-on" : ""}" role="tab" aria-selected="${favTab ? "true" : "false"}" data-go="saved">Favourites</button>
+      <button type="button" class="segment${!favTab ? " is-on" : ""}" role="tab" aria-selected="${favTab ? "false" : "true"}" data-go="saved/tracking">Tracking</button>
+    </div>
+    ${favTab ? favouritesPanelHtml(filterCat) : trackingPanelHtml()}
+    ${savedToolsHtml()}`;
+}
+
+function favouritesPanelHtml(filterCat) {
+  const recs = Object.values(SAVED.favourites);
+  if (!recs.length) {
+    return `<p class="empty saved-empty">Nothing in Favourites yet. Open any entry in the log and tap the star to save it here. You can then filter by category, for example to show only Glitches.</p>`;
+  }
+  const byCat = new Map();
+  for (const rec of recs) {
+    const key = rec.custom ? "custom" : rec.catId;
+    if (!byCat.has(key)) byCat.set(key, []);
+    byCat.get(key).push(rec);
+  }
+  const order = [...(DATA.categories || []).map((c) => c.id), "custom"];
+  const cats = order.filter((id) => byCat.has(id));
+  const filter = filterCat && byCat.has(filterCat) ? filterCat : "all";
+  const chips = [`<button type="button" class="chip${filter === "all" ? " is-on" : ""}" data-filter-cat="all" aria-pressed="${filter === "all" ? "true" : "false"}">All</button>`]
+    .concat(
+      cats.map(
+        (id) =>
+          `<button type="button" class="chip${filter === id ? " is-on" : ""}" data-filter-cat="${escapeHtml(id)}" aria-pressed="${filter === id ? "true" : "false"}">${escapeHtml(catShort(id))}</button>`
+      )
+    )
+    .join("");
+  const shown = cats.filter((id) => filter === "all" || filter === id);
+  const sections = shown
+    .map((id) => {
+      const items = byCat.get(id) || [];
+      items.sort((a, b) => a.item.localeCompare(b.item));
+      return `<section class="saved-group">
+        <h2 class="chapter">${escapeHtml(catHeading(id))}</h2>
+        <div class="list">${items.map((rec) => savedCardHtml(rec, { showFound: false })).join("")}</div>
+      </section>`;
+    })
+    .join("");
+  return `<div class="chips" role="toolbar" aria-label="Filter Favourites by category">${chips}</div>
+    ${sections || `<p class="empty">No Favourites in that category.</p>`}`;
+}
+
+function trackingPanelHtml() {
+  const recs = Object.values(SAVED.tracking);
+  if (!recs.length) {
+    return `<p class="empty saved-empty">Nothing in Tracking yet. Tap the target on any log entry to hunt it, or add something that is not in the log, such as “Find a purple Toros”.</p>
+      ${customTrackFormHtml()}`;
+  }
+  const open = recs.filter((r) => !r.found).sort((a, b) => a.item.localeCompare(b.item));
+  const found = recs.filter((r) => r.found).sort((a, b) => String(b.foundAt || "").localeCompare(String(a.foundAt || "")));
+  const progress = `<p class="meta-count">${found.length} of ${recs.length} found</p>`;
+  const openList = open.length
+    ? `<div class="list">${open.map((rec) => savedCardHtml(rec, { showFound: true })).join("")}</div>`
+    : `<p class="empty">You have found everything you were tracking. Add another item, or reopen something from Found.</p>`;
+  const foundBlock = found.length
+    ? `<details class="found-block">
+        <summary>Found <span>(${found.length})</span></summary>
+        <div class="list">${found.map((rec) => savedCardHtml(rec, { showFound: true, foundList: true })).join("")}</div>
+      </details>`
+    : "";
+  return `${progress}
+    ${customTrackFormHtml()}
+    ${openList}
+    ${foundBlock}`;
+}
+
+function customTrackFormHtml() {
+  return `<form class="custom-track-form" data-custom-track>
+      <h2>Add a custom item</h2>
+      <label class="save-note-wrap">Title
+        <input class="save-field" type="text" name="title" maxlength="120" required placeholder="Find a purple Toros" autocomplete="off">
+      </label>
+      <label class="save-note-wrap">Note (optional)
+        <input class="save-field" type="text" name="note" maxlength="400" placeholder="Where you last looked, or why you want it" autocomplete="off">
+      </label>
+      <button type="submit" class="tool-btn tool-btn-solid">Add to Tracking</button>
+    </form>`;
+}
+
+function savedCardHtml(rec, options = {}) {
+  const item = displayItemFromSaved(rec);
+  const missing = itemIsMissing(rec.catId, rec.item, rec);
+  const catId = rec.custom ? "saved" : rec.catId;
+  const note = getPersonalNote(rec.id);
+  const foundDate = rec.found ? formatFoundDate(rec.foundAt) : "";
+  const extraBadges = [
+    missing ? '<span class="badge missing">No longer in log</span>' : "",
+    rec.custom ? '<span class="badge custom">Custom</span>' : "",
+    rec.found && foundDate ? `<span class="badge done">Found ${escapeHtml(foundDate)}</span>` : "",
+  ]
+    .filter(Boolean)
+    .join("");
+  const foundRow = options.showFound
+    ? `<label class="found-check">
+        <input type="checkbox" data-found-id="${escapeHtml(rec.id)}" ${rec.found ? "checked" : ""}>
+        <span>Found it${foundDate ? ` · ${escapeHtml(foundDate)}` : ""}</span>
+      </label>`
+    : "";
+  const personal = note ? `<p class="personal-note">${escapeHtml(note)}</p>` : "";
+  return `<article class="card card-tap" role="button" tabindex="0" data-cat="${escapeHtml(catId)}" data-item="${escapeHtml(rec.custom ? rec.id : rec.item)}">
+    <div class="card-row">
+      ${thumbHtml(item, rec.custom ? "saved" : rec.catId, "sm")}
+      <div class="card-body">
+        <div class="card-head">
+          <h3 class="card-title">${escapeHtml(rec.item)}</h3>
+          <div class="badges">${extraBadges}</div>
+        </div>
+        ${item.location ? `<p class="loc">${escapeHtml(item.location)}</p>` : ""}
+        ${item.note ? `<p class="note">${escapeHtml(item.note)}</p>` : ""}
+        ${personal}
+        ${foundRow}
+      </div>
+      ${saveButtonsHtml(catId, { item: rec.custom ? rec.id : rec.item }, rec)}
+    </div>
+  </article>`;
+}
+
+function customDetailHtml(rec) {
+  const item = displayItemFromSaved(rec);
+  return `<header class="app-header map-header">
+      <button class="back-chevron back" type="button" data-back="1" aria-label="Back">‹</button>
+      ${thumbHtml(item, "saved", "lg")}
+      <div>
+        <h1>${escapeHtml(rec.item)}</h1>
+        <p class="sub">Custom tracking item</p>
+      </div>
+    </header>
+    <div class="sheet">
+      <div class="save-actions">
+        ${saveButtonsHtml("saved", { item: rec.id }, rec)}
+      </div>
+      ${rec.custom ? "" : ""}
+      <label class="found-check found-check-lg">
+        <input type="checkbox" data-found-id="${escapeHtml(rec.id)}" ${rec.found ? "checked" : ""}>
+        <span>Found it${rec.found && rec.foundAt ? ` · ${escapeHtml(formatFoundDate(rec.foundAt))}` : ""}</span>
+      </label>
+      ${personalNoteHtml(rec.id)}
+    </div>`;
+}
+
+function cardHtml(item, highlightCurrent, catId, tappable, options = {}) {
   const kind = missionKind(item);
   const isCurrent = highlightCurrent && kind === "current";
-  const mono = item.location.length <= 8 ? " mono" : "";
-  const src = isChat(item.source)
-    ? ""
-    : `<p class="src"><a href="${escapeHtml(sourceHref(item.source))}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel(item.source))}</a></p>`;
+  const location = item.location || "";
+  const note = item.note || "";
+  const mono = location && location.length <= 8 ? " mono" : "";
+  const href = sourceHref(item.source);
+  const src = href
+    ? `<p class="src"><a href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel(item.source))}</a></p>`
+    : "";
   const canTap = tappable !== false && catId;
   const tapAttrs = canTap
     ? ` role="button" tabindex="0" data-cat="${escapeHtml(catId)}" data-item="${escapeHtml(item.item)}"`
@@ -355,10 +921,11 @@ function cardHtml(item, highlightCurrent, catId, tappable) {
           <h3 class="card-title">${escapeHtml(item.item)}</h3>
           <div class="badges">${badges(item, highlightCurrent, catId)}</div>
         </div>
-        <p class="loc${mono}">${escapeHtml(item.location)}</p>
-        <p class="note">${escapeHtml(item.note)}</p>
+        ${location ? `<p class="loc${mono}">${escapeHtml(location)}</p>` : ""}
+        ${note ? `<p class="note">${escapeHtml(note)}</p>` : ""}
         ${src}
       </div>
+      ${options.hideSave ? "" : saveButtonsHtml(catId, item)}
     </div>
   </article>`;
 }
@@ -381,20 +948,28 @@ function parseRoute() {
   const parts = path.replace(/^\//, "").split("/").filter(Boolean);
   const view = parts[0] || "home";
   let itemName = null;
-  if (parts[1] === "item" && parts.length > 2) {
-    const encoded = parts.slice(2).join("/");
+  let savedTab = "favourites";
+  if (view === "saved" && parts[1] === "tracking") savedTab = "tracking";
+  const itemIdx = parts.findIndex((part) => part === "item");
+  if (itemIdx !== -1 && parts.length > itemIdx + 1) {
+    const encoded = parts.slice(itemIdx + 1).join("/");
     try {
       itemName = decodeURIComponent(encoded);
     } catch (err) {
       itemName = encoded;
     }
   }
-  const query = new URLSearchParams(qs || "").get("q") || "";
-  return { view, query, itemName };
+  const params = new URLSearchParams(qs || "");
+  const query = params.get("q") || "";
+  const filterCat = params.get("cat") || "all";
+  return { view, query, itemName, savedTab, filterCat };
 }
 
-function setRoute(view, query, itemName) {
-  const q = query && query.trim() ? `?q=${encodeURIComponent(query.trim())}` : "";
+function setRoute(view, query, itemName, options = {}) {
+  const params = new URLSearchParams();
+  if (query && query.trim()) params.set("q", query.trim());
+  if (view === "saved" && options.filterCat && options.filterCat !== "all") params.set("cat", options.filterCat);
+  const q = params.toString() ? `?${params.toString()}` : "";
   let hash;
   if (itemName) hash = `#/${view}/item/${encodeURIComponent(itemName)}${q}`;
   else if (view === "home") hash = `#/${q}`;
@@ -419,8 +994,11 @@ function statusBarHtml() {
 }
 
 function dockHtml(data, view) {
+  const savedOn = view === "saved";
+  const savedCount = uniqueSavedCount();
   const buttons = [
     `<button class="nav-btn${view === "home" ? " active" : ""}" data-go="home">${icon("home")}Home</button>`,
+    `<button class="nav-btn${savedOn ? " active" : ""}" data-go="saved"${savedOn ? ' aria-current="page"' : ""}><span class="dock-disc" style="${savedOn ? "" : "background:#f5c518"}">${icon("saved")}<span class="dock-badge" data-saved-count data-hide-zero${savedCount === 0 ? " hidden" : ""}>${savedCount}</span></span>Saved</button>`,
     ...data.categories.map(
       (cat) =>
         `<button class="nav-btn${view === cat.id ? " active" : ""}" data-go="${cat.id}"><span class="dock-disc" style="${view === cat.id ? "" : `background:${APP_COLORS[cat.id]}`}">${icon(cat.id)}</span>${escapeHtml(cat.short)}</button>`
@@ -527,6 +1105,13 @@ function homeBody(data, query) {
   if (!q) {
     return `${chrome}
       <div class="app-grid">
+        <button class="app-icon" type="button" data-go="saved" aria-label="Saved, ${uniqueSavedCount()} items">
+          <span class="app-icon-disc" style="background:${APP_COLORS.saved}">
+            ${icon("saved")}
+            <span class="app-badge" data-saved-count data-hide-zero${uniqueSavedCount() === 0 ? " hidden" : ""}>${uniqueSavedCount()}</span>
+          </span>
+          <span class="app-label">Saved</span>
+        </button>
         ${data.categories.map(appIconHtml).join("")}
       </div>
       <p class="meta-count">${total} items across ${data.categories.length} categories</p>
@@ -634,7 +1219,12 @@ function detailHtml(cat, item) {
     </header>
     ${hero}
     <div class="sheet">
-      ${cardHtml(item, false, cat.id, false)}
+      <div class="save-actions">
+        ${saveButtonsHtml(cat.id, item)}
+        <p class="save-actions-copy">Star this to keep it in Favourites, or track it while you hunt for it.</p>
+      </div>
+      ${cardHtml(item, false, cat.id, false, { hideSave: true })}
+      ${personalNoteHtml(entryId(cat.id, item.item))}
     </div>
     ${mapBlock}`;
 }
@@ -671,6 +1261,10 @@ function currentCat(view) {
 }
 
 function resultsHtml(view, query) {
+  if (view === "saved") {
+    const { savedTab, filterCat } = parseRoute();
+    return savedBody(savedTab, filterCat);
+  }
   const cat = currentCat(view);
   return cat ? categoryBody(cat, query) : homeBody(DATA, query);
 }
@@ -685,16 +1279,20 @@ function bindSearch(view) {
   });
 }
 
+function shellViewOf(view) {
+  if (view === "saved" || currentCat(view)) return view === "saved" ? "saved" : view;
+  return "home";
+}
+
 function renderPhone(view, innerHtml, options = {}) {
-  const cat = currentCat(view);
-  const shellView = cat ? view : "home";
+  const shellView = shellViewOf(view);
   const root = document.getElementById("app");
   root.innerHTML = `<div class="phone">
     ${statusBarHtml()}
     <div class="content${options.detail ? " content-detail" : ""}${options.detail && MAP_CATEGORIES.has(view) ? " content-map" : ""}">${innerHtml}</div>
     ${dockHtml(DATA, shellView)}
   </div>`;
-  if (!options.detail) bindSearch(shellView);
+  if (!options.detail && view !== "saved") bindSearch(shellView);
   bindNav();
   startClock();
   const content = root.querySelector(".content");
@@ -702,6 +1300,11 @@ function renderPhone(view, innerHtml, options = {}) {
 }
 
 function renderShell(view, query) {
+  if (view === "saved") {
+    const { savedTab, filterCat } = parseRoute();
+    renderPhone("saved", savedBody(savedTab, filterCat));
+    return;
+  }
   const cat = currentCat(view);
   renderPhone(view, cat ? categoryBody(cat, query) : homeBody(DATA, query));
 }
@@ -713,14 +1316,51 @@ function renderResults(view, query) {
   bindSearch(view);
 }
 
+function findSavedRecord(catId, name) {
+  if (!name) return null;
+  if (SAVED.tracking[name]) return SAVED.tracking[name];
+  if (SAVED.favourites[name]) return SAVED.favourites[name];
+  const id = catId ? entryId(catId, name) : "";
+  return (id && (SAVED.tracking[id] || SAVED.favourites[id])) || null;
+}
+
 function renderDetail(cat, itemName) {
+  if ((!cat || cat.id === "saved") && itemName) {
+    const rec = findSavedRecord(cat && cat.id, itemName);
+    if (rec && rec.custom) {
+      renderPhone("saved", customDetailHtml(rec), { detail: true });
+      return;
+    }
+    if (rec && rec.catId && rec.catId !== "custom") {
+      const realCat = currentCat(rec.catId);
+      const live = liveItem(rec.catId, rec.item);
+      if (live && realCat) {
+        renderPhone(realCat.id, detailHtml(realCat, live), { detail: true });
+        return;
+      }
+      const ghost = displayItemFromSaved(rec);
+      ghost.missing = true;
+      const ghostCat = realCat || { id: rec.catId, heading: catHeading(rec.catId) };
+      renderPhone(ghostCat.id || "saved", detailHtml(ghostCat, ghost), { detail: true });
+      return;
+    }
+  }
   const item = findItem(cat, itemName);
+  if (!item && cat && itemName) {
+    const rec = findSavedRecord(cat.id, itemName);
+    if (rec) {
+      const ghost = displayItemFromSaved(rec);
+      ghost.missing = itemIsMissing(rec.catId, rec.item, rec);
+      renderPhone(cat.id, detailHtml(cat, ghost), { detail: true });
+      return;
+    }
+  }
   const body = item
     ? detailHtml(cat, item)
     : `<header class="app-header">
         <button class="back-chevron back" type="button" data-back="1" aria-label="Back">‹</button>
         <div>
-          <h1>Map</h1>
+          <h1>Saved</h1>
           <p class="sub">${escapeHtml(cat ? cat.heading : "GTA 6 Log")}</p>
         </div>
       </header>
@@ -729,29 +1369,30 @@ function renderDetail(cat, itemName) {
 }
 
 function render() {
-  const { view, query, itemName } = parseRoute();
+  const { view, query, itemName, savedTab, filterCat } = parseRoute();
   const cat = currentCat(view);
-  const shellView = cat ? view : "home";
-  const isDetail = Boolean(itemName) && Boolean(cat);
+  const shellView = shellViewOf(view);
+  const isDetail = Boolean(itemName) && (Boolean(cat) || view === "saved");
   const wasDetail = currentView && String(currentView).endsWith("::detail");
-  const shellKey = isDetail ? `${shellView}::detail` : shellView;
+  const shellKey = isDetail
+    ? `${shellView}::detail`
+    : view === "saved"
+      ? `saved::${savedTab || "favourites"}::${filterCat || "all"}`
+      : shellView;
 
   if (isDetail) {
-    if (!cat) {
-      setRoute("home", query);
-      return;
-    }
-    renderDetail(cat, itemName);
+    renderDetail(cat || { id: "saved", heading: "Saved" }, itemName);
     currentView = shellKey;
+    paintSaveButtons(document);
     return;
   }
 
   const input = document.getElementById("q");
   const hasShell = document.querySelector(".phone") && document.querySelector(".content") && !document.querySelector(".content-detail");
 
-  if (!hasShell || currentView !== shellView) {
+  if (!hasShell || currentView !== shellKey) {
     renderShell(shellView, query);
-    currentView = shellView;
+    currentView = shellKey;
     if (wasDetail) restoreScroll(shellView, query);
     return;
   }
@@ -762,6 +1403,7 @@ function render() {
   renderResults(shellView, query);
   updateNavActive(shellView);
   updateNavOverflow();
+  paintSaveButtons(document);
   if (wasDetail) restoreScroll(shellView, query);
 }
 
@@ -784,14 +1426,134 @@ function backFromDetail() {
   setRoute(view, query);
 }
 
+function refreshSavedOrButtons() {
+  const { view } = parseRoute();
+  const content = document.querySelector(".content");
+  const onSaved = view === "saved" && content && !content.classList.contains("content-detail");
+  if (onSaved) {
+    const top = content.scrollTop;
+    const foundOpen = Boolean(content.querySelector(".found-block[open]"));
+    render();
+    const next = document.querySelector(".content");
+    if (next) {
+      next.scrollTop = top;
+      const block = next.querySelector(".found-block");
+      if (block && foundOpen) block.open = true;
+    }
+    return;
+  }
+  const noteWrap = document.querySelector(".save-note-wrap, .save-actions");
+  const onDetail = Boolean(document.querySelector(".content-detail"));
+  if (onDetail && noteWrap) {
+    const top = content ? content.scrollTop : 0;
+    render();
+    const next = document.querySelector(".content");
+    if (next) next.scrollTop = top;
+    return;
+  }
+  paintSaveButtons(document);
+}
+
+async function copySavedBackup() {
+  const json = exportSavedJson();
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(json);
+      showSavedStatus("Copied your Saved backup.");
+      return;
+    }
+  } catch (err) {}
+  const area = document.createElement("textarea");
+  area.value = json;
+  document.body.appendChild(area);
+  area.select();
+  try {
+    document.execCommand("copy");
+    showSavedStatus("Copied your Saved backup.");
+  } catch (err) {
+    showSavedStatus("Could not copy. Use Download instead.");
+  }
+  area.remove();
+}
+
+function downloadSavedBackup() {
+  const blob = new Blob([exportSavedJson()], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "gta6-log-saved.json";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  showSavedStatus("Downloaded gta6-log-saved.json.");
+}
+
+function applyImportedSaved(text) {
+  if (!String(text || "").trim()) throw new Error("Paste a backup first, or choose a file.");
+  if (!window.confirm("Replace your current Favourites and Tracking list with this backup?")) return;
+  const result = importSavedJson(text);
+  refreshSavedOrButtons();
+  showSavedStatus(`Imported ${result.favs} favourites and ${result.tracks} tracked items.`);
+}
+
 function onClick(event) {
   const more = event.target.closest(".nav-more");
   if (more) return;
   if (event.target.closest("a")) return;
+  if (event.target.closest(".save-note, .save-field, .import-json, .import-file, .found-check, .custom-track-form, .import-panel")) {
+    return;
+  }
   const back = event.target.closest("[data-back]");
   if (back) {
     event.preventDefault();
     backFromDetail();
+    return;
+  }
+  const saveBtn = event.target.closest("[data-save]");
+  if (saveBtn) {
+    event.preventDefault();
+    event.stopPropagation();
+    const kind = saveBtn.getAttribute("data-save");
+    const catId = saveBtn.getAttribute("data-cat");
+    const name = saveBtn.getAttribute("data-name");
+    const rec = findSavedRecord(catId, name) || findSavedRecord(catId, saveBtn.getAttribute("data-id"));
+    if (kind === "fav") toggleFavourite(catId, name, rec);
+    else toggleTracking(catId, name, rec);
+    refreshSavedOrButtons();
+    return;
+  }
+  const exportBtn = event.target.closest("[data-export]");
+  if (exportBtn) {
+    event.preventDefault();
+    if (exportBtn.getAttribute("data-export") === "download") downloadSavedBackup();
+    else copySavedBackup();
+    return;
+  }
+  const importToggle = event.target.closest("[data-import-toggle]");
+  if (importToggle) {
+    event.preventDefault();
+    const panel = document.querySelector(".import-panel");
+    if (panel) panel.hidden = !panel.hidden;
+    return;
+  }
+  const importApply = event.target.closest("[data-import-apply]");
+  if (importApply) {
+    event.preventDefault();
+    const area = document.querySelector(".import-json");
+    try {
+      applyImportedSaved(area ? area.value : "");
+    } catch (err) {
+      showSavedStatus(err.message || "Could not import that backup.");
+    }
+    return;
+  }
+  const filterBtn = event.target.closest("[data-filter-cat]");
+  if (filterBtn) {
+    event.preventDefault();
+    const { savedTab } = parseRoute();
+    const hash = savedTab === "tracking" ? "saved/tracking" : "saved";
+    setRoute(hash, "", null, { filterCat: filterBtn.getAttribute("data-filter-cat") || "all" });
     return;
   }
   const itemEl = event.target.closest("[data-item]");
@@ -810,6 +1572,7 @@ function onClick(event) {
 
 function onKeydown(event) {
   if (event.key !== "Enter" && event.key !== " ") return;
+  if (event.target.closest("[data-save], .found-check, .save-note, .save-field, .custom-track-form")) return;
   const itemEl = event.target.closest("[data-item]");
   if (!itemEl || event.target !== itemEl) return;
   if (event.target.closest("a")) return;
@@ -818,10 +1581,64 @@ function onKeydown(event) {
   openDetail(itemEl.getAttribute("data-cat"), itemEl.getAttribute("data-item"), query);
 }
 
+function onChange(event) {
+  const found = event.target.closest("[data-found-id]");
+  if (found) {
+    setTrackedFound(found.getAttribute("data-found-id"), found.checked);
+    refreshSavedOrButtons();
+    return;
+  }
+  const fileInput = event.target.closest(".import-file-input");
+  if (fileInput && fileInput.files && fileInput.files[0]) {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        applyImportedSaved(String(reader.result || ""));
+      } catch (err) {
+        showSavedStatus(err.message || "Could not import that file.");
+      }
+    };
+    reader.readAsText(fileInput.files[0]);
+  }
+}
+
+function onInput(event) {
+  const area = event.target.closest("[data-note-id]");
+  if (!area) return;
+  clearTimeout(savedNoteTimer);
+  savedNoteTimer = setTimeout(() => {
+    setPersonalNote(area.getAttribute("data-note-id"), area.value);
+  }, 120);
+}
+
+function onFocusOut(event) {
+  const area = event.target.closest && event.target.closest("[data-note-id]");
+  if (!area) return;
+  clearTimeout(savedNoteTimer);
+  setPersonalNote(area.getAttribute("data-note-id"), area.value);
+}
+
+function onSubmit(event) {
+  const form = event.target.closest("[data-custom-track]");
+  if (!form) return;
+  event.preventDefault();
+  const title = (form.querySelector('[name="title"]') || {}).value || "";
+  const note = (form.querySelector('[name="note"]') || {}).value || "";
+  const id = addCustomTracking(title, note);
+  if (!id) {
+    showSavedStatus("Enter a title for the custom item.");
+    return;
+  }
+  if (parseRoute().view !== "saved") setRoute("saved/tracking", "");
+  else refreshSavedOrButtons();
+  showSavedStatus("Added to Tracking.");
+}
+
 async function boot() {
   updateStandaloneClass();
   try {
     await ensureSprite();
+    await loadSaved();
     const response = await fetch("data.json", { cache: "no-cache" });
     DATA = await response.json();
     document.title = DATA.title;
@@ -830,6 +1647,10 @@ async function boot() {
       window.addEventListener("hashchange", render);
       document.addEventListener("click", onClick);
       document.addEventListener("keydown", onKeydown);
+      document.addEventListener("change", onChange);
+      document.addEventListener("input", onInput);
+      document.addEventListener("focusout", onFocusOut);
+      document.addEventListener("submit", onSubmit);
       window.addEventListener("resize", () => {
         updateStandaloneClass();
         updateNavOverflow();

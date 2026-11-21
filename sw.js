@@ -1,13 +1,18 @@
-const CACHE = "gta6-log-v6";
+// Version bump for the twice-daily log routine (keep this pattern):
+// 1. Rename CACHE to the next gta6-log-vN value so clients pick up a new service worker.
+// 2. Bump ?v=N on styles.css, app.js, and fonts.css here and in index.html, plus APP_VERSION in app.js and VER in index.html.
+// 3. Do not rename data.json fields (item, location, note, source, thumb, img, imgSource, mx, my, area).
+// 4. When adding confirmed photos, append ./img/items/<file>.webp to PRECACHE.
+const CACHE = "gta6-log-v7";
 const PRECACHE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./styles.css?v=6",
+  "./styles.css?v=7",
   "./app.js",
-  "./app.js?v=6",
+  "./app.js?v=7",
   "./fonts.css",
-  "./fonts.css?v=6",
+  "./fonts.css?v=7",
   "./data.json",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
