@@ -1,3 +1,5 @@
+const APP_VERSION = "v4 · phone";
+
 const ICONS = {
   home: '<path d="M4 11.5 12 4l8 7.5"/><path d="M6.5 10.5V20h11V10.5"/>',
   codes: '<rect x="4" y="4" width="16" height="16" rx="2.5"/><path d="M8 9h.01M12 9h.01M16 9h.01M8 13h.01M12 13h.01M16 13h.01M8 17h8"/>',
@@ -11,6 +13,21 @@ const ICONS = {
   glitches: '<path d="M8 9.5A4 4 0 0 1 12 6.5a4 4 0 0 1 4 3v5.5a4 4 0 0 1-8 0V9.5Z"/><path d="M8 11H5.5M18.5 11H16M8 15H5.5M18.5 15H16M12 6.5V4.5"/>',
   search: '<circle cx="11" cy="11" r="6"/><path d="M16 16 20 20"/>',
   chevron: '<path d="M9 6l6 6-6 6"/>',
+  signal: '<path d="M2 10h2v4H2zM6 8h2v6H6zM10 6h2v8h-2zM14 4h2v10h-2z" fill="currentColor" stroke="none"/>',
+  battery: '<rect x="1.5" y="3.5" width="14" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="5" width="10" height="6" rx="0.5" fill="currentColor" stroke="none"/><path d="M16.5 6.5v3c.8-.3 1.2-.8 1.2-1.5S17.3 6.8 16.5 6.5Z" fill="currentColor" stroke="none"/>',
+};
+
+const APP_COLORS = {
+  home: "#ff4fa3",
+  codes: "#3b82f6",
+  weapons: "#ef4444",
+  valuables: "#f59e0b",
+  vehicles: "#06b6d4",
+  missions: "#a855f7",
+  "easter-eggs": "#f472b6",
+  shops: "#22c55e",
+  mechanics: "#64748b",
+  glitches: "#f97316",
 };
 
 const MAP_CATEGORIES = new Set(["weapons", "vehicles"]);
@@ -133,16 +150,32 @@ function setRoute(view, query, itemName) {
   else render();
 }
 
-function navHtml(data, view) {
+function formatTime() {
+  return new Intl.DateTimeFormat(undefined, { hour: "numeric", minute: "2-digit" }).format(new Date());
+}
+
+function statusBarHtml() {
+  return `<div class="status-bar">
+    <span class="status-time">${escapeHtml(formatTime())}</span>
+    <span class="status-spacer"></span>
+    <span class="status-icons" aria-hidden="true">
+      <svg viewBox="0 0 18 14">${ICONS.signal}</svg>
+      <svg viewBox="0 0 20 16">${ICONS.battery}</svg>
+    </span>
+  </div>`;
+}
+
+function dockHtml(data, view) {
   const buttons = [
     `<button class="nav-btn${view === "home" ? " active" : ""}" data-go="home">${icon("home")}Home</button>`,
     ...data.categories.map(
       (cat) =>
-        `<button class="nav-btn${view === cat.id ? " active" : ""}" data-go="${cat.id}">${icon(cat.id)}${escapeHtml(cat.short)}</button>`
+        `<button class="nav-btn${view === cat.id ? " active" : ""}" data-go="${cat.id}"><span class="dock-disc" style="${view === cat.id ? "" : `background:${APP_COLORS[cat.id]}`}">${icon(cat.id)}</span>${escapeHtml(cat.short)}</button>`
     ),
   ];
-  return `<div class="nav-wrap">
-    <nav class="nav" aria-label="Categories">${buttons.join("")}</nav>
+  return `<div class="dock-wrap nav-wrap">
+    <div class="app-version">${APP_VERSION}</div>
+    <nav class="dock nav" aria-label="Categories">${buttons.join("")}</nav>
     <button type="button" class="nav-more" aria-label="More categories">${icon("chevron")}More</button>
   </div>`;
 }
@@ -157,8 +190,8 @@ function updateNavActive(view) {
 }
 
 function updateNavOverflow() {
-  const wrap = document.querySelector(".nav-wrap");
-  const nav = document.querySelector(".nav");
+  const wrap = document.querySelector(".dock-wrap") || document.querySelector(".nav-wrap");
+  const nav = document.querySelector(".dock") || document.querySelector(".nav");
   if (!wrap || !nav) return;
   const max = 2;
   const start = nav.scrollLeft > max;
@@ -168,7 +201,7 @@ function updateNavOverflow() {
 }
 
 function bindNav() {
-  const nav = document.querySelector(".nav");
+  const nav = document.querySelector(".dock") || document.querySelector(".nav");
   const more = document.querySelector(".nav-more");
   if (!nav) return;
   nav.addEventListener("scroll", updateNavOverflow, { passive: true });
@@ -182,22 +215,33 @@ function bindNav() {
   updateNavOverflow();
 }
 
-function homeChrome(data, query) {
-  return `<header class="top">
-      <div>
-        <h1>${escapeHtml(data.title)}</h1>
-        <p class="sub">${escapeHtml(data.summary)}</p>
-      </div>
-    </header>
-    <div class="progress">
-      <div>Current mission: <strong>${escapeHtml(data.currentMission)}</strong></div>
-      <p>${escapeHtml(data.properties[0].value)}</p>
-    </div>
-    <label class="sr-only" for="q" style="position:absolute;left:-9999px">Search</label>
-    <input class="search" id="q" type="search" placeholder="Code, weapon, mission, location…" value="${escapeHtml(query)}" />`;
+function updateStandaloneClass() {
+  const standalone =
+    window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  document.documentElement.classList.toggle("standalone", standalone);
 }
 
-function homeResults(data, query) {
+function startClock() {
+  const tick = () => {
+    document.querySelectorAll(".status-time").forEach((el) => {
+      el.textContent = formatTime();
+    });
+  };
+  if (!startClock.timer) startClock.timer = setInterval(tick, 30000);
+  tick();
+}
+
+function appIconHtml(cat) {
+  return `<button class="app-icon" type="button" data-go="${cat.id}" aria-label="${escapeHtml(cat.heading)}, ${cat.items.length} items">
+    <span class="app-icon-disc" style="background:${APP_COLORS[cat.id] || APP_COLORS.home}">
+      ${icon(cat.id)}
+      <span class="app-badge">${cat.items.length}</span>
+    </span>
+    <span class="app-label">${escapeHtml(cat.short)}</span>
+  </button>`;
+}
+
+function homeBody(data, query) {
   const q = query.trim().toLowerCase();
   const total = data.categories.reduce((sum, cat) => sum + cat.items.length, 0);
   const facts = data.properties
@@ -207,27 +251,40 @@ function homeResults(data, query) {
     <div class="callout"><strong>${escapeHtml(data.calloutLead)}</strong>${escapeHtml(data.calloutBody)}</div>
     <p class="footer">${escapeHtml(data.footer)}</p>`;
 
-  if (!q) {
-    return `<div class="tiles">
-      ${data.categories
-        .map(
-          (cat) => `<button class="tile" data-go="${cat.id}" aria-label="${escapeHtml(cat.heading)}, ${cat.items.length} items">
-            ${icon(cat.id)}
-            <span class="name">${escapeHtml(cat.short)}</span>
-            <span class="count">${cat.items.length} ${cat.items.length === 1 ? "item" : "items"}</span>
-          </button>`
-        )
-        .join("")}
+  const chrome = `<div class="home-title">
+      <h1>${escapeHtml(data.title)}</h1>
+      <p class="sub">${escapeHtml(data.summary)}</p>
     </div>
-    <p class="meta-count">${total} items across ${data.categories.length} categories</p>
-    ${rest}`;
+    <button type="button" class="banner" data-go="missions">
+      <span class="banner-app">${icon("missions")}</span>
+      <span>
+        <span class="banner-kicker">Notification</span>
+        <strong>Now playing: ${escapeHtml(data.currentMission)}</strong>
+        <p>${escapeHtml(data.properties[0].value)}</p>
+      </span>
+    </button>
+    <button type="button" class="widget" data-go="missions">
+      <div class="widget-kicker">Reminders</div>
+      <div class="widget-title">${escapeHtml(data.currentMission)}</div>
+      <div class="widget-sub">${escapeHtml(data.properties[0].value)} · ${total} log entries</div>
+    </button>
+    <label class="sr-only" for="q" style="position:absolute;left:-9999px">Search</label>
+    <input class="search" id="q" type="search" placeholder="Search the log" value="${escapeHtml(query)}" />`;
+
+  if (!q) {
+    return `${chrome}
+      <div class="app-grid">
+        ${data.categories.map(appIconHtml).join("")}
+      </div>
+      <p class="meta-count">${total} items across ${data.categories.length} categories</p>
+      ${rest}`;
   }
 
   const results = data.categories
     .map((cat) => ({ cat, items: cat.items.filter((item) => itemMatches(item, q)) }))
     .filter((row) => row.items.length);
-  if (!results.length) return `<p class="empty">No items match that search.</p>${rest}`;
-  return `${results
+  if (!results.length) return `${chrome}<p class="empty">No items match that search.</p>${rest}`;
+  return `${chrome}${results
     .map(
       (row) => `<section>
         <div class="group-head">
@@ -241,28 +298,14 @@ function homeResults(data, query) {
     ${rest}`;
 }
 
-function categoryChrome(cat, query) {
-  const currentCallout =
-    cat.id === "missions"
-      ? `<div class="progress"><div>Current mission: <strong>Discharge Time</strong></div><p>Chapter 1, up to Discharge Time.</p></div>`
-      : "";
-  return `<header class="top">
-      <button class="back" data-go="home">Home</button>
-      <div>
-        <h1>${escapeHtml(cat.heading)}</h1>
-        <p class="sub">${escapeHtml(cat.short)}</p>
-      </div>
-    </header>
-    ${cat.caption ? `<p class="caption">${escapeHtml(cat.caption)}</p>` : ""}
-    ${currentCallout}
-    <label class="sr-only" for="q" style="position:absolute;left:-9999px">Search</label>
-    <input class="search" id="q" type="search" placeholder="Filter this category" value="${escapeHtml(query)}" />`;
-}
-
-function categoryResults(cat, query) {
+function categoryBody(cat, query) {
   const q = query.trim().toLowerCase();
   const visible = cat.items.filter((item) => itemMatches(item, q));
   const groups = grouped(visible);
+  const currentCallout =
+    cat.id === "missions"
+      ? `<div class="widget"><div class="widget-kicker">Now playing</div><div class="widget-title">Discharge Time</div><div class="widget-sub">Chapter 1, up to Discharge Time.</div></div>`
+      : "";
   const steps =
     cat.steps && !q
       ? `<div class="steps">${cat.steps
@@ -281,7 +324,18 @@ function categoryResults(cat, query) {
         )
         .join("")
     : `<p class="empty">No items match that search.</p>`;
-  return `${steps}
+  return `<header class="app-header">
+      <button class="back-chevron" type="button" data-go="home" aria-label="Back">‹</button>
+      <div>
+        <h1>${escapeHtml(cat.heading)}</h1>
+        <p class="sub">${escapeHtml(cat.short)}</p>
+      </div>
+    </header>
+    ${cat.caption ? `<p class="caption">${escapeHtml(cat.caption)}</p>` : ""}
+    ${currentCallout}
+    <label class="sr-only" for="q" style="position:absolute;left:-9999px">Search</label>
+    <input class="search" id="q" type="search" placeholder="Filter this category" value="${escapeHtml(query)}" />
+    ${steps}
     <p class="meta-count">${visible.length} of ${cat.items.length} ${cat.items.length === 1 ? "item" : "items"}${q ? " matching this search" : ""}</p>
     ${list}`;
 }
@@ -302,19 +356,21 @@ function detailHtml(cat, item) {
   const caption = marked
     ? `Approximate location: ${escapeHtml(item.area || "unknown")}`
     : "Location not confirmed yet";
-  return `<header class="top">
-      <button class="back" type="button" data-back="1">Back</button>
+  return `<header class="app-header map-header">
+      <button class="back-chevron back" type="button" data-back="1" aria-label="Back">‹</button>
       <div>
         <h1>${escapeHtml(item.item)}</h1>
         <p class="sub">${escapeHtml(cat.heading)}</p>
       </div>
     </header>
-    <div class="list">${cardHtml(item, false)}</div>
     <div class="map-frame">
       <img class="map-image" src="${MAP_SRC}" alt="${escapeHtml(MAP_ALT)}" width="1600" height="2190" />
       ${marker}
     </div>
-    <p class="map-caption">${caption}</p>`;
+    <div class="sheet">
+      ${cardHtml(item, false)}
+      <p class="map-caption">${caption}</p>
+    </div>`;
 }
 
 function scrollKey(view, query) {
@@ -350,7 +406,7 @@ function currentCat(view) {
 
 function resultsHtml(view, query) {
   const cat = currentCat(view);
-  return cat ? categoryResults(cat, query) : homeResults(DATA, query);
+  return cat ? categoryBody(cat, query) : homeBody(DATA, query);
 }
 
 function bindSearch(view) {
@@ -363,49 +419,47 @@ function bindSearch(view) {
   });
 }
 
-function renderResults(view, query) {
-  const results = document.getElementById("results");
-  if (!results) return;
-  results.innerHTML = resultsHtml(view, query);
+function renderPhone(view, innerHtml, options = {}) {
+  const cat = currentCat(view);
+  const shellView = cat ? view : "home";
+  const root = document.getElementById("app");
+  root.innerHTML = `<div class="phone">
+    ${statusBarHtml()}
+    <div class="content${options.detail ? " content-map" : ""}">${innerHtml}</div>
+    ${dockHtml(DATA, shellView)}
+  </div>`;
+  if (!options.detail) bindSearch(shellView);
+  bindNav();
+  startClock();
+  const content = root.querySelector(".content");
+  if (content && !options.keepScroll) content.scrollTop = 0;
 }
 
 function renderShell(view, query) {
   const cat = currentCat(view);
-  const chrome = cat ? categoryChrome(cat, query) : homeChrome(DATA, query);
-  const root = document.getElementById("app");
-  root.innerHTML = `<div class="shell">
-    <div class="content">
-      <div id="chrome">${chrome}</div>
-      <div id="results">${resultsHtml(view, query)}</div>
-    </div>
-    ${navHtml(DATA, cat ? view : "home")}
-  </div>`;
-  bindSearch(view);
-  bindNav();
-  const content = root.querySelector(".content");
-  if (content) content.scrollTop = 0;
+  renderPhone(view, cat ? categoryBody(cat, query) : homeBody(DATA, query));
 }
 
-function renderDetail(cat, itemName, query) {
+function renderResults(view, query) {
+  const content = document.querySelector(".content");
+  if (!content) return;
+  content.innerHTML = resultsHtml(view, query);
+  bindSearch(view);
+}
+
+function renderDetail(cat, itemName) {
   const item = findItem(cat, itemName);
-  const root = document.getElementById("app");
   const body = item
     ? detailHtml(cat, item)
-    : `<header class="top">
-        <button class="back" type="button" data-back="1">Back</button>
+    : `<header class="app-header">
+        <button class="back-chevron back" type="button" data-back="1" aria-label="Back">‹</button>
         <div>
           <h1>Map</h1>
           <p class="sub">${escapeHtml(cat ? cat.heading : "GTA 6 Log")}</p>
         </div>
       </header>
       <p class="empty">That entry was not found.</p>`;
-  root.innerHTML = `<div class="shell">
-    <div class="content">${body}</div>
-    ${navHtml(DATA, cat ? cat.id : "home")}
-  </div>`;
-  bindNav();
-  const content = root.querySelector(".content");
-  if (content) content.scrollTop = 0;
+  renderPhone(cat ? cat.id : "home", body, { detail: true });
 }
 
 function render() {
@@ -421,13 +475,13 @@ function render() {
       setRoute("home", query);
       return;
     }
-    renderDetail(cat, itemName, query);
+    renderDetail(cat, itemName);
     currentView = shellKey;
     return;
   }
 
   const input = document.getElementById("q");
-  const hasShell = document.getElementById("results") && document.querySelector(".shell");
+  const hasShell = document.querySelector(".phone") && document.querySelector(".content") && !document.querySelector(".map-image");
 
   if (!hasShell || currentView !== shellView) {
     renderShell(shellView, query);
@@ -499,6 +553,7 @@ function onKeydown(event) {
 }
 
 async function boot() {
+  updateStandaloneClass();
   try {
     const response = await fetch("data.json", { cache: "no-cache" });
     DATA = await response.json();
@@ -508,14 +563,14 @@ async function boot() {
       window.addEventListener("hashchange", render);
       document.addEventListener("click", onClick);
       document.addEventListener("keydown", onKeydown);
-      window.addEventListener("resize", updateNavOverflow);
+      window.addEventListener("resize", () => {
+        updateStandaloneClass();
+        updateNavOverflow();
+      });
       listenersBound = true;
     }
   } catch (err) {
     document.getElementById("app").innerHTML = `<p class="boot">Could not load the log. ${escapeHtml(err.message)}</p>`;
-  }
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 }
 

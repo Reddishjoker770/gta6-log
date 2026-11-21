@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#120c18" />
+    <meta name="theme-color" content="#1a0b2e" />
     <meta name="description" content="A running, topic-organised log of GTA 6 codes, locations, missions, and secrets." />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -14,12 +14,44 @@
     <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
     <link rel="manifest" href="manifest.webmanifest" />
     <title>GTA 6 Running Log</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="fonts.css?v=4" />
+    <link rel="stylesheet" href="styles.css?v=4" />
+    <script>
+      (function () {
+        var GUARD = "gta6-sw-reload";
+        var VER = "v4";
+        try {
+          document.documentElement.classList.toggle(
+            "standalone",
+            window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true
+          );
+        } catch (e) {}
+        if (!("serviceWorker" in navigator)) return;
+        navigator.serviceWorker.addEventListener("controllerchange", function () {
+          try {
+            if (sessionStorage.getItem(GUARD) === VER) return;
+            sessionStorage.setItem(GUARD, VER);
+          } catch (e) {}
+          location.reload();
+        });
+        navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then(function (reg) {
+          var update = function () { reg.update().catch(function () {}); };
+          update();
+          document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === "visible") update();
+          });
+          window.addEventListener("pageshow", update);
+          window.addEventListener("focus", update);
+        }).catch(function () {});
+      })();
+    </script>
   </head>
   <body>
     <div id="app">
       <p class="boot">Loading the log…</p>
     </div>
-    <script src="app.js" defer></script>
+    <script src="app.js?v=4" defer></script>
   </body>
 </html>
