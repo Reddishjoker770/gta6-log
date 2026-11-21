@@ -1,4 +1,4 @@
-const CACHE = "gta6-log-v2";
+const CACHE = "gta6-log-v3";
 const PRECACHE = [
   "./",
   "./index.html",
@@ -12,6 +12,7 @@ const PRECACHE = [
   "./icons/icon-maskable-512.png",
   "./icons/apple-touch-icon.png",
   "./favicon.ico",
+  "./img/leonida-map.jpg",
 ];
 
 self.addEventListener("install", (event) => {

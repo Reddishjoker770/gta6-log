@@ -3,6 +3,7 @@
 Installable Progressive Web App copy of Tyas's GTA 6 Running Log.
 
 - Content lives in `data.json`. Append new items to the matching category's `items` array (and `steps` under Controls when needed). Never remove or rewrite "Our chats" entries.
+- Tapping a Weapons or Vehicles entry opens a detail view with the official Leonida map. Known locations get a red circle marker; others say the location is not confirmed yet.
 - After changing `data.json`, redeploy this folder. The service worker caches the shell; `data.json` is served network-first and falls back to the cache offline. If the shell changes, bump the `CACHE` name in `sw.js`.
 - This PWA and the Cursor Page are separate copies. Updating one does not update the other.
 - To install on a phone: open the HTTPS URL in Safari or Chrome, then "Add to Home Screen" / "Install app".

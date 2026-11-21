@@ -183,7 +183,10 @@
           "item": "Gutterball Moreland 850",
           "location": "Kingpin Bowling, pool table, northeast corner",
           "note": "Unique pump-action shotgun. One of three valuables for the Let's Go Bowling trophy; unlocked after Coffee Break in Chapter 2.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "mx": 32.15,
+          "my": 35.6,
+          "area": "Port Gellhorn"
         },
         {
           "item": "Clunker 556",
@@ -192,7 +195,10 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
-          ]
+          ],
+          "mx": 31.6,
+          "my": 33.0,
+          "area": "north Port Gellhorn waterfront"
         },
         {
           "item": "Crabshack VF5",
@@ -228,7 +234,10 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "mx": 56.8,
+          "my": 83.0,
+          "area": "Key Lento"
         },
         {
           "item": "Hunter's Laird 350",
@@ -409,7 +418,10 @@
           "source": [
             "https://thegta6guide.com/gta-6-easter-eggs/",
             "The GTA 6 Guide"
-          ]
+          ],
+          "mx": 76.8,
+          "my": 48.7,
+          "area": "Vespucci Island"
         },
         {
           "item": "Imponte Phoenix (ASSMAN plate)",
@@ -418,7 +430,10 @@
           "source": [
             "https://grandleonida.com/guides/gta-6-seinfeld-assman-plate-phoenix-impound/",
             "Grand Leonida"
-          ]
+          ],
+          "mx": 56.5,
+          "my": 68.8,
+          "area": "The Hamlet"
         },
         {
           "item": "Vapid Smuggler Caracara",
@@ -436,7 +451,10 @@
           "source": [
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
-          ]
+          ],
+          "mx": 30.2,
+          "my": 41.7,
+          "area": "Gellhorn Raceway"
         },
         {
           "item": "Annis Hellion (Moses job)",

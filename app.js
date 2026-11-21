@@ -13,6 +13,10 @@ const ICONS = {
   chevron: '<path d="M9 6l6 6-6 6"/>',
 };
 
+const MAP_CATEGORIES = new Set(["weapons", "vehicles"]);
+const MAP_SRC = "img/leonida-map.jpg";
+const MAP_ALT = "Official Rockstar map of Leonida, the world of Grand Theft Auto 6";
+
 function icon(id) {
   return `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[id] || ICONS.search}</svg>`;
 }
@@ -56,27 +60,32 @@ function chapterOf(item) {
   return null;
 }
 
-function badges(item, highlightCurrent) {
+function badges(item, highlightCurrent, catId) {
   const kind = missionKind(item);
   const parts = [];
   if (highlightCurrent && kind === "current") parts.push('<span class="badge current-badge">Current</span>');
   if (kind === "done") parts.push('<span class="badge done">Done</span>');
   if (kind === "later") parts.push('<span class="badge later">Not started</span>');
   if (isChat(item.source)) parts.push('<span class="badge chat">Our chats</span>');
+  if (MAP_CATEGORIES.has(catId)) parts.push('<span class="badge map">View map</span>');
   return parts.join("");
 }
 
-function cardHtml(item, highlightCurrent) {
+function cardHtml(item, highlightCurrent, catId) {
   const kind = missionKind(item);
   const isCurrent = highlightCurrent && kind === "current";
   const mono = item.location.length <= 8 ? " mono" : "";
   const src = isChat(item.source)
     ? ""
     : `<p class="src"><a href="${escapeHtml(sourceHref(item.source))}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel(item.source))}</a></p>`;
-  return `<article class="card${isCurrent ? " current" : ""}">
+  const mappable = MAP_CATEGORIES.has(catId);
+  const tapAttrs = mappable
+    ? ` role="button" tabindex="0" data-cat="${escapeHtml(catId)}" data-item="${escapeHtml(item.item)}"`
+    : "";
+  return `<article class="card${isCurrent ? " current" : ""}${mappable ? " card-tap" : ""}"${tapAttrs}>
     <div class="card-head">
       <h3 class="card-title">${escapeHtml(item.item)}</h3>
-      <div class="badges">${badges(item, highlightCurrent)}</div>
+      <div class="badges">${badges(item, highlightCurrent, catId)}</div>
     </div>
     <p class="loc${mono}">${escapeHtml(item.location)}</p>
     <p class="note">${escapeHtml(item.note)}</p>
@@ -99,14 +108,27 @@ function grouped(items) {
 function parseRoute() {
   const raw = (location.hash || "#/").replace(/^#/, "");
   const [path, qs] = raw.split("?");
-  const view = path.replace(/^\//, "") || "home";
+  const parts = path.replace(/^\//, "").split("/").filter(Boolean);
+  const view = parts[0] || "home";
+  let itemName = null;
+  if (parts[1] === "item" && parts.length > 2) {
+    const encoded = parts.slice(2).join("/");
+    try {
+      itemName = decodeURIComponent(encoded);
+    } catch (err) {
+      itemName = encoded;
+    }
+  }
   const query = new URLSearchParams(qs || "").get("q") || "";
-  return { view, query };
+  return { view, query, itemName };
 }
 
-function setRoute(view, query) {
+function setRoute(view, query, itemName) {
   const q = query && query.trim() ? `?q=${encodeURIComponent(query.trim())}` : "";
-  const hash = view === "home" ? `#/${q}` : `#/${view}${q}`;
+  let hash;
+  if (itemName) hash = `#/${view}/item/${encodeURIComponent(itemName)}${q}`;
+  else if (view === "home") hash = `#/${q}`;
+  else hash = `#/${view}${q}`;
   if (location.hash !== hash) location.hash = hash;
   else render();
 }
@@ -212,7 +234,7 @@ function homeResults(data, query) {
           <h2>${escapeHtml(row.cat.heading)}</h2>
           <button class="linkish" data-go="${row.cat.id}">Open ${escapeHtml(row.cat.short)}</button>
         </div>
-        <div class="list">${row.items.map((item) => cardHtml(item, row.cat.id === "missions")).join("")}</div>
+        <div class="list">${row.items.map((item) => cardHtml(item, row.cat.id === "missions", row.cat.id)).join("")}</div>
       </section>`
     )
     .join("")}
@@ -254,7 +276,7 @@ function categoryResults(cat, query) {
         .map(
           (group) =>
             `${group.heading ? `<div class="chapter">${escapeHtml(group.heading)}</div>` : ""}<div class="list">${group.items
-              .map((item) => cardHtml(item, cat.id === "missions"))
+              .map((item) => cardHtml(item, cat.id === "missions", cat.id))
               .join("")}</div>`
         )
         .join("")
@@ -264,10 +286,63 @@ function categoryResults(cat, query) {
     ${list}`;
 }
 
+function hasMapMarker(item) {
+  return Number.isFinite(item.mx) && Number.isFinite(item.my);
+}
+
+function findItem(cat, name) {
+  return (cat && cat.items.find((item) => item.item === name)) || null;
+}
+
+function detailHtml(cat, item) {
+  const marked = hasMapMarker(item);
+  const marker = marked
+    ? `<div class="map-marker" style="left:${item.mx}%;top:${item.my}%" aria-hidden="true"></div>`
+    : "";
+  const caption = marked
+    ? `Approximate location: ${escapeHtml(item.area || "unknown")}`
+    : "Location not confirmed yet";
+  return `<header class="top">
+      <button class="back" type="button" data-back="1">Back</button>
+      <div>
+        <h1>${escapeHtml(item.item)}</h1>
+        <p class="sub">${escapeHtml(cat.heading)}</p>
+      </div>
+    </header>
+    <div class="list">${cardHtml(item, false)}</div>
+    <div class="map-frame">
+      <img class="map-image" src="${MAP_SRC}" alt="${escapeHtml(MAP_ALT)}" width="1600" height="2190" />
+      ${marker}
+    </div>
+    <p class="map-caption">${caption}</p>`;
+}
+
+function scrollKey(view, query) {
+  return `${view}::${query || ""}`;
+}
+
+function saveScroll(view, query) {
+  const content = document.querySelector(".content");
+  if (content) scrollMemory[scrollKey(view, query)] = content.scrollTop;
+}
+
+function restoreScroll(view, query) {
+  const content = document.querySelector(".content");
+  const top = scrollMemory[scrollKey(view, query)];
+  if (!content || top == null) return;
+  const apply = () => {
+    content.scrollTop = top;
+  };
+  apply();
+  requestAnimationFrame(apply);
+}
+
 let DATA = null;
 let searchTimer = 0;
 let currentView = null;
 let listenersBound = false;
+let scrollMemory = {};
+let openedDetailFromApp = false;
 
 function currentCat(view) {
   return DATA.categories.find((c) => c.id === view);
@@ -311,15 +386,53 @@ function renderShell(view, query) {
   if (content) content.scrollTop = 0;
 }
 
+function renderDetail(cat, itemName, query) {
+  const item = findItem(cat, itemName);
+  const root = document.getElementById("app");
+  const body = item
+    ? detailHtml(cat, item)
+    : `<header class="top">
+        <button class="back" type="button" data-back="1">Back</button>
+        <div>
+          <h1>Map</h1>
+          <p class="sub">${escapeHtml(cat ? cat.heading : "GTA 6 Log")}</p>
+        </div>
+      </header>
+      <p class="empty">That entry was not found.</p>`;
+  root.innerHTML = `<div class="shell">
+    <div class="content">${body}</div>
+    ${navHtml(DATA, cat ? cat.id : "home")}
+  </div>`;
+  bindNav();
+  const content = root.querySelector(".content");
+  if (content) content.scrollTop = 0;
+}
+
 function render() {
-  const { view, query } = parseRoute();
-  const shellView = currentCat(view) ? view : "home";
+  const { view, query, itemName } = parseRoute();
+  const cat = currentCat(view);
+  const shellView = cat ? view : "home";
+  const isDetail = Boolean(itemName) && MAP_CATEGORIES.has(view);
+  const wasDetail = currentView && String(currentView).endsWith("::detail");
+  const shellKey = isDetail ? `${shellView}::detail` : shellView;
+
+  if (isDetail) {
+    if (!cat) {
+      setRoute("home", query);
+      return;
+    }
+    renderDetail(cat, itemName, query);
+    currentView = shellKey;
+    return;
+  }
+
   const input = document.getElementById("q");
   const hasShell = document.getElementById("results") && document.querySelector(".shell");
 
   if (!hasShell || currentView !== shellView) {
     renderShell(shellView, query);
     currentView = shellView;
+    if (wasDetail) restoreScroll(shellView, query);
     return;
   }
 
@@ -329,15 +442,60 @@ function render() {
   renderResults(shellView, query);
   updateNavActive(shellView);
   updateNavOverflow();
+  if (wasDetail) restoreScroll(shellView, query);
+}
+
+function openDetail(catId, itemName, query) {
+  const { view } = parseRoute();
+  const listView = currentCat(view) ? view : "home";
+  saveScroll(listView, query);
+  openedDetailFromApp = true;
+  setRoute(catId, query, itemName);
+}
+
+function backFromDetail() {
+  if (openedDetailFromApp && window.history.length > 1) {
+    openedDetailFromApp = false;
+    history.back();
+    return;
+  }
+  openedDetailFromApp = false;
+  const { view, query } = parseRoute();
+  setRoute(view, query);
 }
 
 function onClick(event) {
   const more = event.target.closest(".nav-more");
   if (more) return;
+  if (event.target.closest("a")) return;
+  const back = event.target.closest("[data-back]");
+  if (back) {
+    event.preventDefault();
+    backFromDetail();
+    return;
+  }
+  const itemEl = event.target.closest("[data-item]");
+  if (itemEl) {
+    event.preventDefault();
+    const { query } = parseRoute();
+    openDetail(itemEl.getAttribute("data-cat"), itemEl.getAttribute("data-item"), query);
+    return;
+  }
   const go = event.target.closest("[data-go]");
   if (!go) return;
   event.preventDefault();
+  openedDetailFromApp = false;
   setRoute(go.getAttribute("data-go"), "");
+}
+
+function onKeydown(event) {
+  if (event.key !== "Enter" && event.key !== " ") return;
+  const itemEl = event.target.closest("[data-item]");
+  if (!itemEl || event.target !== itemEl) return;
+  if (event.target.closest("a")) return;
+  event.preventDefault();
+  const { query } = parseRoute();
+  openDetail(itemEl.getAttribute("data-cat"), itemEl.getAttribute("data-item"), query);
 }
 
 async function boot() {
@@ -349,6 +507,7 @@ async function boot() {
     if (!listenersBound) {
       window.addEventListener("hashchange", render);
       document.addEventListener("click", onClick);
+      document.addEventListener("keydown", onKeydown);
       window.addEventListener("resize", updateNavOverflow);
       listenersBound = true;
     }
