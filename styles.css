@@ -562,3 +562,55 @@ body { padding: 0; }
 @media (display-mode: standalone) {
   html, body, #app { max-width: none; border: 0; border-radius: 0; box-shadow: none; }
 }
+
+.card-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.card-body { min-width: 0; flex: 1; }
+
+.thumb {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.28), 0 2px 8px rgba(0,0,0,0.22);
+  overflow: hidden;
+  color: #fff;
+}
+.thumb img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  display: block;
+}
+.thumb svg {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+  fill: none;
+  display: block;
+}
+.thumb-lg {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+}
+.thumb-lg img { width: 72px; height: 72px; }
+.thumb-lg svg { width: 40px; height: 40px; }
+
+.thumb-codes { background: #3b82f6; }
+.thumb-weapons { background: #ef4444; }
+.thumb-valuables { background: #f59e0b; }
+.thumb-vehicles { background: #06b6d4; }
+.thumb-missions { background: #a855f7; }
+.thumb-easter-eggs { background: #f472b6; }
+.thumb-shops { background: #22c55e; }
+.thumb-mechanics { background: #64748b; }
+.thumb-glitches { background: #f97316; }
+.thumb-home { background: #ff4fa3; }
+
+#icon-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }

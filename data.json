@@ -40,19 +40,22 @@
           "item": "Kingpin Bowling safe",
           "location": "0300",
           "note": "Office in the northeast corner; enter the leading zero. Also on the Brooks Boatworks wall map.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "safe"
         },
         {
           "item": "Brooks Boatworks safe",
           "location": "6823",
           "note": "Main warehouse safe, Port Gellhorn. Upstairs wall map here also reveals the other two Port Gellhorn codes.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "safe"
         },
         {
           "item": "La Cascara Motel safe",
           "location": "6969",
           "note": "Port Gellhorn illegal operation. Shown on the Brooks Boatworks wall map.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "safe"
         },
         {
           "item": "Lab Fees back-room door",
@@ -61,7 +64,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "door"
         },
         {
           "item": "Brian's Lockup door",
@@ -70,7 +74,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "door"
         },
         {
           "item": "Crab outpost computer",
@@ -79,7 +84,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "computer"
         },
         {
           "item": "Crab outpost safe",
@@ -88,7 +94,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Crab outpost dock building",
@@ -97,7 +104,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "door"
         },
         {
           "item": "Casa de Empeño safe",
@@ -106,7 +114,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Richardson Jewelry safe",
@@ -115,7 +124,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Donovan Banks & Co. safe",
@@ -124,7 +134,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Nova Auto Junkyard (M7) safe",
@@ -133,7 +144,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Cottonmouth Lake trailer safe",
@@ -142,7 +154,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Abandoned Site door",
@@ -151,7 +164,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "door"
         },
         {
           "item": "Sundown Private Airfield hangar safe",
@@ -160,7 +174,8 @@
           "source": [
             "https://consolyte.gg/gta-6/wiki/guides/safe-codes",
             "Consolyte"
-          ]
+          ],
+          "thumb": "safe"
         },
         {
           "item": "Waxman Island garage",
@@ -169,7 +184,8 @@
           "source": [
             "https://consolyte.gg/gta-6/wiki/guides/safe-codes",
             "Consolyte"
-          ]
+          ],
+          "thumb": "door"
         }
       ]
     },
@@ -186,7 +202,8 @@
           "source": "Our chats",
           "mx": 32.15,
           "my": 35.6,
-          "area": "Port Gellhorn"
+          "area": "Port Gellhorn",
+          "thumb": "shotgun"
         },
         {
           "item": "Clunker 556",
@@ -198,7 +215,8 @@
           ],
           "mx": 31.6,
           "my": 33.0,
-          "area": "north Port Gellhorn waterfront"
+          "area": "north Port Gellhorn waterfront",
+          "thumb": "rifle"
         },
         {
           "item": "Crabshack VF5",
@@ -207,7 +225,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "smg"
         },
         {
           "item": "Swamp Bait Akulus revolver",
@@ -216,7 +235,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "revolver"
         },
         {
           "item": "Cruel Huntsman's SM-69",
@@ -225,7 +245,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "sniper"
         },
         {
           "item": "Donnie's H&L .38",
@@ -237,7 +258,8 @@
           ],
           "mx": 56.8,
           "my": 83.0,
-          "area": "Key Lento"
+          "area": "Key Lento",
+          "thumb": "pistol"
         },
         {
           "item": "Hunter's Laird 350",
@@ -246,7 +268,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "sniper"
         },
         {
           "item": "Marabunta Grande Hobo",
@@ -255,7 +278,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "shotgun"
         },
         {
           "item": "Kingfishers W-22",
@@ -264,7 +288,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "rifle"
         },
         {
           "item": "Conspiracist Type 9",
@@ -273,7 +298,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "smg"
         },
         {
           "item": "Hauners H-AT launcher",
@@ -282,7 +308,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "launcher"
         },
         {
           "item": "Assassin Nipper .38",
@@ -291,7 +318,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "pistol"
         },
         {
           "item": "Smuggler Gorse 425",
@@ -300,7 +328,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "shotgun"
         },
         {
           "item": "Drug Mule KZ-59",
@@ -309,7 +338,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "rifle"
         },
         {
           "item": "Turnt Nipper .38",
@@ -318,7 +348,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "pistol"
         },
         {
           "item": "Killtelligence SM-69",
@@ -327,7 +358,8 @@
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
-          ]
+          ],
+          "thumb": "sniper"
         }
       ]
     },
@@ -341,13 +373,15 @@
           "item": "Luxury watch",
           "location": "Kingpin Bowling, southeast room",
           "note": "On a small table; guides identify it as a Crowex Octane Orca style collectible, needed with the shotgun and safe for Let's Go Bowling.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "watch"
         },
         {
           "item": "Brooks Boatworks pill bags (boat)",
           "location": "Black trunk on the boat deck, main warehouse",
           "note": "Stop the boat before it leaves, then open the trunk (Triangle / Y) for three pill bags, an SMG, and $198.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "pills"
         },
         {
           "item": "Brooks Boatworks pill bags (pool table)",
@@ -356,7 +390,8 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
-          ]
+          ],
+          "thumb": "pills"
         },
         {
           "item": "Brooks Boatworks main safe cash",
@@ -365,7 +400,8 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
-          ]
+          ],
+          "thumb": "cash"
         },
         {
           "item": "Brooks Boatworks green-building safe",
@@ -374,7 +410,8 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
-          ]
+          ],
+          "thumb": "cash"
         },
         {
           "item": "Crab outpost cash",
@@ -383,7 +420,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "cash"
         },
         {
           "item": "Cottonmouth Lake trailer stash",
@@ -392,7 +430,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "cash"
         },
         {
           "item": "Yasmani jewelry job pieces",
@@ -401,7 +440,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "jewellery"
         }
       ]
     },
@@ -421,7 +461,8 @@
           ],
           "mx": 76.8,
           "my": 48.7,
-          "area": "Vespucci Island"
+          "area": "Vespucci Island",
+          "thumb": "car"
         },
         {
           "item": "Imponte Phoenix (ASSMAN plate)",
@@ -433,7 +474,8 @@
           ],
           "mx": 56.5,
           "my": 68.8,
-          "area": "The Hamlet"
+          "area": "The Hamlet",
+          "thumb": "muscle"
         },
         {
           "item": "Vapid Smuggler Caracara",
@@ -442,7 +484,8 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
-          ]
+          ],
+          "thumb": "truck"
         },
         {
           "item": "Annis Drifter Elegy",
@@ -454,7 +497,8 @@
           ],
           "mx": 30.2,
           "my": 41.7,
-          "area": "Gellhorn Raceway"
+          "area": "Gellhorn Raceway",
+          "thumb": "car"
         },
         {
           "item": "Annis Hellion (Moses job)",
@@ -463,7 +507,8 @@
           "source": [
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
-          ]
+          ],
+          "thumb": "suv"
         },
         {
           "item": "Declasse Yosemite 1500 (Moses job)",
@@ -472,7 +517,8 @@
           "source": [
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
-          ]
+          ],
+          "thumb": "truck"
         },
         {
           "item": "Karin Futo (Moses job)",
@@ -481,7 +527,8 @@
           "source": [
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
-          ]
+          ],
+          "thumb": "car"
         },
         {
           "item": "Declasse '86 Rancher",
@@ -490,7 +537,8 @@
           "source": [
             "https://vicepulse.org/gta-6/vehicles/rare-cars",
             "VicePulse"
-          ]
+          ],
+          "thumb": "truck"
         },
         {
           "item": "Pegassi Toros (Randy wish list)",
@@ -499,7 +547,8 @@
           "source": [
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
-          ]
+          ],
+          "thumb": "suv"
         }
       ]
     },
@@ -516,13 +565,15 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Gone Fishing",
           "location": "Chapter 1, mission 2",
           "note": "Done. Mentioned in our chats; several launch bugs are tied to this mission.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "fishing"
         },
         {
           "item": "Gear Up",
@@ -531,7 +582,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Just a Scratch",
@@ -540,7 +592,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Lab Fees",
@@ -549,7 +602,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Unwanted Attention",
@@ -558,7 +612,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Pipework",
@@ -567,7 +622,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Hey Arnold!",
@@ -576,7 +632,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Island Dreams",
@@ -585,7 +642,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Feng Shui",
@@ -594,13 +652,15 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Coming Home",
           "location": "Chapter 1, mission 11",
           "note": "Done. Xbox bug: pool break with Mattia sometimes does not register and can softlock.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "home"
         },
         {
           "item": "Buck Me",
@@ -609,7 +669,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "cash"
         },
         {
           "item": "Clean Up After Donnie",
@@ -618,7 +679,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Down to Earth",
@@ -627,7 +689,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Clear Skies",
@@ -636,7 +699,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Day Release",
@@ -645,7 +709,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Swamped",
@@ -654,7 +719,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Don Gone",
@@ -663,7 +729,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Recalibration",
@@ -672,7 +739,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Tourist Trap",
@@ -681,7 +749,8 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Home Sweet Home",
@@ -690,13 +759,15 @@
           "source": [
             "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
             "Polygon"
-          ]
+          ],
+          "thumb": "home"
         },
         {
           "item": "Discharge Time",
           "location": "Chapter 1, mission 22 (last of the chapter)",
           "note": "Current: this is as far as Tyas has reached.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "mission-current"
         },
         {
           "item": "What's in the Bag?",
@@ -705,7 +776,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "hospital"
         },
         {
           "item": "Ambulance Chaser",
@@ -714,7 +786,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "hospital"
         },
         {
           "item": "Just Moved In",
@@ -723,7 +796,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "home"
         },
         {
           "item": "Girls' Trip",
@@ -732,7 +806,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Moses",
@@ -741,7 +816,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Daily Driver",
@@ -750,7 +826,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "driving"
         },
         {
           "item": "Slam Dunk",
@@ -759,7 +836,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Breakfast Run",
@@ -768,7 +846,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Coffee Break",
@@ -777,7 +856,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "optional"
         },
         {
           "item": "Afternoon Delight",
@@ -786,7 +866,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "mission"
         },
         {
           "item": "Thrillbillies",
@@ -795,7 +876,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "optional"
         },
         {
           "item": "Twist Wrist, Smash, Grab",
@@ -804,7 +886,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "optional"
         },
         {
           "item": "Checking Out",
@@ -813,7 +896,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "mission"
         }
       ]
     },
@@ -827,7 +911,8 @@
           "item": "Arthur Morgan's hat",
           "location": "Yard sale, south Port Gellhorn, blue house with balloons and an American flag",
           "note": "Chapter 2 only. Guides place it on Orchard Avenue, northwest of Dirt Merchants, as a Genuine Cowboy Hat on a guitar case on a white couch. Sold cheap; guides disagree on the exact price, so it is omitted here.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "hat"
         },
         {
           "item": "Dexter apartment",
@@ -836,7 +921,8 @@
           "source": [
             "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
             "GameSpot"
-          ]
+          ],
+          "thumb": "apartment"
         },
         {
           "item": "Imponte Phoenix, ASSMAN plate",
@@ -845,7 +931,8 @@
           "source": [
             "https://grandleonida.com/guides/gta-6-seinfeld-assman-plate-phoenix-impound/",
             "Grand Leonida"
-          ]
+          ],
+          "thumb": "plate"
         },
         {
           "item": "Maibatsu Penumbra FF",
@@ -854,7 +941,8 @@
           "source": [
             "https://thegta6guide.com/gta-6-easter-eggs/",
             "The GTA 6 Guide"
-          ]
+          ],
+          "thumb": "car"
         },
         {
           "item": "Painted egg nest",
@@ -863,7 +951,8 @@
           "source": [
             "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
             "GameSpot"
-          ]
+          ],
+          "thumb": "egg"
         },
         {
           "item": "Kelly County UFO",
@@ -872,7 +961,8 @@
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
-          ]
+          ],
+          "thumb": "ufo"
         },
         {
           "item": "Bigfoot (Skunk Ape)",
@@ -881,7 +971,8 @@
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
-          ]
+          ],
+          "thumb": "bigfoot"
         },
         {
           "item": "Lucky Dog (jet ski dog)",
@@ -890,7 +981,8 @@
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
-          ]
+          ],
+          "thumb": "dog"
         },
         {
           "item": "Liberty City memoir",
@@ -899,7 +991,8 @@
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
-          ]
+          ],
+          "thumb": "book"
         },
         {
           "item": "Red Dead book",
@@ -908,7 +1001,8 @@
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
-          ]
+          ],
+          "thumb": "book"
         },
         {
           "item": "Abandoned Site alien door",
@@ -917,7 +1011,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "alien"
         }
       ]
     },
@@ -931,7 +1026,8 @@
           "item": "Dirt Merchants",
           "location": "South of Port Gellhorn, Kelly County, on Orchard Avenue",
           "note": "Dirt-bike mod shop (parts and all-terrain cosmetics). A trailer park sits behind it; Whisler Motorsport is nearby.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "bike-shop"
         },
         {
           "item": "Brian's Lockup (fence)",
@@ -940,7 +1036,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "fence"
         },
         {
           "item": "Donnie (fence)",
@@ -949,7 +1046,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "fence"
         },
         {
           "item": "Dunk (fence)",
@@ -958,7 +1056,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "fence"
         },
         {
           "item": "Tyrone (fence)",
@@ -967,7 +1066,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "fence"
         },
         {
           "item": "Yasmani (fence)",
@@ -976,7 +1076,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "fence"
         },
         {
           "item": "Moses (vehicles)",
@@ -985,7 +1086,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "dealer"
         },
         {
           "item": "Randy (high-end vehicles)",
@@ -994,7 +1096,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "dealer"
         },
         {
           "item": "Coastal Auto Care",
@@ -1003,7 +1106,8 @@
           "source": [
             "https://howtovideogame.com/gta-6-headlights/",
             "HowToVideoGame"
-          ]
+          ],
+          "thumb": "auto-shop"
         },
         {
           "item": "Pay 'n' Spray",
@@ -1012,7 +1116,8 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
-          ]
+          ],
+          "thumb": "auto-shop"
         },
         {
           "item": "Ammu-Nation",
@@ -1021,7 +1126,8 @@
           "source": [
             "https://gta6notebook.com/walkthrough/hit-kingpin-bowling/",
             "GTA 6 Notebook"
-          ]
+          ],
+          "thumb": "gunstore"
         },
         {
           "item": "Whisler Motorsport",
@@ -1030,7 +1136,8 @@
           "source": [
             "https://leonidainsights.com/en/world/places/dirt-merchants/",
             "LeonidaInsights"
-          ]
+          ],
+          "thumb": "auto-shop"
         }
       ]
     },
@@ -1044,7 +1151,8 @@
           "item": "Vehicle menu",
           "location": "Hold D-pad Left",
           "note": "Also holds windows, hazards, trunk or tailgate, and vehicle-specific options such as a pickup tailgate.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "dpad"
         },
         {
           "item": "Headlights (menu)",
@@ -1053,7 +1161,8 @@
           "source": [
             "https://howtovideogame.com/gta-6-headlights/",
             "HowToVideoGame"
-          ]
+          ],
+          "thumb": "headlights"
         },
         {
           "item": "Headlights (shortcut)",
@@ -1062,7 +1171,8 @@
           "source": [
             "https://playgta6.co.uk/how-to-turn-on-headlights-in-gta-6/",
             "PlayGTA6"
-          ]
+          ],
+          "thumb": "headlights"
         },
         {
           "item": "Turn signals",
@@ -1071,7 +1181,8 @@
           "source": [
             "https://howtovideogame.com/gta-6-headlights/",
             "HowToVideoGame"
-          ]
+          ],
+          "thumb": "turn-signal"
         },
         {
           "item": "Police light bar / siren",
@@ -1080,19 +1191,22 @@
           "source": [
             "https://outputlag.com/guides/gta-6-controls/",
             "Output Lag"
-          ]
+          ],
+          "thumb": "siren"
         },
         {
           "item": "Kingpin escape, car",
           "location": "Front parking lot",
           "note": "Grab a vehicle and lose the two-star wanted level.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "escape"
         },
         {
           "item": "Kingpin escape, stealth",
           "location": "Rear fence",
           "note": "Quiet way out of the bowling alley compound.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "stealth"
         },
         {
           "item": "Focus for clues",
@@ -1101,7 +1215,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "focus"
         },
         {
           "item": "Opening safes without a code",
@@ -1110,7 +1225,8 @@
           "source": [
             "https://www.vice.com/en/article/gta-6-chapter-2-port-gellhorn-safe-codes/",
             "VICE"
-          ]
+          ],
+          "thumb": "bomb"
         },
         {
           "item": "Randomised robbery codes",
@@ -1119,7 +1235,8 @@
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
-          ]
+          ],
+          "thumb": "note"
         },
         {
           "item": "Selling stolen goods",
@@ -1128,7 +1245,8 @@
           "source": [
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
-          ]
+          ],
+          "thumb": "fence"
         },
         {
           "item": "Cheats (unlock)",
@@ -1137,7 +1255,8 @@
           "source": [
             "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
             "GameSpot"
-          ]
+          ],
+          "thumb": "cheat"
         },
         {
           "item": "Money cheat",
@@ -1146,7 +1265,8 @@
           "source": [
             "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
             "GameSpot"
-          ]
+          ],
+          "thumb": "money-cheat"
         }
       ],
       "steps": [
@@ -1177,7 +1297,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "clip"
         },
         {
           "item": "Gone Fishing: boat ram has no NPC or vehicle reaction",
@@ -1186,7 +1307,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "crash"
         },
         {
           "item": "Gone Fishing: missing plane door / clip into seat",
@@ -1195,7 +1317,8 @@
           "source": [
             "https://tech.sportskeeda.com/gaming-news/all-gta-6-bugs-glitches-found-far",
             "Sportskeeda"
-          ]
+          ],
+          "thumb": "animation"
         },
         {
           "item": "Fridge beer appears from nowhere",
@@ -1204,7 +1327,8 @@
           "source": [
             "https://x.com/MichaelDoesLife/status/2123025722029519266",
             "X"
-          ]
+          ],
+          "thumb": "spawn"
         },
         {
           "item": "Stolen plane crash: no explosion, unharmed exit",
@@ -1213,7 +1337,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "crash"
         },
         {
           "item": "Police grapple clips through furniture",
@@ -1222,7 +1347,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "clip"
         },
         {
           "item": "GTA 4-style swingset / physics catapult",
@@ -1231,7 +1357,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "physics"
         },
         {
           "item": "Plane loses physics after bailout",
@@ -1240,7 +1367,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "physics"
         },
         {
           "item": "Survive a plane bailout with no parachute or damage",
@@ -1249,7 +1377,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "clip"
         },
         {
           "item": "Lucia falls through terrain, dies, respawns elsewhere",
@@ -1258,7 +1387,8 @@
           "source": [
             "https://all.gg/news/more-gta-6-bugs-appear/",
             "all.gg"
-          ]
+          ],
+          "thumb": "clip"
         },
         {
           "item": "ClipOverdose launch-hour compilation",
@@ -1267,7 +1397,8 @@
           "source": [
             "https://x.com/ClipOverdose/status/2123067122901201286",
             "X"
-          ]
+          ],
+          "thumb": "stuck"
         },
         {
           "item": "Intro pop-in and missing textures",
@@ -1276,7 +1407,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "texture"
         },
         {
           "item": "Mobility scooter extreme durability",
@@ -1285,7 +1417,8 @@
           "source": [
             "https://x.com/Windpress/status/2123116215510220803",
             "X"
-          ]
+          ],
+          "thumb": "crash"
         },
         {
           "item": "Ship / vehicle pop-in on a bridge",
@@ -1294,7 +1427,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "texture"
         },
         {
           "item": "NPCs walk into walls and get stuck",
@@ -1303,7 +1437,8 @@
           "source": [
             "https://www.theage.com.au/technology/video-games/kidnappings-cocaine-drops-and-a-love-story-gta-vi-delivers-20261118-p61ept.html",
             "The Age"
-          ]
+          ],
+          "thumb": "stuck"
         },
         {
           "item": "Floating coffee cup when switching characters",
@@ -1312,7 +1447,8 @@
           "source": [
             "https://www.shacknews.com/article/151380/gta-6-review-score",
             "Shacknews"
-          ]
+          ],
+          "thumb": "animation"
         },
         {
           "item": "Phone in a tight spot drops Jason through the map",
@@ -1321,7 +1457,8 @@
           "source": [
             "https://beebom.com/gta-6-bugs-tracker/",
             "Beebom"
-          ]
+          ],
+          "thumb": "clip"
         },
         {
           "item": "Crashes or reboots wiping progress despite autosave",
@@ -1330,7 +1467,8 @@
           "source": [
             "https://www.gta6resources.com/news/gta6-crashes-autosave-progress-loss",
             "GTA6 Resources"
-          ]
+          ],
+          "thumb": "crash"
         },
         {
           "item": "Truck launched across the map",
@@ -1339,7 +1477,8 @@
           "source": [
             "https://gulfnews.com/technology/gaming/gta-6-glitches-go-viral-flying-cars-disappearing-characters-and-police-encounter-issues-spark-cyberpunk-2077-comparisons-1.500752989",
             "Gulf News"
-          ]
+          ],
+          "thumb": "physics"
         },
         {
           "item": "PS5 first-person mode glitch",
@@ -1348,7 +1487,8 @@
           "source": [
             "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
             "Dexerto"
-          ]
+          ],
+          "thumb": "glitch"
         },
         {
           "item": "Red barn save/reload loot respawn",
@@ -1357,13 +1497,15 @@
           "source": [
             "https://beebom.com/gta-6-unlimited-money-glitch/",
             "Beebom"
-          ]
+          ],
+          "thumb": "spawn"
         },
         {
           "item": "Coming Home: pool break with Mattia does not register",
           "location": "Coming Home, Xbox",
           "note": "Softlock when the pool shot does not register. From our chats and the scan file.",
-          "source": "Our chats"
+          "source": "Our chats",
+          "thumb": "softlock"
         },
         {
           "item": "Bank cutscene fails to trigger (softlock)",
@@ -1372,7 +1514,8 @@
           "source": [
             "https://www.getrekt.com/news/gta-6-day-one-bugs-glitches/",
             "GetRekt"
-          ]
+          ],
+          "thumb": "softlock"
         },
         {
           "item": "Characters swim sideways",
@@ -1381,7 +1524,8 @@
           "source": [
             "https://www.getrekt.com/news/gta-6-day-one-bugs-glitches/",
             "GetRekt"
-          ]
+          ],
+          "thumb": "animation"
         },
         {
           "item": "Trapped in a fenced-off area",
@@ -1390,7 +1534,8 @@
           "source": [
             "https://www.getrekt.com/news/gta-6-day-one-bugs-glitches/",
             "GetRekt"
-          ]
+          ],
+          "thumb": "stuck"
         },
         {
           "item": "Boat wedged between bridge supports moves erratically",
@@ -1399,7 +1544,8 @@
           "source": [
             "https://sixintelhq.com/gta-6-glitches",
             "Six Intel"
-          ]
+          ],
+          "thumb": "physics"
         },
         {
           "item": "Riderless motorbikes keep chasing after a mission reset",
@@ -1408,7 +1554,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-riderless-motorbikes-after-mission-reset",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "bike"
         },
         {
           "item": "Traffic or cars vanish in front of the player",
@@ -1417,7 +1564,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-cars-vanishing-traffic-disappearing",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "despawn"
         },
         {
           "item": "Xbox flickering lighting and blocky textures",
@@ -1426,7 +1574,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-xbox-flickering-textures-lighting-visual-corruption",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "texture"
         },
         {
           "item": "PS5 CE-108255-1 crash in the prologue",
@@ -1435,7 +1584,8 @@
           "source": [
             "https://www.gamesradar.com/games/grand-theft-auto/ps5-error-ce-108255-1-is-ruining-gta-6-for-some-players-and-rockstar-and-sony-arent-very-helpful-try-updating-your-game/",
             "GamesRadar"
-          ]
+          ],
+          "thumb": "crash"
         },
         {
           "item": "NPC SUV frozen mid-air beside a Keys bridge",
@@ -1444,7 +1594,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-car-floating-mid-air-glitch",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "despawn"
         },
         {
           "item": "Fishing rod falls through the boat and is lost",
@@ -1453,7 +1604,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-fishing-rod-falls-through-boat-lost",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "clip"
         },
         {
           "item": "Prologue: cannot aim at the cashier",
@@ -1462,7 +1614,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-prologue-cant-aim-at-cashier-lt-not-working",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "aim"
         },
         {
           "item": "Gone Fishing: Jason stuck inside a cage",
@@ -1471,7 +1624,8 @@
           "source": [
             "https://gta6bugs.com/bugs/gta-6-gone-fishing-jason-stuck-in-cage-glitch",
             "GTA6BUGS"
-          ]
+          ],
+          "thumb": "stuck"
         }
       ]
     }

@@ -1,4 +1,4 @@
-const APP_VERSION = "v4 · phone";
+const APP_VERSION = "v5 · images";
 
 const ICONS = {
   home: '<path d="M4 11.5 12 4l8 7.5"/><path d="M6.5 10.5V20h11V10.5"/>',
@@ -29,6 +29,217 @@ const APP_COLORS = {
   mechanics: "#64748b",
   glitches: "#f97316",
 };
+
+
+const ICON_LABELS = {
+  safe: "safe with a keypad",
+  door: "door with a keypad",
+  computer: "computer terminal",
+  shotgun: "shotgun",
+  rifle: "rifle",
+  smg: "submachine gun",
+  revolver: "revolver",
+  pistol: "pistol",
+  sniper: "sniper rifle",
+  launcher: "rocket launcher",
+  watch: "watch",
+  pills: "pill bags",
+  cash: "cash",
+  jewellery: "jewellery",
+  car: "car",
+  muscle: "muscle car",
+  truck: "truck",
+  suv: "SUV",
+  bike: "motorcycle",
+  boat: "boat",
+  mission: "mission flag",
+  "mission-current": "current mission flag",
+  fishing: "fishing",
+  home: "house",
+  driving: "steering wheel",
+  optional: "optional mission",
+  hospital: "hospital",
+  hat: "hat",
+  apartment: "apartment building",
+  egg: "painted egg",
+  ufo: "UFO",
+  bigfoot: "bigfoot",
+  dog: "dog",
+  book: "book",
+  alien: "alien door",
+  plate: "license plate",
+  shop: "shop",
+  fence: "fence drop",
+  "bike-shop": "dirt-bike shop",
+  "auto-shop": "auto shop",
+  gunstore: "gun store",
+  dealer: "vehicle dealer",
+  dpad: "D-pad",
+  headlights: "headlights",
+  "turn-signal": "turn signal",
+  siren: "siren",
+  escape: "escape route",
+  stealth: "stealth",
+  focus: "focus",
+  bomb: "sticky bomb",
+  note: "note",
+  cheat: "cheat code",
+  "money-cheat": "money cheat",
+  glitch: "glitch",
+  clip: "clipping glitch",
+  physics: "physics glitch",
+  crash: "crash",
+  softlock: "softlock",
+  texture: "texture glitch",
+  stuck: "stuck glitch",
+  despawn: "despawn glitch",
+  animation: "animation glitch",
+  aim: "aiming glitch",
+  spawn: "item spawn glitch",
+};
+
+function hasText(blob, words) {
+  return words.some((word) => blob.includes(word));
+}
+
+function inferIcon(item, catId) {
+  const name = item.item || "";
+  const blob = `${name} ${item.location || ""} ${item.note || ""}`.toLowerCase();
+  if (catId === "codes") {
+    if (hasText(blob, ["computer", "password", "cleaves"])) return "computer";
+    if (hasText(blob, ["door", "lockup", "garage", "panel", "dock building"])) return "door";
+    return "safe";
+  }
+  if (catId === "weapons") {
+    if (hasText(blob, ["shotgun", "pump-action", "hobo", "gorse", "gutterball"])) return "shotgun";
+    if (hasText(blob, ["sniper", "sm-69", "laird"])) return "sniper";
+    if (hasText(blob, ["revolver"])) return "revolver";
+    if (hasText(blob, [".38", "pistol", "nipper"])) return "pistol";
+    if (hasText(blob, ["launcher", "rocket"])) return "launcher";
+    if (hasText(blob, ["smg", "vf5", "type 9"])) return "smg";
+    if (hasText(blob, ["rifle", "assault", "556", "kz-59"])) return "rifle";
+    return "rifle";
+  }
+  if (catId === "valuables") {
+    if (hasText(blob, ["watch"])) return "watch";
+    if (hasText(blob, ["pill"])) return "pills";
+    if (hasText(blob, ["jewel", "ring", "necklace", "chain"])) return "jewellery";
+    return "cash";
+  }
+  if (catId === "vehicles") {
+    if (hasText(blob, ["truck", "yosemite", "rancher", "caracara"])) return "truck";
+    if (hasText(blob, ["suv", "hellion", "toros"])) return "suv";
+    if (hasText(blob, ["phoenix"])) return "muscle";
+    if (hasText(blob, ["boat", "jet ski"])) return "boat";
+    if (hasText(blob, ["bike", "motor"])) return "bike";
+    return "car";
+  }
+  if (catId === "missions") {
+    if (name === "Discharge Time" || hasText(blob, ["current"])) return "mission-current";
+    if (hasText(blob, ["fish"])) return "fishing";
+    if (hasText(blob, ["optional"])) return "optional";
+    if (hasText(blob, ["ambulance", "hospital", "discharge"])) return "hospital";
+    if (hasText(blob, ["home", "moved in", "coming home"])) return "home";
+    if (hasText(blob, ["driver", "drive"])) return "driving";
+    return "mission";
+  }
+  if (catId === "easter-eggs") {
+    if (hasText(blob, ["hat"])) return "hat";
+    if (hasText(blob, ["apartment", "dexter"])) return "apartment";
+    if (hasText(blob, ["plate"])) return "plate";
+    if (hasText(blob, ["penumbra", "phoenix"])) return "car";
+    if (hasText(blob, ["egg"])) return "egg";
+    if (hasText(blob, ["ufo"])) return "ufo";
+    if (hasText(blob, ["bigfoot", "skunk ape"])) return "bigfoot";
+    if (hasText(blob, ["dog"])) return "dog";
+    if (hasText(blob, ["book", "memoir"])) return "book";
+    if (hasText(blob, ["alien"])) return "alien";
+    return "egg";
+  }
+  if (catId === "shops") {
+    if (hasText(blob, ["dirt", "bike"])) return "bike-shop";
+    if (hasText(blob, ["fence", "lockup", "donnie", "dunk", "tyrone", "yasmani"])) return "fence";
+    if (hasText(blob, ["moses", "randy"])) return "dealer";
+    if (hasText(blob, ["ammu"])) return "gunstore";
+    if (hasText(blob, ["auto", "spray", "motorsport", "care"])) return "auto-shop";
+    return "shop";
+  }
+  if (catId === "mechanics") {
+    if (hasText(blob, ["headlight"])) return "headlights";
+    if (hasText(blob, ["turn signal"])) return "turn-signal";
+    if (hasText(blob, ["siren", "light bar"])) return "siren";
+    if (hasText(blob, ["stealth"])) return "stealth";
+    if (hasText(blob, ["escape"])) return "escape";
+    if (hasText(blob, ["focus", "l3"])) return "focus";
+    if (hasText(blob, ["sticky", "bomb"])) return "bomb";
+    if (hasText(blob, ["money cheat", "$250"])) return "money-cheat";
+    if (hasText(blob, ["cheat"])) return "cheat";
+    if (hasText(blob, ["selling", "fence"])) return "fence";
+    if (hasText(blob, ["random"])) return "note";
+    return "dpad";
+  }
+  if (catId === "glitches") {
+    if (hasText(blob, ["softlock", "does not register", "cutscene fails"])) return "softlock";
+    if (hasText(blob, ["crash", "reboot", "ce-108255"])) return "crash";
+    if (hasText(blob, ["texture", "lighting", "pop-in", "flicker", "blocky"])) return "texture";
+    if (hasText(blob, ["despawn", "vanish", "mid-air", "frozen"])) return "despawn";
+    if (hasText(blob, ["swim", "animation", "coffee cup"])) return "animation";
+    if (hasText(blob, ["aim"])) return "aim";
+    if (hasText(blob, ["stuck", "trapped", "cage", "fenced", "walk into walls"])) return "stuck";
+    if (hasText(blob, ["fall through", "clip", "through the", "drops jason"])) return "clip";
+    if (hasText(blob, ["loot respawn", "appears from nowhere"])) return "spawn";
+    if (hasText(blob, ["physics", "launched", "catapult", "wedged", "durability", "no explosion", "bailout", "no npc"])) return "physics";
+    if (hasText(blob, ["motorbike", "bike"])) return "bike";
+    if (hasText(blob, ["fishing rod"])) return "fishing";
+    return "glitch";
+  }
+  return "mission";
+}
+
+function thumbSpec(item, catId) {
+  const raw = item && item.thumb;
+  if (raw && (String(raw).startsWith("img/") || String(raw).includes("/"))) {
+    return { type: "image", src: String(raw) };
+  }
+  const id = raw && !String(raw).includes("/") ? String(raw) : inferIcon(item, catId);
+  return { type: "icon", id: ICON_LABELS[id] ? id : inferIcon(item, catId) };
+}
+
+function thumbAlt(item, spec) {
+  const name = item.item || "Entry";
+  if (spec.type === "image") return `Photo of ${name}`;
+  const label = ICON_LABELS[spec.id] || "icon";
+  return `Icon for ${name}: ${label}`;
+}
+
+function thumbHtml(item, catId, size) {
+  const spec = thumbSpec(item, catId);
+  const large = size === "lg";
+  const px = large ? 72 : 48;
+  const iconPx = large ? 40 : 28;
+  const cls = `thumb thumb-${catId || "home"}${large ? " thumb-lg" : ""}`;
+  const alt = thumbAlt(item, spec);
+  if (spec.type === "image") {
+    return `<span class="${cls}"><img src="${escapeHtml(spec.src)}" alt="${escapeHtml(alt)}" width="${px}" height="${px}" loading="lazy"></span>`;
+  }
+  return `<span class="${cls}" role="img" aria-label="${escapeHtml(alt)}"><svg viewBox="0 0 24 24" width="${iconPx}" height="${iconPx}" aria-hidden="true"><use href="#${escapeHtml(spec.id)}"></use></svg></span>`;
+}
+
+async function ensureSprite() {
+  if (document.getElementById("icon-sprite")) return;
+  try {
+    const response = await fetch("img/icons.svg");
+    const text = await response.text();
+    const wrap = document.createElement("div");
+    wrap.id = "icon-sprite";
+    wrap.hidden = true;
+    wrap.innerHTML = text;
+    document.body.prepend(wrap);
+  } catch (err) {
+    // Offline fallback is the precached sprite; if fetch fails, thumbs stay empty rather than crashing.
+  }
+}
+
 
 const MAP_CATEGORIES = new Set(["weapons", "vehicles"]);
 const MAP_SRC = "img/leonida-map.jpg";
@@ -100,13 +311,18 @@ function cardHtml(item, highlightCurrent, catId) {
     ? ` role="button" tabindex="0" data-cat="${escapeHtml(catId)}" data-item="${escapeHtml(item.item)}"`
     : "";
   return `<article class="card${isCurrent ? " current" : ""}${mappable ? " card-tap" : ""}"${tapAttrs}>
-    <div class="card-head">
-      <h3 class="card-title">${escapeHtml(item.item)}</h3>
-      <div class="badges">${badges(item, highlightCurrent, catId)}</div>
+    <div class="card-row">
+      ${thumbHtml(item, catId, "sm")}
+      <div class="card-body">
+        <div class="card-head">
+          <h3 class="card-title">${escapeHtml(item.item)}</h3>
+          <div class="badges">${badges(item, highlightCurrent, catId)}</div>
+        </div>
+        <p class="loc${mono}">${escapeHtml(item.location)}</p>
+        <p class="note">${escapeHtml(item.note)}</p>
+        ${src}
+      </div>
     </div>
-    <p class="loc${mono}">${escapeHtml(item.location)}</p>
-    <p class="note">${escapeHtml(item.note)}</p>
-    ${src}
   </article>`;
 }
 
@@ -358,6 +574,7 @@ function detailHtml(cat, item) {
     : "Location not confirmed yet";
   return `<header class="app-header map-header">
       <button class="back-chevron back" type="button" data-back="1" aria-label="Back">‹</button>
+      ${thumbHtml(item, cat.id, "lg")}
       <div>
         <h1>${escapeHtml(item.item)}</h1>
         <p class="sub">${escapeHtml(cat.heading)}</p>
@@ -368,7 +585,7 @@ function detailHtml(cat, item) {
       ${marker}
     </div>
     <div class="sheet">
-      ${cardHtml(item, false)}
+      ${cardHtml(item, false, cat.id)}
       <p class="map-caption">${caption}</p>
     </div>`;
 }
@@ -555,6 +772,7 @@ function onKeydown(event) {
 async function boot() {
   updateStandaloneClass();
   try {
+    await ensureSprite();
     const response = await fetch("data.json", { cache: "no-cache" });
     DATA = await response.json();
     document.title = DATA.title;

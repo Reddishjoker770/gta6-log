@@ -1,13 +1,13 @@
-const CACHE = "gta6-log-v4";
+const CACHE = "gta6-log-v5";
 const PRECACHE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./styles.css?v=4",
+  "./styles.css?v=5",
   "./app.js",
-  "./app.js?v=4",
+  "./app.js?v=5",
   "./fonts.css",
-  "./fonts.css?v=4",
+  "./fonts.css?v=5",
   "./data.json",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
@@ -17,6 +17,7 @@ const PRECACHE = [
   "./icons/apple-touch-icon.png",
   "./favicon.ico",
   "./img/leonida-map.jpg",
+  "./img/icons.svg",
   "./fonts/inter-latin-400-normal.woff2",
   "./fonts/inter-latin-500-normal.woff2",
   "./fonts/inter-latin-600-normal.woff2",
