@@ -1,0 +1,1461 @@
+{
+  "title": "GTA 6 Running Log",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 21 Nov 2026, Australia/Brisbane.",
+  "calloutLead": "How to read this log",
+  "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
+  "properties": [
+    {
+      "label": "Progress",
+      "value": "Chapter 1, up to Discharge Time"
+    },
+    {
+      "label": "Last updated",
+      "value": "21 Nov 2026, Australia/Brisbane"
+    },
+    {
+      "label": "Official patches",
+      "value": "None published as of this date; latest reported build is 01.002.001 (16 Nov, pre-launch)"
+    }
+  ],
+  "pageSources": [
+    "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+    "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+    "https://www.vice.com/en/article/gta-6-chapter-2-port-gellhorn-safe-codes/",
+    "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+    "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
+    "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+    "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+    "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/"
+  ],
+  "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
+  "currentMission": "Discharge Time",
+  "categories": [
+    {
+      "id": "codes",
+      "short": "Codes",
+      "heading": "Codes",
+      "caption": "Safe, door, and keypad codes. Tyas's three Port Gellhorn codes match launch guides. Mission codes are generally fixed; free-roam store safes are not.",
+      "items": [
+        {
+          "item": "Kingpin Bowling safe",
+          "location": "0300",
+          "note": "Office in the northeast corner; enter the leading zero. Also on the Brooks Boatworks wall map.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Brooks Boatworks safe",
+          "location": "6823",
+          "note": "Main warehouse safe, Port Gellhorn. Upstairs wall map here also reveals the other two Port Gellhorn codes.",
+          "source": "Our chats"
+        },
+        {
+          "item": "La Cascara Motel safe",
+          "location": "6969",
+          "note": "Port Gellhorn illegal operation. Shown on the Brooks Boatworks wall map.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Lab Fees back-room door",
+          "location": "0420",
+          "note": "Key Lento shop that fronts the acid lab, Chapter 1 mission Lab Fees. Clerk tells you, or it is on a notepad.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Brian's Lockup door",
+          "location": "7700",
+          "note": "Key Lento fence drop, unlocked in Lab Fees. Green icon on the map.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Crab outpost computer",
+          "location": "CLEAVES",
+          "note": "Pelican Valley research outpost. Turn power on outside; password is written on a side-room floor.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Crab outpost safe",
+          "location": "0072",
+          "note": "Double the successful specimen ID 0036 from the lab report. Cash and the dock code are inside.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Crab outpost dock building",
+          "location": "0212",
+          "note": "Code is inside the outpost safe; opens the dock building that holds the Crabshack VF5.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Casa de Empeño safe",
+          "location": "1680",
+          "note": "Vice City, small back office. Yasmani's Jewelry Jobs (Chapter 3); buffalo skull chain.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Richardson Jewelry safe",
+          "location": "6815",
+          "note": "Downtown Vice City, northeast corner of the middle room. Diamond ring.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Donovan Banks & Co. safe",
+          "location": "0104",
+          "note": "Vice City rear room; enter the leading zero. Amethyst necklace.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Nova Auto Junkyard (M7) safe",
+          "location": "7777",
+          "note": "The Hamlet, room next to the garage; code is written on the wall.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Cottonmouth Lake trailer safe",
+          "location": "44017",
+          "note": "Five-digit code on a sandbar-island trailer south of Cottonmouth Lake (one guide also says Key Lento). Code is among the postcards.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Abandoned Site door",
+          "location": "2314",
+          "note": "Northeast of Cottonmouth Lake; basement door to an underground facility. Do not confuse with a separate dream-puzzle keypad.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Sundown Private Airfield hangar safe",
+          "location": "3718",
+          "note": "Leonard County, back room behind a red door. Listed as confirmed by Consolyte; not on every two-source roundup.",
+          "source": [
+            "https://consolyte.gg/gta-6/wiki/guides/safe-codes",
+            "Consolyte"
+          ]
+        },
+        {
+          "item": "Waxman Island garage",
+          "location": "2404",
+          "note": "Wall panel, during the mission First Impressions. Consolyte listing; not on every two-source roundup.",
+          "source": [
+            "https://consolyte.gg/gta-6/wiki/guides/safe-codes",
+            "Consolyte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapons",
+      "short": "Weapons",
+      "heading": "Weapon Locations",
+      "caption": "Unique or notable pickups. Guides say unique variants stay unlocked and can be recovered from an Ammu-Nation locker. There are many more in the world than are listed here.",
+      "items": [
+        {
+          "item": "Gutterball Moreland 850",
+          "location": "Kingpin Bowling, pool table, northeast corner",
+          "note": "Unique pump-action shotgun. One of three valuables for the Let's Go Bowling trophy; unlocked after Coffee Break in Chapter 2.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Clunker 556",
+          "location": "Brooks Boatworks, room with the wall map",
+          "note": "Unique assault rifle on the table in front of the whiteboard, same room as the Port Gellhorn code map.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
+            "The Games Wiki"
+          ]
+        },
+        {
+          "item": "Crabshack VF5",
+          "location": "Pelican Valley crab research outpost, dock building",
+          "note": "Unique SMG beside a body after using codes CLEAVES, 0072, then 0212. Available in Chapter 1.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Swamp Bait Akulus revolver",
+          "location": "Ruined cabin, Pelican Valley swamps",
+          "note": "On the blood-covered cabin floor; the Cruel Huntsman's SM-69 is on the back porch of the same cabin.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Cruel Huntsman's SM-69",
+          "location": "Same Pelican Valley cabin, back porch",
+          "note": "Unique sniper; grab nearby sniper ammo before leaving. Watch for alligators.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Donnie's H&L .38",
+          "location": "Trunk of Donnie's Dinka Blista, mission Don Gone",
+          "note": "Missable: take it from the trunk before you destroy the car. Don Gone is Chapter 1 mission 18, so this may already be past.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Hunter's Laird 350",
+          "location": "Roadside encounter south of Hamlet, near Grassrivers",
+          "note": "Help two hunters (one injured), return their truck, and take the injured hunter to hospital to receive this sniper.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Marabunta Grande Hobo",
+          "location": "Industrial storage building south of Hamlet, near the highway",
+          "note": "Unique shotgun in a weapon case inside; cash is on a nearby table and in a yellow toolbox.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Kingfishers W-22",
+          "location": "Waterfront building, Kingfishers fishing compound, Wetman Bay",
+          "note": "Scoped, suppressed small-game rifle in a case on a desk; approach the docks by boat.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Conspiracist Type 9",
+          "location": "Underground bunker under an antenna-covered RV, Balsero junkyard",
+          "note": "Southwest of Griffin Shooting Range. KeenGamer says this opens after a Chapter 1 job it names Building a Life, which is not on the main mission lists.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Hauners H-AT launcher",
+          "location": "Same Balsero bunker",
+          "note": "Free rocket launcher with four rockets, plus other supplies in the same hatch.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Assassin Nipper .38",
+          "location": "Derelict spy vessel, southern tip of the southeastern Permit Keys island",
+          "note": "Through the hatch in the middle of the deck, east of Mile Zero Air Station.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Smuggler Gorse 425",
+          "location": "Northernmost Permit Keys island, in the sand beside a tilted smuggler boat",
+          "note": "Unique shotgun lying outside the hull; no hidden compartment needed.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Drug Mule KZ-59",
+          "location": "Underwater off the northern coast of Riquezas Keys",
+          "note": "Dive at the floating drug packages to a sunken speedboat; the unique AR is beneath it.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Turnt Nipper .38",
+          "location": "Bobcat Bight, Capri Island, Mariana County",
+          "note": "Shoot the lines of a paramotor caught in coastal pines, then loot the wreckage on the ground.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        },
+        {
+          "item": "Killtelligence SM-69",
+          "location": "Bret Vogel hunting quest, Lummox County",
+          "note": "Chapter 2 after Coffee Break: Jason gets a message from Bret and receives this sniper when Veteran Hunted starts.",
+          "source": [
+            "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+            "KeenGamer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valuables",
+      "short": "Valuables",
+      "heading": "Valuable Locations",
+      "caption": "Watches, cash, pills, and other loot worth coming back for.",
+      "items": [
+        {
+          "item": "Luxury watch",
+          "location": "Kingpin Bowling, southeast room",
+          "note": "On a small table; guides identify it as a Crowex Octane Orca style collectible, needed with the shotgun and safe for Let's Go Bowling.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Brooks Boatworks pill bags (boat)",
+          "location": "Black trunk on the boat deck, main warehouse",
+          "note": "Stop the boat before it leaves, then open the trunk (Triangle / Y) for three pill bags, an SMG, and $198.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Brooks Boatworks pill bags (pool table)",
+          "location": "Pool table in the long upstairs warehouse room",
+          "note": "Two more pill bags (plus cigarettes) in the same room as the main safe; sell pills to a fence.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
+            "The Games Wiki"
+          ]
+        },
+        {
+          "item": "Brooks Boatworks main safe cash",
+          "location": "Long room at the top of the warehouse stairs",
+          "note": "About $2,165 in the coded safe, plus loose cash in a counting machine nearby.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
+            "The Games Wiki"
+          ]
+        },
+        {
+          "item": "Brooks Boatworks green-building safe",
+          "location": "Green wooden building left of the warehouse, back office",
+          "note": "No code: jimmy it with the right stick for about $1,409, plus more loose cash in the office and kitchen.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
+            "The Games Wiki"
+          ]
+        },
+        {
+          "item": "Crab outpost cash",
+          "location": "Safe inside the Pelican Valley research outpost",
+          "note": "Opened with 0072 after the computer puzzle; also yields the 0212 dock code.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Cottonmouth Lake trailer stash",
+          "location": "Trailer on a sandbar island south of Cottonmouth Lake",
+          "note": "Five-digit safe 44017; code is on the wall among postcards.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Yasmani jewelry job pieces",
+          "location": "Casa de Empeño, Richardson Jewelry, Donovan Banks & Co.",
+          "note": "Chapter 3: buffalo skull chain, diamond ring, and amethyst necklace behind the fixed codes 1680, 6815, and 0104.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "short": "Vehicles",
+      "heading": "Vehicle Locations",
+      "caption": "Special or notable vehicles with documented spawns. Many more standout vehicles have fixed map pins; ordinary street spawns can change between visits.",
+      "items": [
+        {
+          "item": "Maibatsu Penumbra FF",
+          "location": "Villa garage, Vespucci Island (Rialto Islands), Vice City",
+          "note": "Green Fast and Furious-style coupe, HAD YOU plate. Break in via the side door (alarm), hotwire, and check the trunk for a snake gag. Guides say it can be registered at a Pay 'n' Spray.",
+          "source": [
+            "https://thegta6guide.com/gta-6-easter-eggs/",
+            "The GTA 6 Guide"
+          ]
+        },
+        {
+          "item": "Imponte Phoenix (ASSMAN plate)",
+          "location": "Hamlet Police Department impound",
+          "note": "Red Phoenix with the Seinfeld ASSMAN plate, seen when Cal sends Jason to retrieve a car in Chapter 1.",
+          "source": [
+            "https://grandleonida.com/guides/gta-6-seinfeld-assman-plate-phoenix-impound/",
+            "Grand Leonida"
+          ]
+        },
+        {
+          "item": "Vapid Smuggler Caracara",
+          "location": "Parked outside the green building at Brooks Boatworks",
+          "note": "Bright orange unlocked standout truck; no alarm. Wiki lists a sell value around $6,325 and registration around $5,550.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
+            "The Games Wiki"
+          ]
+        },
+        {
+          "item": "Annis Drifter Elegy",
+          "location": "Locked storage garage behind Gellhorn International Raceway",
+          "note": "Pre-modified drift coupe; break the shutter and drive it out. South Kelly County / Port Gellhorn.",
+          "source": [
+            "https://gta6zero.com/en/map/category/rare-vehicles",
+            "GTA6Zero"
+          ]
+        },
+        {
+          "item": "Annis Hellion (Moses job)",
+          "location": "Driveway of a house on Orchard Avenue, south Port Gellhorn",
+          "note": "One of the cars Moses asks for after Daily Driver; the game marks a search area, not a pin.",
+          "source": [
+            "https://gta6zero.com/en/map/category/rare-vehicles",
+            "GTA6Zero"
+          ]
+        },
+        {
+          "item": "Declasse Yosemite 1500 (Moses job)",
+          "location": "Driveway of a house on Bastion Street, southwest Port Gellhorn",
+          "note": "Another Moses request after Daily Driver.",
+          "source": [
+            "https://gta6zero.com/en/map/category/rare-vehicles",
+            "GTA6Zero"
+          ]
+        },
+        {
+          "item": "Karin Futo (Moses job)",
+          "location": "Lockup at the Draper Island docks, south edge",
+          "note": "Another Moses request after Daily Driver.",
+          "source": [
+            "https://gta6zero.com/en/map/category/rare-vehicles",
+            "GTA6Zero"
+          ]
+        },
+        {
+          "item": "Declasse '86 Rancher",
+          "location": "Barn garage north of Port Gellhorn, Kelly County",
+          "note": "Hidden in a barn north of town, per VicePulse's launch-week list.",
+          "source": [
+            "https://vicepulse.org/gta-6/vehicles/rare-cars",
+            "VicePulse"
+          ]
+        },
+        {
+          "item": "Pegassi Toros (Randy wish list)",
+          "location": "Entrance of Pegassi Residences east tower, Bayside Drive, Tequesta Retreat",
+          "note": "Purple Toros; Randy in Chapter 3 buys high-end cars from a list.",
+          "source": [
+            "https://gta6zero.com/en/map/category/rare-vehicles",
+            "GTA6Zero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missions",
+      "short": "Missions",
+      "heading": "Mission Order and Chapter Progression",
+      "caption": "Main story names only, no plot detail. Lists follow Polygon, GamesRadar, and Gameta. Chapter 2's Thrillbillies and Twist Wrist, Smash, Grab are optional. Progress is from our chats: Chapter 1, up to Discharge Time.",
+      "items": [
+        {
+          "item": "Prologue",
+          "location": "Chapter 1, mission 1 (Just Like Paradise)",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Gone Fishing",
+          "location": "Chapter 1, mission 2",
+          "note": "Done. Mentioned in our chats; several launch bugs are tied to this mission.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Gear Up",
+          "location": "Chapter 1, mission 3",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Just a Scratch",
+          "location": "Chapter 1, mission 4",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Lab Fees",
+          "location": "Chapter 1, mission 5",
+          "note": "Done. Unlocks Brian's fence and the 0420 / 7700 codes.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Unwanted Attention",
+          "location": "Chapter 1, mission 6",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Pipework",
+          "location": "Chapter 1, mission 7",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Hey Arnold!",
+          "location": "Chapter 1, mission 8",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Island Dreams",
+          "location": "Chapter 1, mission 9",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Feng Shui",
+          "location": "Chapter 1, mission 10",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Coming Home",
+          "location": "Chapter 1, mission 11",
+          "note": "Done. Xbox bug: pool break with Mattia sometimes does not register and can softlock.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Buck Me",
+          "location": "Chapter 1, mission 12",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Clean Up After Donnie",
+          "location": "Chapter 1, mission 13",
+          "note": "Done. Unlocks Donnie as a fence, per PC Gamer.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Down to Earth",
+          "location": "Chapter 1, mission 14",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Clear Skies",
+          "location": "Chapter 1, mission 15",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Day Release",
+          "location": "Chapter 1, mission 16",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Swamped",
+          "location": "Chapter 1, mission 17",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Don Gone",
+          "location": "Chapter 1, mission 18",
+          "note": "Done. Missable unique revolver in Donnie's trunk before the car is destroyed. GamesRadar redacts this title.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Recalibration",
+          "location": "Chapter 1, mission 19",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Tourist Trap",
+          "location": "Chapter 1, mission 20",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Home Sweet Home",
+          "location": "Chapter 1, mission 21",
+          "note": "Done.",
+          "source": [
+            "https://www.polygon.com/gta-6-mission-chapter-list-how-many/",
+            "Polygon"
+          ]
+        },
+        {
+          "item": "Discharge Time",
+          "location": "Chapter 1, mission 22 (last of the chapter)",
+          "note": "Current: this is as far as Tyas has reached.",
+          "source": "Our chats"
+        },
+        {
+          "item": "What's in the Bag?",
+          "location": "Chapter 2, mission 1 (Paradise Lost)",
+          "note": "Not started. Guides start this at a Port Gellhorn motel after Discharge Time.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Ambulance Chaser",
+          "location": "Chapter 2, mission 2",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Just Moved In",
+          "location": "Chapter 2, mission 3",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Girls' Trip",
+          "location": "Chapter 2, mission 4",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Moses",
+          "location": "Chapter 2, mission 5",
+          "note": "Not started. Unlocks Moses as a vehicle buyer in Port Gellhorn.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Daily Driver",
+          "location": "Chapter 2, mission 6",
+          "note": "Not started. Leads into Moses' vehicle requests.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Slam Dunk",
+          "location": "Chapter 2, mission 7",
+          "note": "Not started. Unlocks Dunk as a fence in Port Gellhorn.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Breakfast Run",
+          "location": "Chapter 2, mission 8",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Coffee Break",
+          "location": "Chapter 2, mission 9",
+          "note": "Not started. Unlocks optional robberies such as Hit Kingpin Bowling, plus Bret's hunt.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Afternoon Delight",
+          "location": "Chapter 2, mission 10",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Thrillbillies",
+          "location": "Chapter 2, optional",
+          "note": "Not started. Optional Chapter 2 mission.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Twist Wrist, Smash, Grab",
+          "location": "Chapter 2, optional",
+          "note": "Not started. Optional Chapter 2 mission.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "Checking Out",
+          "location": "Chapter 2, final required mission",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "easter-eggs",
+      "short": "Easter Eggs",
+      "heading": "Easter Eggs and Hidden Content",
+      "caption": "Secrets and references. Arthur's hat, Dexter's apartment, the ASSMAN Phoenix, the Penumbra FF, and the painted-egg nest were requested; the rest are researched additions.",
+      "items": [
+        {
+          "item": "Arthur Morgan's hat",
+          "location": "Yard sale, south Port Gellhorn, blue house with balloons and an American flag",
+          "note": "Chapter 2 only. Guides place it on Orchard Avenue, northwest of Dirt Merchants, as a Genuine Cowboy Hat on a guitar case on a white couch. Sold cheap; guides disagree on the exact price, so it is omitted here.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Dexter apartment",
+          "location": "Trinity Apartments, Washington Island, east Vice City, near the Pay 'n' Spray and Vice Beach Top Fun Drones",
+          "note": "Door stays locked. A kill kit (syringe, knife, tape, rope) is reported on the roof; a nearby boat is compared to the Slice of Life.",
+          "source": [
+            "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
+            "GameSpot"
+          ]
+        },
+        {
+          "item": "Imponte Phoenix, ASSMAN plate",
+          "location": "Hamlet Police Department impound, Chapter 1",
+          "note": "Seinfeld reference on a red Phoenix when Cal sends Jason to retrieve a car.",
+          "source": [
+            "https://grandleonida.com/guides/gta-6-seinfeld-assman-plate-phoenix-impound/",
+            "Grand Leonida"
+          ]
+        },
+        {
+          "item": "Maibatsu Penumbra FF",
+          "location": "Villa garage, Vespucci Island, Vice City",
+          "note": "Paul Walker / Fast and Furious nod with a HAD YOU plate; trunk has a Toy Story snake gag.",
+          "source": [
+            "https://thegta6guide.com/gta-6-easter-eggs/",
+            "The GTA 6 Guide"
+          ]
+        },
+        {
+          "item": "Painted egg nest",
+          "location": "Top of Vice City's tallest radio / cell tower (Game8 also says South Vice-Dail County)",
+          "note": "About a 6 to 7 minute climb. Pick up a painted egg and throw it to trigger a short cutscene below.",
+          "source": [
+            "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
+            "GameSpot"
+          ]
+        },
+        {
+          "item": "Kelly County UFO",
+          "location": "Road near the Starlet Motel, Kelly County",
+          "note": "Reported after Chapter 1, at night from 2 am.",
+          "source": [
+            "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
+            "Grind Coast"
+          ]
+        },
+        {
+          "item": "Bigfoot (Skunk Ape)",
+          "location": "Swamps near Cottonmouth Lake, south of Hamlet",
+          "note": "Free-roam encounter reported by several outlets.",
+          "source": [
+            "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
+            "Grind Coast"
+          ]
+        },
+        {
+          "item": "Lucky Dog (jet ski dog)",
+          "location": "Open water, for example Gambit Bay",
+          "note": "Reported after about five minutes adrift.",
+          "source": [
+            "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
+            "Grind Coast"
+          ]
+        },
+        {
+          "item": "Liberty City memoir",
+          "location": "Jason's house, Key Lento",
+          "note": "Readable before the end of Chapter 1.",
+          "source": [
+            "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
+            "Grind Coast"
+          ]
+        },
+        {
+          "item": "Red Dead book",
+          "location": "Brian's Marina, Key Lento",
+          "note": "A readable book that nods to Red Dead Redemption.",
+          "source": [
+            "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
+            "Grind Coast"
+          ]
+        },
+        {
+          "item": "Abandoned Site alien door",
+          "location": "Northeast of Cottonmouth Lake, downstairs locked door",
+          "note": "Code 2314 opens an elevator to an underground facility. Separate from a different dream-puzzle site.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shops",
+      "short": "Shops",
+      "heading": "Shop and Facility Locations",
+      "caption": "Mod shops, fences, and other useful stops. Fence rates vary by goods type; PC Gamer says to check each fence on the map.",
+      "items": [
+        {
+          "item": "Dirt Merchants",
+          "location": "South of Port Gellhorn, Kelly County, on Orchard Avenue",
+          "note": "Dirt-bike mod shop (parts and all-terrain cosmetics). A trailer park sits behind it; Whisler Motorsport is nearby.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Brian's Lockup (fence)",
+          "location": "Key Lento; door code 7700",
+          "note": "First goods fence, unlocked in Lab Fees. Drop-box payout, not instant. Takes narcotics, jewelry, and marked bills.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Donnie (fence)",
+          "location": "Key Lento, drop box at his trailer",
+          "note": "Unlocked after Clean Up After Donnie.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Dunk (fence)",
+          "location": "Port Gellhorn, Kelly County; drop box in his car trunk",
+          "note": "Unlocked after Slam Dunk in Chapter 2.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Tyrone (fence)",
+          "location": "La Perle, Vice City; apartment, immediate sale",
+          "note": "Unlocked in Chapter 3 (Here, Kitty Kitty).",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Yasmani (fence)",
+          "location": "Little Cuba, Vice City; shop, immediate sale",
+          "note": "Unlocked in Chapter 3 (Boobie Time). After two Payday Loan jobs, garage pickup is available for a fee.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Moses (vehicles)",
+          "location": "Garage in Port Gellhorn, Kelly County",
+          "note": "Vehicle buyer, unlocked in the Chapter 2 mission Moses.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Randy (high-end vehicles)",
+          "location": "Balsero, Vice City",
+          "note": "High-end vehicle buyer, unlocked in Chapter 3.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Coastal Auto Care",
+          "location": "Key Lento",
+          "note": "Mod shop; one guide used it to change headlights and bodywork on Jason's truck.",
+          "source": [
+            "https://howtovideogame.com/gta-6-headlights/",
+            "HowToVideoGame"
+          ]
+        },
+        {
+          "item": "Pay 'n' Spray",
+          "location": "Multiple, including north of Brooks Boatworks in Port Gellhorn",
+          "note": "Respray and register stolen cars; also the landmark used to place Brooks Boatworks and Dexter's block.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
+            "The Games Wiki"
+          ]
+        },
+        {
+          "item": "Ammu-Nation",
+          "location": "Multiple towns",
+          "note": "Buy sticky bombs and refill body armor; unique weapons can be retrieved from lockers once unlocked.",
+          "source": [
+            "https://gta6notebook.com/walkthrough/hit-kingpin-bowling/",
+            "GTA 6 Notebook"
+          ]
+        },
+        {
+          "item": "Whisler Motorsport",
+          "location": "Near Dirt Merchants, Port Gellhorn",
+          "note": "Racing shop close to the dirt-bike shop, per the Dirt Merchants map card.",
+          "source": [
+            "https://leonidainsights.com/en/world/places/dirt-merchants/",
+            "LeonidaInsights"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanics",
+      "short": "Controls",
+      "heading": "Gameplay Mechanics and Controls",
+      "caption": "",
+      "items": [
+        {
+          "item": "Vehicle menu",
+          "location": "Hold D-pad Left",
+          "note": "Also holds windows, hazards, trunk or tailgate, and vehicle-specific options such as a pickup tailgate.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Headlights (menu)",
+          "location": "Vehicle tab: Automatic, Low Beam, High Beam, or Off",
+          "note": "Same hold-Left menu as above; right stick up if you land on Radio first.",
+          "source": [
+            "https://howtovideogame.com/gta-6-headlights/",
+            "HowToVideoGame"
+          ]
+        },
+        {
+          "item": "Headlights (shortcut)",
+          "location": "Tap Circle (PS5) or B (Xbox)",
+          "note": "Some guides say a short tap toggles lights; a hold ducks instead. Use the menu for high beams.",
+          "source": [
+            "https://playgta6.co.uk/how-to-turn-on-headlights-in-gta-6/",
+            "PlayGTA6"
+          ]
+        },
+        {
+          "item": "Turn signals",
+          "location": "Tap D-pad Left or Right",
+          "note": "A tap signals; holding Left opens the menu instead.",
+          "source": [
+            "https://howtovideogame.com/gta-6-headlights/",
+            "HowToVideoGame"
+          ]
+        },
+        {
+          "item": "Police light bar / siren",
+          "location": "Click L3 (PS5) or left stick (Xbox) in a police vehicle",
+          "note": "Toggles the siren and light bar together. Left stick up is the manual siren tone; down is the horn. No confirmed lights-only toggle.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-controls/",
+            "Output Lag"
+          ]
+        },
+        {
+          "item": "Kingpin escape, car",
+          "location": "Front parking lot",
+          "note": "Grab a vehicle and lose the two-star wanted level.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Kingpin escape, stealth",
+          "location": "Rear fence",
+          "note": "Quiet way out of the bowling alley compound.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Focus for clues",
+          "location": "Click L3 + R3",
+          "note": "Highlights nearby notes, maps, and keypad clues. You can also aim at an employee and ask for a safe code.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Opening safes without a code",
+          "location": "Sticky bombs, or the right-stick crack prompt",
+          "note": "Explosives can damage some contents and will alert enemies. Many operation sites have bomb crates nearby, or buy them at Ammu-Nation.",
+          "source": [
+            "https://www.vice.com/en/article/gta-6-chapter-2-port-gellhorn-safe-codes/",
+            "VICE"
+          ]
+        },
+        {
+          "item": "Randomised robbery codes",
+          "location": "Written on-site each time",
+          "note": "GameSpot found ordinary store and robbery keypad codes change between visits, so lists cannot give those numbers.",
+          "source": [
+            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
+            "GTA Snaps"
+          ]
+        },
+        {
+          "item": "Selling stolen goods",
+          "location": "Fences listed under Shops",
+          "note": "Some pay at a drop box later, others pay immediately. You can also send your partner to fence goods for a smaller cut.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+            "PC Gamer"
+          ]
+        },
+        {
+          "item": "Cheats (unlock)",
+          "location": "Finish the main story at least once",
+          "note": "Then open the phone, hold L1 + R1, and enter a D-pad sequence. Using a cheat disables saving afterwards. Many cheats also need a challenge completed.",
+          "source": [
+            "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+            "GameSpot"
+          ]
+        },
+        {
+          "item": "Money cheat",
+          "location": "$250,000: Up, Right, Down, Left, Up, Left, Down, Right",
+          "note": "The only money cheat GameSpot lists. Story must already be finished; do not use it if you still want to save.",
+          "source": [
+            "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+            "GameSpot"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Open the vehicle menu",
+          "detail": "While in a vehicle, hold D-pad Left. If Radio opens first, push the right stick up to switch to the Vehicle tab."
+        },
+        {
+          "title": "Headlights and the light bar",
+          "detail": "In the Vehicle tab, set Headlights to Automatic, Low Beam, High Beam, or Off. In a police vehicle, click L3 (PS5) or the left stick (Xbox) to toggle the siren and light bar together."
+        },
+        {
+          "title": "Kingpin Bowling escape",
+          "detail": "Front parking lot for a car getaway, or stealth out via the rear fence. Leaving triggers a two-star wanted level."
+        }
+      ]
+    },
+    {
+      "id": "glitches",
+      "short": "Glitches",
+      "heading": "Glitches and Bugs",
+      "caption": "Every entry from the hourly scan file /workspace/gta6-glitches/seen.json (last scan 20 Nov 2026, 8:10 PM Australia/Brisbane), plus one new report found on 21 Nov. No official Rockstar patch notes or known-issues list as of 21 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
+      "items": [
+        {
+          "item": "Prologue: Lucia falls through the map after being tased",
+          "location": "Prologue arrest, PS5 / Xbox Series",
+          "note": "Often teleports back to the police sequence; otherwise restart or replay the mission.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Gone Fishing: boat ram has no NPC or vehicle reaction",
+          "location": "Gone Fishing",
+          "note": "Ramming a speedboat into an NPC boat produced no crash, capsize, or reaction.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Gone Fishing: missing plane door / clip into seat",
+          "location": "Gone Fishing, getaway plane",
+          "note": "No door-opening animation; Jason clips through the fuselage into the pilot seat.",
+          "source": [
+            "https://tech.sportskeeda.com/gaming-news/all-gta-6-bugs-glitches-found-far",
+            "Sportskeeda"
+          ]
+        },
+        {
+          "item": "Fridge beer appears from nowhere",
+          "location": "Using a fridge",
+          "note": "A can or bottle pops into existence instead of coming off a shelf.",
+          "source": [
+            "https://x.com/MichaelDoesLife/status/2123025722029519266",
+            "X"
+          ]
+        },
+        {
+          "item": "Stolen plane crash: no explosion, unharmed exit",
+          "location": "Police chase in a large plane",
+          "note": "Shot-down plane does not break apart as expected; player exits unharmed.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Police grapple clips through furniture",
+          "location": "Fight with an officer, reported in a station / around a couch",
+          "note": "Characters overlap and get sucked into furniture or a wall; reports say letting it play out usually frees you.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "GTA 4-style swingset / physics catapult",
+          "location": "Hitting a swing set or similar object",
+          "note": "Vehicle can be launched a long way and wrecked. Not confirmed as a repeatable exploit.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Plane loses physics after bailout",
+          "location": "Jumping out of a plane early",
+          "note": "Abandoned plane can lose physics and phase through buildings.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Survive a plane bailout with no parachute or damage",
+          "location": "Police chase, jumping with no chute",
+          "note": "Player lands unharmed; in the reported clip the plane itself does explode.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Lucia falls through terrain, dies, respawns elsewhere",
+          "location": "Free roam / terrain clip",
+          "note": "Related to, but described differently from, the prologue taser clip. Exact trigger not clearly documented.",
+          "source": [
+            "https://all.gg/news/more-gta-6-bugs-appear/",
+            "all.gg"
+          ]
+        },
+        {
+          "item": "ClipOverdose launch-hour compilation",
+          "location": "Several early clips, mixed platforms",
+          "note": "Includes a boat jammed in a Keys-style bridge, a passenger stuck in an Annis Hellion door, cage-mesh camera clip, tattoo-studio counter clip, bodies sinking into asphalt, and Lucia falling through a prison floor.",
+          "source": [
+            "https://x.com/ClipOverdose/status/2123067122901201286",
+            "X"
+          ]
+        },
+        {
+          "item": "Intro pop-in and missing textures",
+          "location": "Intro / just before the prologue; reported on Xbox Series X",
+          "note": "Vehicles and NPCs pop in and world textures go missing.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Mobility scooter extreme durability",
+          "location": "Free roam on a mobility scooter",
+          "note": "Reported as unusually hard to crash; may be exaggerated physics rather than a classic glitch.",
+          "source": [
+            "https://x.com/Windpress/status/2123116215510220803",
+            "X"
+          ]
+        },
+        {
+          "item": "Ship / vehicle pop-in on a bridge",
+          "location": "Driving on a bridge (one writeup: Drive to the radar station)",
+          "note": "A ship or stacked vehicles appear jammed against or on the bridge, then shift oddly.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "NPCs walk into walls and get stuck",
+          "location": "Free roam, review build",
+          "note": "Minor, not game-breaking; seen in pre-release reviews, not confirmed fixed on the launch build.",
+          "source": [
+            "https://www.theage.com.au/technology/video-games/kidnappings-cocaine-drops-and-a-love-story-gta-vi-delivers-20261118-p61ept.html",
+            "The Age"
+          ]
+        },
+        {
+          "item": "Floating coffee cup when switching characters",
+          "location": "Safehouse character switch, review build",
+          "note": "Shacknews reported an otherwise clean review apart from this one visual bug.",
+          "source": [
+            "https://www.shacknews.com/article/151380/gta-6-review-score",
+            "Shacknews"
+          ]
+        },
+        {
+          "item": "Phone in a tight spot drops Jason through the map",
+          "location": "Squeeze between a car and a fence, then open the phone",
+          "note": "A restart was reportedly needed; make a manual save first. Original post was not independently found by the scan.",
+          "source": [
+            "https://beebom.com/gta-6-bugs-tracker/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Crashes or reboots wiping progress despite autosave",
+          "location": "Unspecified",
+          "note": "Reported progress loss after a crash or reboot even with autosave.",
+          "source": [
+            "https://www.gta6resources.com/news/gta6-crashes-autosave-progress-loss",
+            "GTA6 Resources"
+          ]
+        },
+        {
+          "item": "Truck launched across the map",
+          "location": "Physics / collision",
+          "note": "A truck is launched a long distance after a collision.",
+          "source": [
+            "https://gulfnews.com/technology/gaming/gta-6-glitches-go-viral-flying-cars-disappearing-characters-and-police-encounter-issues-spark-cyberpunk-2077-comparisons-1.500752989",
+            "Gulf News"
+          ]
+        },
+        {
+          "item": "PS5 first-person mode glitch",
+          "location": "PS5",
+          "note": "Dexerto describes a glitch that lets players access first-person mode; details beyond the headline were not in the scan file.",
+          "source": [
+            "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
+            "Dexerto"
+          ]
+        },
+        {
+          "item": "Red barn save/reload loot respawn",
+          "location": "Red barn stash; PS5 / Xbox Series",
+          "note": "Cocaine or cash respawns after a manual save and reload if bags stay in the vehicle trunk; fence at Brian's Lockup. Unpatched in the scan file.",
+          "source": [
+            "https://beebom.com/gta-6-unlimited-money-glitch/",
+            "Beebom"
+          ]
+        },
+        {
+          "item": "Coming Home: pool break with Mattia does not register",
+          "location": "Coming Home, Xbox",
+          "note": "Softlock when the pool shot does not register. From our chats and the scan file.",
+          "source": "Our chats"
+        },
+        {
+          "item": "Bank cutscene fails to trigger (softlock)",
+          "location": "Early Lucia mission, after leaving a bank",
+          "note": "Cutscene does not start; softlock.",
+          "source": [
+            "https://www.getrekt.com/news/gta-6-day-one-bugs-glitches/",
+            "GetRekt"
+          ]
+        },
+        {
+          "item": "Characters swim sideways",
+          "location": "In water",
+          "note": "Swimming animation plays on the wrong axis.",
+          "source": [
+            "https://www.getrekt.com/news/gta-6-day-one-bugs-glitches/",
+            "GetRekt"
+          ]
+        },
+        {
+          "item": "Trapped in a fenced-off area",
+          "location": "Early game, under 15 minutes in",
+          "note": "Player can get stuck inside a fenced area with no clear exit.",
+          "source": [
+            "https://www.getrekt.com/news/gta-6-day-one-bugs-glitches/",
+            "GetRekt"
+          ]
+        },
+        {
+          "item": "Boat wedged between bridge supports moves erratically",
+          "location": "Bridge supports",
+          "note": "Wedged boat behaves oddly.",
+          "source": [
+            "https://sixintelhq.com/gta-6-glitches",
+            "Six Intel"
+          ]
+        },
+        {
+          "item": "Riderless motorbikes keep chasing after a mission reset",
+          "location": "After a mission reset",
+          "note": "Bikes continue the chase with no riders.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-riderless-motorbikes-after-mission-reset",
+            "GTA6BUGS"
+          ]
+        },
+        {
+          "item": "Traffic or cars vanish in front of the player",
+          "location": "Traffic",
+          "note": "Vehicles despawn or disappear ahead of the camera.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cars-vanishing-traffic-disappearing",
+            "GTA6BUGS"
+          ]
+        },
+        {
+          "item": "Xbox flickering lighting and blocky textures",
+          "location": "Xbox Series X|S",
+          "note": "Lighting flicker and blocky or corrupted textures.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-xbox-flickering-textures-lighting-visual-corruption",
+            "GTA6BUGS"
+          ]
+        },
+        {
+          "item": "PS5 CE-108255-1 crash in the prologue",
+          "location": "Prologue, PS5",
+          "note": "Crash with that error code. GamesRadar suggests updating the game; no official Rockstar notes.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/ps5-error-ce-108255-1-is-ruining-gta-6-for-some-players-and-rockstar-and-sony-arent-very-helpful-try-updating-your-game/",
+            "GamesRadar"
+          ]
+        },
+        {
+          "item": "NPC SUV frozen mid-air beside a Keys bridge",
+          "location": "The Keys, elevated bridge",
+          "note": "A traffic SUV hangs motionless in the air and despawns when you drive away.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-floating-mid-air-glitch",
+            "GTA6BUGS"
+          ]
+        },
+        {
+          "item": "Fishing rod falls through the boat and is lost",
+          "location": "Fishing from a boat",
+          "note": "The rod clips through the hull and is lost.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-fishing-rod-falls-through-boat-lost",
+            "GTA6BUGS"
+          ]
+        },
+        {
+          "item": "Prologue: cannot aim at the cashier",
+          "location": "Prologue hold-up",
+          "note": "LT / L2 does nothing when trying to aim at the cashier.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-prologue-cant-aim-at-cashier-lt-not-working",
+            "GTA6BUGS"
+          ]
+        },
+        {
+          "item": "Gone Fishing: Jason stuck inside a cage",
+          "location": "After the Kingfishers fight in Gone Fishing; PS5 and Xbox",
+          "note": "Trapped in a wire-mesh cage with no exit. Workaround: retry the checkpoint, or load a save from before the mission. Found in the 21 Nov research update; not in the 20 Nov scan file.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-gone-fishing-jason-stuck-in-cage-glitch",
+            "GTA6BUGS"
+          ]
+        }
+      ]
+    }
+  ]
+}
