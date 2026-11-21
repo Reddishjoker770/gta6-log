@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 21 Nov 2026, Australia/Brisbane.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 22 Nov 2026, 8:30 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,11 +10,11 @@
     },
     {
       "label": "Last updated",
-      "value": "21 Nov 2026, Australia/Brisbane"
+      "value": "22 Nov 2026, 8:30 AM AEST"
     },
     {
       "label": "Official patches",
-      "value": "None published as of this date; latest reported build is 01.002.001 (16 Nov, pre-launch)"
+      "value": "None published as of 22 Nov 2026; latest reported build is 01.002.001 (16 Nov, pre-launch)"
     }
   ],
   "pageSources": [
@@ -164,7 +164,7 @@
         {
           "item": "Abandoned Site door",
           "location": "2314",
-          "note": "Northeast of Cottonmouth Lake; basement door to an underground facility. Do not confuse with a separate dream-puzzle keypad.",
+          "note": "Northeast of Cottonmouth Lake; basement door to an underground facility. Do not confuse with a separate dream-puzzle keypad. Gameta (21 Nov) says the alien-bunker keypad here takes the code from your own UFO dream, which differs per game (players got 1324, 2314, 3142), and no wall code works before the dream.",
           "source": [
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
@@ -190,6 +190,66 @@
             "Consolyte"
           ],
           "thumb": "door"
+        },
+        {
+          "item": "Sunrise RV Park dock-building safe",
+          "location": "6769",
+          "note": "Kingfishers Illegal Operation, north of Cottonmouth Lake. VICE's author says every code in its list was tested in-game.",
+          "source": [
+            "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
+            "VICE"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Farm Fix Meth Lab safe",
+          "location": "2121",
+          "note": "Final Chapter Illegal Operation at McKittrick Farm.",
+          "source": [
+            "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
+            "VICE"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Illegal Sneaker Trade safe",
+          "location": "4124",
+          "note": "San4San Illegal Operation.",
+          "source": [
+            "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
+            "VICE"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Casa Guardia safe",
+          "location": "1965",
+          "note": "Guardia Brothers Illegal Operation.",
+          "source": [
+            "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
+            "VICE"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Saber Shipping Facility safe",
+          "location": "1122",
+          "note": "Guardia Brothers Illegal Operation; separate from the Saber Shipping Yard.",
+          "source": [
+            "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
+            "VICE"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Saber Shipping Yard safe",
+          "location": "8046",
+          "note": "Guardia Brothers Illegal Operation; separate from the Saber Shipping Facility.",
+          "source": [
+            "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
+            "VICE"
+          ],
+          "thumb": "safe"
         }
       ]
     },
@@ -284,12 +344,14 @@
         {
           "item": "Marabunta Grande Hobo",
           "location": "Industrial storage building south of Hamlet, near the highway",
-          "note": "Unique shotgun in a weapon case inside; cash is on a nearby table and in a yellow toolbox.",
+          "note": "Unique shotgun in a weapon case inside; cash is on a nearby table and in a yellow toolbox. Space4Games places it in Hamlet Storage, round the back of Hamlet Pawn.",
           "source": [
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/marabunta-grande-hobo.webp",
+          "imgSource": "https://space4games.com/en/games-en/gta-6-unique-weapons-locations-stats/"
         },
         {
           "item": "Kingfishers W-22",
@@ -374,6 +436,60 @@
           "thumb": "sniper",
           "img": "img/items/killtelligence-sm-69.webp",
           "imgSource": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/"
+        },
+        {
+          "item": "Cockroach Xtreme 556",
+          "location": "Sunrise Motel, Tequesta, Vice-Dale County",
+          "note": "Unique assault rifle in the one-car garage off the courtyard, behind a stack of toilet paper.",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Scrapper VF5C",
+          "location": "La Cascara Motel, Port Gellhorn, top floor",
+          "note": "Unique SMG in an open weapon case in a guarded top-floor room during the Kolt & Associates robbery.",
+          "source": [
+            "https://space4games.com/en/games-en/gta-6-unique-weapons-locations-stats/",
+            "Space4Games"
+          ],
+          "thumb": "smg",
+          "img": "img/items/scrapper-vf5c.webp",
+          "imgSource": "https://space4games.com/en/games-en/gta-6-unique-weapons-locations-stats/"
+        },
+        {
+          "item": "Brontasaurus Bat",
+          "location": "Dino Golf, off SR-32 in Frogswater, Kelly County",
+          "note": "Unique baseball bat inside the batting cages on the right of the abandoned dinosaur mini-golf.",
+          "source": [
+            "https://space4games.com/en/games-en/gta-6-unique-weapons-locations-stats/",
+            "Space4Games"
+          ],
+          "thumb": "stealth",
+          "img": "img/items/brontasaurus-bat.webp",
+          "imgSource": "https://space4games.com/en/games-en/gta-6-unique-weapons-locations-stats/"
+        },
+        {
+          "item": "Kingfishers Laird 350",
+          "location": "Manatee Motel, south of Hamlet, north-east of Cottonmouth Lake",
+          "note": "Unique sniper in a weapon case in the room next to the tiger attack, with Molotovs and cash.",
+          "source": [
+            "https://vice-city.app/secrets",
+            "vice-city.app"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "Couch Potato Mustang .357",
+          "location": "Off Tanglewood Lane, Port Gellhorn",
+          "note": "Shoot down the couch hanging from a tree, then sit on it to get this unique revolver.",
+          "source": [
+            "https://gta6info.com/wiki/Unique_Weapons",
+            "GTA6Info"
+          ],
+          "thumb": "revolver"
         }
       ]
     },
@@ -456,6 +572,38 @@
             "GTA Snaps"
           ],
           "thumb": "jewellery"
+        },
+        {
+          "item": "Exotic Animals Front parrot cash",
+          "location": "Yard behind Three Sheets Liquor, Key Lento, east of Donnie's trailer",
+          "note": "After Shirley's rum errand, clear the armed men, ask the red parrot twice; about $1,366 is in the vent beside the generator. Office safe holds more.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/exotic-animals-front",
+            "The Games Wiki"
+          ],
+          "thumb": "cash",
+          "img": "img/items/exotic-animals-front-parrot-cash.webp",
+          "imgSource": "https://www.gamesradar.com/games/grand-theft-auto/exotic-animals-front-illegal-operation-gta-6/"
+        },
+        {
+          "item": "Apollo Aggregates warehouse loot",
+          "location": "South Vice-Dale County, site of a drug deal gone wrong",
+          "note": "Narcotics, cash and bodies; Polygon says close to $8,000 of loot. Fence at Brian's.",
+          "source": [
+            "https://www.polygon.com/gta-6-infinite-money-glitch/",
+            "Polygon"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Red warehouse cash (teddy bear van)",
+          "location": "East of Hamlet near Peacock Estates, red warehouse with a teddy-bear van outside",
+          "note": "About $20,000 in cash bags plus weapons, with more in chests and vans. Single X report, not yet checked by vice-city.app.",
+          "source": [
+            "https://vice-city.app/secrets",
+            "vice-city.app"
+          ],
+          "thumb": "cash"
         }
       ]
     },
@@ -565,6 +713,18 @@
             "GTA6Zero"
           ],
           "thumb": "suv"
+        },
+        {
+          "item": "Hauners Rhino tank",
+          "location": "South of Mile Zero Air Station, Mariana County (far south-west)",
+          "note": "Several unlocked tanks; enter by the gate or the south-east stunt jump. Instant three stars, can't be garaged; unlocks Challenging Tank trophy.",
+          "source": [
+            "https://www.powerpyx.com/gta-6-military-tank-location/",
+            "PowerPyx"
+          ],
+          "thumb": "truck",
+          "img": "img/items/hauners-rhino-tank.webp",
+          "imgSource": "https://www.powerpyx.com/gta-6-military-tank-location/"
         }
       ]
     },
@@ -975,12 +1135,14 @@
         {
           "item": "Kelly County UFO",
           "location": "Road near the Starlet Motel, Kelly County",
-          "note": "Reported after Chapter 1, at night from 2 am.",
+          "note": "After about 2 am, a parked car with flashing lights and open doors marks the trail; it isn't there every night. Getting abducted unlocks The Truth Is Out There trophy and starts the alien chain.",
           "source": [
-            "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
-            "Grind Coast"
+            "https://gameta.gg/gta6/guides/aliens-and-ufo-easter-egg/",
+            "Gameta"
           ],
-          "thumb": "ufo"
+          "thumb": "ufo",
+          "img": "img/items/kelly-county-ufo.webp",
+          "imgSource": "https://gameta.gg/gta6/guides/aliens-and-ufo-easter-egg/"
         },
         {
           "item": "Bigfoot (Skunk Ape)",
@@ -990,12 +1152,14 @@
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
           ],
-          "thumb": "bigfoot"
+          "thumb": "bigfoot",
+          "img": "img/items/bigfoot-skunk-ape.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/articles/gta-6-bigfoot-location-how-to-find-the-skunk-ape"
         },
         {
           "item": "Lucky Dog (jet ski dog)",
           "location": "Open water, for example Gambit Bay",
-          "note": "Reported after about five minutes adrift.",
+          "note": "Reported after about five minutes adrift. Ride with him to a hidden beach of dogs; a body there carries a wallet with over $1,000.",
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
@@ -1025,12 +1189,54 @@
         {
           "item": "Abandoned Site alien door",
           "location": "Northeast of Cottonmouth Lake, downstairs locked door",
-          "note": "Code 2314 opens an elevator to an underground facility. Separate from a different dream-puzzle site.",
+          "note": "Part 3 of the UFO chain: after the abduction, sleep until the dream shows your keypad code (varies per game). Free the alien with milk for a permanent max health, stamina and focus boost.",
           "source": [
-            "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
-            "GTA Snaps"
+            "https://gameta.gg/gta6/guides/aliens-and-ufo-easter-egg/",
+            "Gameta"
+          ],
+          "thumb": "alien",
+          "img": "img/items/abandoned-site-alien-door.webp",
+          "imgSource": "https://gameta.gg/gta6/guides/aliens-and-ufo-easter-egg/"
+        },
+        {
+          "item": "Mount Chiliad chat",
+          "location": "Outside the bar in the early mission where Donnie calls Jason to meet him and Brian",
+          "note": "Two locals discuss the Chiliad bunker, jetpacks and eggs and call the Doomsday Heist canon. Not every player hears it.",
+          "source": [
+            "https://vice-city.app/secrets",
+            "vice-city.app"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Los Santos map on Jason's boat",
+          "location": "Boat in Jason's yard, Key Lento",
+          "note": "The boat's GPS screen shows the GTA V Los Santos map instead of Leonida.",
+          "source": [
+            "https://vice-city.app/secrets",
+            "vice-city.app"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Giant crab cutscene",
+          "location": "Crab research outpost, Pelican Valley (Gullet Marsh)",
+          "note": "Power on, use the computer with CLEAVES, read the journal, then leave the computer: a monster crab attacks in a cutscene.",
+          "source": [
+            "https://vice-city.app/secrets",
+            "vice-city.app"
           ],
           "thumb": "alien"
+        },
+        {
+          "item": "San Andreas photo house",
+          "location": "Belville, Leonard County",
+          "note": "The house from the SA remaster's Lil' Probe'Inn photo; garage notes from a man who thinks he lives in a video game mention a J and L.",
+          "source": [
+            "https://vice-city.app/secrets",
+            "vice-city.app"
+          ],
+          "thumb": "home"
         }
       ]
     },
@@ -1158,6 +1364,16 @@
             "LeonidaInsights"
           ],
           "thumb": "auto-shop"
+        },
+        {
+          "item": "Big Shots Ammu-Nation",
+          "location": "Hamlet",
+          "note": "Sells the unique Sand Storm ES9 pistol for $1,470.",
+          "source": [
+            "https://gta6info.com/wiki/Unique_Weapons",
+            "GTA6Info"
+          ],
+          "thumb": "gunstore"
         }
       ]
     },
@@ -1289,6 +1505,16 @@
             "GameSpot"
           ],
           "thumb": "money-cheat"
+        },
+        {
+          "item": "Stash your cash",
+          "location": "Stash under Jason's bedroom floor, or BuckMe once you have the account",
+          "note": "Carried cash is lost if you are killed or busted.",
+          "source": [
+            "https://gta6tuto.com/guides/gta-6-parrot-secret-money-stash-three-sheets-liquor",
+            "GTA6 Tuto"
+          ],
+          "thumb": "cash"
         }
       ],
       "steps": [
@@ -1310,7 +1536,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the hourly scan file /workspace/gta6-glitches/seen.json (last scan 20 Nov 2026, 8:10 PM Australia/Brisbane), plus one new report found on 21 Nov. No official Rockstar patch notes or known-issues list as of 21 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (37 entries, last scan 21 Nov 2026, 8:05 PM Australia/Brisbane), plus extra reports found by research. No official Rockstar patch notes or known-issues list as of 22 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -1652,6 +1878,46 @@
             "GTA6BUGS"
           ],
           "thumb": "stuck"
+        },
+        {
+          "item": "Xbox Quick Resume unlocks the framerate",
+          "location": "Xbox Series X, 120Hz display, version 01.002.001",
+          "note": "Start at 60Hz, switch to 120Hz at the intro, cold-boot another game, then resume: 60+ FPS but gameplay runs at double speed.",
+          "source": [
+            "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/",
+            "Wccftech"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Flying alligator",
+          "location": "Flooded swamp yard, PS5",
+          "note": "An alligator glides high above the water for several seconds. Harmless; unconfirmed, unpatched as of 21 Nov.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-flying-alligator-glitch",
+            "GTA6BUGS"
+          ],
+          "thumb": "physics"
+        },
+        {
+          "item": "Apollo Aggregates save/load money loop",
+          "location": "Apollo Aggregates warehouse, South Vice-Dale County",
+          "note": "Loot about $8,000, store it in the car, save and load to warp home, then cash out at Brian's; a video claims about $4,000 per five minutes.",
+          "source": [
+            "https://www.polygon.com/gta-6-infinite-money-glitch/",
+            "Polygon"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "Restart Mission resets robbed stores",
+          "location": "Stores near Jason's house",
+          "note": "Rob them, lose the cops, start any story mission, choose Restart Mission at the cutscene, then quit: the stores reopen with new loot.",
+          "source": [
+            "https://www.polygon.com/gta-6-infinite-money-glitch/",
+            "Polygon"
+          ],
+          "thumb": "spawn"
         }
       ]
     }
