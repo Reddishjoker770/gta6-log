@@ -1,4 +1,4 @@
-const APP_VERSION = "v9 · saved";
+const APP_VERSION = "v10 · saved";
 
 const ICONS = {
   home: '<path d="M4 11.5 12 4l8 7.5"/><path d="M6.5 10.5V20h11V10.5"/>',

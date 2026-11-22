@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 22 Nov 2026, 3:15 PM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 23 Nov 2026, 8:15 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,11 +10,11 @@
     },
     {
       "label": "Last updated",
-      "value": "22 Nov 2026, 3:15 PM AEST"
+      "value": "23 Nov 2026, 8:15 AM AEST"
     },
     {
       "label": "Official patches",
-      "value": "None published as of 22 Nov 2026; latest reported build is 01.002.001 (16 Nov, pre-launch)"
+      "value": "None published as of 23 Nov 2026; latest build is still 01.002.001 (16 Nov, pre-launch)"
     }
   ],
   "pageSources": [
@@ -342,6 +342,38 @@
             "Output Lag"
           ],
           "thumb": "safe"
+        },
+        {
+          "item": "Marbelle Hotel safe",
+          "location": "955214",
+          "note": "Six digits. Ground-floor safe in the haunted Marbelle Hotel, south Crosstown, Vice City; code is circled on the notepad on the roof after the Silent Hill fog sequence.",
+          "source": [
+            "https://www.thegamer.com/grand-theft-auto-6-silent-hill-location-marbelle-hotel-safe-code-legendary-watch-how-to-unlock-guide/",
+            "TheGamer"
+          ],
+          "thumb": "safe",
+          "img": "img/items/marbelle-hotel-safe.webp",
+          "imgSource": "https://www.thegamer.com/grand-theft-auto-6-silent-hill-location-marbelle-hotel-safe-code-legendary-watch-how-to-unlock-guide/"
+        },
+        {
+          "item": "Palmer Fishing Warehouse safe",
+          "location": "1886",
+          "note": "La Polilla Negra stash on Bobcat Key near Watson Bay; ground-floor computer note logs the code. Upstairs lounge safe; explosives also work.",
+          "source": [
+            "https://gta6one.com/en/news/gta-6-palmer-fishing-code-1886-golden-kz59-moreau-mario-hats-nov-22/",
+            "GTA6One"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Boobie's laptop password",
+          "location": "Muffins-Queen-15",
+          "note": "Chapter 3 apartment; clues are a photo of Muffins the dog, a book and a Class of '15 reunion notebook. Messages give the La Perle garage code 92665.",
+          "source": [
+            "https://cutscenewire.com/games/gta-6/money/gta-6-all-safe-codes-and-locations/",
+            "Cutscene Wire"
+          ],
+          "thumb": "computer"
         }
       ]
     },
@@ -467,7 +499,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/conspiracist-type-9.webp",
+          "imgSource": "https://outputlag.com/guides/gta-6-unique-weapons-locations/"
         },
         {
           "item": "Hauners H-AT launcher",
@@ -517,7 +551,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/turnt-nipper-38.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/turnt-nipper-glider"
         },
         {
           "item": "Killtelligence SM-69",
@@ -686,6 +722,140 @@
             "MyGamepadTester (GTABase data)"
           ],
           "thumb": "rifle"
+        },
+        {
+          "item": "The Patriarch DRX",
+          "location": "Next to a sunken car in south-west Kalaga Reservoir (luggage on the bank marks it)",
+          "note": "Unique Schlamm DRX; needs diving.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Lyle's H&L .38",
+          "location": "Trunk of a car in an old barn at a dead-end road, Bonanza",
+          "note": "Unique revolver; use the barn's side door.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "revolver"
+        },
+        {
+          "item": "Martha's 1992",
+          "location": "Fireplace of the ruined Outlaw's Cabin, just north of Moreau, Lummox County",
+          "note": "Unique Duke heavy pistol with an 'M&L' grip; enter through the cellar on the south-east side. Bonnie and Clyde nod (Martha and Lyle).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/marthas-1992-outlaws-cabin",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol",
+          "img": "img/items/marthas-1992.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/marthas-1992-outlaws-cabin"
+        },
+        {
+          "item": "Deadringer 1992",
+          "location": "Floor of a mobile home on the south bank of the Moreau River, East Lummox County",
+          "note": "Unique Duke Arms 1992 pistol.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Money Bag 1992",
+          "location": "Couch of a mobile home on the south bank of the Moreau River, East Lummox County",
+          "note": "Second unique 1992 in the same trailer area as the Deadringer.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Redneck W-22",
+          "location": "Back of an abandoned yellow train car on the north bank of a river, Moreau",
+          "note": "Unique Wortham W-22 small-game rifle.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Twin's Laird 350",
+          "location": "Near a hunting platform in the woods east of Kalaga Reservoir",
+          "note": "Unique Laird 350 sporting sniper.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "Stoner K17 MCD",
+          "location": "Nightstand in room 115 of the Big Day Motel, off US-35 north of Ambrosia",
+          "note": "Unique Klose K17 MCD pistol.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Internal Affairs FF-SR",
+          "location": "Roof of the tallest building on Northside Ave (the one with the helipad), Washington Beach",
+          "note": "Unique Fairview FF-SR.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "Hellspawn Comshot 12",
+          "location": "Reward for the Dethrone the Pretender ritual (Circles of Hell House, north Port Gellhorn, at night)",
+          "note": "Dark-red unique Goodwin Comshot 12 combat shotgun; see Easter Eggs.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/dethrone-the-pretender-satan-ritual-hellspawn-shotgun",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Island Poacher FF-50",
+          "location": "Reward for surviving the Hyde Island hunt (north end of Leonida)",
+          "note": "Unique heavy sniper taken from the armoured hunter; see Easter Eggs.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/hyde-island-saw-hunt",
+            "GTA6BUGS"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "La Polilla Negra KZ-59",
+          "location": "Gun case in the upstairs lounge, Palmer Fishing Warehouse, Bobcat Key near Watson Bay",
+          "note": "Golden unique KZ-59 assault rifle beside the 1886 safe.",
+          "source": [
+            "https://gta6one.com/en/news/gta-6-palmer-fishing-code-1886-golden-kz59-moreau-mario-hats-nov-22/",
+            "GTA6One"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Hillinger Boomer (train boxcar)",
+          "location": "Red boxcar on a freight train leaving the oil refinery and rail yard on SR-45",
+          "note": "Board a flatcar, work back to the red boxcar; an open crate holds the Boomer grenade launcher for free.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-unique-weapons-locations/",
+            "Output Lag"
+          ],
+          "thumb": "launcher",
+          "img": "img/items/hillinger-boomer.webp",
+          "imgSource": "https://gta6notebook.com/weapons/"
         }
       ]
     },
@@ -802,6 +972,58 @@
             "vice-city.app"
           ],
           "thumb": "cash"
+        },
+        {
+          "item": "Crowex Ambassador 'Breakfast' watch",
+          "location": "Marbelle Hotel safe (955214), south Crosstown, Vice City",
+          "note": "Legendary luxury watch plus cash; wearable by Jason or Lucia.",
+          "source": [
+            "https://www.thegamer.com/grand-theft-auto-6-silent-hill-location-marbelle-hotel-safe-code-legendary-watch-how-to-unlock-guide/",
+            "TheGamer"
+          ],
+          "thumb": "watch"
+        },
+        {
+          "item": "Palmer Fishing Warehouse lounge safe",
+          "location": "Upstairs lounge, Palmer Fishing Warehouse, Bobcat Key",
+          "note": "Cash and luxury watches behind code 1886, next to the golden KZ-59.",
+          "source": [
+            "https://gta6one.com/en/news/gta-6-palmer-fishing-code-1886-golden-kz59-moreau-mario-hats-nov-22/",
+            "GTA6One"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Evergreen cabin lockbox",
+          "location": "Locked second-floor room of the Evergreen cabin, west side of Lake Tallaloko",
+          "note": "Lockbox holds over $7,000 in jewelry; the unique Tallaloko Knife is in the same room.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "jewellery"
+        },
+        {
+          "item": "Wreck of the Meerwunder crate",
+          "location": "Beached ship, north end of the south-western Featherstone Island, off Lummox County",
+          "note": "Crate with cash and a Beached Cargo tattoo magazine; Jack of Hearts MonaLi$a (Silver) card in the control room.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/wreck-of-the-meerwunder-flamingo-ship",
+            "GTA6BUGS"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Beached whale cocaine",
+          "location": "Beach just south-west of Gellhorn Raceway, Kelly County",
+          "note": "Walk up and the whale bursts: cocaine packages to fence and a Meteorite.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/beached-whale-exploding-whale-gellhorn",
+            "GTA6BUGS"
+          ],
+          "thumb": "pills",
+          "img": "img/items/beached-whale.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/beached-whale-exploding-whale-gellhorn"
         }
       ]
     },
@@ -969,6 +1191,76 @@
           "thumb": "car",
           "img": "img/items/vanessas-growler.webp",
           "imgSource": "https://gameta.gg/gta6/vehicles/vanessas-growler/"
+        },
+        {
+          "item": "Twinstripe Vigero",
+          "location": "Outside Brian's lockup, Sunset Dr, south-west Key Lento",
+          "note": "Street Racer standout; needs the Key Cloner (Chapter 3).",
+          "source": [
+            "https://gtavimaps.com/guides/rare-cars/",
+            "GTAVIMaps"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "Driveshaft Hustler",
+          "location": "Front yard of a big house east of Jeb's Snack Bar, Dolphin Dr, south-east Key Lento",
+          "note": "DriveShaft Famous standout; an easy early grab.",
+          "source": [
+            "https://gtavimaps.com/guides/rare-cars/",
+            "GTAVIMaps"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Teniente Manana",
+          "location": "Warehouse at the M7 Nova Auto Junkyard, Hamlet",
+          "note": "Lowrider standout, guarded by M7.",
+          "source": [
+            "https://gtavimaps.com/guides/rare-cars/",
+            "GTAVIMaps"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Vapid Firebug Dominator",
+          "location": "In front of La Cascara Motel, east side, Port Gellhorn",
+          "note": "Standout muscle car; Illegal Operation key valuable.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/standout-vehicles",
+            "The Games Wiki"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "Vapid Cultivator Sandking",
+          "location": "Middle of the giant warehouse, Industrial Weed Grow, North Mariana County",
+          "note": "Standout truck; Illegal Operation key valuable.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/standout-vehicles",
+            "The Games Wiki"
+          ],
+          "thumb": "truck"
+        },
+        {
+          "item": "Vapid Truth & Justice Caracara",
+          "location": "Just east of the main garage, June Warehouse, Port Gellhorn",
+          "note": "Standout pickup; Illegal Operation key valuable.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/standout-vehicles",
+            "The Games Wiki"
+          ],
+          "thumb": "truck"
+        },
+        {
+          "item": "Western Searing Zombie Robber",
+          "location": "Meth lab at the end of the McKittrick Farm chain (opens at the start of Chapter 2)",
+          "note": "Black motorcycle with yellow flames.",
+          "source": [
+            "https://thegameswiki.com/gta6/wiki/standout-vehicles",
+            "The Games Wiki"
+          ],
+          "thumb": "bike"
         }
       ]
     },
@@ -1599,6 +1891,112 @@
             "openleonida"
           ],
           "thumb": "note"
+        },
+        {
+          "item": "Marbelle Hotel (Silent Hill)",
+          "location": "South Crosstown, Vice City, by the interstate near Nine1Nine; back door",
+          "note": "Climb to the third floor and roof: fog, wall scrawl, lead pipe. Roof notepad gives safe code 955214 (watch + cash).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/marbelle-hotel-silent-hill",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/marbelle-hotel-silent-hill.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/marbelle-hotel-silent-hill"
+        },
+        {
+          "item": "Capri pentagram ritual",
+          "location": "Abandoned warehouse just west of Top Fun Drones, north of Tortoise Lake, Capri",
+          "note": "Drop a knocked-out NPC on the blood pentagram; a demon rises and only fire (Molotovs) kills it.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/capri-pentagram-demon-ritual",
+            "GTA6BUGS"
+          ],
+          "thumb": "book",
+          "img": "img/items/capri-pentagram-ritual.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/capri-pentagram-demon-ritual"
+        },
+        {
+          "item": "Hyde Island hunt (Saw / Manhunt)",
+          "location": "Hyde Island, north end of Leonida; explore alone",
+          "note": "Darted, collared and hunted by an armoured sniper with a dog. Win for the Island Poacher FF-50 and cash.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/hyde-island-saw-hunt",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/hyde-island-saw-hunt.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/hyde-island-saw-hunt"
+        },
+        {
+          "item": "St. Lucia Lighthouse ghosts",
+          "location": "Northern tip of Little Hardin Island; at night",
+          "note": "Two ghost keepers replay a fatal fall. Dive east of the lighthouse in a storm for the glowing Cursed Knife.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/st-lucia-lighthouse-ghosts-cursed-knife",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/st-lucia-lighthouse-ghosts.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/st-lucia-lighthouse-ghosts-cursed-knife"
+        },
+        {
+          "item": "Super Mario block",
+          "location": "Lawton Co. Paper Mill ruins, south-east Moreau, just north of the 247 Gas at West Kalaga",
+          "note": "Use the bong, then jump into the see-through block for a 'J' (or 'L') baseball cap. Works from Chapter 1.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/super-mario-block-lawton-paper-mill",
+            "GTA6BUGS"
+          ],
+          "thumb": "hat",
+          "img": "img/items/super-mario-block-paper-mill.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/super-mario-block-lawton-paper-mill"
+        },
+        {
+          "item": "Dethrone the Pretender ritual",
+          "location": "Circles of Hell House garage, north Port Gellhorn, about 12-4 am",
+          "note": "Say 'Rock on' to Beelzebub and Dave, join the campfire ritual, beat the Pretender for the Hellspawn Comshot 12.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/dethrone-the-pretender-satan-ritual-hellspawn-shotgun",
+            "GTA6BUGS"
+          ],
+          "thumb": "book",
+          "img": "img/items/dethrone-the-pretender.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/dethrone-the-pretender-satan-ritual-hellspawn-shotgun"
+        },
+        {
+          "item": "Doomsday prepper compound",
+          "location": "Ripe Pick'ns Grove, west North Leonard County",
+          "note": "Electrified, mined compound; a hidden tunnel under the shipping container by the bulldozer gets you in from Chapter 1.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/doomsday-prepper-compound-secret-tunnel",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/doomsday-prepper-compound.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/doomsday-prepper-compound-secret-tunnel"
+        },
+        {
+          "item": "Wreck of the Meerwunder",
+          "location": "Featherstone Islands, off the west coast of Lummox County",
+          "note": "Beached cargo ship WAiNK blames for Leonida's plastic flamingos; cash, tattoo, card and scuba gear aboard.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/wreck-of-the-meerwunder-flamingo-ship",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/wreck-of-the-meerwunder.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/wreck-of-the-meerwunder-flamingo-ship"
+        },
+        {
+          "item": "Ghost ship from a lighthouse",
+          "location": "Top of a lighthouse at night, through binoculars",
+          "note": "A glowing green sailing ship appears out at sea, then vanishes. The clip doesn't name the lighthouse.",
+          "source": [
+            "https://neonbay.gg/news/gta-vi-hides-a-ghost-ship-you-can-spot-from-a-lighthouse",
+            "Neon Bay"
+          ],
+          "thumb": "egg"
         }
       ]
     },
@@ -1796,6 +2194,18 @@
             "GTA6 Pocket"
           ],
           "thumb": "bike-shop"
+        },
+        {
+          "item": "Phil's Ammu-Nation",
+          "location": "South Southside, South Vice-Dale County, Vice City (stars-and-stripes awning)",
+          "note": "Phil Cassidy nod. Sells the exclusive Star Spangled 556 ($3,050) and Honky Tonk Mustang .357 ($3,780).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/phils-ammu-nation-phil-cassidy",
+            "GTA6BUGS"
+          ],
+          "thumb": "shop",
+          "img": "img/items/phils-ammu-nation.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/phils-ammu-nation-phil-cassidy"
         }
       ]
     },
@@ -1959,6 +2369,26 @@
             "GTA6 Pocket"
           ],
           "thumb": "note"
+        },
+        {
+          "item": "Exit shop and wardrobe menus",
+          "location": "Hold Circle (PS5) / B (Xbox) on the main menu",
+          "note": "Tapping only backs up one level; holding leaves the wardrobe, gun shop or garage loadout.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cant-exit-wardrobe-gun-shop-customization-menu-stuck",
+            "GTA6BUGS"
+          ],
+          "thumb": "optional"
+        },
+        {
+          "item": "Missing stash bags",
+          "location": "Check your registered personal car's trunk",
+          "note": "Bags can be auto-moved there when you get in a car or after a cutscene; a bag badge on the car's map icon shows it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-stash-bag-vanished-car-or-cutscene",
+            "GTA6BUGS"
+          ],
+          "thumb": "cash"
         }
       ],
       "steps": [
@@ -1980,7 +2410,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (39 entries, last scan 22 Nov 2026, 10:05 AM AEST), plus extra reports found by research. No official Rockstar patch notes or known-issues list as of 22 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (44 entries, file updated 22 Nov 2026, 6:08 PM AEST), plus extra reports found by research. No official Rockstar patch notes or known-issues list as of 23 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -2326,7 +2756,7 @@
         {
           "item": "Xbox Quick Resume unlocks the framerate",
           "location": "Xbox Series X, 120Hz display, version 01.002.001",
-          "note": "Start at 60Hz, switch to 120Hz at the intro, cold-boot another game, then resume: 60+ FPS but gameplay runs at double speed.",
+          "note": "Start at 60Hz, switch to 120Hz at the intro, cold-boot another game, then resume: 60+ FPS but gameplay runs at double speed. Game Rant also reports the 30 FPS lock lifting to about 60 FPS.",
           "source": [
             "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/",
             "Wccftech"
@@ -2424,6 +2854,146 @@
             "GTA6BUGS"
           ],
           "thumb": "bike"
+        },
+        {
+          "item": "Buying a .38 deletes Donnie's H&L .38",
+          "location": "Any gun store, PS5 / Xbox Series",
+          "note": "Two players lost the unique revolver after buying a standard .38. Save first; reload an earlier save to get it back.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-donnies-38-revolver-disappears-after-buying-revolver",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Pickup rear plate flickers on dirt roads",
+          "location": "Swamp back roads, chase camera",
+          "note": "Cosmetic. Walk away until the car is off screen and come back, or restart the game.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-license-plate-flickering-while-driving",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "PS5 rest mode stops quest calls (unconfirmed)",
+          "location": "PS5, resuming from rest mode",
+          "note": "One player says story calls stop until the game is fully closed and restarted, then arrive all at once.",
+          "source": [
+            "https://gta6communitywiki.com/latest/unconfirmed-ps5-player-says-quests-can-soft-lock-1y2679x",
+            "GTA 6 Community Wiki"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Lucia left naked",
+          "location": "Reddit report, details unclear",
+          "note": "A glitch stripped Lucia's clothes entirely; screenshots only, no trigger known.",
+          "source": [
+            "https://vgtimes.com/news/175348-gta-6-glitch-leaves-lucia-naked-screenshots.html",
+            "VGTimes"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Clothes missing after Chapter 1",
+          "location": "Wardrobe at the start of Chapter 2",
+          "note": "Clothes and hats bought in Chapter 1 vanish. Re-buy them from the Key Lento shops, which stay open.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-clothes-missing-after-chapter-1",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Stash bag vanishes in a car or cutscene",
+          "location": "Any stash bag pickup",
+          "note": "Gone from map and trunk though the money screen may count it; usually moved to your registered car's trunk.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-stash-bag-vanished-car-or-cutscene",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Stuck in wardrobe / gun shop / loadout menu",
+          "location": "Customisation screens",
+          "note": "Mostly input: hold Circle / B instead of tapping it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cant-exit-wardrobe-gun-shop-customization-menu-stuck",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Phone apps won't open except BuckMe",
+          "location": "Jason's phone, Xbox",
+          "note": "Apps show 'unavailable'; keep pressing the app until it opens.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-apps-on-the-phone-not-working-except-buckme-256",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Repeated prologue crashes",
+          "location": "Prologue (boat sequence, intro cutscene, after the escape)",
+          "note": "Confirmed on both consoles. One Xbox fix: play via Xbox Cloud Gaming. See also the PS5 CE-108255-1 entry.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-keeps-crashing-in-prologue",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Meet the Heders: crates can't be used",
+          "location": "Dockyard, Meet the Heders",
+          "note": "Lucia won't interact and the mission stalls; Pause > Restart Mission fixed it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-meet-the-heders-cant-interact-with-crates",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Chapter 3: Jason greyed out after Missing Persons",
+          "location": "Kelly County Missing Persons case",
+          "note": "Stuck as Lucia with no mission. Load a manual save from before the final Port Gellhorn warehouse meeting.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-chapter-3-jason-greyed-out-softlock-after-missing-persons",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "No Raul call after Photo Shoot / Heavy Lifting",
+          "location": "Chapter 4 story calls",
+          "note": "Usually an unfinished task: finish and sell all 3 Yasmani jewelry jobs; also fully restart the game.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-chapter-4-raul-not-calling-after-heavy-lifting",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Fully Catered crash at the delivery cutscene",
+          "location": "Fully Catered, PS5 / Xbox Series",
+          "note": "Freezes on the first frame and crashes. Load a save from before the mission was offered.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-fully-catered-crash-delivery-cutscene",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "¡Dale Mamba! won't spawn",
+          "location": "After Randy's text",
+          "note": "Progression gate: deliver 17 wish-list cars and finish Photo/Shoot (Chapter 4), then wait for Randy's call.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-dale-mamba-mission-not-spawning-after-randys-text-255",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
         }
       ]
     }
