@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 22 Nov 2026, 8:10 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 22 Nov 2026, 3:15 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "22 Nov 2026, 8:10 AM AEST"
+      "value": "22 Nov 2026, 3:15 PM AEST"
     },
     {
       "label": "Official patches",
@@ -50,7 +50,9 @@
           "location": "6823",
           "note": "Main warehouse safe, Port Gellhorn. Upstairs wall map here also reveals the other two Port Gellhorn codes.",
           "source": "Our chats",
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/brooks-boatworks-safe.webp",
+          "imgSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-brooks-boatworks-safe-code/"
         },
         {
           "item": "La Cascara Motel safe",
@@ -250,6 +252,96 @@
             "VICE"
           ],
           "thumb": "safe"
+        },
+        {
+          "item": "Janjak's Garage safe",
+          "location": "4444",
+          "note": "San4San weed garage, La Perle, Vice City; back-office safe. Garage also holds the Pink Gin Tulip and San4San KZ-59.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Black Eagle warehouse office door",
+          "location": "789987",
+          "note": "Six digits. Keypad door to the back office, Black Eagle warehouse, Balsero, Vice City.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Black Eagle warehouse safe",
+          "location": "031462",
+          "note": "Six digits, leading zero. Office safe holds the Black Eagle Import Kalinga .50.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Red Apple Orchard garage",
+          "location": "360782",
+          "note": "Farm west of Manifest Canyon, Kelly County. Clue: ManlyGaze magazine in the big barn loft (climb the blue tractor). Opens the Applesauce Bobcat garage.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Declasse Vamos garage (Grayson)",
+          "location": "2727",
+          "note": "Side door of a garage in Grayson, Leonard County; number is on plaques in the house next door. Moses's '74 Vamos.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Auntie's Place garage (La Perle)",
+          "location": "92665",
+          "note": "Wall keypad by the roller door; code is in messages on Boobie's laptop (Chapter 3). Holds Vanessa's Growler.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Biker Hideout safe",
+          "location": "1982",
+          "note": "Final Chapter clubhouse at The Thirsty Wolf bar.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Leonida Carrier Warehouse safe",
+          "location": "9256",
+          "note": "Back office, Balsero, Vice City; get in through the roof hatch.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Afternoon Delight office safe",
+          "location": "2008",
+          "note": "Manager's office at the Delights club, Chapter 2 mission Afternoon Delight; Vicki texts the code.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "safe"
         }
       ]
     },
@@ -282,7 +374,9 @@
           "mx": 31.6,
           "my": 33.0,
           "area": "north Port Gellhorn waterfront",
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/clunker-556.webp",
+          "imgSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-brooks-boatworks-safe-code/"
         },
         {
           "item": "Crabshack VF5",
@@ -490,6 +584,108 @@
             "GTA6Info"
           ],
           "thumb": "revolver"
+        },
+        {
+          "item": "Black Eagle Import Kalinga",
+          "location": "Black Eagle warehouse, Balsero, Vice City; safe in the keypad office",
+          "note": "Unique Kalinga .50 pistol. Door 789987, safe 031462 (see Codes).",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "pistol",
+          "img": "img/items/black-eagle-import-kalinga.webp",
+          "imgSource": "https://gamerhour.net/guides/gta-6-black-eagle-import-kalinga-black-eagle-warehouse-safe-code/"
+        },
+        {
+          "item": "Black Eagle Import M306 TMR",
+          "location": "Same Black Eagle warehouse, through the garage and past the barred door behind the cargo truck",
+          "note": "Lucia only: squeeze between the boxes and the fence.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Unpacked Comshot 12",
+          "location": "House on the northwest coast of Key Lento, second-floor back-bedroom bathroom",
+          "note": "Unique shotgun; break in from the outdoor stairs.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Cargo H&L .38",
+          "location": "Yellow Scoop container, Port Vice City cargo area",
+          "note": "Climb the container stack and break in.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "revolver"
+        },
+        {
+          "item": "Mercenary LMG 6",
+          "location": "Yellow Scoop container, north end of the Port Vice City cargo area",
+          "note": "Unique LMG; come in from the water to avoid guards.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Little Friend W-10",
+          "location": "Sunlite Motel, Shore Drive, Ocean Beach; bloody doorway on the second floor",
+          "note": "Unique SMG on the floor of a crime scene.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Cold War 556",
+          "location": "Just inside a bunker in Big Pine, North Mariana County",
+          "note": "Enter from the southwest.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Double Cross Vatra",
+          "location": "Seabed of Gulf Leonida, west of Bobcat Key",
+          "note": "Three floating bodies mark the spot; needs diving.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Dirty Drifter",
+          "location": "Trunk of a blue car stuck in a mudslide off the coastal road, Bonanza",
+          "note": "Unique Shrewsbury Drifter.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Kolt & Associates 556",
+          "location": "Stash House, north Port Gellhorn, just east of Brooks Boatworks",
+          "note": "Illegal Operation loot; easy add-on to a Brooks Boatworks raid.",
+          "source": [
+            "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
+            "MyGamepadTester (GTABase data)"
+          ],
+          "thumb": "rifle"
         }
       ]
     },
@@ -531,7 +727,9 @@
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
           ],
-          "thumb": "cash"
+          "thumb": "cash",
+          "img": "img/items/brooks-boatworks-main-safe-cash.webp",
+          "imgSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-brooks-boatworks-safe-code/"
         },
         {
           "item": "Brooks Boatworks green-building safe",
@@ -725,6 +923,52 @@
           "thumb": "truck",
           "img": "img/items/hauners-rhino-tank.webp",
           "imgSource": "https://www.powerpyx.com/gta-6-military-tank-location/"
+        },
+        {
+          "item": "Declasse Applesauce Bobcat",
+          "location": "Locked garage at Farmer Scrumpy's Red Apple Orchard, west of Manifest Canyon, Kelly County",
+          "note": "Customised red-and-white '55 Bobcat pickup; garage code 360782.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "truck",
+          "img": "img/items/declasse-applesauce-bobcat.webp",
+          "imgSource": "https://gameta.gg/gta6/vehicles/applesauce-bobcat/"
+        },
+        {
+          "item": "Declasse '74 Vamos (Moses job)",
+          "location": "Garage in Grayson, Leonard County; side door code 2727",
+          "note": "Muscle car for Moses; open the shutter from inside, hotwire, deliver.",
+          "source": [
+            "https://www.polygon.com/gta-6-declasse-vamos-code-car-location/",
+            "Polygon"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "Pink Gin Tulip (Janjak's Garage)",
+          "location": "Workshop of Janjak's Garage, La Perle, Vice City (San4San hideout)",
+          "note": "Pink donk-style Declasse Tulip; expect a fight with the whole crew.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "car",
+          "img": "img/items/pink-gin-tulip-janjaks-garage.webp",
+          "imgSource": "https://gameta.gg/gta6/vehicles/pink-gin-tulip/"
+        },
+        {
+          "item": "Vanessa's Growler",
+          "location": "Garage next to Auntie's Place, La Perle; keypad 92665 (Chapter 3)",
+          "note": "One-off pink Pfister Growler. Gameta describes the lockup as in Rockridge; Output Lag places it by Auntie's Place.",
+          "source": [
+            "https://outputlag.com/guides/gta-6-safe-garage-codes/",
+            "Output Lag"
+          ],
+          "thumb": "car",
+          "img": "img/items/vanessas-growler.webp",
+          "imgSource": "https://gameta.gg/gta6/vehicles/vanessas-growler/"
         }
       ]
     },
@@ -1100,7 +1344,9 @@
             "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
             "GameSpot"
           ],
-          "thumb": "apartment"
+          "thumb": "apartment",
+          "img": "img/items/dexter-apartment.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/dexter-apartment"
         },
         {
           "item": "Imponte Phoenix, ASSMAN plate",
@@ -1130,7 +1376,9 @@
             "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
             "GameSpot"
           ],
-          "thumb": "egg"
+          "thumb": "egg",
+          "img": "img/items/painted-egg-nest.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/easter-egg-nest-tv-tower"
         },
         {
           "item": "Kelly County UFO",
@@ -1164,7 +1412,9 @@
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
           ],
-          "thumb": "dog"
+          "thumb": "dog",
+          "img": "img/items/lucky-dog-jet-ski-dog.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/cool-dog-jet-ski"
         },
         {
           "item": "Liberty City memoir",
@@ -1174,7 +1424,9 @@
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
           ],
-          "thumb": "book"
+          "thumb": "book",
+          "img": "img/items/liberty-city-memoir.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/lethal-by-design-liberty-city-memoir"
         },
         {
           "item": "Red Dead book",
@@ -1226,17 +1478,127 @@
             "https://vice-city.app/secrets",
             "vice-city.app"
           ],
-          "thumb": "alien"
+          "thumb": "alien",
+          "img": "img/items/giant-crab-cutscene.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/crabshack-lab"
         },
         {
           "item": "San Andreas photo house",
-          "location": "Belville, Leonard County",
-          "note": "The house from the SA remaster's Lil' Probe'Inn photo; garage notes from a man who thinks he lives in a video game mention a J and L.",
+          "location": "Grace Ave, Belville, Leonard County (cream house, two palm trees)",
+          "note": "The house from the SA remaster's UFO photo. Break into the garage for an 'IT'S A SIMULATION' conspiracy board (doppelgangers, 6s, a J and L) and boat brochures.",
           "source": [
-            "https://vice-city.app/secrets",
-            "vice-city.app"
+            "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much/",
+            "PC Gamer"
           ],
-          "thumb": "home"
+          "thumb": "home",
+          "img": "img/items/san-andreas-photo-house.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/san-andreas-ufo-house"
+        },
+        {
+          "item": "Mushroom trip container",
+          "location": "Shipping container, east shore of Lake Tallaloko, by the M7 operation (Millport / East Lummox border)",
+          "note": "Open the '???' takeaway box: a trippy platforming level that permanently raises max stamina and unlocks a tattoo. Works in Chapter 1.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/mushroom-trip-shipping-container",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/mushroom-trip-container.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/mushroom-trip-shipping-container"
+        },
+        {
+          "item": "Key Lento Christmas House",
+          "location": "West shore of Key Lento, a few minutes from Jason's house",
+          "note": "Lit up all year; WAiNK Curiosity. A Christmas-dressed dog in the back yard can be petted.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/key-lento-christmas-house",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/key-lento-christmas-house.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/key-lento-christmas-house"
+        },
+        {
+          "item": "Messages in Bottles",
+          "location": "Six small islands in the Shoeless Keys, north-west of Key Lento",
+          "note": "Six shore bottles with notes signed YCP; no dive needed, no cash reward.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/messages-in-bottles-shoeless-keys",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/messages-in-bottles.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/messages-in-bottles-shoeless-keys"
+        },
+        {
+          "item": "Princess Robot Bubblegum statue",
+          "location": "Outside the Y Hotel, south-east Washington Beach, Vice Beach",
+          "note": "Bronze anime heads from the GTA IV/V cartoon; scan with WAiNK for Sculptures.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/princess-robot-bubblegum-statue",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/princess-robot-bubblegum-statue.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/princess-robot-bubblegum-statue"
+        },
+        {
+          "item": "Bobcat Key Experimental Home",
+          "location": "Concrete domes in the sea off the west shore of Bobcat Key, Mariana County",
+          "note": "Based on Florida's Cape Romano Dome House; WAiNK Landmark.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/bobcat-key-experimental-home-dome-houses",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/bobcat-key-experimental-home.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/bobcat-key-experimental-home-dome-houses"
+        },
+        {
+          "item": "Halloween House",
+          "location": "Fortuna St, Capri, south of Tortoise Lake",
+          "note": "Ghosts Exposed Parkland on the drive; getting in unlocks the Spooked Out livery at Vice Vinyl.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/halloween-house-ghosts-exposed-car",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/halloween-house.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/halloween-house-ghosts-exposed-car"
+        },
+        {
+          "item": "Unidentified Building",
+          "location": "Southern tip of the island north of Waning Sands (Little Hardin Island chain)",
+          "note": "Graffiti-covered bunker door with a keypad; WAiNK guesses Cold War bunker. Door doesn't open yet.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/unidentified-building-cold-war-bunker",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/unidentified-building.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/unidentified-building-cold-war-bunker"
+        },
+        {
+          "item": "Monument of Leonidan Supremacy",
+          "location": "Near Manifest Canyon, Kelly County",
+          "note": "Pillar and golden globe ringed by four horse statues with star-chart symbols (one in a traffic cone). Symbols not decoded yet.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/monument-of-leonidan-supremacy",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/monument-of-leonidan-supremacy.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/monument-of-leonidan-supremacy"
+        },
+        {
+          "item": "Fingerpost to Liberty City",
+          "location": "North side of the large middle island, Permit Keys",
+          "note": "Signpost pointing to Liberty City; WAiNK curiosity, boat needed.",
+          "source": [
+            "https://openleonida.com/guides/gta-vi-easter-eggs-secrets/",
+            "openleonida"
+          ],
+          "thumb": "note"
         }
       ]
     },
@@ -1374,6 +1736,66 @@
             "GTA6Info"
           ],
           "thumb": "gunstore"
+        },
+        {
+          "item": "Capri Classic",
+          "location": "Mariana County",
+          "note": "Mod shop specialising in American muscle cars.",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "auto-shop"
+        },
+        {
+          "item": "Wasteland Off-Road",
+          "location": "Kelly County",
+          "note": "Off-road car mod shop.",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "auto-shop"
+        },
+        {
+          "item": "Vice Auto Customs",
+          "location": "Vice-Dale County",
+          "note": "Tuner and street-racing mod shop.",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "auto-shop"
+        },
+        {
+          "item": "Euroform Automotive",
+          "location": "Vice-Dale County",
+          "note": "Luxury-car mod shop.",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "auto-shop"
+        },
+        {
+          "item": "Vice Vinyl",
+          "location": "Vice-Dale County",
+          "note": "Wraps and liveries (the Halloween House car unlocks one here).",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "auto-shop"
+        },
+        {
+          "item": "Ledford Motorcycle Workshop",
+          "location": "Lummox County",
+          "note": "Classic American motorcycle mod shop.",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "bike-shop"
         }
       ]
     },
@@ -1515,6 +1937,28 @@
             "GTA6 Tuto"
           ],
           "thumb": "cash"
+        },
+        {
+          "item": "Towable ATMs",
+          "location": "Outdoor wall ATMs; tow truck behind the Atomic auto parts yard, Hamlet (SE of Boone Speedway)",
+          "note": "Hook the ATM, drive forward, reverse, forward, then finish on foot; about $7,200 marked bills on one run. Dye packs can ruin the take.",
+          "source": [
+            "https://www.gta6heists.com/money/towable-atm",
+            "GTA6 Heists"
+          ],
+          "thumb": "cash",
+          "img": "img/items/towable-atms.webp",
+          "imgSource": "https://www.gta6heists.com/money/towable-atm"
+        },
+        {
+          "item": "Mod shop basics",
+          "location": "Map > Vehicles > Mod Shops (area must be uncovered)",
+          "note": "14 shops, each a specialist; repair a damaged car first. Mods on Jason's Chapter 1 car are lost when the story replaces it.",
+          "source": [
+            "https://gta6pocket.com/en/mod-shops/",
+            "GTA6 Pocket"
+          ],
+          "thumb": "note"
         }
       ],
       "steps": [
@@ -1536,7 +1980,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (37 entries, last scan 21 Nov 2026, 8:05 PM Australia/Brisbane), plus extra reports found by research. No official Rockstar patch notes or known-issues list as of 22 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (39 entries, last scan 22 Nov 2026, 10:05 AM AEST), plus extra reports found by research. No official Rockstar patch notes or known-issues list as of 22 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -1581,10 +2025,10 @@
         {
           "item": "Stolen plane crash: no explosion, unharmed exit",
           "location": "Police chase in a large plane",
-          "note": "Shot-down plane does not break apart as expected; player exits unharmed.",
+          "note": "Planes slide through buildings without exploding. Usually the Reduced Vehicle Damage option (Settings > Gameplay, off by default); turn it off and planes explode, though big jets keep the fuselage intact.",
           "source": [
-            "https://beebom.com/gta-6-bugs-tracker/",
-            "Beebom"
+            "https://gta6bugs.com/bugs/gta-6-plane-passes-through-buildings-no-crash",
+            "GTA6BUGS"
           ],
           "thumb": "crash"
         },
@@ -1918,6 +2362,68 @@
             "Polygon"
           ],
           "thumb": "spawn"
+        },
+        {
+          "item": "PS5 black flickering boxes and broken water",
+          "location": "Base PS5, all gameplay",
+          "note": "Camo-like black boxes flicker over the screen and water turns into blocks. Try updates, VRR/120Hz off, Safe Mode rebuild. Unconfirmed.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-ps5-black-flickering-boxes-water-glitch",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Unwanted Attention: garage disguise won't register",
+          "location": "Brian's garage, Chapter 1",
+          "note": "Hat/glasses change doesn't tick and the door stays shut. Fixes: release L1/LB so the wheel closes, take the $150 first, or buy new clothes and restart.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-unwanted-attention-garage-disguise-not-registering",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock",
+          "img": "img/items/unwanted-attention-garage-disguise.webp",
+          "imgSource": "https://gta6bugs.com/bugs/gta-6-unwanted-attention-garage-disguise-not-registering"
+        },
+        {
+          "item": "Checking Out won't start",
+          "location": "End of Chapter 2, after Afternoon Delight",
+          "note": "No Move to Vice City call; check Prepare for Vice City's money target (Family Savings too). No confirmed fix.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-checking-out-wont-start-end-of-chapter-2",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Weightlifting bar won't fill (LT+RT)",
+          "location": "Gym at Jason's house / a story mission",
+          "note": "Holding LT+RT does nothing. A controller hardware reset (back pin-hole button, 5 seconds) fixed it for one PS5 player.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-weightlifting-lt-rt-not-working-mission-stuck",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Pipework plunger crash",
+          "location": "Pipework, PS5",
+          "note": "Game closes when using the plunger. Setting PS5 video output to 1080p instead of Automatic fixed it for one player.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-pipework-crash-plunger-sink",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Bicycle won't move at Jason's house",
+          "location": "Jason's house, PS5",
+          "note": "Bike stops responding. Bunny-hop and fall off, then use another vehicle.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-bike-wont-move-at-jasons-house-stuck-on-bicycle-fix-144",
+            "GTA6BUGS"
+          ],
+          "thumb": "bike"
         }
       ]
     }
