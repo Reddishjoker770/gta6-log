@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 23 Nov 2026, 8:15 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 23 Nov 2026, 3:15 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "23 Nov 2026, 8:15 AM AEST"
+      "value": "23 Nov 2026, 3:15 PM AEST"
     },
     {
       "label": "Official patches",
@@ -25,7 +25,11 @@
     "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
     "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
     "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
-    "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/"
+    "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
+    "https://gta6playertools.com/locations/unique-weapons",
+    "https://gta6bugs.com/map/vice-city",
+    "https://vicecitydb.org/collectibles/standout-vehicles",
+    "https://gta6map.io/location/standout-vehicle"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -374,6 +378,42 @@
             "Cutscene Wire"
           ],
           "thumb": "computer"
+        },
+        {
+          "item": "Mount Kalaga firewatch shed",
+          "location": "69185",
+          "note": "Keypad shed at the Stone Hills firewatch tower, Mount Kalaga National Park; code is on a purple sticky note in the cabin at the top. Inside: the Watch Guard Logbook with a drawing of a tall figure under lights in the sky (Area 69 nod).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/mount-kalaga-firewatch-tower-logbook",
+            "GTA6BUGS"
+          ],
+          "thumb": "door",
+          "img": "img/items/mount-kalaga-firewatch-shed.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/mount-kalaga-firewatch-tower-logbook"
+        },
+        {
+          "item": "Burg Industries Facility 1 safe",
+          "location": "80085",
+          "note": "Underwater station under a yellow platform west of Mile Zero Air Station, south of the Riquezas Keys; enter through the hatch underneath. The meteorite is in the safe. The first station east of Key Lento starts the Locate Underwater Meteorite task.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/burg-industries-underwater-facilities-meteorite",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe",
+          "img": "img/items/burg-industries-facility-safe.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/burg-industries-underwater-facilities-meteorite"
+        },
+        {
+          "item": "Alien facility light panel",
+          "location": "4-3-4-3-1",
+          "note": "Restricted site at South Point Airfield, south of Hamlet (Chapter 2+, only after the Starlet Motel UFO abduction and the white-room dream). Same keypad code as the dream, then panel 4-3-4-3-1 and the milk machine; freeing the alien gives a permanent Health, Stamina and Focus boost.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/alien-facility",
+            "GTA6BUGS"
+          ],
+          "thumb": "door",
+          "img": "img/items/south-point-alien-facility.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/alien-facility"
         }
       ]
     },
@@ -531,7 +571,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/smuggler-gorse-425.webp",
+          "imgSource": "https://www.youtube.com/watch?v=3k8sMtkPL00"
         },
         {
           "item": "Drug Mule KZ-59",
@@ -856,6 +898,96 @@
           "thumb": "launcher",
           "img": "img/items/hillinger-boomer.webp",
           "imgSource": "https://gta6notebook.com/weapons/"
+        },
+        {
+          "item": "PTT Youngin$ K17",
+          "location": "Kamar Devon Community Center, Southside, Vice City",
+          "note": "Unique service pistol; weapon case on the kitchen counter of the PTT Youngin$ hideout.",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "San4San K17",
+          "location": "Sound4Sound Studio, Stockyard, Vice City",
+          "note": "Unique service pistol; weapon case in the storage room behind the recording room.",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Chromium W-10",
+          "location": "La Perle Trap House, La Perle, Vice City",
+          "note": "Unique micro SMG in the gaming room of the San4San hideout.",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Guardia Brothers VF5",
+          "location": "Saber Shipping Facility, Balsero, Vice City",
+          "note": "Unique military SMG inside the shipping warehouse (safe 1122 is at the same hideout).",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Guardia Brothers FRA",
+          "location": "Casa Guardia, Little Cuba, Vice City",
+          "note": "Unique battle rifle in the small room across from the stairs (safe 1965 is at the same hideout).",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Kingpin Heathen",
+          "location": "Vespucci Mansion robbery, Vespucci Island, Vice City",
+          "note": "Unique bullpup assault rifle in the room with two safes.",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Kolt & Associates Vatra",
+          "location": "June Warehouse, Port Gellhorn",
+          "note": "Unique heavy SMG; weapon case on a table by the fridge.",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Kingfishers Akulus",
+          "location": "Sunrise RV Park, north of Cottonmouth Lake",
+          "note": "Unique heavy revolver inside a trailer at the Kingfishers hideout (dock-building safe 6769 is here too).",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "revolver"
+        },
+        {
+          "item": "Ride Free H&L .38",
+          "location": "Biker Hideout bar, near Ambrosia",
+          "note": "Unique double-action revolver; weapon case under the black flag in the back room (safe 1982).",
+          "source": [
+            "https://gta6playertools.com/locations/unique-weapons",
+            "GTA 6 Player Tools"
+          ],
+          "thumb": "revolver"
         }
       ]
     },
@@ -1024,6 +1156,36 @@
           "thumb": "pills",
           "img": "img/items/beached-whale.webp",
           "imgSource": "https://gta6bugs.com/easter-eggs/beached-whale-exploding-whale-gellhorn"
+        },
+        {
+          "item": "Gentrifier's trailer stash",
+          "location": "Wrestler's trailer, trailer park on the west side of Hamlet (yellow B.A.M. banner)",
+          "note": "Beat the Gentrifier in the backyard ring and his trailer opens: Luchador Mask, Anabolics and other drugs, and some cash. A collectible card sits on the bleachers.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/backyard-wrestling-ring-gentrifier-luchador-mask",
+            "GTA6BUGS"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Birds Aren't Real shack cocaine",
+          "location": "Flamingo shack by the Riquezas Keys Radome, west of Mile Zero Air Station",
+          "note": "Half a brick of cocaine and a cocaine flamingo to pick up inside.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/birds-arent-real-hoax-shack-riquezas-keys",
+            "GTA6BUGS"
+          ],
+          "thumb": "pills"
+        },
+        {
+          "item": "Hollow Earther's crystal",
+          "location": "Andrew's trailer, just west of Emerald Springs, Kelly County",
+          "note": "Stash of crystal by the bed you can steal and sell; Andrew comes after you if you do.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/hollow-earther-emerald-springs",
+            "GTA6BUGS"
+          ],
+          "thumb": "pills"
         }
       ]
     },
@@ -1200,7 +1362,9 @@
             "https://gtavimaps.com/guides/rare-cars/",
             "GTAVIMaps"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/twinstripe-vigero.webp",
+          "imgSource": "https://www.youtube.com/watch?v=2xJAYy7nMXo"
         },
         {
           "item": "Driveshaft Hustler",
@@ -1259,6 +1423,68 @@
           "source": [
             "https://thegameswiki.com/gta6/wiki/standout-vehicles",
             "The Games Wiki"
+          ],
+          "thumb": "bike"
+        },
+        {
+          "item": "Bugstars Burrito",
+          "location": "Driveway of the fumigation-tent house, south-east Capri, south of Tortoise Lake",
+          "note": "'98 Declasse Burrito still marked Bugstars Pest Control, Los Santos; one of five Throwback standouts (GTA V Jewel Store Job nod).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/bugstars-burrito-heist-van",
+            "GTA6BUGS"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bugstars-burrito.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/bugstars-burrito-heist-van"
+        },
+        {
+          "item": "Caliente Picador",
+          "location": "Yellow shipping container in the construction yard, south end of Breakwater Quarry, North Mariana County",
+          "note": "Standout based on the '72 Declasse Picador; unlocked.",
+          "source": [
+            "https://vicecitydb.org/collectibles/standout-vehicles",
+            "ViceCityDB"
+          ],
+          "thumb": "truck"
+        },
+        {
+          "item": "Truther Burrito",
+          "location": "Outside a green house off Chestnut Drive, south Millport",
+          "note": "Standout '98 Declasse Burrito covered in 'Sera Is Real' slogans; locked and alarmed.",
+          "source": [
+            "https://vicecitydb.org/collectibles/standout-vehicles",
+            "ViceCityDB"
+          ],
+          "thumb": "truck"
+        },
+        {
+          "item": "Vapid Red Hot Hustler",
+          "location": "Corner of the La Costa Hotel parking lot, Capri coast",
+          "note": "1930s hot-rod standout; locked with an alarm.",
+          "source": [
+            "https://gta6map.io/location/standout-vehicle",
+            "GTA6Map.io"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Pegassi Gold Rope Infernus",
+          "location": "Under the porch overhang of a small house on Reservoir St, Ambrosia, Kelly County",
+          "note": "1990s super-car standout.",
+          "source": [
+            "https://gta6map.io/location/standout-vehicle",
+            "GTA6Map.io"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Magma Cliffhanger",
+          "location": "Next to a waterfront house on Sweetbay Road, north-west Watson Bay",
+          "note": "Retro standout based on the '72 Western Cliffhanger.",
+          "source": [
+            "https://vicecitydb.org/collectibles/standout-vehicles",
+            "ViceCityDB"
           ],
           "thumb": "bike"
         }
@@ -1723,7 +1949,7 @@
         {
           "item": "Red Dead book",
           "location": "Brian's Marina, Key Lento",
-          "note": "A readable book that nods to Red Dead Redemption.",
+          "note": "Western novel whose hero finds outlaw Flaco Hernandez dead at Cairn Lake, where Arthur kills him in an RDR2 side quest; also names Blackwater, Armadillo and Chuparosa. GameSpot notes a second copy at Jacob's Tavern, Millport.",
           "source": [
             "https://grindcoast.com/gta-6-news/gta-6-easter-eggs-list",
             "Grind Coast"
@@ -1997,6 +2223,246 @@
             "Neon Bay"
           ],
           "thumb": "egg"
+        },
+        {
+          "item": "Backyard wrestling ring (Luchador Mask)",
+          "location": "Trailer park, west side of Hamlet towards Boone Speedway",
+          "note": "Knock on the trailer (throw junk at the door if needed) and pin the Gentrifier; dodge his Swanton dive. Mask goes to the loadout Items tab and hides your face during crimes.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/backyard-wrestling-ring-gentrifier-luchador-mask",
+            "GTA6BUGS"
+          ],
+          "thumb": "hat",
+          "img": "img/items/backyard-wrestling-ring.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/backyard-wrestling-ring-gentrifier-luchador-mask"
+        },
+        {
+          "item": "Birds Aren't Real hoax shack",
+          "location": "Compound beside the Riquezas Keys Radome",
+          "note": "'Don't Trust The Birds' graffiti, a bird-lined pole with a vulture, and a 'Birds are a hoax' shrine inside the flamingo shack.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/birds-arent-real-hoax-shack-riquezas-keys",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/birds-arent-real-shack.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/birds-arent-real-hoax-shack-riquezas-keys"
+        },
+        {
+          "item": "Big Entrance runes",
+          "location": "Centre of Dalton Island, off Vice Beach",
+          "note": "Bronze rune-covered sculpture (WAiNK scan) plus a Latin plaque echoing Revelation 17:8; unsolved.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/big-entrance-dalton-island-runes",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/big-entrance-dalton-island.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/big-entrance-dalton-island-runes"
+        },
+        {
+          "item": "Wild Hog Point alien mural",
+          "location": "Inside the radar dome, Wild Hog Point Radar Base, west of Port Gellhorn",
+          "note": "'Aliens are closer than you think' mural around a golden eye; squatters below turn hostile. Mount Chiliad mural nod.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/wild-hog-point-alien-mural",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/wild-hog-point-alien-mural.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/wild-hog-point-alien-mural"
+        },
+        {
+          "item": "Fatal Incursion memorial",
+          "location": "South-west tip of Key Lento, end of Surfside Dr, west of Barnacle Beauties",
+          "note": "Fooligan Society plaque for the GTA Online clown band, lost in a 'tragic boofing accident'. #SADCLOWNGANG.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/fatal-incursion-memorial",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/fatal-incursion-memorial.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/fatal-incursion-memorial"
+        },
+        {
+          "item": "Collateral hitman passenger",
+          "location": "Random encounter while driving Jason in Vice City; ends at Harborside Park, Vice Beach",
+          "note": "A Vincent (Tom Cruise) lookalike hijacks your ride and shoots two men; a nearby stash house can then be cleared for cash.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/collateral-hitman-passenger",
+            "GTA6BUGS"
+          ],
+          "thumb": "car",
+          "img": "img/items/collateral-hitman-encounter.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/collateral-hitman-passenger"
+        },
+        {
+          "item": "Furry fox-suit encounter",
+          "location": "Random night police standoff in and around Vice City",
+          "note": "Rescue the man in the fox suit, lose the cops and drive the furries home; reward is cash or a colourful custom SMG.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/furry-fox-suit-police-encounter",
+            "GTA6BUGS"
+          ],
+          "thumb": "dog",
+          "img": "img/items/furry-fox-encounter.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/furry-fox-suit-police-encounter"
+        },
+        {
+          "item": "Grayson haunted town and pet cemetery",
+          "location": "Grayson, south-west Lummox County on SR-45; cemetery in the woods by SR-73",
+          "note": "Ghost Trail signs, cancelled ghost walks and a Pet Sematary-style graveyard (WAiNK Curiosity).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/grayson-haunted-town-pet-cemetery",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/grayson-pet-cemetery.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/grayson-haunted-town-pet-cemetery"
+        },
+        {
+          "item": "MacAlister Gold Mine pineapples",
+          "location": "Tunnel under the mineshaft, west of Moreau, south of Bonanza",
+          "note": "Bottom of the shaft has blood, animal bones and about a dozen pineapples; no prompt or explanation yet.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/macalister-gold-mine-pineapples-bones",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/macalister-gold-mine.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/macalister-gold-mine-pineapples-bones"
+        },
+        {
+          "item": "Hovercraft Crash (Glide or Die tattoo)",
+          "location": "Southern island of the Sandbars, Borrachero Sound off Port Gellhorn",
+          "note": "WAiNK Curiosity; the magazine by the deck chairs unlocks the Glide or Die Hovercraft tattoo.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/hovercraft-crash-blow-and-go-sandbars",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/hovercraft-crash.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/hovercraft-crash-blow-and-go-sandbars"
+        },
+        {
+          "item": "Fossilized Prints",
+          "location": "Rock shelf by the water under a bridge, south-west Moreau",
+          "note": "Dinosaur footprints; WAiNK entry jokes about AI's carbon footprint.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/fossilized-prints-dinosaur-footprints",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/fossilized-prints.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/fossilized-prints-dinosaur-footprints"
+        },
+        {
+          "item": "Ocean View Hotel rooftop (In The Beginning...)",
+          "location": "Ocean View Hotel rooftop bar, Ocean Beach",
+          "note": "Drink a cocktail sitting with the beach behind you for the 'In The Beginning...' trophy; Tommy Vercetti's first safehouse.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/ocean-view-hotel-in-the-beginning",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/ocean-view-hotel-rooftop.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/ocean-view-hotel-in-the-beginning"
+        },
+        {
+          "item": "Tenebrae Lux secret ending",
+          "location": "JoySystem console under the TV, Jason's house, Key Lento",
+          "note": "In-game puzzle game (from Feng Shui; not in Chapter 2). Collect all 11 notebook pages and dial both page codes on the bunker phone to open the pier door.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/tenebrae-lux-secret-ending",
+            "GTA6BUGS"
+          ],
+          "thumb": "book",
+          "img": "img/items/tenebrae-lux.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/tenebrae-lux-secret-ending"
+        },
+        {
+          "item": "Ride 'Em Chihuahua (tiny Arthur Morgan)",
+          "location": "Frontier Adventure Golf, Waning Sands, Leonard County",
+          "note": "Chihuahua carrying an Arthur Morgan doll past the ticket gate; study with R1 for the animals list.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/ride-em-chihuahua-tiny-arthur-morgan",
+            "GTA6BUGS"
+          ],
+          "thumb": "dog",
+          "img": "img/items/ride-em-chihuahua.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/ride-em-chihuahua-tiny-arthur-morgan"
+        },
+        {
+          "item": "Hollow Earther",
+          "location": "End of the 'Earth Is Hollow' signs, just west of Emerald Springs, Kelly County",
+          "note": "Andrew sells missable Hollow Earth T-shirts and is digging to the mantle beside his stall.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/hollow-earther-emerald-springs",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/hollow-earther.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/hollow-earther-emerald-springs"
+        },
+        {
+          "item": "SOS Island",
+          "location": "Tiny island in Leonida Bay, far west of Watson Bay",
+          "note": "SOS and #SENDBEER in the sand; the phone by the sign plays a stranded couple's video before something attacks them.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/sos-island",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/sos-island.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/sos-island"
+        },
+        {
+          "item": "Swamp Witch",
+          "location": "Swamp edge by the north road, east of Cottonmouth Lake, Grassrivers",
+          "note": "Hidden stranger fresh from a San Andreas desert festival; tells you to come back in a few days.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/swamp-witch-grassrivers-san-andreas-festival",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/swamp-witch.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/swamp-witch-grassrivers-san-andreas-festival"
+        },
+        {
+          "item": "Tallaloko Amphitheater bell rune",
+          "location": "Stone ruins on the east side of Mount Kalaga National Park, just west of Lake Tallaloko",
+          "note": "Rune and the word 'Bigness' under the bell; WAiNK landmark entry about an Illuminati sacrifice video.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/tallaloko-amphitheater-bell-rune",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/tallaloko-amphitheater.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/tallaloko-amphitheater-bell-rune"
+        },
+        {
+          "item": "Deserted Home",
+          "location": "South-west Emerald Springs by the Emerald River, Kelly County",
+          "note": "Enter through the roof; locked safe (no code found, explosives work). WAiNK lists seeing the Skunk Ape as the top reason to leave.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/deserted-home-emerald-springs-safe",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/deserted-home-emerald-springs.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/deserted-home-emerald-springs-safe"
+        },
+        {
+          "item": "Lovers Lookout wishing well",
+          "location": "South-west Mount Kalaga National Park, by the interstate near the North Kelly border",
+          "note": "Ribbon-covered trail, a coin wishing well and a heart arch on the cliff (WAiNK Curiosity).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/lovers-lookout-wishing-well",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/lovers-lookout.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/lovers-lookout-wishing-well"
         }
       ]
     },
@@ -2206,6 +2672,58 @@
           "thumb": "shop",
           "img": "img/items/phils-ammu-nation.webp",
           "imgSource": "https://gta6bugs.com/easter-eggs/phils-ammu-nation-phil-cassidy"
+        },
+        {
+          "item": "Game Horde",
+          "location": "Crossroad Park Mini Mall, edge of Port Gellhorn",
+          "note": "Retro game store full of parodies (JoySystem JS8, Glory Souls II, Degenatron).",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/game-horde-retro-game-store",
+            "GTA6BUGS"
+          ],
+          "thumb": "shop",
+          "img": "img/items/game-horde.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/game-horde-retro-game-store"
+        },
+        {
+          "item": "Black Eagle (gun store)",
+          "location": "Balsero, Vice City, by the Griffin Shooting Range",
+          "note": "Sells the unique Nite Raptor K17 ($2,050) and Nitepower AZ1200 ($4,830).",
+          "source": [
+            "https://gta6bugs.com/map/vice-city",
+            "GTA6BUGS Vice City map"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Quickscope (gun store)",
+          "location": "Downtown Vice City, opposite Kensinger Tower",
+          "note": "Sells the unique Rogue Alpha DRX ($4,410).",
+          "source": [
+            "https://gta6bugs.com/map/vice-city",
+            "GTA6BUGS Vice City map"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Vice City Gun & Pawn",
+          "location": "South Rockridge, Vice City",
+          "note": "Sells the unique Bruiser Super400 heavy shotgun ($5,930).",
+          "source": [
+            "https://gta6bugs.com/map/vice-city",
+            "GTA6BUGS Vice City map"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Martez Empeños",
+          "location": "Little Cuba, Vice City",
+          "note": "Sells the unique Little Cuba Hind compact rifle ($3,570).",
+          "source": [
+            "https://gta6bugs.com/map/vice-city",
+            "GTA6BUGS Vice City map"
+          ],
+          "thumb": "gunstore"
         }
       ]
     },
