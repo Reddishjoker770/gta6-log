@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 23 Nov 2026, 3:15 PM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 24 Nov 2026, 8:13 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,11 +10,11 @@
     },
     {
       "label": "Last updated",
-      "value": "23 Nov 2026, 3:15 PM AEST"
+      "value": "24 Nov 2026, 8:13 AM AEST"
     },
     {
       "label": "Official patches",
-      "value": "None published as of 23 Nov 2026; latest build is still 01.002.001 (16 Nov, pre-launch)"
+      "value": "01.002.002 released 23 Nov 2026 (US time; PS5 01.002.002 / Xbox 1.0.2.2): crash, weather, autosave, phone-call, Wanted Level, gym deadlift and fence-bag fixes"
     }
   ],
   "pageSources": [
@@ -29,7 +29,11 @@
     "https://gta6playertools.com/locations/unique-weapons",
     "https://gta6bugs.com/map/vice-city",
     "https://vicecitydb.org/collectibles/standout-vehicles",
-    "https://gta6map.io/location/standout-vehicle"
+    "https://gta6map.io/location/standout-vehicle",
+    "https://gta6bugs.com/weapons",
+    "https://gta6map.city/secrets/new/",
+    "https://gamerant.com/gta-6-safe-codes-keypad-combinations-door-passwords-list/",
+    "https://rockstarintel.com/new-gta-vi-update-01-002-002-patch-notes-released/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -180,7 +184,7 @@
         {
           "item": "Sundown Private Airfield hangar safe",
           "location": "3718",
-          "note": "Leonard County, back room behind a red door. Listed as confirmed by Consolyte; not on every two-source roundup.",
+          "note": "Pete's hangar, Leonard County, back room behind a red door (The Last Mile: Passing the Torch, Chapter 4). Holds cash and the unique Pete's KZ-59 on the table.",
           "source": [
             "https://consolyte.gg/gta-6/wiki/guides/safe-codes",
             "Consolyte"
@@ -190,7 +194,7 @@
         {
           "item": "Waxman Island garage",
           "location": "2404",
-          "note": "Wall panel, during the mission First Impressions. Consolyte listing; not on every two-source roundup.",
+          "note": "Savannah Lockup on Waxman Island, during First Impressions (Chapter 3); the code is texted to you. Holds Raul's black Schafter V12.",
           "source": [
             "https://consolyte.gg/gta-6/wiki/guides/safe-codes",
             "Consolyte"
@@ -414,6 +418,156 @@
           "thumb": "door",
           "img": "img/items/south-point-alien-facility.webp",
           "imgSource": "https://gta6bugs.com/easter-eggs/alien-facility"
+        },
+        {
+          "item": "Watson Bay Safehouse safe",
+          "location": "1819",
+          "note": "Black safe under the kitchen microwave (La Polilla Negra). Code is the last line of the email on the kitchen PC; about $3,000 inside.",
+          "source": [
+            "https://gta6bugs.com/codes/watson-bay-safehouse-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Key Lento party house garage",
+          "location": "092319",
+          "note": "Party house in the south-east corner of Key Lento; opens the garage with the unique Invetero Spiderweb Coquette. Chapter 1.",
+          "source": [
+            "https://gta6bugs.com/codes/key-lento-party-house-garage-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Kitty Litter lab garage (Balsero)",
+          "location": "1999",
+          "note": "Second Kitty Litter lab garage, Balsero; code is on a nearby billboard. Take Out Kitty Litter, Chapter 3.",
+          "source": [
+            "https://gta6bugs.com/codes/kitty-litter-lab-garage-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Chatfield Storage & Logistics dock safe",
+          "location": "5800",
+          "note": "Waxman Island, north of the Pay 'n' Spray; code is in an email on the laptop in the open container. Chapter 3.",
+          "source": [
+            "https://gta6bugs.com/codes/chatfield-storage-logistics-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Belville abandoned laundry wall safe",
+          "location": "62412",
+          "note": "Wash House, north-west Belville just south of the biker hideout; enter via the roof. Code is under the collectible card there; not yet verified.",
+          "source": [
+            "https://gta6bugs.com/codes/abandoned-laundry-belville-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "President's bunker door",
+          "location": "010317",
+          "note": "Bunker on Sharktooth Island, just north of Waning Sands; the code is Joe S. Russo's birth date. Opens the Unidentified Building door.",
+          "source": [
+            "https://gta6bugs.com/codes/presidents-bunker-door-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "President's bunker safe",
+          "location": "2975",
+          "note": "Inside the same bunker: play the desk phone recording (5297, Protocol 2) and reorder it. Holds Russo's 1922 pistol and an 'OBSESS' photo.",
+          "source": [
+            "https://gta6bugs.com/codes/presidents-bunker-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "IAA Black Site hatch",
+          "location": "085355",
+          "note": "Hatch in the woods south of the highway Ammu-Nation, southern North Mariana County; keypad is on a tree. 'OBSESS' typed on a phone keypad.",
+          "source": [
+            "https://gta6bugs.com/codes/iaa-black-site-hatch-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Mall Rats jewelry safe",
+          "location": "4207",
+          "note": "Jewelry store in the Sixth & Harper mall, Ocean Beach (mission Mall Rats, Chapter 3). Most players report 4207, but it can differ per save.",
+          "source": [
+            "https://gta6bugs.com/codes/mall-rats-jewelry-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Key Lento Canoes & Kayaks office safe",
+          "location": "8953",
+          "note": "Rental office safe, about $1,000. Single source; store safes are often randomised.",
+          "source": [
+            "https://gta6bugs.com/codes/key-lento-canoes-kayaks-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Keyline Painters warehouse safe",
+          "location": "5035",
+          "note": "Key Lento warehouse office; code is on the board above the crystal crate. About $1,000. Single source.",
+          "source": [
+            "https://gta6bugs.com/codes/keyline-painters-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Cigar Import Front door",
+          "location": "1426",
+          "note": "Front door of the Cigar Import Front illegal operation, Vice City. Single source.",
+          "source": [
+            "https://gta6bugs.com/codes/cigar-import-front-door-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "door"
+        },
+        {
+          "item": "Slum House safe",
+          "location": "9790",
+          "note": "Vice City. From a GTABase community map note; unverified.",
+          "source": [
+            "https://gamerant.com/gta-6-safe-codes-keypad-combinations-door-passwords-list/",
+            "Game Rant"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Stormy's back-room safe",
+          "location": "7869",
+          "note": "Vice City. From a GTABase community map note; unverified.",
+          "source": [
+            "https://gamerant.com/gta-6-safe-codes-keypad-combinations-door-passwords-list/",
+            "Game Rant"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Belpoint Shipwreck safe",
+          "location": "4242",
+          "note": "Shipwreck on Belpoint Island, west of Capri; cash. GTABase instead gives 4242 for a Room 115 safe in Ambrosia, so treat as unconfirmed.",
+          "source": [
+            "https://gamerant.com/gta-6-safe-codes-keypad-combinations-door-passwords-list/",
+            "Game Rant"
+          ],
+          "thumb": "safe"
         }
       ]
     },
@@ -470,7 +624,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "revolver"
+          "thumb": "revolver",
+          "img": "img/items/swamp-bait-akulus.webp",
+          "imgSource": "https://www.youtube.com/watch?v=KQYJtH-377g"
         },
         {
           "item": "Cruel Huntsman's SM-69",
@@ -988,6 +1144,406 @@
             "GTA 6 Player Tools"
           ],
           "thumb": "revolver"
+        },
+        {
+          "item": "The Guardian ES18",
+          "location": "Saber Shipping Yard main building, Little Cuba, Vice City",
+          "note": "Silver, gold and ivory burst pistol (Girardi ES18 base); one-time loot from the Guardia Brothers operation.",
+          "source": [
+            "https://gta6bugs.com/weapons/the-guardian-es18",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Russo's 1922 pistol",
+          "location": "President's bunker safe (2975), Sharktooth Island north of Waning Sands",
+          "note": "Reward from the President's bunker chain.",
+          "source": [
+            "https://gta6bugs.com/codes/presidents-bunker-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Pete's KZ-59",
+          "location": "Pete's hangar, Sundown Private Airfield, back room (safe 3718)",
+          "note": "Unique rifle on the table; mission The Last Mile: Passing the Torch, Chapter 4.",
+          "source": [
+            "https://gta6bugs.com/codes/pete-hangar-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Convict Kalinga .50",
+          "location": "Tunnel reached through a garage building in Port Gellhorn (Chapter 3)",
+          "note": "Unique variant; some PS5 players report the garage won't open (see Glitches).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-convict-kalinga-50-cant-get-into-the-port-gellhorn-garage-tunnel-358",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Golden Tec 9 (community name)",
+          "location": "Rear warehouse of a gang compound at the very top of Lummox County",
+          "note": "Hangs on the wall; a fully upgraded Buccaneer is parked outside. Expect many armed gang members.",
+          "source": [
+            "https://gta6map.city/secrets/gold-tec9-buccaneer-lummox-compound/",
+            "GTA6 Map City"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Explorer's Knife",
+          "location": "Flooded Emerald River tunnels below the Selkie Hole, Buckskin Swamp",
+          "note": "Follow the yellow guide rope underwater (scuba gear).",
+          "source": [
+            "https://gta6bugs.com/weapons/explorers-knife",
+            "GTA6BUGS"
+          ],
+          "thumb": "stealth"
+        },
+        {
+          "item": "Shark Knife",
+          "location": "Seabed ravine north of the Saint Attaway Islands, by a shark cage",
+          "note": "Stuck in the ground next to the cage.",
+          "source": [
+            "https://gta6bugs.com/weapons/shark-knife",
+            "GTA6BUGS"
+          ],
+          "thumb": "stealth"
+        },
+        {
+          "item": "Soldier's Combat Knife",
+          "location": "Half-sunken tank on the shore between Bobcat Bight and Bobcat Key, Capri",
+          "note": "Open the tank hatch.",
+          "source": [
+            "https://gta6bugs.com/weapons/soldiers-combat-knife",
+            "GTA6BUGS"
+          ],
+          "thumb": "stealth"
+        },
+        {
+          "item": "Deever Tech GLR40",
+          "location": "One-car garage at the Sunrise Motel, Tequesta",
+          "note": "Free copy at the same spot as the Cockroach Xtreme 556; otherwise $15,500 at an expanded Ammu-Nation.",
+          "source": [
+            "https://gta6bugs.com/weapons/deever-tech-glr40",
+            "GTA6BUGS"
+          ],
+          "thumb": "launcher"
+        },
+        {
+          "item": "FIB SM-69",
+          "location": "Roof of a skyscraper between two hospitals, Vice Beach",
+          "note": "Appears after a story mission.",
+          "source": [
+            "https://gta6bugs.com/weapons/fib-sm-69",
+            "GTA6BUGS"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "IAA SMS-01",
+          "location": "Aichi Condominiums roof, Northside Ave, Washington Beach",
+          "note": "Appears after a story mission.",
+          "source": [
+            "https://gta6bugs.com/weapons/iaa-sms-01",
+            "GTA6BUGS"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "Chronic Vatra",
+          "location": "Industrial Weed Grow operation, North Mariana County (north of Tola Bay and Big Pine)",
+          "note": "One-time gang-operation loot (BZI Vatra base).",
+          "source": [
+            "https://gta6bugs.com/weapons/chronic-vatra",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Final Chapter KVGA-12",
+          "location": "Irons Building Supply operation, Ambrosia (south-west of Lake Leonida)",
+          "note": "One-time gang-operation loot (Kozlov KVGA-12 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/final-chapter-kvga-12",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Final Chapter Shortstraw",
+          "location": "Hog Stars Garage operation, Ambrosia, near the Pay 'n' Spray",
+          "note": "One-time gang-operation loot (Mason & Keen Shortstraw base).",
+          "source": [
+            "https://gta6bugs.com/weapons/final-chapter-shortstraw",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "GRX 556",
+          "location": "Leonida Carrier Warehouse operation, central Balsero",
+          "note": "One-time gang-operation loot (Duke 556 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/grx-556",
+            "GTA6BUGS"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Hostile Super400",
+          "location": "Mill Station Radar Base operation, Grassrivers (north of Watson Bay)",
+          "note": "One-time gang-operation loot (Girardi Super400 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/hostile-super400",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "La Polilla Negra VF-G1",
+          "location": "Watson Bay Safehouse, upstairs (east side of Watson Bay)",
+          "note": "One-time gang-operation loot (Vom Feuer VF-G1 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/la-polilla-negra-vf-g1",
+            "GTA6BUGS"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Marabunta Grande KZ-59",
+          "location": "Nova Auto Junkyard operation, central Hamlet (behind Sara's Unisex Salon)",
+          "note": "One-time gang-operation loot (Kozlov KZ-59 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/marabunta-grande-kz-59",
+            "GTA6BUGS"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Marabunta Grande Type 9",
+          "location": "Weed Grow operation, north-east shore of Lake Tallaloko, East Lummox County",
+          "note": "One-time gang-operation loot (Zhang Wu Type 9 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/marabunta-grande-type-9",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Quarter Mile ES9",
+          "location": "Chatfield Storage & Logistics operation, Waxman Island",
+          "note": "One-time gang-operation loot (Girardi ES9 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/quarter-mile-es9",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "San4San Gorse 425",
+          "location": "Parlor Apartments operation, Rockridge (opposite the Rockridge Blood Center)",
+          "note": "One-time gang-operation loot (Fortune & Son Gorse 425 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/san4san-gorse-425",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Throttler Verro",
+          "location": "Farm Fix Meth Lab operation, northern Belville (south of Lake Leonida)",
+          "note": "One-time gang-operation loot (Girardi Verro base).",
+          "source": [
+            "https://gta6bugs.com/weapons/throttler-verro",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Zodiac Nipper .38",
+          "location": "Ocean Beach Lab operation, Ocean Beach",
+          "note": "One-time gang-operation loot (Scorpio Nipper .38 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/zodiac-nipper-38",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Eris Fresh DSG",
+          "location": "Illegal Goods Store operation, northern Southside, Vice City",
+          "note": "Ultimate Edition only (Deever Tech DSG base).",
+          "source": [
+            "https://gta6bugs.com/weapons/eris-fresh-dsg",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Backdoor Hobo",
+          "location": "Zenon's Pawn Shop display case, La Perle",
+          "note": "Store-exclusive, $2,502 (Shrewsbury Hobo base).",
+          "source": [
+            "https://gta6bugs.com/weapons/backdoor-hobo",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Basher Gorse 425",
+          "location": "Pawn & Gun display case, south Port Gellhorn",
+          "note": "Store-exclusive (Fortune & Son Gorse 425 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/basher-gorse-425",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Darknite Drifter",
+          "location": "Gellhorn Outfitters display case, north-west Port Gellhorn",
+          "note": "Store-exclusive, $2,420 (Shrewsbury Drifter base).",
+          "source": [
+            "https://gta6bugs.com/weapons/darknite-drifter",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Dazzler DW-9",
+          "location": "Iron & Oak display case, Stockyard",
+          "note": "Store-exclusive, $3,680 (Schlamm DW-9 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/dazzler-dw-9",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Iron & Oak WCR-1",
+          "location": "Iron & Oak display case, Stockyard",
+          "note": "Store-exclusive, $1,260 (Wortham WCR1 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/iron-oak-wcr-1",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Fincredible Laird 350",
+          "location": "Guns Aplenty! display case, Watson Bay",
+          "note": "Store-exclusive, $2,000 (Fortune & Son Laird 350 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/fincredible-laird-350",
+            "GTA6BUGS"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "Firebreak SM-69",
+          "location": "R. Willis Jr. Hunting Supplies display case, north-west of Kalaga Reservoir",
+          "note": "Store-exclusive, $3,890 (Shrewsbury SM-69 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/firebreak-sm-69",
+            "GTA6BUGS"
+          ],
+          "thumb": "sniper"
+        },
+        {
+          "item": "Moneymaker W-10",
+          "location": "Tequesta Guns & Ammo display case, south-west Tequesta",
+          "note": "Store-exclusive, $1,557 (Wortham W-10 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/moneymaker-w-10",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Mossy Mediator",
+          "location": "Barrage Gun Supply display case, Southwind, by Mile Zero Air Station",
+          "note": "Store-exclusive, $1,890 (Hawk & Little Mediator base).",
+          "source": [
+            "https://gta6bugs.com/weapons/mossy-mediator",
+            "GTA6BUGS"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Neon Sunset Type 9",
+          "location": "Vice City Firearms display case, Salton",
+          "note": "Store-exclusive, $2,310 (Zhang Wu Type 9 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/neon-sunset-type-9",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "Spangled Vatra",
+          "location": "Jackson Firearms display case, south-east Balsero",
+          "note": "Store-exclusive, $2,520 (BZI Vatra base).",
+          "source": [
+            "https://gta6bugs.com/weapons/spangled-vatra",
+            "GTA6BUGS"
+          ],
+          "thumb": "smg"
+        },
+        {
+          "item": "The Silver 1922",
+          "location": "Big Shots display case, east Hamlet",
+          "note": "Store-exclusive, $2,210 (Duke 1922 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/the-silver-1922",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Vice City Heathen",
+          "location": "Prestige Firearms display case, north Ocean Beach",
+          "note": "Store-exclusive, $5,150 (Hillinger Heathen base).",
+          "source": [
+            "https://gta6bugs.com/weapons/vice-city-heathen",
+            "GTA6BUGS"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Watcher Pro Moreland 850",
+          "location": "Tactical Outlet Guns display case, far west Belville",
+          "note": "Store-exclusive, $1,470 (Fortune & Son Moreland 850 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/watcher-pro-moreland-850",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Woodhatch Longshot",
+          "location": "Woodhatch display case, Capri",
+          "note": "Store-exclusive, $2,990 (Mason & Keen Longshot base).",
+          "source": [
+            "https://gta6bugs.com/weapons/woodhatch-longshot",
+            "GTA6BUGS"
+          ],
+          "thumb": "shotgun"
+        },
+        {
+          "item": "Jack Sheepe H&L .38",
+          "location": "Biff's Gun Supply, north-west Ambrosia",
+          "note": "Ultimate Edition only; $2,260 (Hawk & Little .38 base).",
+          "source": [
+            "https://gta6bugs.com/weapons/jack-sheepe-h-l-38",
+            "GTA6BUGS"
+          ],
+          "thumb": "pistol"
         }
       ]
     },
@@ -1186,6 +1742,46 @@
             "GTA6BUGS"
           ],
           "thumb": "pills"
+        },
+        {
+          "item": "B&G Ark Royal Ashore watch",
+          "location": "House in the pocket south of Waning Sands (off the freeway intersection), room past the last bed",
+          "note": "White-gold-and-sapphire luxury watch. One YouTube guide instead ties it to a Belpoint yacht safe.",
+          "source": [
+            "https://gta6map.city/secrets/ark-royal-ashore-watch-waning-sands-house/",
+            "GTA6 Map City"
+          ],
+          "thumb": "watch"
+        },
+        {
+          "item": "B&G Ark Royal Quantum watch",
+          "location": "Watson Bay Safehouse (safe 1819)",
+          "note": "Listed with the safe cash and the VF-G1 rifle upstairs.",
+          "source": [
+            "https://gta6bugs.com/codes/watson-bay-safehouse-safe-code",
+            "GTA6BUGS"
+          ],
+          "thumb": "watch"
+        },
+        {
+          "item": "Sound4Sound Studio loot",
+          "location": "Sound 4 Sound Studio, Stockyard, Vice City; enter via the two back-alley doors",
+          "note": "Safe with nearly $2,000 plus cash, jewellery and coke on the tables; also the Windsor car and San4San K17.",
+          "source": [
+            "https://gta6map.city/secrets/sound4sound-studio-rolls-windsor-k17/",
+            "GTA6 Map City"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Gellhorn Fun Fair bumper car",
+          "location": "Abandoned fun fair across the tracks from Moses' workshop, Port Gellhorn",
+          "note": "Crystal and a collectible card in a bumper car past the broken Ferris wheel.",
+          "source": [
+            "https://gta6map.city/secrets/gellhorn-fun-fair-memorials-bumper-car-card/",
+            "GTA6 Map City"
+          ],
+          "thumb": "pills"
         }
       ]
     },
@@ -1229,7 +1825,9 @@
             "https://thegameswiki.com/gta6/wiki/brooks-boatworks",
             "The Games Wiki"
           ],
-          "thumb": "truck"
+          "thumb": "truck",
+          "img": "img/items/vapid-smuggler-caracara.webp",
+          "imgSource": "https://www.youtube.com/watch?v=HxGsr-bvu50"
         },
         {
           "item": "Annis Drifter Elegy",
@@ -1446,7 +2044,9 @@
             "https://vicecitydb.org/collectibles/standout-vehicles",
             "ViceCityDB"
           ],
-          "thumb": "truck"
+          "thumb": "truck",
+          "img": "img/items/caliente-picador.webp",
+          "imgSource": "https://www.youtube.com/watch?v=uRTk7kvJPgo"
         },
         {
           "item": "Truther Burrito",
@@ -1476,7 +2076,9 @@
             "https://gta6map.io/location/standout-vehicle",
             "GTA6Map.io"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/pegassi-gold-rope-infernus.webp",
+          "imgSource": "https://www.youtube.com/watch?v=CFKKzDZjb6g"
         },
         {
           "item": "Magma Cliffhanger",
@@ -1487,6 +2089,152 @@
             "ViceCityDB"
           ],
           "thumb": "bike"
+        },
+        {
+          "item": "Invetero Spiderweb Coquette",
+          "location": "Party house garage, south-east Key Lento (code 092319)",
+          "note": "Unique custom finish; the fastest of the three Coquette standouts.",
+          "source": [
+            "https://gta.tech4gamers.com/gta-6/vehicles/64-invetero-coquette/",
+            "Tech4Gamers"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "Dom's Charger (Fast & Furious)",
+          "location": "This Old House, Grayson, south-west Lummox County",
+          "note": "Only locked, no fight. Register (about $23,000) or wait for the free registration when Chapter 2 starts.",
+          "source": [
+            "https://gta6map.city/secrets/doms-charger-grayson-old-house/",
+            "GTA6 Map City"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/doms-charger-this-old-house.webp",
+          "imgSource": "https://www.youtube.com/watch?v=H2agwqGcGDQ"
+        },
+        {
+          "item": "Dom's 1970 Chevelle",
+          "location": "Garage of a Capri house with two supercars out front",
+          "note": "Nitrous fitted, no alarm or tracker; register at a Pay 'n' Spray to keep it.",
+          "source": [
+            "https://gta6map.city/secrets/doms-chevelle-capri-garage/",
+            "GTA6 Map City"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/doms-chevelle-capri.webp",
+          "imgSource": "https://www.youtube.com/watch?v=yfvXnuY5YrU"
+        },
+        {
+          "item": "Bravado Revenant Gauntlet",
+          "location": "Back of a barn just east of Kelly County",
+          "note": "Bad condition; restore it with cash. Registration about $23,750 (Moses, Chapter 2).",
+          "source": [
+            "https://gta6map.city/secrets/revenant-gauntlet-barn-east-kelly/",
+            "GTA6 Map City"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/bravado-revenant-gauntlet.webp",
+          "imgSource": "https://www.youtube.com/watch?v=OQo1xfBqB-M"
+        },
+        {
+          "item": "Pink bubblegum Porsche",
+          "location": "Leonard County house with a basketball court; side door by the left garage",
+          "note": "Jump the gate, don't open the garage, break the side door. No key clone needed.",
+          "source": [
+            "https://gta6map.city/secrets/bubblegum-porsche-leonard-county-house/",
+            "GTA6 Map City"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Grotti RSX on a truck bed",
+          "location": "Gellhorn, above the prison",
+          "note": "Tilt the bed and drive off. Has a tracker, so Moses won't buy it until Chapter 3.",
+          "source": [
+            "https://gta6map.city/secrets/grotti-rsx-truck-gellhorn-above-prison/",
+            "GTA6 Map City"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Shipping-container cars (three)",
+          "location": "Field above Grass Rivers; by the race tracks south of Port Gellhorn; south side of Hamlet",
+          "note": "No alarms: a Declasse, a blue Drake Penumbra with nitrous, and a Muxbreeder Bandito.",
+          "source": [
+            "https://gta6map.city/secrets/container-cars-grassrivers-gellhorn-hamlet/",
+            "GTA6 Map City"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Upgraded Buccaneer",
+          "location": "Outside the gang compound at the very top of Lummox County",
+          "note": "Fully upgraded muscle car next to the golden Tec 9 warehouse.",
+          "source": [
+            "https://gta6map.city/secrets/gold-tec9-buccaneer-lummox-compound/",
+            "GTA6 Map City"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "Lake Tallaloko estate helicopter",
+          "location": "Guarded estate by Lake Tallaloko, Lummox County; private helipad on the lake",
+          "note": "Fight past private security; supercars in the lot. The finder says the helicopter appears nowhere else.",
+          "source": [
+            "https://gta6map.city/secrets/tallaloko-estate-volatus-helipad/",
+            "GTA6 Map City"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Vapid Finns Reclaimer",
+          "location": "Very top of the map north of Vice City, between a lake and the four-lane road, under a sign",
+          "note": "Rusty light-blue pickup with a giant rod and fish in the bed; Wasteland Off-Road does 4WD mods.",
+          "source": [
+            "https://gta6map.city/secrets/vapid-reclaimer-north-edge-fishing-truck/",
+            "GTA6 Map City"
+          ],
+          "thumb": "truck"
+        },
+        {
+          "item": "Windsor luxury car (Sound4Sound)",
+          "location": "Photo studio inside Sound 4 Sound Studio, Stockyard, Vice City",
+          "note": "Rolls-Royce style, about $24,000-25,000; no tracker or alarm.",
+          "source": [
+            "https://gta6map.city/secrets/sound4sound-studio-rolls-windsor-k17/",
+            "GTA6 Map City"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Hauners Ridgway tank",
+          "location": "IAA Black Site (hatch 085355), southern North Mariana County",
+          "note": "A tank you can drive away and keep.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/presidents-bunker-codes-russo-pistol-tank",
+            "GTA6BUGS"
+          ],
+          "thumb": "truck"
+        },
+        {
+          "item": "Bang Bros Escalade",
+          "location": "Peacock Estates house with a Rolls-Royce out front, round the side",
+          "note": "Standout reference car; a supercar sits in the front garage (no alarm) with a Candy Suxxx bat behind it.",
+          "source": [
+            "https://gta6map.city/secrets/bang-bros-escalade-peacock-estates/",
+            "GTA6 Map City"
+          ],
+          "thumb": "suv"
+        },
+        {
+          "item": "Nutbuster",
+          "location": "Can turn up while stealing cars for a job",
+          "note": "Yellow Kill Bill Pussy Wagon parody pickup; yours to take.",
+          "source": [
+            "https://gta6map.city/secrets/nutbuster-kill-bill-truck/",
+            "GTA6 Map City"
+          ],
+          "thumb": "truck"
         }
       ]
     },
@@ -2087,7 +2835,7 @@
         {
           "item": "Unidentified Building",
           "location": "Southern tip of the island north of Waning Sands (Little Hardin Island chain)",
-          "note": "Graffiti-covered bunker door with a keypad; WAiNK guesses Cold War bunker. Door doesn't open yet.",
+          "note": "Graffiti-covered bunker door on Sharktooth Island. It opens with 010317: this is the President's bunker (see President's bunker chain).",
           "source": [
             "https://gta6bugs.com/easter-eggs/unidentified-building-cold-war-bunker",
             "GTA6BUGS"
@@ -2463,6 +3211,188 @@
           "thumb": "egg",
           "img": "img/items/lovers-lookout.webp",
           "imgSource": "https://gta6bugs.com/easter-eggs/lovers-lookout-wishing-well"
+        },
+        {
+          "item": "Vice City portal (LPL substations)",
+          "location": "Starts in the Badger radio tower, Key Lento; ends at Reactor 2, T.H. Power Station east of Hamlet (7 PM-6 AM)",
+          "note": "Flip switches at 12 LPL substations in order (spells LIFE IS PASSING ME BY) to reach a PS2-style Vice City; meet Kent Paul and leave with Tommy's shirt and a bike.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/vice-city-portal-lpl-substations-tommy-vercetti-shirt",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/vice-city-portal-lpl-substations.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/vice-city-portal-lpl-substations-tommy-vercetti-shirt"
+        },
+        {
+          "item": "President's bunker chain",
+          "location": "Friends of Freedom memorial, Catalan Blvd, Downtown Vice City, then Sharktooth Island and North Mariana County",
+          "note": "Talk to Jose Bermudez, search his Little Cuba flat, then bunker 010317, safe 2975, hatch 085355: Russo's 1922, Cold War 556 and a Hauners Ridgway tank.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/presidents-bunker-codes-russo-pistol-tank",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/presidents-bunker-chain.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/presidents-bunker-codes-russo-pistol-tank"
+        },
+        {
+          "item": "Brainwashing program (kill Russo)",
+          "location": "Under the President's bunker, North Mariana County; after both bunkers are open",
+          "note": "Second button on the door terminal, then the chair by the running monitor. Inside: keypad 090607 and the login given as 'President Russo 0612'.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/brainwashing-program-president-bunker-kill-russo",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/brainwashing-program-russo.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/brainwashing-program-president-bunker-kill-russo"
+        },
+        {
+          "item": "Kraken shipwreck",
+          "location": "Sea floor south of Catalan Bay, east of Peacock Bay (second oval sandbank, south of Gloriana Key)",
+          "note": "Giant tentacle statue wrapped through a wreck; scuba needed. No treasure found there yet.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/kraken-shipwreck-statue-catalan-bay",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/kraken-shipwreck-catalan-bay.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/kraken-shipwreck-statue-catalan-bay"
+        },
+        {
+          "item": "Merman photoshoot islet",
+          "location": "Sandy islet in north-western Gambit Bay, north-east of Mile Zero Air Station, west of the Keys highway",
+          "note": "A man in a mermaid tail by a beach tent and camera asks you to spray him with water.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/merman-photoshoot-island-gambit-bay",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/merman-photoshoot-gambit-bay.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/merman-photoshoot-island-gambit-bay"
+        },
+        {
+          "item": "Pennywise-style killer clown",
+          "location": "A certain elevator at night, around 3 AM (building not yet named)",
+          "note": "IT nod: the doors open on a clown who chases you rather than a one-shot jump scare.",
+          "source": [
+            "https://gta6map.city/secrets/pennywise-elevator-killer-clown/",
+            "GTA6 Map City"
+          ],
+          "thumb": "egg",
+          "img": "img/items/pennywise-killer-clown-elevator.webp",
+          "imgSource": "https://www.youtube.com/watch?v=Qo5lq5CimLs"
+        },
+        {
+          "item": "Fountain of youth",
+          "location": "Just outside the central hub of Capri; 'fuente de la juventud' sign on the wall",
+          "note": "Drinking from it refills health, stamina and focus.",
+          "source": [
+            "https://gta6map.city/secrets/capri-fountain-of-youth/",
+            "GTA6 Map City"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Gellhorn Fun Fair memorials",
+          "location": "Abandoned fun fair across the tracks from Moses' workshop, Port Gellhorn",
+          "note": "Read the stickered box through binoculars for ride-death memorial notes; a dog still waits for its owner.",
+          "source": [
+            "https://gta6map.city/secrets/gellhorn-fun-fair-memorials-bumper-car-card/",
+            "GTA6 Map City"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Ice Truck Killer mannequin arm",
+          "location": "Leonard County house; enter by the back door, bedroom workbench",
+          "note": "Dexter nod: paint tools and a severed mannequin arm with painted nails.",
+          "source": [
+            "https://gta6map.city/secrets/ice-truck-killer-mannequin-arm-house/",
+            "GTA6 Map City"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Dog guarding a grave (Greyfriars Bobby)",
+          "location": "One of Leonida's cemeteries, grave marked Grey",
+          "note": "A small dog lies by the grave, a nod to the Edinburgh dog Greyfriars Bobby.",
+          "source": [
+            "https://gta6map.city/secrets/greyfriars-bobby-dog-grave/",
+            "GTA6 Map City"
+          ],
+          "thumb": "dog"
+        },
+        {
+          "item": "Sassafras Road ghost",
+          "location": "Sassafras Road, east Lummox County, off the northern highway toward Millport; at night, alone",
+          "note": "Green fog and a light from the sky; a pale woman crawls onto the windscreen. Random, so it may take several tries.",
+          "source": [
+            "https://gta6map.city/secrets/lummox-road-ghost-green-fog/",
+            "GTA6 Map City"
+          ],
+          "thumb": "alien"
+        },
+        {
+          "item": "Gliding man mystery (Mount Kalaga)",
+          "location": "Stone Hills shed (69185), Switchback and Kalaga towers, burnt Moreau tower",
+          "note": "Three logbooks tell of a gliding man and an evacuation; around midnight a bike and phone appear at a burn mark near a barn.",
+          "source": [
+            "https://gta6map.city/secrets/kalaga-gliding-man-logbooks-mystery/",
+            "GTA6 Map City"
+          ],
+          "thumb": "ufo"
+        },
+        {
+          "item": "Booker (dying stranger)",
+          "location": "Random cry for help at sunset near an old building",
+          "note": "Drive him to a gun store and a gang-run bowling alley, finish the fight, take him home and keep his garage car.",
+          "source": [
+            "https://gta6map.city/secrets/booker-dying-stranger-free-muscle-car/",
+            "GTA6 Map City"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Talking cow",
+          "location": "Random countryside encounter with a farmer",
+          "note": "Lucia hears the escaped cow beg to be saved; return her or let her run.",
+          "source": [
+            "https://gta6map.city/secrets/talking-cow-save-me-encounter/",
+            "GTA6 Map City"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "William Tell game",
+          "location": "Random encounter",
+          "note": "Two men dare you to shoot an object off one of their heads.",
+          "source": [
+            "https://gta6map.city/secrets/william-tell-apple-shot-encounter/",
+            "GTA6 Map City"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Dumpster lawyer",
+          "location": "Random encounter by a dumpster",
+          "note": "A man calling himself your attorney asks for meds; creators call it a Better Call Saul nod.",
+          "source": [
+            "https://gta6map.city/secrets/dumpster-lawyer-medication-encounter/",
+            "GTA6 Map City"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Gasoline pickup man",
+          "location": "Random encounter at gas stations",
+          "note": "A man fills his pickup bed with gasoline and soon catches fire, recreating a meme.",
+          "source": [
+            "https://gta6map.city/secrets/gasoline-man-truck-bed-fire/",
+            "GTA6 Map City"
+          ],
+          "thumb": "note"
         }
       ]
     },
@@ -2594,7 +3524,7 @@
         {
           "item": "Big Shots Ammu-Nation",
           "location": "Hamlet",
-          "note": "Sells the unique Sand Storm ES9 pistol for $1,470.",
+          "note": "Sells the unique Sand Storm ES9 pistol for $1,470; GTA6BUGS also lists The Silver 1922 ($2,210) in its display case.",
           "source": [
             "https://gta6info.com/wiki/Unique_Weapons",
             "GTA6Info"
@@ -2722,6 +3652,146 @@
           "source": [
             "https://gta6bugs.com/map/vice-city",
             "GTA6BUGS Vice City map"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Zenon's Pawn Shop",
+          "location": "La Perle, Vice City",
+          "note": "Sells the unique Backdoor Hobo ($2,502).",
+          "source": [
+            "https://gta6bugs.com/weapons/backdoor-hobo",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Pawn & Gun",
+          "location": "South Port Gellhorn",
+          "note": "Sells the unique Basher Gorse 425.",
+          "source": [
+            "https://gta6bugs.com/weapons/basher-gorse-425",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Gellhorn Outfitters",
+          "location": "North-west Port Gellhorn",
+          "note": "Sells the unique Darknite Drifter ($2,420).",
+          "source": [
+            "https://gta6bugs.com/weapons/darknite-drifter",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Iron & Oak",
+          "location": "Stockyard, Vice City",
+          "note": "Sells the unique Dazzler DW-9 ($3,680) and Iron & Oak WCR-1 ($1,260).",
+          "source": [
+            "https://gta6bugs.com/weapons/dazzler-dw-9",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Guns Aplenty!",
+          "location": "Watson Bay",
+          "note": "Sells the unique Fincredible Laird 350 ($2,000).",
+          "source": [
+            "https://gta6bugs.com/weapons/fincredible-laird-350",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "R. Willis Jr. Hunting Supplies",
+          "location": "Lummox County, north-west of Kalaga Reservoir",
+          "note": "Sells the unique Firebreak SM-69 ($3,890).",
+          "source": [
+            "https://gta6bugs.com/weapons/firebreak-sm-69",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Tequesta Guns & Ammo",
+          "location": "South-west Tequesta",
+          "note": "Sells the unique Moneymaker W-10 ($1,557).",
+          "source": [
+            "https://gta6bugs.com/weapons/moneymaker-w-10",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Barrage Gun Supply",
+          "location": "Southwind, by Mile Zero Air Station",
+          "note": "Sells the unique Mossy Mediator ($1,890).",
+          "source": [
+            "https://gta6bugs.com/weapons/mossy-mediator",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Vice City Firearms",
+          "location": "Salton, Vice City",
+          "note": "Sells the unique Neon Sunset Type 9 ($2,310).",
+          "source": [
+            "https://gta6bugs.com/weapons/neon-sunset-type-9",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Jackson Firearms",
+          "location": "South-east Balsero, Vice City",
+          "note": "Sells the unique Spangled Vatra ($2,520).",
+          "source": [
+            "https://gta6bugs.com/weapons/spangled-vatra",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Prestige Firearms",
+          "location": "North Ocean Beach, Vice City",
+          "note": "Sells the unique Vice City Heathen ($5,150).",
+          "source": [
+            "https://gta6bugs.com/weapons/vice-city-heathen",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Tactical Outlet Guns",
+          "location": "Far west Belville",
+          "note": "Sells the unique Watcher Pro Moreland 850 ($1,470).",
+          "source": [
+            "https://gta6bugs.com/weapons/watcher-pro-moreland-850",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Woodhatch",
+          "location": "Capri",
+          "note": "Sells the unique Woodhatch Longshot ($2,990).",
+          "source": [
+            "https://gta6bugs.com/weapons/woodhatch-longshot",
+            "GTA6BUGS"
+          ],
+          "thumb": "gunstore"
+        },
+        {
+          "item": "Biff's Gun Supply",
+          "location": "North-west Ambrosia",
+          "note": "Ultimate Edition only; sells the unique Jack Sheepe H&L .38 ($2,260).",
+          "source": [
+            "https://gta6bugs.com/weapons/jack-sheepe-h-l-38",
+            "GTA6BUGS"
           ],
           "thumb": "gunstore"
         }
@@ -2907,6 +3977,26 @@
             "GTA6BUGS"
           ],
           "thumb": "cash"
+        },
+        {
+          "item": "Movement speed setting",
+          "location": "Settings > Gameplay > Movement",
+          "note": "Level 1 caps you at a walk; set level 4. Standard layout: click L3 to jog, again to sprint. Classic layout: tap X (PS5) / A (Xbox).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-cant-run-stuck-walking-speed",
+            "GTA6BUGS"
+          ],
+          "thumb": "dpad"
+        },
+        {
+          "item": "Getting fish to bite",
+          "location": "Turn the right stick slowly",
+          "note": "Wait for the second, stronger rumble before reeling; if the stick never works, switch reeling to a button in settings.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-fishing-no-bites-ever-cant-complete-recalibration-254",
+            "GTA6BUGS"
+          ],
+          "thumb": "fishing"
         }
       ],
       "steps": [
@@ -2928,7 +4018,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (44 entries, file updated 22 Nov 2026, 6:08 PM AEST), plus extra reports found by research. No official Rockstar patch notes or known-issues list as of 23 Nov 2026, Australia/Brisbane. Latest reported official build remains 01.002.001 (16 Nov, pre-launch). A 1.002.002 report is unofficial and unconfirmed.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (44 entries, file updated 22 Nov 2026, 6:08 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -3105,7 +4195,7 @@
         {
           "item": "Crashes or reboots wiping progress despite autosave",
           "location": "Unspecified",
-          "note": "Reported progress loss after a crash or reboot even with autosave.",
+          "note": "Reported progress loss after a crash or reboot. Update 01.002.002 lists crash fixes and an autosave fix.",
           "source": [
             "https://www.gta6resources.com/news/gta6-crashes-autosave-progress-loss",
             "GTA6 Resources"
@@ -3274,7 +4364,7 @@
         {
           "item": "Xbox Quick Resume unlocks the framerate",
           "location": "Xbox Series X, 120Hz display, version 01.002.001",
-          "note": "Start at 60Hz, switch to 120Hz at the intro, cold-boot another game, then resume: 60+ FPS but gameplay runs at double speed. Game Rant also reports the 30 FPS lock lifting to about 60 FPS.",
+          "note": "Start at 60Hz, switch to 120Hz at the intro, cold-boot another game, then resume: 60+ FPS but double-speed gameplay. RockstarINTEL says 01.002.002 did not patch it.",
           "source": [
             "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/",
             "Wccftech"
@@ -3346,7 +4436,7 @@
         {
           "item": "Weightlifting bar won't fill (LT+RT)",
           "location": "Gym at Jason's house / a story mission",
-          "note": "Holding LT+RT does nothing. A controller hardware reset (back pin-hole button, 5 seconds) fixed it for one PS5 player.",
+          "note": "Holding LT+RT does nothing. Rockstar's 01.002.002 notes list a fix for the gym deadlift bar; before that, a controller reset helped one PS5 player.",
           "source": [
             "https://gta6bugs.com/bugs/gta-6-weightlifting-lt-rt-not-working-mission-stuck",
             "GTA6BUGS"
@@ -3486,7 +4576,7 @@
         {
           "item": "No Raul call after Photo Shoot / Heavy Lifting",
           "location": "Chapter 4 story calls",
-          "note": "Usually an unfinished task: finish and sell all 3 Yasmani jewelry jobs; also fully restart the game.",
+          "note": "Update 01.002.002 fixes story and mission phone calls not triggering. Otherwise finish and sell all 3 Yasmani jewelry jobs and fully restart.",
           "source": [
             "https://gta6bugs.com/bugs/gta-6-chapter-4-raul-not-calling-after-heavy-lifting",
             "GTA6BUGS"
@@ -3512,6 +4602,86 @@
             "GTA6BUGS"
           ],
           "thumb": "softlock"
+        },
+        {
+          "item": "Official update 01.002.002 (23 Nov, US time)",
+          "location": "PS5 01.002.002 (about 604 MB) / Xbox 1.0.2.2 (about 1.6 GB)",
+          "note": "Rockstar notes: crash fixes, weather stuck for long periods, autosave, phone calls not triggering, Wanted Level not clearing, gym deadlift bar, partners not handing over bags for fences. Xbox 60 FPS glitch not patched.",
+          "source": [
+            "https://rockstarintel.com/new-gta-vi-update-01-002-002-patch-notes-released/",
+            "RockstarINTEL"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Low-res textures and freezing after 01.002.002",
+          "location": "Free roam, PS5 / Xbox Series",
+          "note": "Blurry textures and LOD models plus brief freezes while driving since the update. Fully restart the game and console (not Rest Mode or Quick Resume).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-low-res-textures-freezing-after-update-01-002-002",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Coming Home crashes before the pool game",
+          "location": "Coming Home, mostly Xbox Series X, at least one PS5",
+          "note": "Repeated crashes around the pool-table scene. Skip every cutscene and keep interactions minimal; one player says it got worse after 1.0.2.2.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-coming-home-crash-before-pool-game",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Convict Kalinga .50 garage won't open",
+          "location": "Port Gellhorn garage tunnel, Chapter 3, PS5",
+          "note": "Unconfirmed. Wait a few in-game hours or finish the next story mission, then return.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-convict-kalinga-50-cant-get-into-the-port-gellhorn-garage-tunnel-358",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Lucia won't get in the car after a heist",
+          "location": "Leaving a heist location, PS5",
+          "note": "Unconfirmed. Drive a few metres to open ground, stop, and let her walk to the car.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-wont-get-in-the-car-after-a-heist-pathfinding-breaks-ps5-357",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Vanessa's garage keypad gone / Growler missing",
+          "location": "Auntie's Place garage, La Perle",
+          "note": "Use Boobie's laptop clue first (Chapter 3), then 92665; or reload an earlier save and save straight after opening.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-vanessas-garage-keypad-gone-growler-missing",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Lucia stuck at walking speed",
+          "location": "PS5 / Xbox Series",
+          "note": "Usually the Movement speed setting (see Controls): set it to level 4.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-cant-run-stuck-walking-speed",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Fishing: no bites (Recalibration)",
+          "location": "Recalibration, PS5",
+          "note": "Usually technique: turn the right stick slowly and wait for the second rumble, or switch reeling to a button.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-fishing-no-bites-ever-cant-complete-recalibration-254",
+            "GTA6BUGS"
+          ],
+          "thumb": "fishing"
         }
       ]
     }
