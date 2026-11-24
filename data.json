@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 24 Nov 2026, 8:13 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 24 Nov 2026, 3:15 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "24 Nov 2026, 8:13 AM AEST"
+      "value": "24 Nov 2026, 3:15 PM AEST"
     },
     {
       "label": "Official patches",
@@ -33,7 +33,10 @@
     "https://gta6bugs.com/weapons",
     "https://gta6map.city/secrets/new/",
     "https://gamerant.com/gta-6-safe-codes-keypad-combinations-door-passwords-list/",
-    "https://rockstarintel.com/new-gta-vi-update-01-002-002-patch-notes-released/"
+    "https://rockstarintel.com/new-gta-vi-update-01-002-002-patch-notes-released/",
+    "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
+    "https://gta6gang.com/guides/gta6-safe-codes.html",
+    "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -566,6 +569,46 @@
           "source": [
             "https://gamerant.com/gta-6-safe-codes-keypad-combinations-door-passwords-list/",
             "Game Rant"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Gloriana Key guarded house safe",
+          "location": "4567",
+          "note": "Upstairs office safe; code is on the first floor. Single GTABase map report.",
+          "source": [
+            "https://gta6gang.com/guides/gta6-safe-codes.html",
+            "GTA6Gang (GTABase map)"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Vice Beach first-floor apartment safe",
+          "location": "8880",
+          "note": "In the first-floor apartment. Single GTABase map report.",
+          "source": [
+            "https://gta6gang.com/guides/gta6-safe-codes.html",
+            "GTA6Gang (GTABase map)"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Ambrosia abandoned house safe",
+          "location": "23554",
+          "note": "Climb onto the roof and drop through the hole; code is on top of the outhouse. Single GTABase map report.",
+          "source": [
+            "https://gta6gang.com/guides/gta6-safe-codes.html",
+            "GTA6Gang (GTABase map)"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Prairie Court house safe",
+          "location": "3260",
+          "note": "Inside the house, Prairie Court, Port Gellhorn. Single GTABase map report.",
+          "source": [
+            "https://gta6gang.com/guides/gta6-safe-codes.html",
+            "GTA6Gang (GTABase map)"
           ],
           "thumb": "safe"
         }
@@ -1802,7 +1845,9 @@
           "mx": 76.8,
           "my": 48.7,
           "area": "Vespucci Island",
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/maibatsu-penumbra-ff.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/maibatsu-penumbra-ff-paul-walker-tribute/"
         },
         {
           "item": "Imponte Phoenix (ASSMAN plate)",
@@ -1982,7 +2027,9 @@
             "https://gtavimaps.com/guides/rare-cars/",
             "GTAVIMaps"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/teniente-manana.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/albany-teniente-manana/"
         },
         {
           "item": "Vapid Firebug Dominator",
@@ -1992,7 +2039,9 @@
             "https://thegameswiki.com/gta6/wiki/standout-vehicles",
             "The Games Wiki"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/vapid-firebug-dominator.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-firebug-dominator/"
         },
         {
           "item": "Vapid Cultivator Sandking",
@@ -2002,7 +2051,9 @@
             "https://thegameswiki.com/gta6/wiki/standout-vehicles",
             "The Games Wiki"
           ],
-          "thumb": "truck"
+          "thumb": "truck",
+          "img": "img/items/vapid-cultivator-sandking.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-cultivator-sandking/"
         },
         {
           "item": "Vapid Truth & Justice Caracara",
@@ -2012,17 +2063,21 @@
             "https://thegameswiki.com/gta6/wiki/standout-vehicles",
             "The Games Wiki"
           ],
-          "thumb": "truck"
+          "thumb": "truck",
+          "img": "img/items/vapid-truth-justice-caracara.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-truth-justice-caracara/"
         },
         {
-          "item": "Western Searing Zombie Robber",
+          "item": "Western Searing Zombie Bobber",
           "location": "Meth lab at the end of the McKittrick Farm chain (opens at the start of Chapter 2)",
-          "note": "Black motorcycle with yellow flames.",
+          "note": "Black motorcycle with yellow flames. Ground floor, south-east part of the Farm Fix Meth Lab (GTA6Wiki spells it Bobber).",
           "source": [
             "https://thegameswiki.com/gta6/wiki/standout-vehicles",
             "The Games Wiki"
           ],
-          "thumb": "bike"
+          "thumb": "bike",
+          "img": "img/items/western-searing-zombie-bobber.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/western-searing-zombie-bobber/"
         },
         {
           "item": "Bugstars Burrito",
@@ -2056,7 +2111,9 @@
             "https://vicecitydb.org/collectibles/standout-vehicles",
             "ViceCityDB"
           ],
-          "thumb": "truck"
+          "thumb": "truck",
+          "img": "img/items/truther-burrito.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-truther-burrito/"
         },
         {
           "item": "Vapid Red Hot Hustler",
@@ -2066,7 +2123,9 @@
             "https://gta6map.io/location/standout-vehicle",
             "GTA6Map.io"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/vapid-red-hot-hustler.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-red-hot-hustler/"
         },
         {
           "item": "Pegassi Gold Rope Infernus",
@@ -2088,7 +2147,9 @@
             "https://vicecitydb.org/collectibles/standout-vehicles",
             "ViceCityDB"
           ],
-          "thumb": "bike"
+          "thumb": "bike",
+          "img": "img/items/magma-cliffhanger.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/western-magma-cliffhanger/"
         },
         {
           "item": "Invetero Spiderweb Coquette",
@@ -2189,22 +2250,26 @@
         {
           "item": "Vapid Finns Reclaimer",
           "location": "Very top of the map north of Vice City, between a lake and the four-lane road, under a sign",
-          "note": "Rusty light-blue pickup with a giant rod and fish in the bed; Wasteland Off-Road does 4WD mods.",
+          "note": "Rusty light-blue pickup with a giant rod and fish in the bed; Wasteland Off-Road does 4WD mods. GTA6Wiki: in front of the Finns Diner and Bait sign beside Tallaloko Lake Rd.",
           "source": [
             "https://gta6map.city/secrets/vapid-reclaimer-north-edge-fishing-truck/",
             "GTA6 Map City"
           ],
-          "thumb": "truck"
+          "thumb": "truck",
+          "img": "img/items/vapid-finns-reclaimer.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-finns-reclaimer/"
         },
         {
           "item": "Windsor luxury car (Sound4Sound)",
           "location": "Photo studio inside Sound 4 Sound Studio, Stockyard, Vice City",
-          "note": "Rolls-Royce style, about $24,000-25,000; no tracker or alarm.",
+          "note": "Rolls-Royce style, about $24,000-25,000; no tracker or alarm. GTA6Wiki names it the Buckingham Bourbon Windsor.",
           "source": [
             "https://gta6map.city/secrets/sound4sound-studio-rolls-windsor-k17/",
             "GTA6 Map City"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/windsor-luxury-car-sound4sound.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/buckingham-bourbon-windsor/"
         },
         {
           "item": "Hauners Ridgway tank",
@@ -2235,6 +2300,192 @@
             "GTA6 Map City"
           ],
           "thumb": "truck"
+        },
+        {
+          "item": "Truffade Andrew Node's Thrax",
+          "location": "Garage of a large mansion off Sabal Cir, south Starfish Island",
+          "note": "Unlocked supercar, alarm off, no tracker; no Key Cloner needed. About $70,000 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/truffade-andrew-nodes-thrax/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/truffade-andrew-nodes-thrax.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/truffade-andrew-nodes-thrax/"
+        },
+        {
+          "item": "Progen Royal Ruby Emerus",
+          "location": "Small garage by the entrance of the Vespucci Mansion, Neptune Circle, Vespucci Island",
+          "note": "Unlocked, no alarm or tracker; key valuable of the Vespucci Mansion gang site, so expect armed guards.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/progen-royal-ruby-emerus/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/progen-royal-ruby-emerus.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/progen-royal-ruby-emerus/"
+        },
+        {
+          "item": "Progen Purple Drank Emerus",
+          "location": "Shipping container by the water, Chatfield Storage & Logistics, Waxman Island",
+          "note": "Unlocked, no alarm or tracker; gang-site key valuable (sometimes parked in front of the containers).",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/progen-purple-drank-emerus/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/progen-purple-drank-emerus.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/progen-purple-drank-emerus/"
+        },
+        {
+          "item": "Pegassi Charred Toros",
+          "location": "Front yard of the La Perle Trap House off NW 10th Ave, La Perle",
+          "note": "Unlocked SUV, no tracker; San4San gang-site key valuable. About $8,950 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/pegassi-charred-toros/",
+            "GTA6Wiki"
+          ],
+          "thumb": "suv",
+          "img": "img/items/pegassi-charred-toros.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/pegassi-charred-toros/"
+        },
+        {
+          "item": "Benefactor Nightlight Schafter",
+          "location": "Back corner of the Casa Guardia back yard, off NW 3rd Ave, Little Cuba",
+          "note": "Unlocked, no tracker; Guardia Brothers gang-site key valuable.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/benefactor-nightlight-schafer/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/benefactor-nightlight-schafter.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/benefactor-nightlight-schafer/"
+        },
+        {
+          "item": "Bravado Devil's Rope Gauntlet",
+          "location": "Just inside Hog Stars Garage, Acacia St, Ambrosia",
+          "note": "Unlocked muscle car, no tracker; Final Chapter gang-site key valuable, visible from the street.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-devils-rope-gauntlet/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/bravado-devils-rope-gauntlet.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-devils-rope-gauntlet/"
+        },
+        {
+          "item": "Dundreary Cherry Bomb Chino",
+          "location": "Just inside the front gate of Saber Shipping Yard, off Northbrook Dr, Little Cuba",
+          "note": "Unlocked, no tracker; Guardia Brothers gang-site key valuable.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/dundreary-cherry-bomb-chino/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/dundreary-cherry-bomb-chino.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/dundreary-cherry-bomb-chino/"
+        },
+        {
+          "item": "Camus Black Moth Kamacho",
+          "location": "Garage under the Watson Bay Safehouse",
+          "note": "Unlocked off-roader, no tracker; La Polilla Negra gang-site key valuable.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/camus-black-moth-kamacho/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/camus-black-moth-kamacho.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/camus-black-moth-kamacho/"
+        },
+        {
+          "item": "Granforma Tsunami Zorrusso",
+          "location": "Garage of a gated cream mansion with a bell tower, south side of Peacock Estates",
+          "note": "Needs the Key Cloner (Chapter 3, Clonin' Keys, Makin' Gs). Alarm and advanced tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/granforma-tsunami-zorrusso/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/granforma-tsunami-zorrusso.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/granforma-tsunami-zorrusso/"
+        },
+        {
+          "item": "Pfister Class Act Comet",
+          "location": "Driveway corner by two garage doors, mansion in south-west Starfish Island",
+          "note": "Needs the Key Cloner; alarm and advanced tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/pfister-class-act-comet/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/pfister-class-act-comet.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/pfister-class-act-comet/"
+        },
+        {
+          "item": "Pegassi Valiant Tempesta",
+          "location": "Courtyard in front of the Vice Museum of Art, southern Washington Beach",
+          "note": "Needs the Key Cloner; alarm and advanced tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/pegassi-valiant-tempesta/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/pegassi-valiant-tempesta.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/pegassi-valiant-tempesta/"
+        },
+        {
+          "item": "Invetero Enforcer Coquette",
+          "location": "Display pedestal in front of the Capri Police Station, central Capri",
+          "note": "Needs the Key Cloner; alarm and advanced tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/invetero-enforcer-coquette/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/invetero-enforcer-coquette.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/invetero-enforcer-coquette/"
+        },
+        {
+          "item": "Ocelot Bloodless Jugular",
+          "location": "Detached garage next to a white villa, Chastity Ave, northern Belville",
+          "note": "Needs the Key Cloner; standard tracker, so Pay 'n' Spray only (after meeting Randy in Chapter 3).",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/ocelot-bloodless-jugular/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/ocelot-bloodless-jugular.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/ocelot-bloodless-jugular/"
+        },
+        {
+          "item": "Pegassi Lustrous Toros",
+          "location": "Garage of the large house mid-way along the southern road, Casanova Island",
+          "note": "Gold SUV, plate CASHTLKS; enter via the back door; Key Cloner needed. Collectible cards inside.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
+            "GTA6Wiki"
+          ],
+          "thumb": "suv"
+        },
+        {
+          "item": "Pegassi Gold Rush Tempesta",
+          "location": "Covered upper parking deck, Crimson Palms Condominiums, Washington Beach",
+          "note": "Gold supercar: main gate, then the curved ramp on the right. Key Cloner needed; Game8 also lists a spawn outside Cirque de Cuisine, Ocean Beach.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Big Cat Furia",
+          "location": "By the front steps of the mansion at the north-east tip of Starfish Island",
+          "note": "Leopard-print supercar, plate POUNCE; alarm and advanced tracker. About $66,250 to register.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car"
         }
       ]
     },
@@ -2632,7 +2883,9 @@
             "https://thegta6guide.com/gta-6-easter-eggs/",
             "The GTA 6 Guide"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/maibatsu-penumbra-ff.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/maibatsu-penumbra-ff-paul-walker-tribute/"
         },
         {
           "item": "Painted egg nest",
@@ -3997,6 +4250,116 @@
             "GTA6BUGS"
           ],
           "thumb": "fishing"
+        },
+        {
+          "item": "Flip a car / push a boat",
+          "location": "Stand beside it, click L3, hold Square (PS5) / X (Xbox)",
+          "note": "Rights overturned cars and shoves beached boats or jet skis; fails if too heavy, on steep slopes, or out of stamina.",
+          "source": [
+            "https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835",
+            "Kotaku"
+          ],
+          "thumb": "optional"
+        },
+        {
+          "item": "Rest or sit anywhere",
+          "location": "Hold Circle (PS5) / B (Xbox) on foot",
+          "note": "Sits on grass or sand, leans on walls or rails, or dips feet at a dock or pool.",
+          "source": [
+            "https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835",
+            "Kotaku"
+          ],
+          "thumb": "optional"
+        },
+        {
+          "item": "Auto Drive to a waypoint",
+          "location": "Set waypoint, hold D-pad Down, Options for cinematic cam, then hold Circle",
+          "note": "Car (or boat) drives itself to the marker; hold D-pad Down to take back control.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+            "games.gg"
+          ],
+          "thumb": "dpad"
+        },
+        {
+          "item": "WAiNK car scan",
+          "location": "Hold D-pad Up, aim at a car, hold R1",
+          "note": "Shows lock/Key Cloner need, alarm, tracker, sell value and registration cost before you steal it.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+            "games.gg"
+          ],
+          "thumb": "dpad"
+        },
+        {
+          "item": "Leave the engine running",
+          "location": "Double-tap Triangle (PS5) / Y (Xbox)",
+          "note": "Exit with the engine on; at speed the car keeps rolling.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/15-hidden-gta-6-controls-and-features-you-should-know-about/",
+            "PC Gamer"
+          ],
+          "thumb": "escape"
+        },
+        {
+          "item": "Hide in a car",
+          "location": "Hold Circle (PS5) / B (Xbox) in a vehicle",
+          "note": "Ducks down out of sight.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/15-hidden-gta-6-controls-and-features-you-should-know-about/",
+            "PC Gamer"
+          ],
+          "thumb": "stealth"
+        },
+        {
+          "item": "First-person look",
+          "location": "Hold L2 (PS5) / LT (Xbox), then press R3",
+          "note": "Look through Jason or Lucia's eyes without moving; handy for reading signs and posters.",
+          "source": [
+            "https://www.pcgamer.com/games/grand-theft-auto/15-hidden-gta-6-controls-and-features-you-should-know-about/",
+            "PC Gamer"
+          ],
+          "thumb": "focus"
+        },
+        {
+          "item": "Car-door hit",
+          "location": "Press Square while driving",
+          "note": "Swings your door into anyone beside the car.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+            "games.gg"
+          ],
+          "thumb": "escape"
+        },
+        {
+          "item": "Enterable buildings on the map",
+          "location": "Pause map shading",
+          "note": "Dark blue buildings can be entered; pale blue ones are generally shut.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+            "games.gg"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Grow your Focus bar",
+          "location": "Hobbies: fishing, pool, golf, basketball, meditation, shooting range",
+          "note": "All extend Focus over time; coffee and tea refill it faster.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+            "games.gg"
+          ],
+          "thumb": "focus"
+        },
+        {
+          "item": "Podcasts (On Demand)",
+          "location": "Hold D-pad Left, push right stick down",
+          "note": "X plays a show, Square browses episodes.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+            "games.gg"
+          ],
+          "thumb": "dpad"
         }
       ],
       "steps": [
@@ -4682,6 +5045,46 @@
             "GTA6BUGS"
           ],
           "thumb": "fishing"
+        },
+        {
+          "item": "Jason stuck in the shower (invisible curtain)",
+          "location": "Shower at Jason's house; PS5 / Xbox Series",
+          "note": "Jason can be left in the tub, dressed, with the curtain acting as a wall. Reload the last save; save before showering. Unconfirmed.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-jason-stuck-in-shower-softlock",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Cutscene goes black, audio keeps playing",
+          "location": "Story cutscenes; PS5 / Xbox Series",
+          "note": "Picture drops out mid-scene, then returns or skips to gameplay; not reported as story-blocking.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cutscene-black-screen",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Bicycle clips into the floor and launches Jason",
+          "location": "Riding a bicycle",
+          "note": "Bike catches below the surface and rebounds upward. Unverified clip.",
+          "source": [
+            "https://glitchmod.com/games/grand-theft-auto-vi/glitches/gta6-bike-floor",
+            "GlitchMod"
+          ],
+          "thumb": "bike"
+        },
+        {
+          "item": "Key Lento Coastal Auto Care out-of-bounds",
+          "location": "Back exterior staircase, Coastal Auto Care, Key Lento",
+          "note": "Stand next to the worker on the top landing to get pushed inside and under the map; save first. Unconfirmed.",
+          "source": [
+            "https://vicepulse.org/t/gta6-key-lento-repair-shop-out-of-bounds",
+            "VicePulse"
+          ],
+          "thumb": "clip"
         }
       ]
     }
