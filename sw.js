@@ -3,16 +3,16 @@
 // 2. Bump ?v=N on styles.css, app.js, and fonts.css here and in index.html, plus APP_VERSION in app.js and VER in index.html.
 // 3. Do not rename data.json fields (item, location, note, source, thumb, img, imgSource, mx, my, area).
 // 4. When adding confirmed photos, append ./img/items/<file>.webp to PRECACHE.
-const CACHE = "gta6-log-v13";
+const CACHE = "gta6-log-v14";
 const PRECACHE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./styles.css?v=13",
+  "./styles.css?v=14",
   "./app.js",
-  "./app.js?v=13",
+  "./app.js?v=14",
   "./fonts.css",
-  "./fonts.css?v=13",
+  "./fonts.css?v=14",
   "./data.json",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
@@ -146,6 +146,11 @@ const PRECACHE = [
   "./img/items/windsor-luxury-car-sound4sound.webp",
   "./img/items/wreck-of-the-meerwunder.webp",
   "./img/items/yasmani-fence.webp",
+  "./img/items/christine-driveshaft-devanity.webp",
+  "./img/items/immortal-man-badger-tower.webp",
+  "./img/items/scarface-motel-little-friend.webp",
+  "./img/items/spongebob-pineapple-bus-stop.webp",
+  "./img/items/wymans-cars-transgressor.webp",
   "./fonts/inter-latin-400-normal.woff2",
   "./fonts/inter-latin-500-normal.woff2",
   "./fonts/inter-latin-600-normal.woff2",

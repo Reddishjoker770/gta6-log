@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 24 Nov 2026, 3:15 PM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 25 Nov 2026, 8:15 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "24 Nov 2026, 3:15 PM AEST"
+      "value": "25 Nov 2026, 8:15 AM AEST"
     },
     {
       "label": "Official patches",
@@ -36,7 +36,9 @@
     "https://rockstarintel.com/new-gta-vi-update-01-002-002-patch-notes-released/",
     "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
     "https://gta6gang.com/guides/gta6-safe-codes.html",
-    "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/"
+    "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
+    "https://gta6bugs.com/new",
+    "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -917,12 +919,14 @@
         {
           "item": "Little Friend W-10",
           "location": "Sunlite Motel, Shore Drive, Ocean Beach; bloody doorway on the second floor",
-          "note": "Unique SMG on the floor of a crime scene.",
+          "note": "Unique silenced W-10 SMG (50-round magazine) on the floor of the crime-scene room; the Scarface chainsaw scene plays here 12-1 PM.",
           "source": [
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/scarface-motel-little-friend.webp",
+          "imgSource": "https://www.youtube.com/watch?v=hLwhi1rG6O4"
         },
         {
           "item": "Cold War 556",
@@ -1825,6 +1829,16 @@
             "GTA6 Map City"
           ],
           "thumb": "pills"
+        },
+        {
+          "item": "Pearl House salon back-room safe",
+          "location": "Backroom Weed Front behind Pearl House Hair Salon, south Port Gellhorn (white back door)",
+          "note": "No code: crack it by hand (Triangle/Y, turn right stick). About $367 cash beside it plus weed to fence; Chapter 2.",
+          "source": [
+            "https://gta6bugs.com/codes/pearl-house-hair-salon-safe",
+            "GTA6BUGS"
+          ],
+          "thumb": "cash"
         }
       ]
     },
@@ -2486,6 +2500,30 @@
             "GTA6Wiki"
           ],
           "thumb": "car"
+        },
+        {
+          "item": "Albany Driveshaft Devanity (Christine)",
+          "location": "Small barn by an excavator in front of a farmhouse, North Leonard County",
+          "note": "Locked, no tracker; about $21,750 to register, sells for about $6,490. See Easter Eggs.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/christine-driveshaft-devanity.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/"
+        },
+        {
+          "item": "Wyman's Cars (Ultimate Edition)",
+          "location": "Starts after Thrillbillies (Chapter 2): Dominator Buggy at Paradise RV Park garage",
+          "note": "Scan 15 wrecks with WAiNK ($50 each); Wyman rebuilds a '67 Transgressor, '70 Riata, '64 Mamba GT and Reynolds Kit Car, then a Deviant. First 3 Transgressor wrecks are in Port Gellhorn.",
+          "source": [
+            "https://gta6bugs.com/collectibles/wymans-cars",
+            "GTA6BUGS"
+          ],
+          "thumb": "car",
+          "img": "img/items/wymans-cars-transgressor.webp",
+          "imgSource": "https://www.youtube.com/watch?v=L8_iimNA8b0"
         }
       ]
     },
@@ -3646,6 +3684,84 @@
             "GTA6 Map City"
           ],
           "thumb": "note"
+        },
+        {
+          "item": "Christine (Driveshaft Devanity)",
+          "location": "Small barn opposite Butter Collins's farmhouse, North Leonard County",
+          "note": "Stephen King's Christine as a '59 Albany Devanity with red headlights and plate P05 ESD; locked, no alarm or tracker. No scripted event.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/christine-driveshaft-devanity-north-leonard-county-farmhouse",
+            "GTA6BUGS"
+          ],
+          "thumb": "car",
+          "img": "img/items/christine-driveshaft-devanity.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/"
+        },
+        {
+          "item": "Immortal Man (Key Lento radio tower)",
+          "location": "Badger R&D radio tower, Key Lento, north of Nifty Thread Islandwear",
+          "note": "Pull the wall lever, climb up, scope a pedestrian: he stares back, draws a finger across his throat, shrugs off bullets and one-hits Jason. Escape by parachute; save first.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/immortal-man-key-lento-badger-radio-tower-sniper",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/immortal-man-badger-tower.webp",
+          "imgSource": "https://gta6bugs.com/news/gta-6-immortal-man-unkillable-npc-sniper-tower"
+        },
+        {
+          "item": "Scarface chainsaw motel scene",
+          "location": "Sunlite Motel, Shore Drive, Ocean Beach, 12-1 PM",
+          "note": "Try the first upper-floor door, walk down and back to the front; the chainsaw deal plays out. The Little Friend W-10 is in the bloody room afterwards.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/scarface-chainsaw-motel-sunlite-motel-ocean-beach",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/scarface-motel-little-friend.webp",
+          "imgSource": "https://www.youtube.com/watch?v=hLwhi1rG6O4"
+        },
+        {
+          "item": "SpongeBob pineapple bus stop",
+          "location": "Cicada Avenue (Dexerto: near Bluegrass; one reel: near Hamlet)",
+          "note": "A pineapple-shaped bus shelter with a round window and a bench inside; nothing to collect.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/spongebob-pineapple-house-bus-stop-cicada-avenue",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/spongebob-pineapple-bus-stop.webp",
+          "imgSource": "https://www.youtube.com/watch?v=56eTlNi1MS0"
+        },
+        {
+          "item": "Final Act podcast (Wade, Michael, Franklin, Trevor)",
+          "location": "Podcasts on any car radio or headphones",
+          "note": "An episode covers Wade Hebert's 50-year sentence for killing Floyd and Debra; his statement names Michael De Santa and Franklin Clinton.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/final-act-podcast-wade-michael-franklin-trevor",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Day Release candle room",
+          "location": "Party hallway near the end of Day Release (Chapter 1)",
+          "note": "As drunk Lucia, open the side doors: one dark room has a ring of candles and a bloodied figure in the corner. Replay the mission if missed.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/day-release-candle-room",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Fabien LaRouche magazine",
+          "location": "Body Copy magazine, workout-area table behind Jason's house, Key Lento",
+          "note": "'Twilight Tantra' article: GTA V's yoga teacher now teaches at Dwindle Wood Retirement Community. Read it in Chapter 1; it can be missed.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/fabien-larouche-body-copy-magazine",
+            "GTA6BUGS"
+          ],
+          "thumb": "book"
         }
       ]
     },
@@ -4381,7 +4497,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (44 entries, file updated 22 Nov 2026, 6:08 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (70 entries, file updated 24 Nov 2026, 9:10 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -5083,6 +5199,536 @@
           "source": [
             "https://vicepulse.org/t/gta6-key-lento-repair-shop-out-of-bounds",
             "VicePulse"
+          ],
+          "thumb": "clip"
+        },
+        {
+          "item": "Alvan West mine encounter: subtitles, no voice",
+          "location": "Abandoned mine after Missing Persons",
+          "note": "Doesn't block progress. Check Dialogue Volume, or fully restart and retrigger.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-alvan-west-mine-encounter-has-no-voice-audio-only-subtitles-365",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Bricked Up won't start (Boobie never calls)",
+          "location": "Chapter 3, Bayside apartment",
+          "note": "It starts with a scene: as Jason, go to the apartment bedroom where Boobie sleeps (Hidden Charges must be done).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-bricked-up-mission-not-starting-boobie-wont-call",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Car changes paint after Scooter Bros delivery",
+          "location": "Owned car delivered by Scooter Bros",
+          "note": "Comes back with other paint and tints and flagged unregistered with a tracker. Store it and take it out, or fully restart.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-changed-color-after-scooter-bros-delivery-not-registered",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Criminal profile stuck on Violent / Hardened",
+          "location": "Jason or Lucia's criminal profile",
+          "note": "Moves slowly: stop killing cops and fleeing civilians and give it several missions.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-criminal-profile-stuck-violent-hardened-wont-go-down",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Lucia's Don't Trip leather jacket vanishes",
+          "location": "After Girls' Trip, motel cutscene",
+          "note": "No store sells it. Save it as an outfit at a store wardrobe before returning to the motel.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-dont-trip-leather-jacket-missing-from-wardrobe",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "DualSense Edge adaptive triggers don't work",
+          "location": "PS5, DualSense Edge",
+          "note": "Set both trigger stops to full length, or use a profile with full-range trigger dead zones.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-dualsense-edge-adaptive-triggers-not-working",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Cal's fish request: no photo option",
+          "location": "Fishing for Cal's texted species",
+          "note": "Prompt needs his request active for that spot; wait until the spot is available and catch it again.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-fish-caught-for-cal-no-photo-option",
+            "GTA6BUGS"
+          ],
+          "thumb": "fishing"
+        },
+        {
+          "item": "Input lag when driving and aiming",
+          "location": "PS5 / Xbox Series",
+          "note": "TV Game Mode on, motion smoothing off, ALLM on. Base PS5 owners also report HDCP off helps, and FPS dips to 15-25 in big fights.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-input-lag-controller-delay-driving-aiming",
+            "GTA6BUGS"
+          ],
+          "thumb": "aim"
+        },
+        {
+          "item": "Jason stays sweaty after the nightclub mission",
+          "location": "Jason, any outfit",
+          "note": "Showers don't help; sleep 6+ hours at a safehouse or switch to Lucia and back.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-jason-wont-stop-sweating-after-the-nightclub-mission-shower-367",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Kyle ignores you after you hit him",
+          "location": "McKittrick Farm side missions",
+          "note": "Leave the farm and wait a couple of in-game days for his text, or load an earlier save.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-kyle-wont-answer-missions-gone-after-hitting-him",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Lucia keeps the yellow hazmat gloves",
+          "location": "After Buddy? (Check on Kyle)",
+          "note": "Wardrobe changes and reloads don't remove them; buy a complete outfit in a clothing store.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-yellow-hazmat-gloves-stuck-after-check-on-kyle",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Max strength + max fat resets Lucia's build",
+          "location": "Lucia, 5/5 strength, PS5",
+          "note": "Body snaps back to low muscle, low fat. Keep Strength at 4/5 for a heavier build.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-max-strength-max-fat-resets-lucia-to-low-muscle-low-fat-lean-374",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Planes beep nonstop",
+          "location": "Brian's Dodo seaplane and stolen jets",
+          "note": "Audio bug, not a real warning; turn SFX volume down while flying.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-plane-keeps-beeping-seaplane",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Power Play whiteboard won't flip",
+          "location": "Kordell's planning room, Help Kordell's Crew",
+          "note": "The front is a decoy workout plan; use Focus on the board first, then flip it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-power-play-whiteboard-wont-flip-help-kordells-crew",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "PS5 won't power on after long sessions",
+          "location": "PS5 (also CE-108262-9 shutdowns)",
+          "note": "Console stays dark, controller blinks. Do a full power reset (unplug); likely PSU or heat protection.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-ps5-wont-turn-on-after-playing",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Rain on Jason's shirt indoors; clothes never get wet",
+          "location": "Ocean View Hotel and in water",
+          "note": "Visual only; changing outfit or reloading the area may clear it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-rain-drops-on-jasons-shirt-indoors-clothes-never-get-wet-in-water-373",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Randy's wish list: self-found Thrax pays nothing",
+          "location": "Thrax from the speedway trailer, before Randy's tip",
+          "note": "List breaks, no payout or trophy. Load an autosave from before and deliver the Thrax he points you to.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-randys-wish-list-thrax-delivered-no-payout-list-gone",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Reticle shape setting ignored",
+          "location": "Since update 01.002.002",
+          "note": "Only the default shape shows; re-apply the setting.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-reticle-shape-not-changing-after-update",
+            "GTA6BUGS"
+          ],
+          "thumb": "aim"
+        },
+        {
+          "item": "Camera stuck after a crash cam",
+          "location": "PS5, after the crash camera",
+          "note": "Right stick does nothing for a while; look behind to re-centre or wait it out.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-right-stick-stops-moving-the-camera-after-a-crash-cam-ps5-375",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Saved outfits load the wrong accessories",
+          "location": "Wardrobe outfits",
+          "note": "Hat, mask or glasses swap and a vest overwrites the jacket; take the vest off before saving.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-saved-outfits-wrong-hat-mask-glasses-vest-replaces-jacket",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Swamped freezes on the jump to Lori's airboat",
+          "location": "Swamped, Chapter 1",
+          "note": "Game crashes mid-jump; kill the kidnapper from the helicopter instead.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-swamped-crash-airboat-jump-lori",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "The Final Flush: Dr. Merle loops one animation",
+          "location": "Sewage plant gate, No Flushers side mission",
+          "note": "Save on the spot and load that save to retrigger the script.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-the-final-flush-stuck-dr-merle-repeats-the-same-animation-at-the-366",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Traffic light stuck on red",
+          "location": "Some junctions; auto-drive waits forever",
+          "note": "Waiting 10+ minutes doesn't help; drive through yourself.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-traffic-light-stuck-on-red-never-turns-green",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Vice City portal: no text after the 12th substation",
+          "location": "LPL substation Easter egg",
+          "note": "A death, refuel or fast travel mid-run resets it; do a clean rerun as Jason.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-vice-city-portal-easter-egg-not-working",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Gentrifier wrestling won't start (no knock prompt)",
+          "location": "Trailer park, west Hamlet",
+          "note": "Throw something at the trailer door, then knock.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-wrestling-side-quest-wont-start-cant-knock-on-the-gentrifiers-364",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Dubious Provenance: Halifax escapes, no statue",
+          "location": "End-of-mission chase, Chapter 3",
+          "note": "Mission just ends without the reward; only a save from before the mission brings it back.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-halifax-escaped-dubious-provenance-no-statue",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "No missions after Meet the Heders",
+          "location": "Chapter 3, Halifax goes to voicemail",
+          "note": "Next step is a text on Lucia's phone (blocked number); restart the game and check as Lucia.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-no-missions-after-meet-the-heders-halifax-voicemail",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Bought garages missing from the map",
+          "location": "Owned garages",
+          "note": "Open each garage once from the real-estate app.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-purchased-garages-not-showing-on-map",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Xbox Series X shuts off every 10-15 minutes",
+          "location": "Since update 01.002.002",
+          "note": "Console powers off (heat or power protection); give it air and plug it straight into the wall.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-xbox-series-x-shuts-off-while-playing-after-update",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Tie Up Loose Ends won't start",
+          "location": "After VCIA Takedown, PS5",
+          "note": "Valentina never calls; save, restart the game and roam outside the Y Hotel as Lucia.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-tie-up-loose-ends-wont-start-valentina-never-calls-no-note-at-the-361",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Jason can't drive anything",
+          "location": "After the first mission, Xbox",
+          "note": "Engine only tries to start, bike pedals in place; check controls and accessibility settings.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-jason-cant-drive-any-vehicle-engine-wont-start-bike-wont-move-xbox-359",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Yasmani won't sell a new tip",
+          "location": "After the Cash and Carry score",
+          "note": "Save, reload, then look for the green 'i' marker on the map. Unconfirmed.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-yasmani-cant-start-another-job-until-current-one-finished",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "PS5 error CE-108262-9 at launch",
+          "location": "PS5 / PS5 Pro, seconds after starting",
+          "note": "Delete the game, rebuild the database, reinstall; often follows installing on a nearly full SSD.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-ps5-error-ce-108262-9-crash",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Airport Turbulence catering-truck crash",
+          "location": "Heist prep board shows the job twice",
+          "note": "Crashes with CE-108255-1; not fixed by 01.002.002. Load a save from before the job appeared.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-airport-turbulence-catering-truck-crash-ce-108255-1",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Donnie doesn't pay for the drugs",
+          "location": "Drop at Donnie's trailer, Key Lento",
+          "note": "Not lost: it lands in the mailbox at Jason's house after more story (next Brian mission), or as a BuckMe transfer.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-donnie-didnt-pay-drug-money-mailbox",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Steal the Zorrusso (Key Cloner) never unlocks",
+          "location": "Randy's calls, Chapter 3+",
+          "note": "Randy phones Lucia, not Jason; play as Lucia in free roam until he calls.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-steal-the-zorrusso-randy-key-cloner-mission-not-unlocking",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Practice on the Safe stays on the map",
+          "location": "Lucia's safe practice, Cartel Heist",
+          "note": "The marker is repeatable; carry on with the other heist objectives.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-safe-word-practice-on-the-safe-wont-complete",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Update stuck at 'Finishing things up'",
+          "location": "Xbox, 1.59 GB update",
+          "note": "Don't cancel (it uninstalled the game for one player); leave it 10-60 minutes.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-update-stuck-finishing-things-up",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "'Earn Money' objective never clears",
+          "location": "Chapter 1",
+          "note": "Not a bug: play the next story marker (Donnie's package / bank account) instead.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-earn-money-objective-stuck-chapter-1",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Red dot stuck mid-screen in free roam",
+          "location": "PS5",
+          "note": "Usually the Persistent Center Dot reticle setting; turn it off.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-red-marker-stuck-in-the-middle-of-the-screen-in-free-roam-ps5-197",
+            "GTA6BUGS"
+          ],
+          "thumb": "aim"
+        },
+        {
+          "item": "Car Service: Schafter V12 not registered",
+          "location": "Steal the Car for Raul, Chapter 3",
+          "note": "Often the wrong car: take the plain saloon next to the red big-engine one.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-service-schafter-v12-not-delivered-mission-stuck",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Karim never calls for the bank heist",
+          "location": "Before the Sinfrontera National Bank heist",
+          "note": "Progression gate: play Ride or Die and Lucia's Cooties first.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-karim-call-not-coming-bank-heist",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Breakfast Run won't start after Slam Dunk",
+          "location": "Chapter 2",
+          "note": "Usually another main mission (often Daily Driver) is pending; skip a few days, reload and drive around.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-breakfast-run-not-starting-after-slam-dunk",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Audio crackles and cuts out",
+          "location": "Xbox Series X|S",
+          "note": "Sometimes with frame drops; no reliable fix yet.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-audio-crackling-cutting-out-xbox",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Ultimate Edition outfits vanish offline",
+          "location": "Xbox, game started offline",
+          "note": "Needs an online licence check; go online, then fully restart.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-saved-outfits-with-ultimate-edition-clothes-disappeared-after-360",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Moses request stuck after the car is wrecked",
+          "location": "Chapter 2 car list",
+          "note": "Wait for it at the impound lot; if it isn't there, skip that car.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-moses-car-request-stuck-car-destroyed",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Ghosting trails when turning the camera",
+          "location": "Most visible on Xbox Series X",
+          "note": "Change the TV's motion settings and lower Motion Blur Strength.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-ghosting-trails-when-turning-camera",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Quick-menu hat or glasses go on both characters",
+          "location": "Jason's quick menu",
+          "note": "Remove the item as Lucia herself. Unconfirmed.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-hat-sunglasses-quick-menu-applies-to-both-jason-and-lucia",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "PS5 overheating warnings or shutdown",
+          "location": "PS5",
+          "note": "Unclear if the game is to blame; clean the fan and vents and give it airflow.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-ps5-overheating",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "McKittrick Farm: Kyle dies, job can't be retried",
+          "location": "Crop-duster job",
+          "note": "If only the plane crashed and Kyle lives, he texts again later.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-mckittrick-farm-mission-kyle-dies-and-the-mission-cant-be-199",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Duplicated parked cars",
+          "location": "Same two white cars or two red Dubstas in one spot",
+          "note": "Reddit report; cosmetic.",
+          "source": [
+            "https://www.reddit.com/r/GTA6unmoderated/comments/1w11a9k/gta_6_still_has_the_duplicated_cars_bug_same_2/",
+            "Reddit"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "Breakfast Run: Jason stays in underwear",
+          "location": "Sprinting through the motel door",
+          "note": "Jason keeps only his underwear after the door. Single report.",
+          "source": [
+            "https://gamewiredaily.net/article/2026-11-24-this-gta-6-glitch-almost-ruined-the-game",
+            "GameWire Daily"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Prologue chase skip via boat (unverified)",
+          "location": "Lucia's prologue escape",
+          "note": "Rooftop, street, alley, then steal the parked boat to trigger the construction-site scene early. Single SEO-site source.",
+          "source": [
+            "https://gta6moneyglitch.com/gta-6-glitches/how-to-do-the-prologue-chase-time-skip-glitch-in-gta-6/",
+            "GTA6MoneyGlitch"
           ],
           "thumb": "clip"
         }
