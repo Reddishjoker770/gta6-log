@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 25 Nov 2026, 8:15 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 25 Nov 2026, 3:15 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "25 Nov 2026, 8:15 AM AEST"
+      "value": "25 Nov 2026, 3:15 PM AEST"
     },
     {
       "label": "Official patches",
@@ -38,7 +38,10 @@
     "https://gta6gang.com/guides/gta6-safe-codes.html",
     "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-guide-20-things-game-doesnt-tell-you/",
     "https://gta6bugs.com/new",
-    "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/"
+    "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/",
+    "https://gtafieldguide.com/guides/safe-codes/",
+    "https://gta6land.com/en/guides/gta-6-unique-secret-cars",
+    "https://www.gta-xtreme.com/gta-6/locations/hidden-cars"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -613,6 +616,26 @@
             "GTA6Gang (GTABase map)"
           ],
           "thumb": "safe"
+        },
+        {
+          "item": "Frank's Waffles code phrase (The Final Flush)",
+          "location": "00-00-02",
+          "note": "Spoken to Dr. Merle at Frank's Waffles, Tequesta, at night; texted after you scan a No Flushers QR poster and reply TRUTH. Dialogue, not a keypad.",
+          "source": [
+            "https://gtafieldguide.com/guides/safe-codes/",
+            "GTA VI Field Guide"
+          ],
+          "thumb": "computer"
+        },
+        {
+          "item": "No Flusher HQ wall note (Thrax lead)",
+          "location": "85540133",
+          "note": "Scan 10 of 15 No Flusher tags with WAiNK, meet CantCloneThis89's group at their Ocean Beach HQ and flip the wall note; it leads to Andrew Node's garage.",
+          "source": [
+            "https://gta6land.com/en/guides/gta-6-unique-secret-cars",
+            "GTA6 Land"
+          ],
+          "thumb": "computer"
         }
       ]
     },
@@ -2259,7 +2282,9 @@
             "https://gta6map.city/secrets/tallaloko-estate-volatus-helipad/",
             "GTA6 Map City"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/lake-tallaloko-volatus.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/buckingham-volatus/"
         },
         {
           "item": "Vapid Finns Reclaimer",
@@ -2318,7 +2343,7 @@
         {
           "item": "Truffade Andrew Node's Thrax",
           "location": "Garage of a large mansion off Sabal Cir, south Starfish Island",
-          "note": "Unlocked supercar, alarm off, no tracker; no Key Cloner needed. About $70,000 to register.",
+          "note": "Unlocked supercar, alarm off, no tracker; no Key Cloner needed. About $70,000 to register. Story route: the No Flusher tag chain leads here (code 85540133); a garage-door clip also works.",
           "source": [
             "https://gta6wiki.eu/map/standout-vehicle/truffade-andrew-nodes-thrax/",
             "GTA6Wiki"
@@ -2524,6 +2549,192 @@
           "thumb": "car",
           "img": "img/items/wymans-cars-transgressor.webp",
           "imgSource": "https://www.youtube.com/watch?v=L8_iimNA8b0"
+        },
+        {
+          "item": "Canis Nancy's Crawler",
+          "location": "Detached garage beside a mobile home, west coast of Moreau, near the MacAlister Gold Mine",
+          "note": "Unlocked, alarm off, no tracker; about $2,350 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/canis-nancys-crawler/",
+            "GTA6Wiki"
+          ],
+          "thumb": "suv",
+          "img": "img/items/canis-nancys-crawler.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/canis-nancys-crawler/"
+        },
+        {
+          "item": "Bravado Copperheads Gauntlet",
+          "location": "Garage of a small riverside house, Reservoir St, north-east Ambrosia",
+          "note": "Locked; standard tracker, so Pay 'n' Spray only from Chapter 3; about $28,400 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-copperheads-gauntlet/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/bravado-copperheads-gauntlet.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-copperheads-gauntlet/"
+        },
+        {
+          "item": "Declasse Ghosts Exposed Parkland",
+          "location": "Driveway of the Halloween House, corner of Fortuna St and Viola St, Capri",
+          "note": "Unlocked, no alarm, no tracker; about $10,500 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-ghosts-exposed-parkland/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/declasse-ghosts-exposed-parkland.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-ghosts-exposed-parkland/"
+        },
+        {
+          "item": "Brute Cherry Popper Boxville",
+          "location": "Parking space outside the Cherry Popper Ice Cream Company, Sweetbay Rd and Seabell Ave, Grassrivers",
+          "note": "Ice-cream van; locked with an alarm, no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/brute-cherry-popper-boxville/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/brute-cherry-popper-boxville.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/brute-cherry-popper-boxville/"
+        },
+        {
+          "item": "Lapwing Stolen Valor 300-H",
+          "location": "Grass outside the hangar, Henry J Edwards Airport, Bobcat Key",
+          "note": "Military-style single-seat plane; unlocked. No known way to register aircraft yet.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/lapwing-stolen-valor-300-h/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/lapwing-stolen-valor-300h.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/lapwing-stolen-valor-300-h/"
+        },
+        {
+          "item": "BF Sludge Wraith Injection",
+          "location": "Riverbank across from the Thrillbilly Mud Club, between Frogswater and North Kelly County",
+          "note": "Unlocked off-roader, no tracker; about $4,650 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bf-sludge-wraith-injection/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/bf-sludge-wraith-injection.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bf-sludge-wraith-injection/"
+        },
+        {
+          "item": "Vapid Beer Monster Marshall",
+          "location": "On the roof of the Thrillbilly Mud Club bar, north-east Frogswater",
+          "note": "Monster truck; unlocked, alarm off; standard tracker (Pay 'n' Spray from Chapter 3).",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/vapid-beer-monster-marshall/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/vapid-beer-monster-marshall.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-beer-monster-marshall/"
+        },
+        {
+          "item": "Karin Busted Cheater Rebel",
+          "location": "Front yard of a mobile home off Ignatius Rd, western Port Gellhorn",
+          "note": "Appears only after repeat visits following a cheating-husband story; locked, no tracker, about $6,750 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/karin-busted-cheater-rebel/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/karin-busted-cheater-rebel.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/karin-busted-cheater-rebel/"
+        },
+        {
+          "item": "Bravado Banshee (Sweetbay Inn)",
+          "location": "Spaces outside the Sweetbay Inn, East Buckley Drive, Capri",
+          "note": "Spotted around 3 a.m. in-game; check again late at night.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Pegassi Tempesta (repo tow truck)",
+          "location": "NE 3rd Street, Vice City",
+          "note": "Repossession street encounter around 1 p.m.: once the owner stops fighting, release the Tempesta from the tow truck.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Pegassi Infernus (police garage)",
+          "location": "Level 7 of the Crosstown Police Station parking garage, NW 9th Street",
+          "note": "Slip in when the gate opens; check its tracker before taking it to Randy.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Pegassi Vitello (Waning Sands villa)",
+          "location": "Gated villa on Flamingo Parkway, Waning Sands; garage closest to the house, right of the entrance",
+          "note": "Parked inside the garage.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Bravado Gauntlet Hellfire",
+          "location": "Back of the M7 scrapyard by the shipping containers, Galerina Street, Hamlet",
+          "note": "Open the gate from inside first for a clear exit.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "Mamba GT (¡Dale Mamba!)",
+          "location": "Behind the building on the right side of the Leaf Links mansion",
+          "note": "Randy job; the key is in a bowl behind the sofa in the main house (Snap Gun to enter).",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Ascot Paragon (Banana Hole bar)",
+          "location": "Spaces outside the Banana Hole Main Bar, Shore Drive, Ocean Beach",
+          "note": "Spotted around 6 p.m. in-game.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Piccia Furia (Palladia Lane)",
+          "location": "Garage of the gated villa on Palladia Lane, Peacock Estates, Peacock Bay",
+          "note": "Path left of the gate, over the hedge, garage side door; open the shutter from inside.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Pfister Growler (Fig Street car park)",
+          "location": "Multistorey car park, Fig Street, Ocean Beach",
+          "note": "Spotted around 5 p.m. in-game; time-dependent.",
+          "source": [
+            "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+            "GTA Xtreme"
+          ],
+          "thumb": "car"
         }
       ]
     },
@@ -3020,12 +3231,14 @@
         {
           "item": "Los Santos map on Jason's boat",
           "location": "Boat in Jason's yard, Key Lento",
-          "note": "The boat's GPS screen shows the GTA V Los Santos map instead of Leonida.",
+          "note": "The boat's GPS screen shows the GTA V Los Santos map instead of Leonida. The blue-striped Marquis on stands is the model Michael stole in GTA V's Father/Son.",
           "source": [
             "https://vice-city.app/secrets",
             "vice-city.app"
           ],
-          "thumb": "note"
+          "thumb": "note",
+          "img": "img/items/jasons-boat-michaels-marquis.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/michaels-boat-gta-5"
         },
         {
           "item": "Giant crab cutscene",
@@ -3762,6 +3975,172 @@
             "GTA6BUGS"
           ],
           "thumb": "book"
+        },
+        {
+          "item": "Cell tower woman knows Jason's name",
+          "location": "Locked keypad hut at cell tower sites, e.g. Manifest Canyon; a Mount Kalaga peak hut in North Kelly",
+          "note": "Barge the door and an unknown caller names Jason Duval and his past. As Lucia in Chapter 3 the hut opens: emails to Nancy lead to a recording.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/cell-tower-woman-knows-jasons-name-nancy",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/cell-tower-woman-nancy.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/cell-tower-woman-knows-jasons-name-nancy"
+        },
+        {
+          "item": "Intriguing Substance (green ooze)",
+          "location": "Pumping station by Lake Tallaloko, north of Millport; under the stairs to the sewer access",
+          "note": "WAiNK Curiosity: green ooze, a bright green channel and fly-covered pizzas. Reads like a Ninja Turtles nod; unconfirmed.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/intriguing-substance-green-ooze",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/intriguing-substance-green-ooze.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/intriguing-substance-green-ooze"
+        },
+        {
+          "item": "Looney Tunes painted tunnel",
+          "location": "Under the raised highway, south side of the Vice Decor District, Vice City",
+          "note": "Road Runner-style tunnel mural; it is a solid wall, so driving into it is a crash. No reward.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/looney-tunes-painted-tunnel-vice-decor-district",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/looney-tunes-painted-tunnel.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/looney-tunes-painted-tunnel-vice-decor-district"
+        },
+        {
+          "item": "Mandy's serial killer clues",
+          "location": "Mandy's blue bungalow, Peach Palm Drive, north Key Lento (Pipework, Chapter 1)",
+          "note": "Grave-sized soil patch and acid in the yard, cleaver, tape and wire in her trunk, and something finger-like in the sink. Never confirmed.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/mandy-serial-killer-clues-pipework",
+            "GTA6BUGS"
+          ],
+          "thumb": "home",
+          "img": "img/items/mandy-serial-killer-clues.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/mandy-serial-killer-clues-pipework"
+        },
+        {
+          "item": "Mount Kalaga UFO recording and meteorite",
+          "location": "South-east trail, Mount Kalaga National Park",
+          "note": "Play the phone at a camp with a bike for a UFO abduction recording; a second camp downhill has a burning meteorite you can take a piece of.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/mount-kalaga-ufo-recording-meteorite",
+            "GTA6BUGS"
+          ],
+          "thumb": "ufo",
+          "img": "img/items/mount-kalaga-ufo-meteorite.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/mount-kalaga-ufo-recording-meteorite"
+        },
+        {
+          "item": "Niko Bellic cameo ('The Hitman')",
+          "location": "Two final-chapter cutscenes in Giorgio's storyline",
+          "note": "An older Niko works for a Balkan family; Michael Hollick returns, credited as 'The Hitman'. Story spoiler.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/niko-bellic-cameo",
+            "GTA6BUGS"
+          ],
+          "thumb": "note",
+          "img": "img/items/niko-bellic-cameo.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/niko-bellic-cameo"
+        },
+        {
+          "item": "Red Hulk (Kyle the mutant farmer)",
+          "location": "Barn behind Kyle's farm, east of Frogswater (Buddy? (Check on Kyle), Chapter 3)",
+          "note": "After his garbled text, Kyle bursts out as a huge red mutant, throws Mutandis agents and downs a helicopter, then asks for a hug.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/red-hulk-kyle-mutant",
+            "GTA6BUGS"
+          ],
+          "thumb": "alien",
+          "img": "img/items/red-hulk-kyle.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/red-hulk-kyle-mutant"
+        },
+        {
+          "item": "RX-Men comic",
+          "location": "Magazine rack, 24/7 store, Key Lento",
+          "note": "X-Men parody (ED Comics #13, 'Paging Dr. Placebo!'); counts toward Magazines, Books & Comics, not missable.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/rx-men-comic",
+            "GTA6BUGS"
+          ],
+          "thumb": "book",
+          "img": "img/items/rx-men-comic.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/rx-men-comic"
+        },
+        {
+          "item": "Dolores the snake survives",
+          "location": "Under the back stairs to the water-side deck, burned-out Jason's House, Key Lento",
+          "note": "After Home Sweet Home, Jason's snake sits on a clutch of eggs; look (L2) and Jason talks to her. Key Lento is a police red zone until about mid Chapter 3.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/dolores-snake-survives-fire-nest-eggs-jasons-house-key-lento",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Stop! Don't Flush poster (The Final Flush)",
+          "location": "Men's toilet block, north tip of Corsair Key; then Frank's Waffles, Tequesta (night); finale at the Hamlet sewage plant",
+          "note": "Scan the QR with WAiNK, reply TRUTH, meet Dr. Merle and step into the chamber yourself: permanent max-stamina boost.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/dont-flush-qr-poster-no-flushers-final-flush-corsair-key",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Deep Roots Memorial Sanctuary",
+          "location": "Deep Roots Cemetery, Bluegrass area, just north of Hamlet",
+          "note": "Developers' memorial with cenotaphs naming Rockstar staff and their friends and family. No reward.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/deep-roots-memorial-sanctuary-developers-memorial-hamlet",
+            "GTA6BUGS"
+          ],
+          "thumb": "home"
+        },
+        {
+          "item": "'Little Sam' janitor cameo",
+          "location": "Club cutscene in Boobie Time (Chapter 3)",
+          "note": "Short grey-bearded janitor with an R-star on his shirt, read by players as a Sam Houser nod; Rockstar hasn't commented.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/little-sam-sam-houser-cameo",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Secret radio playlists (WAiNK posters)",
+          "location": "La Perle and Jack of Hearts studio, Crosstown (4 posters); The Vault nightclub entrance corridor, Downtown (1 poster)",
+          "note": "Scan posters to unlock Sniper of La Perle (Kodak Black) and The Vault Radio in On Demand; both count toward 100%.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/sniper-of-la-perle-vault-radio-secret-playlists-posters",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Antoinette restaurant flyer",
+          "location": "Front window of Antoinette, the Versailles lookalike Cuban restaurant, Vice City",
+          "note": "Flyer reads 'All government officials must pay before leaving'; fans read it as a Trump joke. Names nobody.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/antoinette-versailles-flyer-government-officials-must-pay-vice-city",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Coil car anti-theft trap",
+          "location": "Coil (Tesla parody) cars; VGTimes cites Capri, by a jewelry store and a nearby lot (Chapter 3, Key Cloner)",
+          "note": "The car locks you in and drives to a police station or waits for police; smash a window to escape. VGTimes says it may trigger as Lucia and not Jason.",
+          "source": [
+            "https://me.ign.com/en/grand-theft-auto-vi/249973/why-you-probably-shouldnt-steal-a-tesla-in-gta-6",
+            "IGN"
+          ],
+          "thumb": "car"
         }
       ]
     },
@@ -3838,7 +4217,9 @@
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
           ],
-          "thumb": "dealer"
+          "thumb": "dealer",
+          "img": "img/items/moses-watkins-auto-parts.webp",
+          "imgSource": "https://gta6wiki.eu/map/fence/moses/"
         },
         {
           "item": "Randy (high-end vehicles)",
@@ -4052,7 +4433,9 @@
             "https://gta6bugs.com/weapons/darknite-drifter",
             "GTA6BUGS"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/gellhorn-outfitters.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/gellhorn-outfitters/"
         },
         {
           "item": "Iron & Oak",
@@ -4476,6 +4859,26 @@
             "games.gg"
           ],
           "thumb": "dpad"
+        },
+        {
+          "item": "Pay 'n' Spray paint vs mod shop",
+          "location": "Respraying a car",
+          "note": "TheGamer reports a Pay 'n' Spray respray looks blistered and less glossy than a full mod-garage paint job.",
+          "source": [
+            "https://gtatown.com/news/gta-6-today-nov-24",
+            "GTA Town (TheGamer)"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Hide from police in the Chapter 3 apartment",
+          "location": "Vice City apartment, free roam with white stars",
+          "note": "One Reddit report: officers entered the building but never breached the door, and the wanted level cleared. Single report.",
+          "source": [
+            "https://gtatown.com/news/gta-6-today-nov-24",
+            "GTA Town (Reddit)"
+          ],
+          "thumb": "escape"
         }
       ],
       "steps": [
@@ -4497,7 +4900,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (70 entries, file updated 24 Nov 2026, 9:10 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (95 entries, file updated 25 Nov 2026, 3:10 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -5731,6 +6134,216 @@
             "GTA6MoneyGlitch"
           ],
           "thumb": "clip"
+        },
+        {
+          "item": "Andrew Node garage clip (Thrax)",
+          "location": "Double garage door, Andrew Node's mansion, Starfish Island",
+          "note": "Park a vehicle rear-first at the door, crouch in the gap and open the phone until you drop through. Insider Gaming says it survives the latest patch.",
+          "source": [
+            "https://gtatown.com/news/gta-6-players-clip-into-a-garage-to-take-the-thrax",
+            "GTA Town"
+          ],
+          "thumb": "clip"
+        },
+        {
+          "item": "Thrax dupe-and-sell via save/reload (disputed)",
+          "location": "After taking or selling the garage Thrax",
+          "note": "Bubs' video: save after taking or selling it, reload and it respawns, about $10,000-$20,615 per sale. Unconfirmed.",
+          "source": [
+            "https://vicepulse.org/t/gta6-car-duplication-sell-glitch",
+            "VicePulse"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "Manatee Hotel loot loop",
+          "location": "Manatee Hotel",
+          "note": "Kill the guard silently, loot four pickups, walk about 100 m around the building to respawn them; claimed $50,000 per 10 minutes. Single Reddit claim.",
+          "source": [
+            "https://gtatown.com/news/gta-6-today-nov-24",
+            "GTA Town"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "Hamlet warehouse two-van loot doubling",
+          "location": "Industrial warehouse outside Hamlet",
+          "note": "Two registered vans plus partner swaps reset the loot each cycle; one Reddit player claims $88,000-$100,000 in under 10 minutes (via IGN).",
+          "source": [
+            "https://gtatown.com/news/gta-6-players-double-hamlet-warehouse-loot-with-a-two-van-method",
+            "GTA Town"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "Illegal Operation raid reset by dying",
+          "location": "Any raid with a good take; e.g. abandoned motel, Port Gellhorn",
+          "note": "One character fences the loot, the other (carrying no cash) dies at the site; guards and loot return. Bubs reports about $21,000-$22,000 per 6-7 minute run.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-illegal-operation-raid-reset-death-glitch",
+            "ViceVaulted"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "Forced first-person via Touch Pad camera",
+          "location": "Settings > Controller: Touch Pad Button = Camera; in a vehicle",
+          "note": "Open the phone and spam the camera-view button while closing it to force first-person.",
+          "source": [
+            "https://vicepulse.org/gta-6/secrets/map-glitches",
+            "VicePulse"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Under-the-map spot (Peacock Bay / Southside)",
+          "location": "Between Southside and Peacock Bay, Vice City",
+          "note": "ExtraIntense clip: fall into the void under the city; the game resets you.",
+          "source": [
+            "https://gtatown.com/locations/under-map-glitch-spot-peacock-bay-southside",
+            "GTA Town"
+          ],
+          "thumb": "clip"
+        },
+        {
+          "item": "Breakwater Quarry wall breach",
+          "location": "Gap under a raised building with a ramp, Breakwater Quarry, Mariana County",
+          "note": "Crouch, squeeze in and keep pulling out the phone to clip under the map.",
+          "source": [
+            "https://gtatown.com/locations/wall-breach-under-map-glitch-mariana-county",
+            "GTA Town"
+          ],
+          "thumb": "clip"
+        },
+        {
+          "item": "Clipping into low walls during fights",
+          "location": "Interior half-height walls",
+          "note": "Fighters can end up inside lower interior walls; full walls are not affected.",
+          "source": [
+            "https://www.dualshockers.com/glitches-and-bugs-plaguing-gta-6-at-launch/",
+            "DualShockers"
+          ],
+          "thumb": "clip"
+        },
+        {
+          "item": "Teleported out of a speeding car unhurt",
+          "location": "Driving at speed",
+          "note": "Players report being ejected from a moving car without taking damage.",
+          "source": [
+            "https://www.dualshockers.com/glitches-and-bugs-plaguing-gta-6-at-launch/",
+            "DualShockers"
+          ],
+          "thumb": "physics"
+        },
+        {
+          "item": "Tommy Vercetti egg lever crash (CE-108255-1)",
+          "location": "First lever of the Vice City portal egg, PS5",
+          "note": "Pulling it a second time crashes the game every time.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-crash-pulling-tommy-vercetti-easter-egg-lever-again-ce-108255-1",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Chapter 5: wardrobe won't work after waking up",
+          "location": "Chapter 5 bedroom",
+          "note": "Told to get dressed, but the wardrobe does nothing for either character.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-chapter-5-cant-get-dressed-wardrobe-softlock",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Clock Out: Lucia won't get out of the car",
+          "location": "Chapter 1 side mission, PS5",
+          "note": "After Jason drives her home she stays in the car and the mission never ends.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-clock-out-lucia-wont-get-out-of-the-car-after-pickup",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Hometown Heroes: Billy won't move",
+          "location": "Side mission, after remounting the bikes",
+          "note": "Billy stands by his bike, so the mission can't continue.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-hometown-heroes-billy-wont-move-after-getting-back-on-the-bikes",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Bret's skunk target deck won't complete",
+          "location": "Eastern Spotted Skunk (Hog Endocrine Glands) deck",
+          "note": "Ten-plus Pristine W-22 skunk kills never ticked off.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-brets-eastern-spotted-skunk-target-deck-wont-complete",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Finished mission loads as not done",
+          "location": "After autosave plus manual save",
+          "note": "Reload puts you somewhere random with the mission undone and the car impounded.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-mission-shows-not-completed-after-manual-save-and-restart-car-impounded",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Partner keeps arms raised after a robbery",
+          "location": "Store robbery with your partner",
+          "note": "Arms-up pose sticks after the gun is away; swimming reset it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-companion-keeps-arms-raised-after-robbery-t-pose-stuck",
+            "GTA6BUGS"
+          ],
+          "thumb": "animation"
+        },
+        {
+          "item": "Vice City mall stores empty and greyed out",
+          "location": "Several Vice City mall shops",
+          "note": "Empty grey product window, nothing to buy, even after a console restart.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-vice-city-mall-stores-empty-grayed-out-cant-buy",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Boobie Time stays locked",
+          "location": "Jack of Hearts, Chapter 3",
+          "note": "Mission marker appears but stays locked at every time of day, even solo as Jason.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-boobie-time-mission-locked-at-jack-of-hearts-chapter-3",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Illegal op vanishes from the map",
+          "location": "Chapter 2",
+          "note": "A specific op disappears without being done or greyed out; splitting up with your partner brought it back for one player.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-illegal-op-missing-from-map-chapter-2-gone-not-grayed-out",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Harper random event: 'wrong way', then she leaves",
+          "location": "Harper hides in your back seat at a gas station",
+          "note": "She says you're going the wrong way even on the marked route, then gets out.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-harper-random-event-says-wrong-way-to-garage-gets-out",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
         }
       ]
     }

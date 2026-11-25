@@ -3,16 +3,16 @@
 // 2. Bump ?v=N on styles.css, app.js, and fonts.css here and in index.html, plus APP_VERSION in app.js and VER in index.html.
 // 3. Do not rename data.json fields (item, location, note, source, thumb, img, imgSource, mx, my, area).
 // 4. When adding confirmed photos, append ./img/items/<file>.webp to PRECACHE.
-const CACHE = "gta6-log-v14";
+const CACHE = "gta6-log-v15";
 const PRECACHE = [
   "./",
   "./index.html",
   "./styles.css",
-  "./styles.css?v=14",
+  "./styles.css?v=15",
   "./app.js",
-  "./app.js?v=14",
+  "./app.js?v=15",
   "./fonts.css",
-  "./fonts.css?v=14",
+  "./fonts.css?v=15",
   "./data.json",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
