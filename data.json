@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 25 Nov 2026, 3:15 PM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 26 Nov 2026, 8:18 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "25 Nov 2026, 3:15 PM AEST"
+      "value": "26 Nov 2026, 8:18 AM AEST"
     },
     {
       "label": "Official patches",
@@ -41,7 +41,12 @@
     "https://gta6wiki.eu/map/standout-vehicle/albany-driveshaft-devanity/",
     "https://gtafieldguide.com/guides/safe-codes/",
     "https://gta6land.com/en/guides/gta-6-unique-secret-cars",
-    "https://www.gta-xtreme.com/gta-6/locations/hidden-cars"
+    "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
+    "https://gta6wiki.eu/map/standout-vehicle/",
+    "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+    "https://game8.co/games/GTA-6/archives/638784",
+    "https://beebom.com/gta-6-carter-mining-boathouse-safe-code/",
+    "https://gamerant.com/gta-6-hurricane-weather-unlock-freddie-gibbs-bunker-location/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -530,7 +535,7 @@
         {
           "item": "Keyline Painters warehouse safe",
           "location": "5035",
-          "note": "Key Lento warehouse office; code is on the board above the crystal crate. About $1,000. Single source.",
+          "note": "Key Lento warehouse office; code is on the board above the crystal crate. About $1,000. Game8 lists this safe as random, so read the board in your own game.",
           "source": [
             "https://gta6bugs.com/codes/keyline-painters-safe-code",
             "GTA6BUGS"
@@ -636,6 +641,48 @@
             "GTA6 Land"
           ],
           "thumb": "computer"
+        },
+        {
+          "item": "Carter Mining Boathouse safe",
+          "location": "Varies: 8440, 0886 or 9842 reported",
+          "note": "Smugglers' Illegal Operation on Bonanza's northern pier, Lummox County. Read the yellow sticky note on the drug-packing table; safe is left of the main doorway, about $14,000 inside.",
+          "source": [
+            "https://beebom.com/gta-6-carter-mining-boathouse-safe-code/",
+            "Beebom"
+          ],
+          "thumb": "safe",
+          "img": "img/items/carter-mining-boathouse-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/gang-operation/carter-mining-boathouse/"
+        },
+        {
+          "item": "Avery Pawn safe (Hit Avery Pawn)",
+          "location": "Random per save (9828, 6499, 5683, 3156 reported)",
+          "note": "Port Gellhorn, Chapter 2. Threaten a clerk until the prompt becomes 'Safe Code?', or read the green note on the staff-room pin board.",
+          "source": [
+            "https://glorydays.gg/wiki/avery-pawn",
+            "Glory Days"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Credit Check vault (First Fleeca Bank)",
+          "location": "1641",
+          "note": "Main-mission code. You can also get it from an employee or use a sticky bomb.",
+          "source": [
+            "https://game8.co/games/GTA-6/archives/638784",
+            "Game8"
+          ],
+          "thumb": "safe"
+        },
+        {
+          "item": "Quick Buck safe (Hamlet)",
+          "location": "4922",
+          "note": "Payday-loan store; the note is next to the PC at the counter, or knock out the back-room employee. Cash plus marked bills. Single source; store codes can change.",
+          "source": [
+            "https://game8.co/games/GTA-6/archives/640387",
+            "Game8"
+          ],
+          "thumb": "safe"
         }
       ]
     },
@@ -2735,6 +2782,570 @@
             "GTA Xtreme"
           ],
           "thumb": "car"
+        },
+        {
+          "item": "Airgator Dr Sheehan's Airboat",
+          "location": "At the end of the dock outside the abandoned research outpost in Pelican Valley",
+          "note": "Locked; boats can't be registered as personal vehicles.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/airgator-dr-sheehans-airboat/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving",
+          "img": "img/items/airgator-dr-sheehans-airboat.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/airgator-dr-sheehans-airboat/"
+        },
+        {
+          "item": "Airgator Naughty Boy Airboat",
+          "location": "At the end of a dock next to a small campsite in central Buckskin Swamp",
+          "note": "Locked; boats can't be registered as personal vehicles.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/airgator-naughty-boy-airboat/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving",
+          "img": "img/items/airgator-naughty-boy-airboat.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/airgator-naughty-boy-airboat/"
+        },
+        {
+          "item": "Albany Verdant Buccaneer",
+          "location": "Parked outside the biggest warehouse at the M7 Weed Grow in Tallaloko",
+          "note": "Unlocked; no tracker; about $2,800 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/albany-verdant-buccaneer/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/albany-verdant-buccaneer.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/albany-verdant-buccaneer/"
+        },
+        {
+          "item": "Annis '95 Hellion",
+          "location": "In a parking space right outside the Bountiful Hunt restaurant on Lake Tallaloko, Tallaloko",
+          "note": "Locked with an alarm; no tracker; about $4,400 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/annis-95-hellion/",
+            "GTA6Wiki"
+          ],
+          "thumb": "suv",
+          "img": "img/items/annis-95-hellion.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/annis-95-hellion/"
+        },
+        {
+          "item": "BF Blood Moon Bandito",
+          "location": "Under a tent full of off-road vehicles outside Boone Speedway in south-west Hamlet",
+          "note": "Unlocked; no tracker; about $4,750 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bf-blood-moon-bandito/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/bf-blood-moon-bandito.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bf-blood-moon-bandito/"
+        },
+        {
+          "item": "Bravado Bison 1800",
+          "location": "In front of the left-hand garage door of the Leonida Highway Patrol building on US-628 in eastern Moreau",
+          "note": "Locked with an alarm; standard tracker, so Pay 'n' Spray only.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-bison-1800/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bravado-bison-1800.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-bison-1800/"
+        },
+        {
+          "item": "Bravado Circles of Hell Youga",
+          "location": "In front of the Circles of Hell House on Gellhorn Ave in northern Port Gellhorn",
+          "note": "Unlocked; no tracker; about $3,200 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-circles-of-hell-youga/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bravado-circles-of-hell-youga.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-circles-of-hell-youga/"
+        },
+        {
+          "item": "Bravado Elven Queen Youga",
+          "location": "Against a fence on a side road in the western part of South Kelly County, just north of Capri, next to \"Fort Acid\"",
+          "note": "Unlocked; no tracker; about $3,200 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-elven-queen-youga/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bravado-elven-queen-youga.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-elven-queen-youga/"
+        },
+        {
+          "item": "Bravado Third Eye Youga (SR-45)",
+          "location": "At the side of SR-45 in the middle of Grayson, next to a mobile home",
+          "note": "Locked; no tracker; about $5,400 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-third-eye-youga-1/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bravado-third-eye-youga-1.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-third-eye-youga-1/"
+        },
+        {
+          "item": "Bravado Third Eye Youga (psychic's house)",
+          "location": "In the driveway of the Third Eye psychic's house near SR-45 in downtown Grayson",
+          "note": "Locked; no tracker; about $5,400 to register. Map Genie says it only shows up after you have visited the psychic several times.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-third-eye-youga-2/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bravado-third-eye-youga-2.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-third-eye-youga-2/"
+        },
+        {
+          "item": "Bravado Tropic Dawn Youga",
+          "location": "Against the wall inside the New Wave Customs warehouse on Dolphin Dr in northern Key Lento",
+          "note": "Unlocked; no tracker; about $3,200 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/bravado-tropic-dawn-youga/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/bravado-tropic-dawn-youga.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/bravado-tropic-dawn-youga/"
+        },
+        {
+          "item": "Brute Boxville",
+          "location": "In a parking space outside the Harper Crematorium & Funeral Homes building in central Vinewood Beach",
+          "note": "Locked with an alarm; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/brute-boxville/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/brute-boxville.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/brute-boxville/"
+        },
+        {
+          "item": "Canis Gunrunner Kamacho",
+          "location": "In the garage in the south-east part of the Leonida Carrier Warehouse in Balsero. Get there through the west garage entrance",
+          "note": "Unlocked; no tracker; about $6,700 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/canis-gunrunner-kamacho/",
+            "GTA6Wiki"
+          ],
+          "thumb": "suv",
+          "img": "img/items/canis-gunrunner-kamacho.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/canis-gunrunner-kamacho/"
+        },
+        {
+          "item": "Classique Emancipator Stallion",
+          "location": "Inside a detached garage behind a run-down house just outside the west side of Ambrosia",
+          "note": "Locked with an alarm; no tracker; about $10,650 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/classique-emancipator-stallion/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/classique-emancipator-stallion.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/classique-emancipator-stallion/"
+        },
+        {
+          "item": "Declasse Beach Candy Bobcat",
+          "location": "In a parking lot beside Loggerhead Rd in northern Bobcat Key",
+          "note": "Keyless: needs Randy's Key Cloner (Chapter 3); no tracker; about $2,150 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-beach-candy-bobcat/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/declasse-beach-candy-bobcat.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-beach-candy-bobcat/"
+        },
+        {
+          "item": "Declasse Cousin Carlo's Akane",
+          "location": "In front of Cousin Carlo's Pizza on the Sunbelt Hwy in southern Key Lento",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-cousin-carlos-akane/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/declasse-cousin-carlos-akane.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-cousin-carlos-akane/"
+        },
+        {
+          "item": "Declasse Flower Powered Rancher",
+          "location": "Inside the big Land of Plenty barn at the end of a side road off Forest Mill Rd, in eastern Mount Kalaga National Park",
+          "note": "Unlocked; no tracker; about $1,400 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-flower-powered-rancher/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/declasse-flower-powered-rancher.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-flower-powered-rancher/"
+        },
+        {
+          "item": "Declasse Fruit Outlet Walton",
+          "location": "In the driveway of the Leonida Fruit Outlet, next to the big Fruit sign off US-9 in Port Gellhorn",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-fruit-outlet-walton/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/declasse-fruit-outlet-walton.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-fruit-outlet-walton/"
+        },
+        {
+          "item": "Declasse Martha's Vamos",
+          "location": "In a run-down shed at the dead end of a side road off Rockledge Rd in Bonanza, next to an abandoned house that sits on a ledge",
+          "note": "Unlocked; no tracker; about $1,800 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-marthas-vamos/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/declasse-marthas-vamos.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-marthas-vamos/"
+        },
+        {
+          "item": "Declasse Mountain Yosemite",
+          "location": "Under an open carport next to a small shack on Pelican River, on the east side of Watson Bay",
+          "note": "Locked with an alarm; standard tracker, so Pay 'n' Spray only; about $6,250 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-mountain-yosemite/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/declasse-mountain-yosemite.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-mountain-yosemite/"
+        },
+        {
+          "item": "Declasse Red Apple Orchard Rancher",
+          "location": "On the driveway that leads up to Farmer Scrumpy's Red Apple Orchard, beside SR-73 in Manifest Canyon",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/declasse-red-apple-orchard-rancher/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/declasse-red-apple-orchard-rancher.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/declasse-red-apple-orchard-rancher/"
+        },
+        {
+          "item": "Del Perro Midsummer Erode",
+          "location": "Hanging from the hand of the Bonanza Giant, the huge figure that stands in the woods on a hilltop in southern Bonanza",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/del-perro-midsummer-erode/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/del-perro-midsummer-erode.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/del-perro-midsummer-erode/"
+        },
+        {
+          "item": "Del Perro Scorcher",
+          "location": "On a dirt trail running down the mountain, next to a dead cyclist, south of the US-628 bridge in East Lummox County (Mount Kalaga National Park side)",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/del-perro-scorcher/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike"
+        },
+        {
+          "item": "Dinka Verus",
+          "location": "Inside the fenced National Park ranger outpost in south-west Mount Kalaga National Park",
+          "note": "Locked; no tracker; about $3,500 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/dinka-verus/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/dinka-verus.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/dinka-verus/"
+        },
+        {
+          "item": "Imponte Bloodbath Phoenix",
+          "location": "Under a metal awning at Slator Towing Inc, between SW 7th and SW 8th Ave in Salton",
+          "note": "Unlocked; no tracker; about $3,550 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/imponte-bloodbath-phoenix/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle"
+        },
+        {
+          "item": "LCC Midnight Sun Avarus",
+          "location": "Inside a detached garage behind a white and brick house on Grisette Ave in central Hamlet",
+          "note": "Locked with an alarm; no tracker; about $7,000 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/lcc-midnight-sun-avarus/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/lcc-midnight-sun-avarus.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/lcc-midnight-sun-avarus/"
+        },
+        {
+          "item": "LCC Monarch Avarus",
+          "location": "In an open shed at the back (north-west side) of The Thirsty Wolf, a biker hideout on SR-27 in northern Belville",
+          "note": "Unlocked; no tracker; about $2,100 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/lcc-monarch-avarus/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/lcc-monarch-avarus.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/lcc-monarch-avarus/"
+        },
+        {
+          "item": "Lure Predator Rainbow Ripple L20S",
+          "location": "On the shore of the northernmost chain of islands in south-west Gambit Bay (Shoeless Keys)",
+          "note": "Locked; boats can't be registered as personal vehicles.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/lure-predator-rainbow-ripple-l20s/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving",
+          "img": "img/items/lure-predator-rainbow-ripple-l20s.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/lure-predator-rainbow-ripple-l20s/"
+        },
+        {
+          "item": "Maibatsu MyWays Manchez",
+          "location": "Right on the edge of the railway bridge that crosses the water between Moreau and South West Lummox County",
+          "note": "Unlocked; no tracker; about $2,700 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/maibatsu-myways-manchez/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike"
+        },
+        {
+          "item": "Maibatsu Speedy Boomazoom",
+          "location": "Inside a small detached garage at a red house on the corner of NW 3rd Ave and NW 3rd St in Little Cuba",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/maibatsu-speedy-boomazoom/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/maibatsu-speedy-boomazoom.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/maibatsu-speedy-boomazoom/"
+        },
+        {
+          "item": "Maibatsu Tropical Manchez",
+          "location": "In the back of the illegal goods store (Krystal Inc. Electronics) off SW 13th St in the north of Southside",
+          "note": "Unlocked; no tracker; about $800 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/maibatsu-tropical-manchez/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/maibatsu-tropical-manchez.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/maibatsu-tropical-manchez/"
+        },
+        {
+          "item": "Mer-Can Blast",
+          "location": "Under an awning inside a corn maze in eastern Capri",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/mer-can-blast/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/mer-can-blast.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/mer-can-blast/"
+        },
+        {
+          "item": "Nagasaki Hung Carbos RS",
+          "location": "Hanging in a tree near the railway tracks in north-west Belville",
+          "note": "Unlocked; no tracker; about $2,600 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/nagasaki-hung-carbos-rs/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/nagasaki-hung-carbos-rs.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/nagasaki-hung-carbos-rs/"
+        },
+        {
+          "item": "Nagasaki Rudolph Tao",
+          "location": "On a trailer in front of the Holiday House on Sunset Dr, on the west coast of Key Lento",
+          "note": "Locked; boats can't be registered as personal vehicles.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/nagasaki-rudolph-tao/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving",
+          "img": "img/items/nagasaki-rudolph-tao.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/nagasaki-rudolph-tao/"
+        },
+        {
+          "item": "Seashark Hydroblast",
+          "location": "Inside the boathouse floating in the swamp in central Pelican Valley",
+          "note": "Locked; boats can't be registered as personal vehicles.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/seashark-hydroblast/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving",
+          "img": "img/items/seashark-hydroblast.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/seashark-hydroblast/"
+        },
+        {
+          "item": "Seashark Westbound Azure",
+          "location": "Out in the swamp water near a dead body strung up over a tree in western Pelican Valley",
+          "note": "Unlocked; boats can't be registered as personal vehicles.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/seashark-westbound-azure/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving",
+          "img": "img/items/seashark-westbound-azure.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/seashark-westbound-azure/"
+        },
+        {
+          "item": "Sirius '61 Sungrazer",
+          "location": "Inside a garage below a house on the north side of Watson Bay, near the water",
+          "note": "Locked with an alarm; standard tracker, so Pay 'n' Spray only; about $15,500 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/sirius-61-sungrazer/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/sirius-61-sungrazer.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/sirius-61-sungrazer/"
+        },
+        {
+          "item": "Sirius Holdout Sungrazer",
+          "location": "In the detached garage outside the \"Anti Sugar\" house, just south-west of Ambrosia",
+          "note": "Unlocked; standard tracker, so Pay 'n' Spray only; about $15,500 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/sirius-holdout-sungrazer/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/sirius-holdout-sungrazer.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/sirius-holdout-sungrazer/"
+        },
+        {
+          "item": "Taci Ragno",
+          "location": "In the bushes beside the beach path that starts at the Sands of Time Assisted Living & Memory Care facility in Vinewood Beach",
+          "note": "Locked; no tracker; about $2,250 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/taci-ragno/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/taci-ragno.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/taci-ragno/"
+        },
+        {
+          "item": "Tuff Immortal BMX",
+          "location": "Lying on the ground next to the Hamlet BMX Stunt Run in central Hamlet",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/tuff-immortal-bmx/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike"
+        },
+        {
+          "item": "Vapid Brimstone Golfer",
+          "location": "Inside the garage of a mansion on Delamore Dr in south-east Leaf Links",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/vapid-brimstone-golfer/",
+            "GTA6Wiki"
+          ],
+          "thumb": "car",
+          "img": "img/items/vapid-brimstone-golfer.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-brimstone-golfer/"
+        },
+        {
+          "item": "Vapid Grady's Slamvan",
+          "location": "Parked under the awning on the side of the abandoned Grady's Family Store on Rockledge Rd in Moreau",
+          "note": "Locked; no tracker; about $17,500 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/vapid-gradys-slamvan/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/vapid-gradys-slamvan.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-gradys-slamvan/"
+        },
+        {
+          "item": "Vapid Rumpo",
+          "location": "Inside the Apollo Aggregates warehouse (teddy bears and cocaine) off Emory Ave, central South Vice-Dale County, just outside the garage",
+          "note": "Unlocked; no tracker; about $2,500 to register.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/vapid-rumpo/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/vapid-rumpo.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-rumpo/"
+        },
+        {
+          "item": "Vapid Shrimp and Save Shifter",
+          "location": "Parked in front of the Shrimp and Save restaurant on the Sunbelt Hwy in southern Key Lento",
+          "note": "Locked with an alarm.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/vapid-shrimp-and-save-shifter/",
+            "GTA6Wiki"
+          ],
+          "thumb": "truck",
+          "img": "img/items/vapid-shrimp-and-save-shifter.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-shrimp-and-save-shifter/"
+        },
+        {
+          "item": "Vapid Smush! Ganado",
+          "location": "Next to the juice sign in front of the abandoned Smush! Fresh Juice building in central South Kelly County",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/vapid-smush-ganado/",
+            "GTA6Wiki"
+          ],
+          "thumb": "muscle",
+          "img": "img/items/vapid-smush-ganado.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/vapid-smush-ganado/"
+        },
+        {
+          "item": "Walter Ghost Cruiser",
+          "location": "Leaning against the roadside memorial for Connie Hamilton, under a pole beside I-404 in southern Port Gellhorn",
+          "note": "Unlocked; no tracker.",
+          "source": [
+            "https://gta6wiki.eu/map/standout-vehicle/walter-ghost-cruiser/",
+            "GTA6Wiki"
+          ],
+          "thumb": "bike",
+          "img": "img/items/walter-ghost-cruiser.webp",
+          "imgSource": "https://gta6wiki.eu/map/standout-vehicle/walter-ghost-cruiser/"
+        },
+        {
+          "item": "Grotti Itali RSX (Vespucci mansion)",
+          "location": "Mansion garage, Vespucci Island, Vice Beach",
+          "note": "Jump the fence, enter the garage and use the Key Cloner (from Randy, Chapter 3). Single YouTube guide (Neon Ledger); unconfirmed.",
+          "source": [
+            "https://vicepulse.org/t/gta6-grotti-itali-rsx-vespucci-island",
+            "VicePulse"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Blazing Mallard",
+          "location": "Bobcat Key airstrip",
+          "note": "Listed in LunarGamingYoutube's Reddit rare-vehicle guide; unconfirmed.",
+          "source": [
+            "https://vicepulse.org/t/gta6-rare-vehicles-watson-bay-bobcat-key-hamlet",
+            "VicePulse (Reddit)"
+          ],
+          "thumb": "car"
         }
       ]
     },
@@ -3084,6 +3695,28 @@
             "GamesRadar"
           ],
           "thumb": "mission"
+        },
+        {
+          "item": "Retest Freddie's Defenses",
+          "location": "Side mission at the prepper bunker, North Leonard County",
+          "note": "Second visit after Freddie's text (4+ in-game days). Finishing it unlocks hurricanes as a permanent weather type; staying in the bunker also gives Freddie's Dubsta and cash.",
+          "source": [
+            "https://gamerant.com/gta-6-hurricane-weather-unlock-freddie-gibbs-bunker-location/",
+            "GameRant"
+          ],
+          "thumb": "optional",
+          "img": "img/items/retest-freddies-defenses.webp",
+          "imgSource": "https://gamerant.com/gta-6-hurricane-weather-unlock-freddie-gibbs-bunker-location/"
+        },
+        {
+          "item": "Hazardous Materials (Kyle's strawberry)",
+          "location": "Chapter 2 side mission, McKittrick Farm",
+          "note": "Eat the mutated strawberry when offered: it gives a permanent max-Stamina increase. Refusing has no penalty but you miss the boost.",
+          "source": [
+            "https://www.radiotimes.com/technology/gaming/gta-6-hazardous-materials-should-you-eat-mutated-strawberry/",
+            "Radio Times"
+          ],
+          "thumb": "optional"
         }
       ]
     },
@@ -3445,7 +4078,7 @@
         {
           "item": "Doomsday prepper compound",
           "location": "Ripe Pick'ns Grove, west North Leonard County",
-          "note": "Electrified, mined compound; a hidden tunnel under the shipping container by the bulldozer gets you in from Chapter 1.",
+          "note": "Electrified, mined compound; a hidden tunnel under the shipping container by the bulldozer gets you in from Chapter 1. It's Freddie's bunker: return after his text for Retest Freddie's Defenses, which unlocks hurricanes.",
           "source": [
             "https://gta6bugs.com/easter-eggs/doomsday-prepper-compound-secret-tunnel",
             "GTA6BUGS"
@@ -4110,7 +4743,9 @@
             "https://gta6bugs.com/easter-eggs/little-sam-sam-houser-cameo",
             "GTA6BUGS"
           ],
-          "thumb": "note"
+          "thumb": "note",
+          "img": "img/items/little-sam-janitor-cameo.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/little-sam-sam-houser-cameo"
         },
         {
           "item": "Secret radio playlists (WAiNK posters)",
@@ -4299,7 +4934,9 @@
             "https://gta6pocket.com/en/mod-shops/",
             "GTA6 Pocket"
           ],
-          "thumb": "auto-shop"
+          "thumb": "auto-shop",
+          "img": "img/items/wasteland-off-road.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/wasteland-off-road/"
         },
         {
           "item": "Vice Auto Customs",
@@ -4309,7 +4946,9 @@
             "https://gta6pocket.com/en/mod-shops/",
             "GTA6 Pocket"
           ],
-          "thumb": "auto-shop"
+          "thumb": "auto-shop",
+          "img": "img/items/vice-auto-customs.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/vice-auto-customs/"
         },
         {
           "item": "Euroform Automotive",
@@ -4319,7 +4958,9 @@
             "https://gta6pocket.com/en/mod-shops/",
             "GTA6 Pocket"
           ],
-          "thumb": "auto-shop"
+          "thumb": "auto-shop",
+          "img": "img/items/euroform-automotive.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/euroform-automotive/"
         },
         {
           "item": "Vice Vinyl",
@@ -4339,7 +4980,9 @@
             "https://gta6pocket.com/en/mod-shops/",
             "GTA6 Pocket"
           ],
-          "thumb": "bike-shop"
+          "thumb": "bike-shop",
+          "img": "img/items/ledford-motorcycle-workshop.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/ledford-motorcycle-workshop/"
         },
         {
           "item": "Phil's Ammu-Nation",
@@ -4413,7 +5056,9 @@
             "https://gta6bugs.com/weapons/backdoor-hobo",
             "GTA6BUGS"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/zenons-pawn-shop.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/zenons-pawn-shop/"
         },
         {
           "item": "Pawn & Gun",
@@ -4485,7 +5130,9 @@
             "https://gta6bugs.com/weapons/mossy-mediator",
             "GTA6BUGS"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/barrage-gun-supply.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/barrage-gun-supply/"
         },
         {
           "item": "Vice City Firearms",
@@ -4879,6 +5526,76 @@
             "GTA Town (Reddit)"
           ],
           "thumb": "escape"
+        },
+        {
+          "item": "Boat autopilot",
+          "location": "Double-tap Triangle (PS5) / Y (Xbox) at the helm",
+          "note": "The boat keeps going straight while you walk the deck.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving"
+        },
+        {
+          "item": "Cruise at the speed limit",
+          "location": "Hold R2 (RT) halfway, to the adaptive trigger's first click",
+          "note": "Handy for avoiding police attention on long drives.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "driving"
+        },
+        {
+          "item": "Radio on foot",
+          "location": "Buy earbuds or headphones, then equip them",
+          "note": "Lets you listen to the radio while walking.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "dpad"
+        },
+        {
+          "item": "Get in the back seat",
+          "location": "Hold Triangle (PS5) / Y (Xbox) by a rear door",
+          "note": "Useful when your partner is waiting at the wheel.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "dpad"
+        },
+        {
+          "item": "Hand a stash bag to your partner",
+          "location": "Hold D-pad Right, press Circle (PS5) / B (Xbox)",
+          "note": "Lets one trip carry more bags.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Partner getaway driver",
+          "location": "Tell your partner 'you drive' after a robbery",
+          "note": "They flee and lose the cops for you; ask before the robbery so they wait in the car.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "escape"
+        },
+        {
+          "item": "Switch aiming shoulder",
+          "location": "D-pad Left / Right while aiming",
+          "note": "Swaps the camera shoulder for cover angles.",
+          "source": [
+            "https://gta6wiki.eu/guides/gta-6-hidden-features/",
+            "GTA6Wiki"
+          ],
+          "thumb": "aim"
         }
       ],
       "steps": [
@@ -4900,7 +5617,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (95 entries, file updated 25 Nov 2026, 3:10 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (116 entries, file updated 25 Nov 2026, 9:10 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -6344,6 +7061,306 @@
             "GTA6BUGS"
           ],
           "thumb": "glitch"
+        },
+        {
+          "item": "Can't pick up cash from a ripped-out ATM",
+          "location": "Towed ATM, possibly Salton (PS5) #0432",
+          "note": "After dragging an ATM open with a vehicle, the cash can't be collected.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cant-pick-up-cash-from-a-ripped-out-atm-after-breaking-it-open-432",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Car impounded right after Pay 'n' Spray registration",
+          "location": "Pay 'n' Spray (PS5) #0431",
+          "note": "A stolen truck was repainted and registered, then vanished with an 'impounded' pop-up on pulling out.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-gets-impounded-right-after-you-register-it-at-pay-n-spray-431",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "'Criminals temporarily disbanded' after losing the job car",
+          "location": "Raul unique-car jobs (PS5/Xbox) #0430",
+          "note": "If the target car (e.g. Chatfield Schafter V12) is destroyed or missing, the job pauses and the pickup stays empty.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-criminals-temporarily-disbanded-after-losing-unique-car-pickup",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Caught Slipping won't start",
+          "location": "After Boobie Time and First Impressions (Xbox) #0428",
+          "note": "No new missions for hours despite leaving and returning to Vice City.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-caught-slipping-wont-start-after-boobie-time-and-first-impressions-428",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Manual save loads without your bag and replays calls",
+          "location": "Manual save (PS5/Xbox) #0427",
+          "note": "Loaded at a different spot without the carried drug bag; recent calls and texts popped up again.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-manual-save-loads-without-bag-and-replays-old-calls-and-texts",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Loot bags lost when Lucia dies while fencing",
+          "location": "Partner fence run (PS5/Xbox) #0426",
+          "note": "About $3K of bags vanished from both cars after Lucia was killed en route, with no payout.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-loot-bags-gone-from-cars-after-lucia-died-while-fencing",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Lucia left behind after a chase, can't switch",
+          "location": "After a police chase (PS5/Xbox) #0425",
+          "note": "She texts asking where you are, can't be switched to and doesn't answer calls.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-left-behind-after-police-chase-cant-switch-no-answer",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "'Max Enhanced' despite refusing steroids",
+          "location": "Making Gainz / fitness app (PS5/Xbox) #0424",
+          "note": "Lucia shows 5/5 Max Enhanced even after declining the steroids twice.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-max-enhanced-5-5-after-refusing-steroids-making-gainz",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Registered cars swap owners",
+          "location": "Garage / registration (PS5/Xbox) #0423",
+          "note": "Jason's '65 Chino and Lucia's Sultan swapped owners on their own.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-registered-vehicles-swapped-between-jason-and-lucia",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Twist Wrist, Smash, Grab won't start",
+          "location": "Chapter 3, after the dirt bike race (PS5/Xbox) #0422",
+          "note": "Billy's job never triggers.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-twist-wrist-smash-grab-billy-mission-not-starting-chapter-3",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Unique gun lost after a mission restart",
+          "location": "Farm Fix Warehouse, Throttler Verro (PS5/Xbox) #0421",
+          "note": "Picked-up unique shotgun gone after restarting; never appeared in trunk or locker.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-unique-weapon-lost-after-restarting-mission-throttler-vero-shotgun",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Buddy? mission vanishes from the map",
+          "location": "Approach the trigger and leave (PS5/Xbox) #0420",
+          "note": "The icon disappeared and the Farm Fix Meth Lab robbery opened instead.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-buddy-mission-icon-vanished-after-approaching-trigger-farm-fix-meth-lab",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Practice on the Safe: drill shows no limit",
+          "location": "Safe drilling (Xbox) #0418",
+          "note": "Only the LT/RT rings show, not the limit you're pushing.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-practice-on-the-safe-drilling-shows-no-limit-only-the-lt-and-rt-418",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Yasmani's jewellery jobs: no snap gun",
+          "location": "After all three robberies (Xbox) #0417",
+          "note": "Game tells both characters to return as the other one.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-yasmanis-jewelry-jobs-cant-get-the-snap-gun-game-says-return-as-417",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "'Moses bug': water breaks under a closing drawbridge",
+          "location": "Drawbridge closing onto a ship (PS5/Xbox) #0414",
+          "note": "Water around the ship glitches out; clip on r/GTA6.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-moses-bug-water-glitches-when-bridge-closes-onto-ship",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Relationship points loop (impound fee)",
+          "location": "Pay Lucia's impound fee from the phone (Xbox) #0413",
+          "note": "Pressing X after each animation keeps adding Jason-Lucia points.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-relationship-points-glitch-impound-fee-affection-xbox",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Bike missing from Mitchell Auto Center garage",
+          "location": "Chapter 2 garage (PS5/Xbox) #0412",
+          "note": "Map shows the stored dirt bike but the garage is empty and the app can't call it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-bike-missing-from-mitchell-auto-center-garage-map-shows-it",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "All car upgrades free after the Elegy mission",
+          "location": "Mod shops (PS5/Xbox) #0411",
+          "note": "Prices stayed at $0 after the mission ended; single r/GTA6 report.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-upgrades-free-after-elegy-upgrade-mission-shops-stay-free",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Satan event: shotgun stuck on your back",
+          "location": "Dethrone the Pretender retry (PS5/Xbox) #0410",
+          "note": "After dying and going back in, the shotgun can't be used; retrying again fixed it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-satan-event-shotgun-on-back-cant-use-after-retry",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Infinite loading when going to bed",
+          "location": "Safehouse bed transition (PS5/Xbox) #0409",
+          "note": "Endless loading screen; restarting and loading the autosave worked for one player.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-infinite-loading-screen-going-to-bed-after-intimate-scene-autosave",
+            "GTA6BUGS"
+          ],
+          "thumb": "crash"
+        },
+        {
+          "item": "Audacity side missions stuck after skydiving",
+          "location": "No text, icon, ramp or dirt bike (PS5/Xbox) #0408",
+          "note": "The next Audacity mission never triggers.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-audacity-side-missions-stuck-after-skydiving-no-ramp-dirt-bike",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Relationship drops to 3/4 after Chapter 3",
+          "location": "Jason-Lucia meter (PS5/Xbox) #0407",
+          "note": "Falls from 4/4 after the last Chapter 3 mission and won't go back up.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-relationship-level-drops-from-4-4-to-3-4-after-chapter-3",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Call audio cuts out entering the gym",
+          "location": "Dynamix Fitness (PS5) #0406",
+          "note": "Caller goes silent, hang-up does nothing; the call HUD clears once you walk back outside.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-phone-call-audio-cuts-off-and-call-ui-stuck-when-entering-gym-406",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Lucia and Jason keep saying 'tracker'",
+          "location": "Everywhere, even over cutscenes (PS5) #0405",
+          "note": "Lines 'yeah tracker' / 'woah tracker' repeat constantly.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-keeps-saying-yeah-tracker-constantly-ps5-405",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Tracker-free Avarus can't be stored",
+          "location": "Port Gellhorn Station Garage, Starlet Motel (PS5) #0404",
+          "note": "'You can't store this vehicle here' although WAiNK shows Tracker: None.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-tracker-free-lcc-avarus-refused-at-two-parking-locations-you-cant-404",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Sasha delivery: packages stuck in a Mer-Can Outlaw",
+          "location": "Delivery-driver side mission (PS5) #0402",
+          "note": "Packages load but can't be taken out at the first stop, so the job can't finish.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-mer-can-outlaw-delivery-packages-cant-be-taken-back-out-sasha-402",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "AdB FRA: Jason's hand blocks the scope",
+          "location": "Assault rifle aim (Xbox) #0401",
+          "note": "Hand covers the sight when shouldered, and the barrel in third person.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-hand-over-the-scope-on-the-adb-fra-jasons-hand-blocks-the-sight-401",
+            "GTA6BUGS"
+          ],
+          "thumb": "aim"
+        },
+        {
+          "item": "Armored truck drives past the bank",
+          "location": "That's Where the Money Is... retries (PS5/Xbox) #0400",
+          "note": "After a few attempts the truck never stops, so the robbery can't start.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-thats-where-the-money-is-armored-truck-drives-past-bank",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Taco Bomb Port Gellhorn missing from Stick Ups",
+          "location": "Across from the Starlet Motel, Chapter 2 #0399",
+          "note": "Shows Security and Take on the map but isn't in Robberies > Stick Ups.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-taco-bomb-gellhorn-missing-from-stick-ups-list",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Car lands on the gas station roof after refuelling",
+          "location": "Gas station (PS5/Xbox)",
+          "note": "After repairing and refuelling, the car ended up wrecked on the roof. Take another car or call it back from your garage.",
+          "source": [
+            "https://gtawiki.lol/bug-tracker/149-car-ends-up-on-the-gas-station-roof-after-refuelling",
+            "GTAWiki.lol"
+          ],
+          "thumb": "physics"
         }
       ]
     }
