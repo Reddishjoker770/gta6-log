@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 26 Nov 2026, 8:18 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 26 Nov 2026, 3:16 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "26 Nov 2026, 8:18 AM AEST"
+      "value": "26 Nov 2026, 3:16 PM AEST"
     },
     {
       "label": "Official patches",
@@ -46,7 +46,12 @@
     "https://gta6wiki.eu/guides/gta-6-hidden-features/",
     "https://game8.co/games/GTA-6/archives/638784",
     "https://beebom.com/gta-6-carter-mining-boathouse-safe-code/",
-    "https://gamerant.com/gta-6-hurricane-weather-unlock-freddie-gibbs-bunker-location/"
+    "https://gamerant.com/gta-6-hurricane-weather-unlock-freddie-gibbs-bunker-location/",
+    "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+    "https://www.vicevaulted.com/",
+    "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
+    "https://www.dexerto.com/gta/gta-6-players-who-used-ps5-new-zealand-trick-are-missing-out-on-a-stat-buff-3431285/",
+    "https://gtascoop.com/guides/gta-6-rare-car-locations/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -55,7 +60,7 @@
       "id": "codes",
       "short": "Codes",
       "heading": "Codes",
-      "caption": "Safe, door, and keypad codes. Tyas's three Port Gellhorn codes match launch guides. Mission codes are generally fixed; free-roam store safes are not.",
+      "caption": "Safe, door, and keypad codes. Tyas's three Port Gellhorn codes match launch guides. Mission codes are generally fixed; free-roam store safes are not. Cheat codes are D-pad entries on the phone and only work after the story; see Gameplay Mechanics for how cheats unlock.",
       "items": [
         {
           "item": "Kingpin Bowling safe",
@@ -80,7 +85,9 @@
           "location": "6969",
           "note": "Port Gellhorn illegal operation. Shown on the Brooks Boatworks wall map.",
           "source": "Our chats",
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/la-cascara-motel-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/lieutenant-room-safe-la-cascara-motel/"
         },
         {
           "item": "Lab Fees back-room door",
@@ -172,7 +179,9 @@
             "https://gtasnaps.com/all-gta-6-safe-codes-and-door-codes/",
             "GTA Snaps"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/nova-auto-junkyard-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/garage-safe-nova-auto-junkyard/"
         },
         {
           "item": "Cottonmouth Lake trailer safe",
@@ -222,7 +231,9 @@
             "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
             "VICE"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/sunrise-rv-park-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/dock-warehouse-safe-sunset-rv-park/"
         },
         {
           "item": "Farm Fix Meth Lab safe",
@@ -232,7 +243,9 @@
             "https://www.vice.com/en/article/all-gta-6-safe-codes-illegal-operations/",
             "VICE"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/farm-fix-meth-lab-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/safe-farm-fix-meth-lab/"
         },
         {
           "item": "Illegal Sneaker Trade safe",
@@ -282,7 +295,9 @@
             "https://outputlag.com/guides/gta-6-safe-garage-codes/",
             "Output Lag"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/janjaks-garage-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/safe-janjaks-garage/"
         },
         {
           "item": "Black Eagle warehouse office door",
@@ -470,7 +485,9 @@
             "https://gta6bugs.com/codes/chatfield-storage-logistics-safe-code",
             "GTA6BUGS"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/chatfield-storage-dock-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/office-safe-chatfield-storage-logistics/"
         },
         {
           "item": "Belville abandoned laundry wall safe",
@@ -683,6 +700,206 @@
             "Game8"
           ],
           "thumb": "safe"
+        },
+        {
+          "item": "Drunk cheat",
+          "location": "Up, Left, Right, Up, Up, Left, Right, Up, Left, Right",
+          "note": "Makes you and your partner drunk. Unlock: spend $2,500 on alcohol. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Raise Heat Level cheat",
+          "location": "Left, Down, Right, Down, Up, Down, Up",
+          "note": "Raises your heat across the map. Unlock: lose a 3-star Wanted Level 25 times. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Raise Wanted Level cheat",
+          "location": "Left, Down, Right, Down, Up, Right, Up",
+          "note": "Raises your Wanted Level. Unlock: lose a 3-star Wanted Level 50 times. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Unlimited Focus cheat",
+          "location": "Down, Up, Up, Down, Up, Down, Up, Down, Up, Right",
+          "note": "Focus never runs out. Unlock: finish the story. (Dexerto prints a slightly different code; GamesRadar+, Beebom and Game Rant agree on this one.) Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Body Armor cheat",
+          "location": "Down, Up, Left, Up, Up, Up, Up, Up, Down, Down",
+          "note": "Adds body armor. Unlock: complete 100 workouts. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Max Ammo cheat",
+          "location": "Down, Up, Right, Down, Left, Left, Up, Up, Down, Left",
+          "note": "Fills all ammo. Unlock: 25 bronze medals or better at shooting ranges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Infinite Ammo cheat",
+          "location": "Down, Up, Right, Down, Left, Left, Up, Down, Down, Down",
+          "note": "Ammo never runs out. Unlock: 25 silver medals or better at shooting ranges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "No Reload cheat",
+          "location": "Down, Up, Right, Down, Left, Left, Up, Down, Down, Up",
+          "note": "Infinite ammo with no reloading. Unlock: 25 gold medals at shooting ranges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Attack Force cheat",
+          "location": "Down, Up, Left, Left, Right, Down, Down, Up, Down",
+          "note": "Bullets and melee hits launch targets. Unlock: finish the story. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Exploding Balls cheat",
+          "location": "Down, Up, Left, Left, Right, Down, Down, Up, Right",
+          "note": "Sports balls explode on impact. Unlock: hit 20 enemies with explosive damage. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Vehicle Force cheat",
+          "location": "Down, Up, Left, Left, Right, Down, Left, Up, Down",
+          "note": "Vehicle hits launch targets. Unlock: kill 25 enemies (or civilians) with a vehicle. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Cycle Weather cheat",
+          "location": "Down, Right, Up, Down, Right, Up, Right",
+          "note": "Changes the weather. Unlock: GamesRadar+ says reveal the whole map; Dexerto and GTABase say finish the story. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Maibatsu Boomazoom cheat",
+          "location": "Left, Up, Right, Down, Left, Left, Up, Left",
+          "note": "Spawns a Boomazoom. Unlock: complete 5 Shopping challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn MTL Pumper cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Right, Up",
+          "note": "Spawns an MTL Pumper fire truck. Unlock: discover the MTL Pumper in the Progress menu. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn HVY Bulldozer cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Right, Down",
+          "note": "Spawns an HVY Bulldozer. Unlock: discover the HVY Bulldozer in the Progress menu. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Cataclysm filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Right, Right",
+          "note": "Murky smoke screen filter. Unlock: discover Martha's Vamos in the Progress menu. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Videotape filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Right, Down",
+          "note": "Old videotape look. Unlock: complete 50 activities with your partner. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Dark Mirror filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Right, Left",
+          "note": "Flips the world upside down and turns it black. Unlock: make $500,000 selling vehicles. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Dollhouse filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Down, Right",
+          "note": "Vivid colours, narrow aspect ratio. Unlock: spend 8 hours with your partner. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Faded Glory filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Left, Right",
+          "note": "Colour CRT TV look. Unlock: rob 50 stores with your partner. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
         }
       ]
     },
@@ -1661,6 +1878,16 @@
             "GTA6BUGS"
           ],
           "thumb": "pistol"
+        },
+        {
+          "item": "Glider crash unique weapon",
+          "location": "Glider tangled in a tree, far north of Mariana County",
+          "note": "Shoot the glider's lines to drop it, then take the unique weapon (a sniper, per the video title) from the seat. Exact spot only in Robbin Rams' video; under investigation.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-glider-crash-unique-weapon",
+            "ViceVaulted"
+          ],
+          "thumb": "sniper"
         }
       ]
     },
@@ -1888,7 +2115,9 @@
             "https://gta6map.city/secrets/sound4sound-studio-rolls-windsor-k17/",
             "GTA6 Map City"
           ],
-          "thumb": "cash"
+          "thumb": "cash",
+          "img": "img/items/sound4sound-studio-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/safe/safe-sound4sound-studio/"
         },
         {
           "item": "Gellhorn Fun Fair bumper car",
@@ -1907,6 +2136,28 @@
           "source": [
             "https://gta6bugs.com/codes/pearl-house-hair-salon-safe",
             "GTA6BUGS"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Kenton's treasure dives",
+          "location": "Offshore shipwrecks from Island Dreams Boat Charters, Key Lento (after Island Dreams, Chapter 1)",
+          "note": "Search wrecks with the metal detector and sell finds to Kenton (one chest about $200). Chapter 1 cash is lost when the chapter ends.",
+          "source": [
+            "https://www.gtaboom.com/gta-6-treasure-hunting-2b73",
+            "GTA BOOM"
+          ],
+          "thumb": "cash",
+          "img": "img/items/kenton-treasure-dives.webp",
+          "imgSource": "https://www.gtaboom.com/gta-6-treasure-hunting-2b73"
+        },
+        {
+          "item": "Collectible cards (sell for cash)",
+          "location": "Any pawn shop",
+          "note": "Cards sell for about $20 to over $1,000 each by rarity, and you keep collection progress. 18 sets, 480 cards.",
+          "source": [
+            "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-cards-all-sets-guide/",
+            "GAMES.GG"
           ],
           "thumb": "cash"
         }
@@ -3346,6 +3597,56 @@
             "VicePulse (Reddit)"
           ],
           "thumb": "car"
+        },
+        {
+          "item": "Gold Pegassi Vitello",
+          "location": "Under a balcony at Crimsonpalms Condominiums, by the beach just off Washington Island, Vice City",
+          "note": "Gold-wrapped Aventador-style supercar. Tracker status not stated.",
+          "source": [
+            "https://gtascoop.com/guides/gta-6-rare-car-locations/",
+            "GTA Scoop"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Royal Sanchez (SCOOP container)",
+          "location": "Orange container, storage yard north of Grassrivers, North Mariana County",
+          "note": "Needs the Cut-Off Tool; move blocking containers with a bulldozer first.",
+          "source": [
+            "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
+            "Sportskeeda"
+          ],
+          "thumb": "bike"
+        },
+        {
+          "item": "Muck Spreader Bandito (SCOOP container)",
+          "location": "Shipping container south of Hamlet near Boone Speedway",
+          "note": "Dune buggy; open with the Cut-Off Tool.",
+          "source": [
+            "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
+            "Sportskeeda"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Annis Pixel Elegy (SCOOP container)",
+          "location": "Yellow SCOOP container, Capri Construction Yard near the pier",
+          "note": "Custom street-racer Elegy. Shove the portaloo and crate aside with a heavy vehicle, then cut the padlock.",
+          "source": [
+            "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
+            "Sportskeeda"
+          ],
+          "thumb": "car"
+        },
+        {
+          "item": "Vapid Cuban Hermes (SCOOP container)",
+          "location": "Port Galahad docks, Row 25, Tier 1",
+          "note": "Clue is on the dock-office PC. Move the stacked containers with a telehandler, then cut the lock.",
+          "source": [
+            "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
+            "Sportskeeda"
+          ],
+          "thumb": "muscle"
         }
       ]
     },
@@ -4776,6 +5077,78 @@
             "IGN"
           ],
           "thumb": "car"
+        },
+        {
+          "item": "Macca & Friends cartoon",
+          "location": "In-game TV, Weazel channel",
+          "note": "A full 2D cartoon starring Macca the Gator, the pink alligator from the Collector's Box.",
+          "source": [
+            "https://www.dexerto.com/gta/gta-6-is-launching-with-a-full-saturday-morning-cartoon-series-players-can-watch-in-game-3428321",
+            "Dexerto"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "'Weird Al' Yankovic on Vice City FM",
+          "location": "Vice City FM (1980s station), any radio",
+          "note": "Weird Al is one of the two DJs, confirmed by Rockstar to Kotaku.",
+          "source": [
+            "https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140",
+            "Kotaku"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Michael's 'Windchimes' ringtone",
+          "location": "Phone > Settings > Ringtones",
+          "note": "The Windchimes ringtone matches Michael De Santa's ringtone from GTA 5.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-michael-ringtone-windchimes",
+            "ViceVaulted"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Backrooms container",
+          "location": "Open container at the excavation site east of Lake Tallaloko, north of Milport, Lumox County",
+          "note": "An item on the table inside sends Jason to a surreal Backrooms-style obstacle course; lots of in-game time passes. Available soon after the prologue.",
+          "source": [
+            "https://gamerant.com/gta-6-where-to-find-the-backrooms-dimension/",
+            "GameRant"
+          ],
+          "thumb": "egg",
+          "img": "img/items/backrooms-container-lake-tallaloko.webp",
+          "imgSource": "https://gamerant.com/gta-6-where-to-find-the-backrooms-dimension/"
+        },
+        {
+          "item": "Port Gellhorn missing tourists",
+          "location": "Missing-persons posters at the Starlet Motel (Chapter 2), then Port Gellhorn",
+          "note": "No map marker and the tip line never answers; follow the posters to a hidden serial-killer mystery. Best at night.",
+          "source": [
+            "https://culturedvultures.com/gta-6-how-to-find-the-port-gellhorn-missing-tourists/",
+            "Cultured Vultures"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Sahara lawsuit random event",
+          "location": "Vice City streets",
+          "note": "A Sahara (Amazon parody) truck rear-ends a car; the driver climbs back into the burning car to injure himself for a lawsuit. Helping or blackmailing him pays out later.",
+          "source": [
+            "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
+            "Kotaku"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Cat fights back in a stolen car",
+          "location": "Random parked cars with a cat inside",
+          "note": "Steal one and the cat attacks the driver until it gets thrown out.",
+          "source": [
+            "https://www.windowscentral.com/gaming/gta-6-players-are-ignoring-crime-to-jet-ski-with-dogs-and-redecorate-their-bedrooms-the-funniest-clips-so-far",
+            "Windows Central"
+          ],
+          "thumb": "dog"
         }
       ]
     },
@@ -4800,7 +5173,9 @@
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
           ],
-          "thumb": "fence"
+          "thumb": "fence",
+          "img": "img/items/brians-lockup-fence.webp",
+          "imgSource": "https://gta6wiki.eu/map/fence/brian/"
         },
         {
           "item": "Donnie (fence)",
@@ -4810,7 +5185,9 @@
             "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
             "PC Gamer"
           ],
-          "thumb": "fence"
+          "thumb": "fence",
+          "img": "img/items/donnie-fence.webp",
+          "imgSource": "https://gta6wiki.eu/map/fence/donnie/"
         },
         {
           "item": "Dunk (fence)",
@@ -4914,7 +5291,9 @@
             "https://gta6info.com/wiki/Unique_Weapons",
             "GTA6Info"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/big-shots-ammu-nation.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/big-shots/"
         },
         {
           "item": "Capri Classic",
@@ -5016,7 +5395,9 @@
             "https://gta6bugs.com/map/vice-city",
             "GTA6BUGS Vice City map"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/black-eagle-gun-store.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/black-eagle/"
         },
         {
           "item": "Quickscope (gun store)",
@@ -5162,7 +5543,9 @@
             "https://gta6bugs.com/weapons/vice-city-heathen",
             "GTA6BUGS"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/prestige-firearms.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/prestige-firearms/"
         },
         {
           "item": "Tactical Outlet Guns",
@@ -5596,6 +5979,36 @@
             "GTA6Wiki"
           ],
           "thumb": "aim"
+        },
+        {
+          "item": "Cut-Off Tool (SCOOP containers)",
+          "location": "Earned in the Chapter 3 mission Meet the Heders",
+          "note": "Permanent tool for Jason and Lucia that cuts padlocks on SCOOP shipping containers, several of which hide rare cars.",
+          "source": [
+            "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
+            "Sportskeeda"
+          ],
+          "thumb": "optional"
+        },
+        {
+          "item": "Dive underwater to lose the cops",
+          "location": "Any deep water",
+          "note": "Police struggle to find you underwater; stars start blinking at 2-3 stars while you stay down on your air meter. Didn't work at 6 stars.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-dive-underwater-to-lose-the-cops",
+            "ViceVaulted"
+          ],
+          "thumb": "escape"
+        },
+        {
+          "item": "Cocaine stamina baggies (not in AU/NZ)",
+          "location": "Item wheel (international versions only)",
+          "note": "Elsewhere you can skim bricks into baggies for a ~30-second stamina boost. The Australian/NZ build (and PS5 NZ-store copies) lacks it; adrenaline still works.",
+          "source": [
+            "https://www.dexerto.com/gta/gta-6-players-who-used-ps5-new-zealand-trick-are-missing-out-on-a-stat-buff-3431285/",
+            "Dexerto"
+          ],
+          "thumb": "note"
         }
       ],
       "steps": [
@@ -5617,7 +6030,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (116 entries, file updated 25 Nov 2026, 9:10 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (119 entries, file updated 26 Nov 2026, 3:05 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -7361,6 +7774,86 @@
             "GTAWiki.lol"
           ],
           "thumb": "physics"
+        },
+        {
+          "item": "NPC drivers spin in circles / fall out of moving cars",
+          "location": "Parking lots and streets (PS5/Xbox)",
+          "note": "Ambient traffic-AI bugs from launch clips; harmless, no trigger. Drive off and come back.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-npc-drivers-spin-in-circles-and-fall-out",
+            "ViceVaulted"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Stash bag overfill (infinite stash)",
+          "location": "Apollo Aggregates warehouse east of Hamlet; sell to Tyrone (Ch.3)",
+          "note": "Carry one full and one near-empty bag and spam only the double 'collect' prompts; one bag reportedly held $100k+ after 01.002.002 (B Man, Xbox). Unverified.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-stash-bag-overfill-infinite-stash-glitch",
+            "ViceVaulted"
+          ],
+          "thumb": "spawn"
+        },
+        {
+          "item": "All barbers show the same haircut options",
+          "location": "Any barber (PS5)",
+          "note": "New cuts aren't per-salon: scan style magazines with WAiNK (Discovered Styles) to add more.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-all-barbers-have-the-same-haircut-options-429",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Glasses and cups break if you move while placing them",
+          "location": "Placing a drink (PS5/Xbox)",
+          "note": "Stand still while putting the item down.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-glasses-and-cups-break-if-you-move-while-placing-them",
+            "GTA6BUGS"
+          ],
+          "thumb": "physics"
+        },
+        {
+          "item": "Jason naked after a shower (no towel)",
+          "location": "Chapter 3 apartment (PS5/Xbox)",
+          "note": "Came out of a late-night shower with no towel; sleeping in the bed or reloading fixes it.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-jason-walks-around-naked-after-shower-no-towel",
+            "GTA6BUGS"
+          ],
+          "thumb": "animation"
+        },
+        {
+          "item": "Rustling noise in the Vice City safehouse wardrobe",
+          "location": "Second Vice City safehouse (PS5/Xbox)",
+          "note": "Looping rustle while changing outfits, seems tied to the wardrobe menu. Harmless.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-rustling-noise-vice-city-safehouse-wardrobe-outfit-menu",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Pause before landing cancels fall damage",
+          "location": "Any high fall",
+          "note": "Pausing a split second before impact skips the hard-landing animation and damage; timing is tight. Under investigation.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-pause-before-landing-no-fall-damage-glitch",
+            "ViceVaulted"
+          ],
+          "thumb": "physics"
+        },
+        {
+          "item": "Ammu-Nation clerk scare: free ammo and armor",
+          "location": "Any Ammu-Nation",
+          "note": "Walk in with a gun already drawn, aim at the clerk until staff flee, and items switch from Buy to Take (not display weapons). Some clerks fight back.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-ammu-nation-clerk-scare-free-ammo-armor",
+            "ViceVaulted"
+          ],
+          "thumb": "aim"
         }
       ]
     }
