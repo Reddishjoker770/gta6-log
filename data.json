@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 26 Nov 2026, 3:16 PM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 27 Nov 2026, 8:12 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "26 Nov 2026, 3:16 PM AEST"
+      "value": "27 Nov 2026, 8:12 AM AEST"
     },
     {
       "label": "Official patches",
@@ -51,7 +51,12 @@
     "https://www.vicevaulted.com/",
     "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
     "https://www.dexerto.com/gta/gta-6-players-who-used-ps5-new-zealand-trick-are-missing-out-on-a-stat-buff-3431285/",
-    "https://gtascoop.com/guides/gta-6-rare-car-locations/"
+    "https://gtascoop.com/guides/gta-6-rare-car-locations/",
+    "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-26-november",
+    "https://leonidaplayers.com/",
+    "https://screenrant.com/gta-6-unique-weapons-locations/",
+    "https://vicecitymapguide.com/guides/gta-6-secret-weapons-locations/",
+    "https://gta6-japan.com/en/tips/apollo-aggregates-character-switch-respawn/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -367,7 +372,9 @@
             "https://outputlag.com/guides/gta-6-safe-garage-codes/",
             "Output Lag"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/leonida-carrier-warehouse-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/gang-operation/leonida-carrier-warehouse/"
         },
         {
           "item": "Afternoon Delight office safe",
@@ -399,7 +406,9 @@
             "https://gta6one.com/en/news/gta-6-palmer-fishing-code-1886-golden-kz59-moreau-mario-hats-nov-22/",
             "GTA6One"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/palmer-fishing-warehouse-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/gang-operation/palmer-fishing-warehouse/"
         },
         {
           "item": "Boobie's laptop password",
@@ -567,7 +576,9 @@
             "https://gta6bugs.com/codes/cigar-import-front-door-code",
             "GTA6BUGS"
           ],
-          "thumb": "door"
+          "thumb": "door",
+          "img": "img/items/cigar-import-front-door.webp",
+          "imgSource": "https://gta6wiki.eu/map/gang-operation/cigar-import-front/"
         },
         {
           "item": "Slum House safe",
@@ -679,7 +690,9 @@
             "https://glorydays.gg/wiki/avery-pawn",
             "Glory Days"
           ],
-          "thumb": "safe"
+          "thumb": "safe",
+          "img": "img/items/avery-pawn-safe.webp",
+          "imgSource": "https://gta6wiki.eu/map/smash-n-grab/avery-pawn/"
         },
         {
           "item": "Credit Check vault (First Fleeca Bank)",
@@ -900,6 +913,16 @@
             "GamesRadar+"
           ],
           "thumb": "cheat"
+        },
+        {
+          "item": "Lombank Downtown safe",
+          "location": "Random per game (security-room PC note)",
+          "note": "Big bank in Downtown Vice City: go in through the back-alley loading shutter and read the 'New safe key code' note on the security-room PC (players report 1561 and 6749). Needs the Dye Pack Jammer; take listed at $135,000-$205,000, and the vault only opens during an armored-van delivery.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-lombank-downtown-robbery-safe-code-on-the-pc-200k",
+            "Leonida Players"
+          ],
+          "thumb": "computer"
         }
       ]
     },
@@ -1888,6 +1911,56 @@
             "ViceVaulted"
           ],
           "thumb": "sniper"
+        },
+        {
+          "item": "Gil's Kalinga",
+          "location": "Practice safe in the Safe Word mission",
+          "note": "Unique pistol plus cash from the practice safe during Safe Word (single source).",
+          "source": [
+            "https://screenrant.com/gta-6-unique-weapons-locations/",
+            "Screen Rant"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Bae-Luxe's Bat",
+          "location": "Crosstown, Vice City (mission reward)",
+          "note": "Unique bat given for finishing Lucia's Chapter 3 mission Cooties (single source).",
+          "source": [
+            "https://screenrant.com/gta-6-unique-weapons-locations/",
+            "Screen Rant"
+          ],
+          "thumb": "stealth"
+        },
+        {
+          "item": "Francisco's LMG 6",
+          "location": "Vice City International Airport, during VCIA Takedown",
+          "note": "Pick it up off the ground during the Chapter 4 airport heist; it makes the final defence easier (single source).",
+          "source": [
+            "https://screenrant.com/gta-6-unique-weapons-locations/",
+            "Screen Rant"
+          ],
+          "thumb": "rifle"
+        },
+        {
+          "item": "Duval Signature ES9",
+          "location": "Any weapon locker (Ultimate Edition)",
+          "note": "Ultimate Edition exclusive, first obtained during the Pick Up Another Gun mission.",
+          "source": [
+            "https://screenrant.com/gta-6-unique-weapons-locations/",
+            "Screen Rant"
+          ],
+          "thumb": "pistol"
+        },
+        {
+          "item": "Mister Mangrove Laird 350",
+          "location": "Reward from Kirk's last Skunk Ape mission",
+          "note": "Handed to you at the end of the Skunk Ape chain (Kirk's flyer is in Skeeter's Bar, Hamlet). Unconfirmed; one guide, via aggregators.",
+          "source": [
+            "https://vicecitymapguide.com/guides/gta-6-secret-weapons-locations/",
+            "Vice City Map Guide"
+          ],
+          "thumb": "sniper"
         }
       ]
     },
@@ -2043,7 +2116,9 @@
             "https://gta6bugs.com/easter-eggs/wreck-of-the-meerwunder-flamingo-ship",
             "GTA6BUGS"
           ],
-          "thumb": "cash"
+          "thumb": "cash",
+          "img": "img/items/wreck-of-the-meerwunder-crate.webp",
+          "imgSource": "https://gta6wiki.eu/map/waink-curiosity/wreck-of-the-meerwunder/"
         },
         {
           "item": "Beached whale cocaine",
@@ -2127,7 +2202,9 @@
             "https://gta6map.city/secrets/gellhorn-fun-fair-memorials-bumper-car-card/",
             "GTA6 Map City"
           ],
-          "thumb": "pills"
+          "thumb": "pills",
+          "img": "img/items/gellhorn-fun-fair.webp",
+          "imgSource": "https://gta6wiki.eu/map/waink-landmark/gellhorn-fun-fair/"
         },
         {
           "item": "Pearl House salon back-room safe",
@@ -4740,7 +4817,9 @@
             "https://gta6map.city/secrets/gellhorn-fun-fair-memorials-bumper-car-card/",
             "GTA6 Map City"
           ],
-          "thumb": "egg"
+          "thumb": "egg",
+          "img": "img/items/gellhorn-fun-fair.webp",
+          "imgSource": "https://gta6wiki.eu/map/waink-landmark/gellhorn-fun-fair/"
         },
         {
           "item": "Ice Truck Killer mannequin arm",
@@ -5149,6 +5228,90 @@
             "Windows Central"
           ],
           "thumb": "dog"
+        },
+        {
+          "item": "Grayson ghost cat and pet cemetery",
+          "location": "Grayson, Lummox County (best at night in fog)",
+          "note": "Follow the ghost cat into the old building, scan the magazine, then follow it into the woods to a Pet Sematary-style cemetery; scan it for a zombie deer tattoo.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-ghost-cat-easter-egg-grayson-pet-cemetery-bring-cat-back",
+            "Leonida Players"
+          ],
+          "thumb": "dog",
+          "img": "img/items/grayson-ghost-cat-pet-cemetery.webp",
+          "imgSource": "https://leonidaplayers.com/guides/gta-6-ghost-cat-easter-egg-grayson-pet-cemetery-bring-cat-back"
+        },
+        {
+          "item": "ERIS Strife sneaker ad (Final Fantasy 7)",
+          "location": "Snapmatic feed on your phone; random sponsored post",
+          "note": "Sneaker model 'Strife' with 'Be A God' copy, a black-and-red Black Materia colourway and a comment from 'zackattack'. Shows at random.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/eris-strife-sneakers-final-fantasy-7",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Skeeter's Bar (South Park)",
+          "location": "Waterside bar on the south edge of Hamlet, Leonard County",
+          "note": "Named after South Park's bar (pool table on the south side); Kirk's Skunk Ape flyer inside starts the Bigfoot chain.",
+          "source": [
+            "https://gta6bugs.com/easter-eggs/skeeters-bar-south-park-hamlet",
+            "GTA6BUGS"
+          ],
+          "thumb": "egg",
+          "img": "img/items/skeeters-bar-south-park.webp",
+          "imgSource": "https://gta6wiki.eu/map/bar/skeeters/"
+        },
+        {
+          "item": "'We Came Together: Remasters of the Remakes'",
+          "location": "Game Horde electronics store, Port Gellhorn",
+          "note": "Last of Us parody box on a shelf labelled 'Remasters of the Remakes', next to Righteous Slaughter (CoD) and Glory Souls III (Dark Souls).",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-easter-egg-secretly-roasts-naughty-dog-over-the-last-of-us",
+            "Leonida Players"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Hidden planet in the Alien Dream",
+          "location": "Solar-system room of the Alien Dream (UFO chain)",
+          "note": "Walk into the darkness instead of looking at Earth and another planet appears (xGarbett clip).",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-26-november",
+            "Leonida Players"
+          ],
+          "thumb": "alien"
+        },
+        {
+          "item": "Leon Correo football card (Messi)",
+          "location": "Vice City Club de Futbol card set",
+          "note": "Long-haired 'Leo'-style player whose club badge echoes Inter Miami.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-26-november",
+            "Leonida Players"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "RDR2 phonograph",
+          "location": "Back room of a fish shop (shop not named)",
+          "note": "Red Dead Redemption 2 phonograph, logo and all, spotted by Memeio.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-26-november",
+            "Leonida Players"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Breakfast Run walk-in cutscene",
+          "location": "Hank's Waffles, mission Breakfast Run (Chapter 2)",
+          "note": "Walk there instead of driving and a different cutscene plays before the first robbery.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-26-november",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
         }
       ]
     },
@@ -5163,7 +5326,9 @@
           "location": "South of Port Gellhorn, Kelly County, on Orchard Avenue",
           "note": "Dirt-bike mod shop (parts and all-terrain cosmetics). A trailer park sits behind it; Whisler Motorsport is nearby.",
           "source": "Our chats",
-          "thumb": "bike-shop"
+          "thumb": "bike-shop",
+          "img": "img/items/dirt-merchants.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/dirt-merchants/"
         },
         {
           "item": "Brian's Lockup (fence)",
@@ -5251,7 +5416,9 @@
             "https://howtovideogame.com/gta-6-headlights/",
             "HowToVideoGame"
           ],
-          "thumb": "auto-shop"
+          "thumb": "auto-shop",
+          "img": "img/items/coastal-auto-care.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/coastal-auto-care/"
         },
         {
           "item": "Pay 'n' Spray",
@@ -5281,7 +5448,9 @@
             "https://leonidainsights.com/en/world/places/dirt-merchants/",
             "LeonidaInsights"
           ],
-          "thumb": "auto-shop"
+          "thumb": "auto-shop",
+          "img": "img/items/whisler-motorsport.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/whisler-motorsport/"
         },
         {
           "item": "Big Shots Ammu-Nation",
@@ -5303,7 +5472,9 @@
             "https://gta6pocket.com/en/mod-shops/",
             "GTA6 Pocket"
           ],
-          "thumb": "auto-shop"
+          "thumb": "auto-shop",
+          "img": "img/items/capri-classic.webp",
+          "imgSource": "https://gta6wiki.eu/map/vehicle-mod-shop/capri-classic/"
         },
         {
           "item": "Wasteland Off-Road",
@@ -5533,7 +5704,9 @@
             "https://gta6bugs.com/weapons/spangled-vatra",
             "GTA6BUGS"
           ],
-          "thumb": "gunstore"
+          "thumb": "gunstore",
+          "img": "img/items/jackson-firearms.webp",
+          "imgSource": "https://gta6wiki.eu/map/ammu-nation/jackson-firearms/"
         },
         {
           "item": "Prestige Firearms",
@@ -6009,6 +6182,48 @@
             "Dexerto"
           ],
           "thumb": "note"
+        },
+        {
+          "item": "Armored truck robberies",
+          "location": "Vice City bank routes; Route 2 through Ocean Beach passes four big banks",
+          "note": "Stop a security van, sticky-bomb the back doors and bag the marked bills (one video shows $21,600). Fences only take them once you have the Dye Pack Jammer.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-armored-truck-robbery-sticky-bomb",
+            "ViceVaulted"
+          ],
+          "thumb": "bomb",
+          "img": "img/items/armored-truck-robberies.webp",
+          "imgSource": "https://www.vicevaulted.com/d/gta6-armored-truck-robbery-sticky-bomb"
+        },
+        {
+          "item": "Dye Pack Jammer",
+          "location": "Reward from Credit Check (Chapter 3)",
+          "note": "Stops dye packs ruining marked bills and lets fences buy them; the mission also unlocks small banks, big bank jobs and Payday Loans.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-credit-check-fleeca-bank-robberies",
+            "ViceVaulted"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Small bank robberies",
+          "location": "14 small banks across Leonida (after Credit Check)",
+          "note": "Best: Lombank Bayside, Lombank Ocean Beach and Druthers State Bank ($15k-$45k), then Gibson Brothers and Fleeca Washington Beach ($10k-$30k). Pocket cash caps at $20,000 per character, so bank it.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-small-bank-robberies-payouts",
+            "ViceVaulted"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Night picture brightens when crouching",
+          "location": "Night, on foot",
+          "note": "Crouching at night brightens the whole image like an exposure effect, which may explain very dark night scenes.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-26-november",
+            "Leonida Players"
+          ],
+          "thumb": "note"
         }
       ],
       "steps": [
@@ -6030,7 +6245,7 @@
       "id": "glitches",
       "short": "Glitches",
       "heading": "Glitches and Bugs",
-      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (119 entries, file updated 26 Nov 2026, 3:05 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
+      "caption": "Every entry from the scan file /workspace/gta6-glitches/seen.json (126 entries, file updated 26 Nov 2026, 10:08 PM AEST), plus extra reports found by research. Rockstar's first post-launch update, 01.002.002, came out on 23 Nov 2026 (US time) with official patch notes; see its entry below. Fixes listed there are noted on the matching bugs.",
       "items": [
         {
           "item": "Prologue: Lucia falls through the map after being tased",
@@ -6396,7 +6611,7 @@
         {
           "item": "Apollo Aggregates save/load money loop",
           "location": "Apollo Aggregates warehouse, South Vice-Dale County",
-          "note": "Loot about $8,000, store it in the car, save and load to warp home, then cash out at Brian's; a video claims about $4,000 per five minutes.",
+          "note": "Loot about $8,000, store it in the car, save and load to warp home, then cash out at Brian's; a video claims about $4,000 per five minutes. Reported no-load variant: stow the loot, switch to Jason far away and back as Lucia; vans may restock but the safe doesn't, and some players say nothing came back (gta6-japan, citing VICE/Reddit).",
           "source": [
             "https://www.polygon.com/gta-6-infinite-money-glitch/",
             "Polygon"
@@ -7854,6 +8069,156 @@
             "ViceVaulted"
           ],
           "thumb": "aim"
+        },
+        {
+          "item": "Trunk stash counter stuck after a van sale",
+          "location": "Apollo Aggregates loop; bags sold by hand at Dunk's trailer",
+          "note": "After selling a full 10/10 van, your car's trunk count can freeze (e.g. 3/4) so you keep pulling bags; pay for the extras is random. Manual save first.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-trunk-stash-counter-stuck-glitch",
+            "ViceVaulted"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Fell under the map while driving (underwater)",
+          "location": "During a story mission (not named)",
+          "note": "Surroundings break apart and you end up underwater below the map; no known trigger. Restart from the last checkpoint.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-fell-under-map-while-driving-stuck-underwater",
+            "ViceVaulted"
+          ],
+          "thumb": "clip"
+        },
+        {
+          "item": "Prologue dye-pack escape sequence break",
+          "location": "Lucia's prologue escape, Vice City",
+          "note": "Drop the bag as you leave the car and get back in as the dye pack goes off (5-9 s) to keep driving; no map or Focus, police keep spawning, and the story resumes once you're caught.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-prologue-dye-pack-escape-sequence-break",
+            "ViceVaulted"
+          ],
+          "thumb": "escape"
+        },
+        {
+          "item": "VCIA Takedown call never comes",
+          "location": "Chapter 4, after Headliners",
+          "note": "Raul doesn't call: the heist opens when Nate calls Lucia the morning after Dre'Quan's Headliners, once all airport preps are done. Play Jason's open missions first.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-raul-never-calls-for-vcia-takedown-434",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "ATMs won't deposit or withdraw",
+          "location": "Any ATM (reported after Money for Nothing, Chapter 2)",
+          "note": "BuckMe transfers still work. Try an ATM that isn't at a gas station, press D-pad Down to reach Confirm, and check your account limit.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-atm-not-working-cant-deposit-or-withdraw",
+            "GTA6BUGS"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Cal's fishing chain stops after the second fish",
+          "location": "Cal's fishing texts",
+          "note": "Spadefish photo sent, no follow-up. Re-read Cal's thread, sleep 2-3 in-game days, then catch and photograph another (unconfirmed).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cal-fishing-mission-stuck-no-follow-up-after-second-fish",
+            "GTA6BUGS"
+          ],
+          "thumb": "fishing"
+        },
+        {
+          "item": "Kenton never calls back after selling treasure",
+          "location": "Kenton's treasure dives",
+          "note": "Check his thread for an unfinished instruction, then sleep several in-game days (unconfirmed).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-kenton-not-calling-back-after-selling-treasure",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Car vanished after Lucia sold jewelry",
+          "location": "Registered, modified car after a jewelry store robbery",
+          "note": "Check every garage in person and the map's impound icon, then sleep a day and request it again.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-vanished-after-lucia-sold-jewelry",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Sahara Driver packages vanish at night",
+          "location": "Sahara Driver random event (drop off 3 packages)",
+          "note": "At night the recipients were missing and the boxes despawned. Do the drop-offs in daylight ($438 reward plus a Focus buff).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-sahara-driver-packages-went-missing-after-a-night-time-drop-off-439",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Lucia stays Tired for days",
+          "location": "Status warning, PS5",
+          "note": "Sleeping doesn't clear it; it only slows stamina recovery. Try a full night in your own bed or switching to Jason and back.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-lucia-stays-tired-for-days-sleeping-doesnt-clear-the-tired-warning-438",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Police call Jason's shirt yellow",
+          "location": "Feruccio Tucci Finery suit with a recoloured shirt",
+          "note": "Dispatch reads the suit's default champagne shirt. Swap in a shirt from another outfit, or change clothes mid-chase.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-police-describe-jasons-shirt-as-yellow-when-it-isnt-feruccio-437",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Every body armor colour shows Owned (Jason)",
+          "location": "Armor shop",
+          "note": "Can't pick a new colour. Change it from the Loadout menu or the trunk loadout instead.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-jason-cant-buy-a-new-body-armor-color-every-color-shows-owned-436",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
+        },
+        {
+          "item": "Canis Kamacho dual exhaust clipping",
+          "location": "Mod shop, Dual Exhausts upgrade",
+          "note": "A piece of the stock exhaust stays visible; cosmetic only. Re-apply it or pick another style.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-canis-kamacho-dual-exhaust-clipping-old-exhaust-still-visible-435",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
+        },
+        {
+          "item": "Rifles and shotguns greyed out in cars",
+          "location": "Weapon wheel while driving",
+          "note": "Longarm slots go grey; may be intended (one-handed drive-bys). Switch to the passenger seat or equip the rifle before getting in.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-rifles-and-shotguns-greyed-out-in-the-weapon-wheel-while-in-a-car-433",
+            "GTA6BUGS"
+          ],
+          "thumb": "aim"
+        },
+        {
+          "item": "PS5 cloud save not seen on a second PS5",
+          "location": "PS Plus cloud save",
+          "note": "Game starts the prologue. Finish the prologue on the second console, then look for the autosave under Load Game.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-cloud-save-not-showing-on-other-ps5",
+            "GTA6BUGS"
+          ],
+          "thumb": "note"
         }
       ]
     }
