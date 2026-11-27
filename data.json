@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 27 Nov 2026, 3:15 PM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 28 Nov 2026, 8:16 AM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "27 Nov 2026, 3:15 PM AEST"
+      "value": "28 Nov 2026, 8:16 AM AEST"
     },
     {
       "label": "Official patches",
@@ -62,7 +62,13 @@
     "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pegassi-vitello/",
     "https://insider-gaming.com/where-to-find-dantes-pegassi-vitello-in-gta-6/",
     "https://insider-gaming.com/mandy-scenes-gta-6/",
-    "https://www.gtabase.com/gta-6/vehicles/"
+    "https://www.gtabase.com/gta-6/vehicles/",
+    "https://leonidaplayers.com/guides/gta-6-big-day-motel-room-115-switch-pistol-safe-code-shiesty-mask",
+    "https://leonidaplayers.com/guides/gta-6-steal-the-gold-blammer-location-vice-city-gun-and-pawn",
+    "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-27-november",
+    "https://www.vicevaulted.com/d/gta6-ambrosia-ufo-house-rooftop-flyby",
+    "https://gta6bugs.com/guides/gta-6-permanent-stat-upgrades",
+    "https://gta6bugs.com/news/gta-6-jason-softlock-players-found-no-fix-rockstar-silent"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -941,6 +947,416 @@
           "thumb": "door",
           "img": "img/items/lake-tallaloko-ritual-room.webp",
           "imgSource": "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/"
+        },
+        {
+          "item": "All Explosive Weapons cheat",
+          "location": "Right, Up, Left, Up, Right, Up, Left, Up, Left",
+          "note": "Gives you every explosive weapon with full ammo. Unlock: throw 100 grenades. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Bubblegum filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Down, Down",
+          "note": "Turns the world purple and yellow with sparkling highlights. Unlock: find all 24 Vice City Flamingos collectible cards. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Exploding Bottles cheat",
+          "location": "Down, Up, Left, Left, Right, Down, Down, Up, Left",
+          "note": "Bottles explode when damaged. Unlock: throw 100 Molotovs. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Explosive Shotgun cheat",
+          "location": "Down, Up, Right, Down, Left, Down, Up, Right, Down, Left",
+          "note": "Gives you a Mason & Keen Shortstraw shotgun that fires explosive shells. Unlock: hit 100 enemies with explosive damage. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Fast Forward filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Down, Left",
+          "note": "Adds motion blur and speeds up cloud movement. Unlock: complete 50 meditations. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Fisheye filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Left, Up",
+          "note": "Applies a fisheye-lens filter. Unlock: catch 100 fish. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Golden Hour filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Up, Up",
+          "note": "Applies a golden filter with a widescreen frame. Unlock: spend 4 hours holding hands. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Hauners H-AT cheat",
+          "location": "Right, Up, Left, Up, Right, Up, Left, Up, Up",
+          "note": "Adds a Hauners H-AT to your loadout. Unlock: blow up 100 vehicles. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Hellscape filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Left, Left",
+          "note": "Turns the world red and orange with a heat haze. Unlock: steal 100 cop vehicles. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Incendiary Ammo cheat",
+          "location": "Down, Up, Right, Down, Left, Down, Up, Right, Down, Down",
+          "note": "Makes all ammo incendiary. Unlock: burn 100 enemies with fire damage. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Migraine filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Down, Up",
+          "note": "Applies a blurred, distorted filter. Unlock: survive 6 minutes with a 6-star wanted level. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Move Time Forward cheat",
+          "location": "Down, Right, Up, Down, Right, Up, Up",
+          "note": "Moves the time of day forward. Unlock: find 10 collectible watches. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Neon Jungle filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Up, Left",
+          "note": "Adds neon highlights to the world. Unlock: discover all 16 Girlypop Vehicles. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "No Fall Damage cheat",
+          "location": "Down, Up, Up, Up, Up, Up, Up, Up, Down",
+          "note": "Makes you immune to fall damage. Unlock: survive a freefall from 40 feet 20 times. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Parachute cheat",
+          "location": "Right, Up, Left, Up, Right, Up, Left, Up, Right",
+          "note": "Adds a parachute to your loadout. Unlock: complete 50 skydives or BASE jumps from 300 feet or higher. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Pause Time of Day cheat",
+          "location": "Down, Right, Up, Down, Right, Up, Left",
+          "note": "Freezes the time of day. Unlock: find 20 collectible watches. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Pinhole filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Up, Down",
+          "note": "Applies a pinhole-camera filter. Unlock: clear 25 gang operations with your partner. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Pixel Art filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Left, Down",
+          "note": "Applies a pixelated filter. Unlock: make $250,000 selling collectibles. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Powdered Sugar filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Up, Right",
+          "note": "Turns the world white with sparkling highlights. Unlock: scan all space debris with WAiNK. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Repair Vehicle cheat",
+          "location": "Right, Down, Down, Right, Down, Right, Right, Down",
+          "note": "Fully repairs the vehicle you are in. Unlock: win 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn '65 Vapid Dominator cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Left, Right",
+          "note": "Spawns a '65 Vapid Dominator. Unlock: complete all fitness challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Airboat 09 cheat",
+          "location": "Left, Up, Right, Down, Left, Down, Up, Right",
+          "note": "Spawns an Airboat 09. Unlock: complete 5 survival challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Bravado Banshee cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Up, Left",
+          "note": "Spawns a Bravado Banshee. Unlock: complete all combat challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Brimstone Golfer cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Up, Down",
+          "note": "Spawns a Brimstone Golfer. Unlock: complete all sports challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Hauners P-996 Lazer cheat",
+          "location": "Left, Up, Right, Down, Left, Up, Up, Down",
+          "note": "Spawns a Hauners P-996 Lazer jet. Unlock: complete all challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Hauners Rhino Tank cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Left, Up",
+          "note": "Spawns a Hauners Rhino Tank. Unlock: complete all survival challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Inflatable Flamingo cheat",
+          "location": "Left, Up, Right, Down, Left, Down, Up, Down",
+          "note": "Spawns an Inflatable Flamingo. Unlock: destroy 50 cocaine flamingos. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Interstate Ambulance cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Right, Right",
+          "note": "Spawns an Interstate Ambulance. Unlock: discover the Interstate Ambulance in the Progress menu. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Lapwing Mallard cheat",
+          "location": "Left, Up, Right, Down, Left, Up, Up, Up",
+          "note": "Spawns a Lapwing Mallard. Unlock: complete 5 vehicle challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Maibatsu Sanchez cheat",
+          "location": "Left, Up, Right, Down, Left, Left, Right, Up",
+          "note": "Spawns a Maibatsu Sanchez. Unlock: complete 5 criminal challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Nagasaki Carbon RS cheat",
+          "location": "Left, Up, Right, Down, Left, Left, Up, Up",
+          "note": "Spawns a Nagasaki Carbon RS. Unlock: complete all exploration challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Nagasaki Sea Sparrow cheat",
+          "location": "Left, Up, Right, Down, Left, Up, Up, Right",
+          "note": "Spawns a Nagasaki Sea Sparrow. Unlock: complete 5 exploration challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Progen Emerus cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Up, Right",
+          "note": "Spawns a Progen Emerus. Unlock: complete all vehicle challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Speeder 700 GT cheat",
+          "location": "Left, Up, Right, Down, Left, Down, Up, Up",
+          "note": "Spawns a Speeder 700 GT. Unlock: complete 5 combat challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Truffade Thrax cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Up, Up",
+          "note": "Spawns a Truffade Thrax. Unlock: complete all shopping challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Tuff BMX cheat",
+          "location": "Left, Up, Right, Down, Left, Left, Up, Right",
+          "note": "Spawns a Tuff BMX. Unlock: complete 5 fitness challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Vapid Stanier G2 Taxi cheat",
+          "location": "Left, Up, Right, Down, Left, Right, Right, Left",
+          "note": "Spawns a Vapid Stanier G2 Taxi. Unlock: complete 5 sports challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Spawn Western Zombie Bobber cheat",
+          "location": "Left, Up, Right, Down, Left, Left, Up, Down",
+          "note": "Spawns a Western Zombie Bobber. Unlock: complete all criminal challenges. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Unlimited Nitrous cheat",
+          "location": "Right, Down, Down, Right, Down, Right, Right, Left",
+          "note": "Vehicle nitrous and fuel never run out. Unlock: complete 50 stunt jumps. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Yesteryear filter cheat",
+          "location": "Down, Down, Up, Right, Right, Up, Left, Left, Right, Up",
+          "note": "Applies a black-and-white CRT TV filter. Unlock: discover the Ridgeway. Enter with the phone up, holding L1 + R1 (LB + RB); story must be finished, and saving is off for that session.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+            "GamesRadar+"
+          ],
+          "thumb": "cheat"
+        },
+        {
+          "item": "Big Day Motel room 115 safe",
+          "location": "4242 (as heard in one clip)",
+          "note": "Room 115, Big Day Motel on US-35 north of Ambrosia. The man in the bathtub mumbles the code; the safe holds cash and a sports card.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-big-day-motel-room-115-switch-pistol-safe-code-shiesty-mask",
+            "Leonida Players"
+          ],
+          "thumb": "safe"
         }
       ]
     },
@@ -1409,7 +1825,7 @@
         {
           "item": "Stoner K17 MCD",
           "location": "Nightstand in room 115 of the Big Day Motel, off US-35 north of Ambrosia",
-          "note": "Unique Klose K17 MCD pistol.",
+          "note": "Unique Klose K17 MCD pistol. Full-auto 'switch' pistol: 33 rounds in about two seconds; you keep it after Chapter 1. The room's safe code is under Codes.",
           "source": [
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
@@ -1682,7 +2098,9 @@
             "https://gta6bugs.com/weapons/deever-tech-glr40",
             "GTA6BUGS"
           ],
-          "thumb": "launcher"
+          "thumb": "launcher",
+          "img": "img/items/deever-tech-glr40.webp",
+          "imgSource": "https://gta6bugs.com/weapons/deever-tech-glr40"
         },
         {
           "item": "FIB SM-69",
@@ -2314,7 +2732,9 @@
             "https://gta6bugs.com/easter-eggs/backyard-wrestling-ring-gentrifier-luchador-mask",
             "GTA6BUGS"
           ],
-          "thumb": "cash"
+          "thumb": "cash",
+          "img": "img/items/gentrifiers-trailer-stash.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/backyard-wrestling-ring-gentrifier-luchador-mask"
         },
         {
           "item": "Birds Aren't Real shack cocaine",
@@ -2411,6 +2831,18 @@
             "GAMES.GG"
           ],
           "thumb": "cash"
+        },
+        {
+          "item": "Gold Blammer necklace",
+          "location": "Locked box on the back-room desk, Vice City Gun & Pawn, Rockridge",
+          "note": "Yasmani's optional Chapter 3 tip after his Payday Loan jobs; armed security in the store. Sell it to Yasmani for $15,000. Missable if you finish That's Where the Money Is first.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-steal-the-gold-blammer-location-vice-city-gun-and-pawn",
+            "Leonida Players"
+          ],
+          "thumb": "jewellery",
+          "img": "img/items/gold-blammer.webp",
+          "imgSource": "https://www.youtube.com/watch?v=YmHHM89wpq8"
         }
       ]
     },
@@ -2563,7 +2995,9 @@
             "https://www.polygon.com/gta-6-declasse-vamos-code-car-location/",
             "Polygon"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/declasse-74-vamos.webp",
+          "imgSource": "https://www.polygon.com/gta-6-declasse-vamos-code-car-location/"
         },
         {
           "item": "Pink Gin Tulip (Janjak's Garage)",
@@ -4381,6 +4815,596 @@
           "thumb": "mission"
         },
         {
+          "item": "Welcome to Vice City",
+          "location": "Chapter 3, mission 1 (Tits, Ass, Drug Money)",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Dealer's Choice",
+          "location": "Chapter 3, mission 2",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Meet the Heders",
+          "location": "Chapter 3, mission 3",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Dubious Provenance",
+          "location": "Chapter 3, mission 4",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Mami Knows Best",
+          "location": "Chapter 3, mission 5",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "South Leonida Real Estate",
+          "location": "Chapter 3, mission 6",
+          "note": "Not started. Lucia. Starts at the note on Mia's office door, Hamlet; Mia sends $2,000 days later.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-south-leonida-real-estate-walkthrough-meet-mia-m7-viper",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Tyrone",
+          "location": "Chapter 3, mission 7",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Here, Kitty Kitty",
+          "location": "Chapter 3, mission 8",
+          "note": "Not started. Jason. Talk to Tyrone in La Perle; unlocks Tyrone as a goods drop-off.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-here-kitty-kitty-walkthrough-speak-with-tyrone-find-charles",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Kitty Litter Labs",
+          "location": "Chapter 3, optional",
+          "note": "Not started. Find and destroy the labs; the Balsero lab gate code (1999) is under Codes.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-kitty-litter-labs-how-to-find-unlock-and-destroy-them",
+            "Leonida Players"
+          ],
+          "thumb": "optional"
+        },
+        {
+          "item": "Car Service",
+          "location": "Chapter 3, mission 9",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Top Billing",
+          "location": "Chapter 3, mission 10",
+          "note": "Not started. Starts at the Jack of Hearts, Crosstown. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-top-billing-walkthrough-watch-the-real-dimez-house-party",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Boobie Time",
+          "location": "Chapter 3, mission 11",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "First Impressions",
+          "location": "Chapter 3, mission 12",
+          "note": "Not started. Jason and Lucia. Starts at the Waxman Island garage (code 2404); $3,000.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-first-impressions-walkthrough-meeting-with-raul",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Caught Slipping",
+          "location": "Chapter 3, mission 13",
+          "note": "Not started. Starts at the Bayside apartment; Jason, then Lucia. Ends at Big House Storage. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-caught-slipping-walkthrough-apartment-thieves-big-house-storage",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Crosstown Traffic",
+          "location": "Chapter 3, mission 14",
+          "note": "Not started. Lucia starts at the Courtyard Bar, Stockyard; Jason at a La Perle boatyard. $3,000.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-crosstown-traffic-walkthrough-meet-raul-guardia-boat",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Credit Check",
+          "location": "Chapter 3, mission 15",
+          "note": "Not started. Starts at the Vice Vinyl intercom, Crosstown. $6,000 plus the Dye Pack Jammer; unlocks bank and Payday Loan jobs.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-credit-check-walkthrough-meet-rauls-crew-rob-three-fleeca-banks",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Steal the Zorrusso For Randy",
+          "location": "Chapter 3, mission 16",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Sinfrontera National Bank",
+          "location": "Chapter 3, mission 17",
+          "note": "Not started. Scouting job at the bank in Tequesta; Security Expert starts straight after. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-sinfrontera-national-bank-walkthrough-scope-out-the-bank",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Security Expert",
+          "location": "Chapter 3, mission 18",
+          "note": "Not started. A guarded house in Waning Sands, Leonard County. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-security-expert-walkthrough-kidnap-nicole-waning-sands",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Ride or Die",
+          "location": "Chapter 3, mission 19",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Company Property",
+          "location": "Chapter 3, mission 20",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "The Missing Link",
+          "location": "Chapter 3, mission 21",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Safe Word",
+          "location": "Chapter 3, mission 22",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Cooties",
+          "location": "Chapter 3, mission 23",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Bricked Up",
+          "location": "Chapter 3, mission 24",
+          "note": "Not started. Venture Apartments, Rockridge. Park outside the red area or the car is impounded; grab the red bag for $3,500.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-bricked-up-walkthrough-venture-apartments-raid-boobie",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Hidden Charges",
+          "location": "Chapter 3, mission 25",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "The Cartel Heist",
+          "location": "Chapter 3, mission 26 (last of the chapter)",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Ocean Beach",
+          "location": "Chapter 4, mission 1 (Vice City, Baby)",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Another Life",
+          "location": "Chapter 4, mission 2",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Company Cars",
+          "location": "Chapter 4, mission 3",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Lawyer Up",
+          "location": "Chapter 4, mission 4",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Party Hard",
+          "location": "Chapter 4, mission 5",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Heavy Lifting",
+          "location": "Chapter 4, mission 6",
+          "note": "Not started. Starts at a storage locker in Crosstown. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-heavy-lifting-walkthrough-bring-raul-the-hard-drive-ajax-gym",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Photo/Shoot",
+          "location": "Chapter 4, mission 7",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Making Gainz",
+          "location": "Chapter 4, mission 8",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Watch It",
+          "location": "Chapter 4, mission 9",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Cash Injections",
+          "location": "Chapter 4, mission 10",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Amateur Hour",
+          "location": "Chapter 4, mission 11",
+          "note": "Not started. Lucia only; heist prep at Ajax Gym, Washington Beach. $1,000.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-amateur-hour-walkthrough-lucia-workout-fight",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Dirty Work",
+          "location": "Chapter 4, mission 12",
+          "note": "Not started. Heist prep from the Stockyard planning room. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-dirty-work-walkthrough-deal-with-raina",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Too Much Baggage",
+          "location": "Chapter 4, mission 13",
+          "note": "Not started. Jason only; heist prep scouting VCIA. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-too-much-baggage-walkthrough-scope-out-the-airport",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Adventures in Babysitting",
+          "location": "Chapter 4, mission 14",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Fresh Evidence",
+          "location": "Chapter 4, mission 15",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Power Play",
+          "location": "Chapter 4, mission 16",
+          "note": "Not started. Lucia only; starts at Kordell's base in Salton. $40,000.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-power-play-walkthrough-armored-truck-heist-plans",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Child's Play",
+          "location": "Chapter 4, mission 17",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Headliners",
+          "location": "Chapter 4, mission 18",
+          "note": "Not started. Club VYB, Washington Beach. Up to about $50,000 plus Brass Knuckles.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-headliners-walkthrough-help-with-the-launch-party",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Close Surveillance",
+          "location": "Chapter 4, mission 19",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Delivery Method",
+          "location": "Chapter 4, mission 20",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Team Building",
+          "location": "Chapter 4, mission 21",
+          "note": "Not started. Lucia only; heist prep at Ajax gym. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-team-building-walkthrough-meet-kordell-cage-fight",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Fully Catered",
+          "location": "Chapter 4, mission 22",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "VCIA Takedown",
+          "location": "Chapter 4, mission 23",
+          "note": "Not started. The Chapter 4 heist; needs all 12 prep missions plus Headliners. $250,000.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-vcia-takedown-walkthrough-airport-heist-prep-missions-reward",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Sunset",
+          "location": "Chapter 4, mission 24",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Bird In The Hand",
+          "location": "Chapter 5, mission 1 (Top of the World, Ma)",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Taking Liberties",
+          "location": "Chapter 5, mission 2",
+          "note": "Not started. Starts automatically at Giorgio's penthouse. No cash reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-taking-liberties-walkthrough-giorgio-spa-pardon",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "VC Baby",
+          "location": "Chapter 5, mission 3",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Doggie Bag",
+          "location": "Chapter 5, mission 4",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Operation Savage Glory",
+          "location": "Chapter 5, mission 5",
+          "note": "Not started. Jason and Lucia. $50,000 plus the Pegassi Residences penthouse.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-operation-savage-glory-walkthrough-bridge-cargo-ship-coast-guard",
+            "Leonida Players"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Protective Custody",
+          "location": "Chapter 5, mission 6",
+          "note": "Not started.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mission-list/",
+            "GamesRadar"
+          ],
+          "thumb": "mission"
+        },
+        {
+          "item": "Steal the Gold Blammer (Yasmani)",
+          "location": "Chapter 3 optional job",
+          "note": "Ask Yasmani for tips after his Payday Loan jobs; the necklace is in Vice City Gun & Pawn (see Valuables). $15,000; missable.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-steal-the-gold-blammer-location-vice-city-gun-and-pawn",
+            "Leonida Players"
+          ],
+          "thumb": "optional"
+        },
+        {
+          "item": "Dodos Rising questline",
+          "location": "Strangers and Freaks: Bring Out the Chimp, Sisters of the Sea, Twin Flames, Dodo, Rise!",
+          "note": "Starts from protesters Noah (road south of VCIA) and Rosebud (outside the Vice City Oceanarium). The last two are Lucia-only; only Dodo, Rise! pays ($5,000).",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-dodos-rising-questline-chimp-orca-fracking-dodo-rise",
+            "Leonida Players"
+          ],
+          "thumb": "optional"
+        },
+        {
           "item": "Retest Freddie's Defenses",
           "location": "Side mission at the prepper bunker, North Leonard County",
           "note": "Second visit after Freddie's text (4+ in-game days). Finishing it unlocks hurricanes as a permanent weather type; staying in the bunker also gives Freddie's Dubsta and cash.",
@@ -5283,7 +6307,9 @@
             "https://gta6bugs.com/easter-eggs/day-release-candle-room",
             "GTA6BUGS"
           ],
-          "thumb": "note"
+          "thumb": "note",
+          "img": "img/items/day-release-candle-room.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/day-release-candle-room"
         },
         {
           "item": "Fabien LaRouche magazine",
@@ -5293,7 +6319,9 @@
             "https://gta6bugs.com/easter-eggs/fabien-larouche-body-copy-magazine",
             "GTA6BUGS"
           ],
-          "thumb": "book"
+          "thumb": "book",
+          "img": "img/items/fabien-larouche-magazine.webp",
+          "imgSource": "https://www.youtube.com/watch?v=5CKMMgvnsIs"
         },
         {
           "item": "Cell tower woman knows Jason's name",
@@ -5640,6 +6668,62 @@
             "Insider Gaming"
           ],
           "thumb": "home"
+        },
+        {
+          "item": "Cherry Popper T-shirt (ice cream truck)",
+          "location": "Back of the Cherry Popper Boxville outside Cherry Popper Ice Cream, Sweetbay Rd & Seabell Ave, Grassrivers (daytime)",
+          "note": "Open the truck's rear doors; the pickup on the step is a white-and-red Cherry Popper T-Shirt (Wardrobe, Merch tab).",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-ice-cream-truck-easter-egg-cherry-popper-t-shirt-grassrivers",
+            "Leonida Players"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "In the Tall Grass cane-field voices",
+          "location": "Sugar-cane fields north of Belville, Leonard County (south of Lake Leonida), at night",
+          "note": "Unseen voices call 'Don't move!' and 'That's the wrong way!' as you push toward a distant light. Stephen King and Joe Hill nod; no reward.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-in-the-tall-grass-easter-egg-cane-fields-belville-night",
+            "Leonida Players"
+          ],
+          "thumb": "egg",
+          "img": "img/items/in-the-tall-grass-cane-fields.webp",
+          "imgSource": "https://www.youtube.com/watch?v=aGSd97grEG4"
+        },
+        {
+          "item": "Ambrosia UFO house flyby",
+          "location": "Space-shuttle house, west Ambrosia near the liquor store; rooftop chair after 2 AM",
+          "note": "Climb the rear ladder and sit: the lights cut out and a UFO screams overhead. Unlocks The Truth Is Out There if it is your first alien contact.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-ambrosia-ufo-house-rooftop-flyby",
+            "ViceVaulted"
+          ],
+          "thumb": "ufo",
+          "img": "img/items/ambrosia-ufo-house.webp",
+          "imgSource": "https://www.youtube.com/watch?v=t-tzRvG5M80"
+        },
+        {
+          "item": "Python-eaten influencer",
+          "location": "Swamp just south of the Pelican River, Mariana County",
+          "note": "A giant python with a woman's legs and selfie stick sticking out; her phone in the grass plays her last livestream. Game Rant says killing the python affects your criminal profile.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-influencer-eaten-by-python-pelican-river",
+            "ViceVaulted"
+          ],
+          "thumb": "egg"
+        },
+        {
+          "item": "Jimmy De Santa cameo",
+          "location": "Chapter 4 mission Headliners, at the club door",
+          "note": "GTA V's Jimmy, now a self-styled crypto influencer, asks to be let in. Letting him in or not changes nothing.",
+          "source": [
+            "https://www.vicevaulted.com/d/gta6-jimmy-de-santa-club-cameo",
+            "ViceVaulted"
+          ],
+          "thumb": "egg",
+          "img": "img/items/jimmy-de-santa-cameo.webp",
+          "imgSource": "https://www.youtube.com/watch?v=tsnbeQ4G7lk"
         }
       ]
     },
@@ -6602,6 +7686,46 @@
             "Leonida Players (TheGamer)"
           ],
           "thumb": "stealth"
+        },
+        {
+          "item": "Secret fight moves",
+          "location": "Grapples start with R2 (RT); e.g. hold R2, then Square (X) for a judo throw",
+          "note": "Also: dropkick (sprint, angle the stick in, Square), Rock Bottom counter (X on a heavy attack, then Square), flying triangle (R2, stick back, Triangle), spear (sprint into the target, Square). Jason favours slams, Lucia arm breaks and chokes.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-secret-fight-moves-suplex-dropkick-flying-kick-tackle-inputs",
+            "Leonida Players"
+          ],
+          "thumb": "dpad"
+        },
+        {
+          "item": "Zombix and Adrenaline",
+          "location": "Zombix: convenience stores only (carry 5). Adrenaline: never sold (carry 3)",
+          "note": "Adrenaline is free in white first-aid cabinets, hospitals and ambulances. Shops take pocket cash up to $999; dearer buys go on BuckMe.",
+          "source": [
+            "https://gta6bugs.com/guides/gta-6-where-to-buy-items-adrenaline-snacks",
+            "GTA6BUGS"
+          ],
+          "thumb": "pills"
+        },
+        {
+          "item": "Bank vaults",
+          "location": "Only open while an armored-truck guard is delivering cash",
+          "note": "No code, drill or explosive opens a vault: tail a truck and go in behind the guard. Small banks open after Credit Check, the 8 vault banks after That's Where the Money Is (Chapter 4). A vault job is 4 stars.",
+          "source": [
+            "https://gta6bugs.com/guides/gta-6-bank-robbery-vaults-guide",
+            "GTA6BUGS"
+          ],
+          "thumb": "cash"
+        },
+        {
+          "item": "Permanent stat boosts (5 hidden quests)",
+          "location": "Alien rescue, Circles of Hell, The Final Flush, Kyle's strawberry, mushroom container (Lake Tallaloko)",
+          "note": "One-time boosts on top of workouts, with no map markers. Alien rescue raises Health, Stamina and Focus; Circles of Hell raises Health; the other three raise Stamina. Save first: wrong choices lose the boost.",
+          "source": [
+            "https://gta6bugs.com/guides/gta-6-permanent-stat-upgrades",
+            "GTA6BUGS"
+          ],
+          "thumb": "pills"
         }
       ],
       "steps": [
@@ -6989,7 +8113,7 @@
         {
           "item": "Apollo Aggregates save/load money loop",
           "location": "Apollo Aggregates warehouse, South Vice-Dale County",
-          "note": "Loot about $8,000, store it in the car, save and load to warp home, then cash out at Brian's; a video claims about $4,000 per five minutes. Reported no-load variant: stow the loot, switch to Jason far away and back as Lucia; vans may restock but the safe doesn't, and some players say nothing came back (gta6-japan, citing VICE/Reddit).",
+          "note": "Loot about $8,000, store it in the car, save and load to warp home, then cash out at Brian's; a video claims about $4,000 per five minutes. Reported no-load variant: stow the loot, switch to Jason far away and back as Lucia; vans may restock but the safe doesn't, and some players say nothing came back (gta6-japan, citing VICE/Reddit). Four-van version: with two registered vans and both loot vans moved inside, players sell a full 12-bag load (about $115,000) every 7-10 minutes.",
           "source": [
             "https://www.polygon.com/gta-6-infinite-money-glitch/",
             "Polygon"
@@ -7171,7 +8295,7 @@
         {
           "item": "Chapter 3: Jason greyed out after Missing Persons",
           "location": "Kelly County Missing Persons case",
-          "note": "Stuck as Lucia with no mission. Load a manual save from before the final Port Gellhorn warehouse meeting.",
+          "note": "Stuck as Lucia with no mission. Load a manual save from before the final Port Gellhorn warehouse meeting. On 27 Nov GTA6BUGS said 331 of 347 players who rated the fixes (95%) were still stuck; 01.002.002 didn't fix it and Rockstar hasn't commented.",
           "source": [
             "https://gta6bugs.com/bugs/gta-6-chapter-3-jason-greyed-out-softlock-after-missing-persons",
             "GTA6BUGS"
@@ -8627,6 +9751,46 @@
             "GTA6BUGS"
           ],
           "thumb": "softlock"
+        },
+        {
+          "item": "Caught Slipping: partner won't follow into Big House Storage",
+          "location": "Big House Storage, Chapter 3 (PS5) #0446",
+          "note": "The partner stops outside the storage building, so the mission can't continue. Try the front office and take the lift to locker A726 on the seventh floor yourself.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-caught-slipping-partner-wont-follow-into-big-house-storage-446",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Stuck in Focus mode",
+          "location": "Any time (PS5) #0451",
+          "note": "Focus stays on even after a reinstall. Check Settings > Gameplay > Accessibility > Focus is set to L3 + R3, click both sticks, and test the pad for a sticky stick click.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-stuck-in-focus-mode-on-ps5-how-to-turn-focus-off-451",
+            "GTA6BUGS"
+          ],
+          "thumb": "focus"
+        },
+        {
+          "item": "Bret never collects a big animal or pays",
+          "location": "Bret Vogel hunting pickups (Xbox) #0452",
+          "note": "Bret promises a pickup but never comes. Wait out his 10-15 minute cooldown, send one big animal at a time, and check BuckMe for the payment; a full game restart fixed it for one player.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-bret-never-shows-up-to-collect-animal-and-no-payment-fixes-452",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "'98 Burrito car dupe",
+          "location": "Apollo Aggregates warehouse, with a registered '98 Burrito (PS5/Xbox)",
+          "note": "Keep recalling the registered van and the car in your temporary garage spot can be cloned with the van's 10-slot trunk; it survives save and reload. Works after the patch but is hard to repeat.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-car-dupe-glitch-98-burrito-clone",
+            "GTA6BUGS"
+          ],
+          "thumb": "glitch"
         }
       ]
     }
