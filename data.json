@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 27 Nov 2026, 8:12 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 27 Nov 2026, 3:15 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "27 Nov 2026, 8:12 AM AEST"
+      "value": "27 Nov 2026, 3:15 PM AEST"
     },
     {
       "label": "Official patches",
@@ -56,7 +56,13 @@
     "https://leonidaplayers.com/",
     "https://screenrant.com/gta-6-unique-weapons-locations/",
     "https://vicecitymapguide.com/guides/gta-6-secret-weapons-locations/",
-    "https://gta6-japan.com/en/tips/apollo-aggregates-character-switch-respawn/"
+    "https://gta6-japan.com/en/tips/apollo-aggregates-character-switch-respawn/",
+    "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/",
+    "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
+    "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pegassi-vitello/",
+    "https://insider-gaming.com/where-to-find-dantes-pegassi-vitello-in-gta-6/",
+    "https://insider-gaming.com/mandy-scenes-gta-6/",
+    "https://www.gtabase.com/gta-6/vehicles/"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -435,7 +441,7 @@
         {
           "item": "Burg Industries Facility 1 safe",
           "location": "80085",
-          "note": "Underwater station under a yellow platform west of Mile Zero Air Station, south of the Riquezas Keys; enter through the hatch underneath. The meteorite is in the safe. The first station east of Key Lento starts the Locate Underwater Meteorite task.",
+          "note": "Underwater station under a yellow platform west of Mile Zero Air Station, south of the Riquezas Keys; enter through the hatch underneath. The meteorite is in the safe. The first station east of Key Lento starts the Locate Underwater Meteorite task. Game Rant's Four Horsemen guide lists 880585 for the safe in the facility south-west past the military base (where Zanda Burg's email is), which may be a different station.",
           "source": [
             "https://gta6bugs.com/easter-eggs/burg-industries-underwater-facilities-meteorite",
             "GTA6BUGS"
@@ -923,6 +929,18 @@
             "Leonida Players"
           ],
           "thumb": "computer"
+        },
+        {
+          "item": "Lake Tallaloko ritual room keypad",
+          "location": "7304",
+          "note": "Cabin on the west shore of Lake Tallaloko (Four Horsemen mystery). The keypad only accepts the code after you read and photograph Zanda Burg's email in the sunken Burg facility south-west past the military base and Marcus Fielding's email on the back-room PC at Poppers Convenience Store, Watson Bay.",
+          "source": [
+            "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/",
+            "Game Rant"
+          ],
+          "thumb": "door",
+          "img": "img/items/lake-tallaloko-ritual-room.webp",
+          "imgSource": "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/"
         }
       ]
     },
@@ -991,7 +1009,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/cruel-huntsmans-sm-69.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/cruel-huntsmans-sm-69"
         },
         {
           "item": "Donnie's H&L .38",
@@ -1016,7 +1036,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/hunters-laird-350.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/hunters-laird-350"
         },
         {
           "item": "Marabunta Grande Hobo",
@@ -1072,7 +1094,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/assassin-nipper-38.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/assassin-nipper-38"
         },
         {
           "item": "Smuggler Gorse 425",
@@ -1094,7 +1118,9 @@
             "https://www.keengamer.com/articles/guides/gta-6-best-early-game-unique-weapon-locations/",
             "KeenGamer"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/drug-mule-kz-59.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/drug-mule-kz-59"
         },
         {
           "item": "Turnt Nipper .38",
@@ -1128,7 +1154,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/cockroach-xtreme-556.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/cockroach-xtreme-556"
         },
         {
           "item": "Scrapper VF5C",
@@ -1162,7 +1190,9 @@
             "https://vice-city.app/secrets",
             "vice-city.app"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/kingfishers-laird-350.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/kingfishers-laird-350"
         },
         {
           "item": "Couch Potato Mustang .357",
@@ -1172,7 +1202,9 @@
             "https://gta6info.com/wiki/Unique_Weapons",
             "GTA6Info"
           ],
-          "thumb": "revolver"
+          "thumb": "revolver",
+          "img": "img/items/couch-potato-mustang-357.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/couch-potato-mustang-357"
         },
         {
           "item": "Black Eagle Import Kalinga",
@@ -1194,7 +1226,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/black-eagle-import-m306-tmr.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/black-eagle-import-m306-tmr"
         },
         {
           "item": "Unpacked Comshot 12",
@@ -1204,7 +1238,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/unpacked-comshot-12.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/unpacked-comshot-12"
         },
         {
           "item": "Cargo H&L .38",
@@ -1224,7 +1260,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/mercenary-lmg-6.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/mercenary-lmg-6"
         },
         {
           "item": "Little Friend W-10",
@@ -1246,7 +1284,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/cold-war-556.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/cold-war-556"
         },
         {
           "item": "Double Cross Vatra",
@@ -1256,7 +1296,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/double-cross-vatra.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/double-cross-vatra"
         },
         {
           "item": "Dirty Drifter",
@@ -1266,7 +1308,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/dirty-drifter.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/dirty-drifter"
         },
         {
           "item": "Kolt & Associates 556",
@@ -1276,7 +1320,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/kolt-associates-556.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/kolt-associates-556"
         },
         {
           "item": "The Patriarch DRX",
@@ -1286,7 +1332,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/the-patriarch-drx.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/the-patriarch-drx"
         },
         {
           "item": "Lyle's H&L .38",
@@ -1311,24 +1359,28 @@
           "imgSource": "https://gta6bugs.com/easter-eggs/marthas-1992-outlaws-cabin"
         },
         {
-          "item": "Deadringer 1992",
+          "item": "Deadringer 1922",
           "location": "Floor of a mobile home on the south bank of the Moreau River, East Lummox County",
-          "note": "Unique Duke Arms 1992 pistol.",
+          "note": "Unique Duke Arms 1922 pistol.",
           "source": [
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/deadringer-1922.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/deadringer-1992"
         },
         {
-          "item": "Money Bag 1992",
+          "item": "Money Bag 1922",
           "location": "Couch of a mobile home on the south bank of the Moreau River, East Lummox County",
-          "note": "Second unique 1992 in the same trailer area as the Deadringer.",
+          "note": "Second unique 1922 in the same trailer area as the Deadringer.",
           "source": [
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/money-bag-1922.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/money-bag-1992"
         },
         {
           "item": "Redneck W-22",
@@ -1338,7 +1390,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/redneck-w-22.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/redneck-w-22"
         },
         {
           "item": "Twin's Laird 350",
@@ -1348,7 +1402,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/twins-laird-350.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/twins-laird-350"
         },
         {
           "item": "Stoner K17 MCD",
@@ -1358,7 +1414,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/stoner-k17-mcd.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/stoner-k17-mcd"
         },
         {
           "item": "Internal Affairs FF-SR",
@@ -1368,7 +1426,9 @@
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/internal-affairs-ff-sr.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/internal-affairs-ff-sr"
         },
         {
           "item": "Hellspawn Comshot 12",
@@ -1378,7 +1438,9 @@
             "https://gta6bugs.com/easter-eggs/dethrone-the-pretender-satan-ritual-hellspawn-shotgun",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/hellspawn-comshot-12.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/hellspawn-comshot-12"
         },
         {
           "item": "Island Poacher FF-50",
@@ -1388,7 +1450,9 @@
             "https://gta6bugs.com/easter-eggs/hyde-island-saw-hunt",
             "GTA6BUGS"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/island-poacher-ff-50.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/island-poacher-ff-50"
         },
         {
           "item": "La Polilla Negra KZ-59",
@@ -1398,7 +1462,9 @@
             "https://gta6one.com/en/news/gta-6-palmer-fishing-code-1886-golden-kz59-moreau-mario-hats-nov-22/",
             "GTA6One"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/la-polilla-negra-kz-59.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/la-polilla-negra-kz-59"
         },
         {
           "item": "Hillinger Boomer (train boxcar)",
@@ -1430,7 +1496,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/san4san-k17.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/san4san-k17"
         },
         {
           "item": "Chromium W-10",
@@ -1440,7 +1508,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/chromium-w-10.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/chromium-w-10"
         },
         {
           "item": "Guardia Brothers VF5",
@@ -1450,7 +1520,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/guardia-brothers-vf5.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/guardia-brothers-vf5"
         },
         {
           "item": "Guardia Brothers FRA",
@@ -1460,7 +1532,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/guardia-brothers-fra.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/guardia-brothers-fra"
         },
         {
           "item": "Kingpin Heathen",
@@ -1470,7 +1544,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/kingpin-heathen.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/kingpin-heathen"
         },
         {
           "item": "Kolt & Associates Vatra",
@@ -1480,7 +1556,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/kolt-associates-vatra.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/kolt-associates-vatra"
         },
         {
           "item": "Kingfishers Akulus",
@@ -1490,7 +1568,9 @@
             "https://gta6playertools.com/locations/unique-weapons",
             "GTA 6 Player Tools"
           ],
-          "thumb": "revolver"
+          "thumb": "revolver",
+          "img": "img/items/kingfishers-akulus.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/kingfishers-akulus"
         },
         {
           "item": "Ride Free H&L .38",
@@ -1510,7 +1590,9 @@
             "https://gta6bugs.com/weapons/the-guardian-es18",
             "GTA6BUGS"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/the-guardian-es18.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/the-guardian-es18"
         },
         {
           "item": "Russo's 1922 pistol",
@@ -1530,7 +1612,9 @@
             "https://gta6bugs.com/codes/pete-hangar-safe-code",
             "GTA6BUGS"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/petes-kz-59.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/petes-kz-59"
         },
         {
           "item": "Convict Kalinga .50",
@@ -1540,7 +1624,9 @@
             "https://gta6bugs.com/bugs/gta-6-convict-kalinga-50-cant-get-into-the-port-gellhorn-garage-tunnel-358",
             "GTA6BUGS"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/convict-kalinga-50.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/convict-kalinga-50"
         },
         {
           "item": "Golden Tec 9 (community name)",
@@ -1560,7 +1646,9 @@
             "https://gta6bugs.com/weapons/explorers-knife",
             "GTA6BUGS"
           ],
-          "thumb": "stealth"
+          "thumb": "stealth",
+          "img": "img/items/explorers-knife.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/explorers-knife"
         },
         {
           "item": "Shark Knife",
@@ -1570,7 +1658,9 @@
             "https://gta6bugs.com/weapons/shark-knife",
             "GTA6BUGS"
           ],
-          "thumb": "stealth"
+          "thumb": "stealth",
+          "img": "img/items/shark-knife.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/shark-knife"
         },
         {
           "item": "Soldier's Combat Knife",
@@ -1580,7 +1670,9 @@
             "https://gta6bugs.com/weapons/soldiers-combat-knife",
             "GTA6BUGS"
           ],
-          "thumb": "stealth"
+          "thumb": "stealth",
+          "img": "img/items/soldiers-combat-knife.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/soldiers-combat-knife"
         },
         {
           "item": "Deever Tech GLR40",
@@ -1600,7 +1692,9 @@
             "https://gta6bugs.com/weapons/fib-sm-69",
             "GTA6BUGS"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/fib-sm-69.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/fib-sm-69"
         },
         {
           "item": "IAA SMS-01",
@@ -1610,7 +1704,9 @@
             "https://gta6bugs.com/weapons/iaa-sms-01",
             "GTA6BUGS"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/iaa-sms-01.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/iaa-sms-01"
         },
         {
           "item": "Chronic Vatra",
@@ -1620,7 +1716,9 @@
             "https://gta6bugs.com/weapons/chronic-vatra",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/chronic-vatra.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/chronic-vatra"
         },
         {
           "item": "Final Chapter KVGA-12",
@@ -1630,7 +1728,9 @@
             "https://gta6bugs.com/weapons/final-chapter-kvga-12",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/final-chapter-kvga-12.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/final-chapter-kvga-12"
         },
         {
           "item": "Final Chapter Shortstraw",
@@ -1640,7 +1740,9 @@
             "https://gta6bugs.com/weapons/final-chapter-shortstraw",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/final-chapter-shortstraw.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/final-chapter-shortstraw"
         },
         {
           "item": "GRX 556",
@@ -1650,7 +1752,9 @@
             "https://gta6bugs.com/weapons/grx-556",
             "GTA6BUGS"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/grx-556.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/grx-556"
         },
         {
           "item": "Hostile Super400",
@@ -1660,7 +1764,9 @@
             "https://gta6bugs.com/weapons/hostile-super400",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/hostile-super400.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/hostile-super400"
         },
         {
           "item": "La Polilla Negra VF-G1",
@@ -1670,7 +1776,9 @@
             "https://gta6bugs.com/weapons/la-polilla-negra-vf-g1",
             "GTA6BUGS"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/la-polilla-negra-vf-g1.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/la-polilla-negra-vf-g1"
         },
         {
           "item": "Marabunta Grande KZ-59",
@@ -1680,7 +1788,9 @@
             "https://gta6bugs.com/weapons/marabunta-grande-kz-59",
             "GTA6BUGS"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/marabunta-grande-kz-59.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/marabunta-grande-kz-59"
         },
         {
           "item": "Marabunta Grande Type 9",
@@ -1690,7 +1800,9 @@
             "https://gta6bugs.com/weapons/marabunta-grande-type-9",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/marabunta-grande-type-9.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/marabunta-grande-type-9"
         },
         {
           "item": "Quarter Mile ES9",
@@ -1700,7 +1812,9 @@
             "https://gta6bugs.com/weapons/quarter-mile-es9",
             "GTA6BUGS"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/quarter-mile-es9.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/quarter-mile-es9"
         },
         {
           "item": "San4San Gorse 425",
@@ -1710,7 +1824,9 @@
             "https://gta6bugs.com/weapons/san4san-gorse-425",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/san4san-gorse-425.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/san4san-gorse-425"
         },
         {
           "item": "Throttler Verro",
@@ -1720,7 +1836,9 @@
             "https://gta6bugs.com/weapons/throttler-verro",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/throttler-verro.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/throttler-verro"
         },
         {
           "item": "Zodiac Nipper .38",
@@ -1730,7 +1848,9 @@
             "https://gta6bugs.com/weapons/zodiac-nipper-38",
             "GTA6BUGS"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/zodiac-nipper-38.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/zodiac-nipper-38"
         },
         {
           "item": "Eris Fresh DSG",
@@ -1740,7 +1860,9 @@
             "https://gta6bugs.com/weapons/eris-fresh-dsg",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/eris-fresh-dsg.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/eris-fresh-dsg"
         },
         {
           "item": "Backdoor Hobo",
@@ -1750,7 +1872,9 @@
             "https://gta6bugs.com/weapons/backdoor-hobo",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/backdoor-hobo.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/backdoor-hobo"
         },
         {
           "item": "Basher Gorse 425",
@@ -1760,7 +1884,9 @@
             "https://gta6bugs.com/weapons/basher-gorse-425",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/basher-gorse-425.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/basher-gorse-425"
         },
         {
           "item": "Darknite Drifter",
@@ -1770,7 +1896,9 @@
             "https://gta6bugs.com/weapons/darknite-drifter",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/darknite-drifter.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/darknite-drifter"
         },
         {
           "item": "Dazzler DW-9",
@@ -1780,7 +1908,9 @@
             "https://gta6bugs.com/weapons/dazzler-dw-9",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/dazzler-dw-9.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/dazzler-dw-9"
         },
         {
           "item": "Iron & Oak WCR-1",
@@ -1790,7 +1920,9 @@
             "https://gta6bugs.com/weapons/iron-oak-wcr-1",
             "GTA6BUGS"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/iron-oak-wcr-1.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/iron-oak-wcr-1"
         },
         {
           "item": "Fincredible Laird 350",
@@ -1800,7 +1932,9 @@
             "https://gta6bugs.com/weapons/fincredible-laird-350",
             "GTA6BUGS"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/fincredible-laird-350.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/fincredible-laird-350"
         },
         {
           "item": "Firebreak SM-69",
@@ -1810,7 +1944,9 @@
             "https://gta6bugs.com/weapons/firebreak-sm-69",
             "GTA6BUGS"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/firebreak-sm-69.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/firebreak-sm-69"
         },
         {
           "item": "Moneymaker W-10",
@@ -1820,7 +1956,9 @@
             "https://gta6bugs.com/weapons/moneymaker-w-10",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/moneymaker-w-10.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/moneymaker-w-10"
         },
         {
           "item": "Mossy Mediator",
@@ -1830,7 +1968,9 @@
             "https://gta6bugs.com/weapons/mossy-mediator",
             "GTA6BUGS"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/mossy-mediator.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/mossy-mediator"
         },
         {
           "item": "Neon Sunset Type 9",
@@ -1840,7 +1980,9 @@
             "https://gta6bugs.com/weapons/neon-sunset-type-9",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/neon-sunset-type-9.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/neon-sunset-type-9"
         },
         {
           "item": "Spangled Vatra",
@@ -1850,7 +1992,9 @@
             "https://gta6bugs.com/weapons/spangled-vatra",
             "GTA6BUGS"
           ],
-          "thumb": "smg"
+          "thumb": "smg",
+          "img": "img/items/spangled-vatra.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/spangled-vatra"
         },
         {
           "item": "The Silver 1922",
@@ -1860,7 +2004,9 @@
             "https://gta6bugs.com/weapons/the-silver-1922",
             "GTA6BUGS"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/the-silver-1922.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/the-silver-1922"
         },
         {
           "item": "Vice City Heathen",
@@ -1870,7 +2016,9 @@
             "https://gta6bugs.com/weapons/vice-city-heathen",
             "GTA6BUGS"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/vice-city-heathen.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/vice-city-heathen"
         },
         {
           "item": "Watcher Pro Moreland 850",
@@ -1880,7 +2028,9 @@
             "https://gta6bugs.com/weapons/watcher-pro-moreland-850",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/watcher-pro-moreland-850.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/watcher-pro-moreland-850"
         },
         {
           "item": "Woodhatch Longshot",
@@ -1890,7 +2040,9 @@
             "https://gta6bugs.com/weapons/woodhatch-longshot",
             "GTA6BUGS"
           ],
-          "thumb": "shotgun"
+          "thumb": "shotgun",
+          "img": "img/items/woodhatch-longshot.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/woodhatch-longshot"
         },
         {
           "item": "Jack Sheepe H&L .38",
@@ -1930,7 +2082,9 @@
             "https://screenrant.com/gta-6-unique-weapons-locations/",
             "Screen Rant"
           ],
-          "thumb": "stealth"
+          "thumb": "stealth",
+          "img": "img/items/bae-luxes-bat.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/bae-luxes-bat"
         },
         {
           "item": "Francisco's LMG 6",
@@ -1940,7 +2094,9 @@
             "https://screenrant.com/gta-6-unique-weapons-locations/",
             "Screen Rant"
           ],
-          "thumb": "rifle"
+          "thumb": "rifle",
+          "img": "img/items/franciscos-lmg-6.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/franciscos-lmg-6"
         },
         {
           "item": "Duval Signature ES9",
@@ -1950,7 +2106,9 @@
             "https://screenrant.com/gta-6-unique-weapons-locations/",
             "Screen Rant"
           ],
-          "thumb": "pistol"
+          "thumb": "pistol",
+          "img": "img/items/duval-signature-es9.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/duval-signature-es9"
         },
         {
           "item": "Mister Mangrove Laird 350",
@@ -1960,7 +2118,21 @@
             "https://vicecitymapguide.com/guides/gta-6-secret-weapons-locations/",
             "Vice City Map Guide"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/mister-mangrove-laird-350.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/mister-mangrove-laird-350"
+        },
+        {
+          "item": "Tallaloko Knife",
+          "location": "Ritual room, Evergreen cabin, west shore of Lake Tallaloko (keypad 7304)",
+          "note": "Unique knife you keep after opening the Four Horsemen ritual room.",
+          "source": [
+            "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/",
+            "Game Rant"
+          ],
+          "thumb": "stealth",
+          "img": "img/items/tallaloko-knife.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/weapons/tallaloko-knife"
         }
       ]
     },
@@ -2101,12 +2273,14 @@
         {
           "item": "Evergreen cabin lockbox",
           "location": "Locked second-floor room of the Evergreen cabin, west side of Lake Tallaloko",
-          "note": "Lockbox holds over $7,000 in jewelry; the unique Tallaloko Knife is in the same room.",
+          "note": "Behind keypad 7304 once the two Four Horsemen emails are read (see Codes). Game Rant puts the lockbox at $67,200 to fence (Yasmani pays best); MyGamepadTester said over $7,000 in jewelry. The unique Tallaloko Knife is in the same room.",
           "source": [
             "https://mygamepadtester.com/blogs/gta-6-unique-weapons-locations",
             "MyGamepadTester (GTABase data)"
           ],
-          "thumb": "jewellery"
+          "thumb": "jewellery",
+          "img": "img/items/lake-tallaloko-ritual-room-lockbox.webp",
+          "imgSource": "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/"
         },
         {
           "item": "Wreck of the Meerwunder crate",
@@ -2309,7 +2483,9 @@
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
           ],
-          "thumb": "suv"
+          "thumb": "suv",
+          "img": "img/items/annis-hellion.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/hellion"
         },
         {
           "item": "Declasse Yosemite 1500 (Moses job)",
@@ -2329,7 +2505,9 @@
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/karin-futo.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/futo"
         },
         {
           "item": "Declasse '86 Rancher",
@@ -2349,7 +2527,9 @@
             "https://gta6zero.com/en/map/category/rare-vehicles",
             "GTA6Zero"
           ],
-          "thumb": "suv"
+          "thumb": "suv",
+          "img": "img/items/pegassi-toros.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/toros"
         },
         {
           "item": "Hauners Rhino tank",
@@ -2429,7 +2609,9 @@
             "https://gtavimaps.com/guides/rare-cars/",
             "GTAVIMaps"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/driveshaft-hustler.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/driveshaft-hustler"
         },
         {
           "item": "Teniente Manana",
@@ -2571,7 +2753,9 @@
             "https://gta.tech4gamers.com/gta-6/vehicles/64-invetero-coquette/",
             "Tech4Gamers"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/invetero-spiderweb-coquette.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/spiderweb-coquette"
         },
         {
           "item": "Dom's Charger (Fast & Furious)",
@@ -2879,7 +3063,9 @@
             "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
             "GTA6Wiki"
           ],
-          "thumb": "suv"
+          "thumb": "suv",
+          "img": "img/items/pegassi-lustrous-toros.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/lustrous-toros"
         },
         {
           "item": "Pegassi Gold Rush Tempesta",
@@ -2889,7 +3075,9 @@
             "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
             "GTA6Wiki"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/pegassi-gold-rush-tempesta.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/gold-rush-tempesta"
         },
         {
           "item": "Big Cat Furia",
@@ -2899,7 +3087,9 @@
             "https://gta6wiki.eu/guides/gta-6-secret-supercar-locations/",
             "GTA6Wiki"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/big-cat-furia.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/big-cat-furia"
         },
         {
           "item": "Albany Driveshaft Devanity (Christine)",
@@ -3029,7 +3219,9 @@
             "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
             "GTA Xtreme"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/bravado-banshee.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/banshee"
         },
         {
           "item": "Pegassi Tempesta (repo tow truck)",
@@ -3054,7 +3246,7 @@
         {
           "item": "Pegassi Vitello (Waning Sands villa)",
           "location": "Gated villa on Flamingo Parkway, Waning Sands; garage closest to the house, right of the entrance",
-          "note": "Parked inside the garage.",
+          "note": "Parked inside the garage. GamesRadar: this is the base model Randy pins once you've delivered a couple of his other cars; a totalled Vitello doesn't respawn, so Dante's, Lipgloss or Splattered can stand in.",
           "source": [
             "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
             "GTA Xtreme"
@@ -3069,7 +3261,9 @@
             "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
             "GTA Xtreme"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/bravado-gauntlet-hellfire.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/gauntlet-hellfire"
         },
         {
           "item": "Mamba GT (¡Dale Mamba!)",
@@ -3099,7 +3293,9 @@
             "https://www.gta-xtreme.com/gta-6/locations/hidden-cars",
             "GTA Xtreme"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/piccia-furia.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/furia"
         },
         {
           "item": "Pfister Growler (Fig Street car park)",
@@ -3405,7 +3601,9 @@
             "https://gta6wiki.eu/map/standout-vehicle/imponte-bloodbath-phoenix/",
             "GTA6Wiki"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/imponte-bloodbath-phoenix.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/bloodbath-phoenix"
         },
         {
           "item": "LCC Midnight Sun Avarus",
@@ -3451,7 +3649,9 @@
             "https://gta6wiki.eu/map/standout-vehicle/maibatsu-myways-manchez/",
             "GTA6Wiki"
           ],
-          "thumb": "bike"
+          "thumb": "bike",
+          "img": "img/items/maibatsu-myways-manchez.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/myways-manchez"
         },
         {
           "item": "Maibatsu Speedy Boomazoom",
@@ -3581,7 +3781,9 @@
             "https://gta6wiki.eu/map/standout-vehicle/tuff-immortal-bmx/",
             "GTA6Wiki"
           ],
-          "thumb": "bike"
+          "thumb": "bike",
+          "img": "img/items/tuff-immortal-bmx.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/immortal-bmx"
         },
         {
           "item": "Vapid Brimstone Golfer",
@@ -3673,7 +3875,9 @@
             "https://vicepulse.org/t/gta6-rare-vehicles-watson-bay-bobcat-key-hamlet",
             "VicePulse (Reddit)"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/blazing-mallard.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/blazing-mallard"
         },
         {
           "item": "Gold Pegassi Vitello",
@@ -3693,7 +3897,9 @@
             "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
             "Sportskeeda"
           ],
-          "thumb": "bike"
+          "thumb": "bike",
+          "img": "img/items/royal-sanchez.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/royal-sanchez"
         },
         {
           "item": "Muck Spreader Bandito (SCOOP container)",
@@ -3713,7 +3919,9 @@
             "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
             "Sportskeeda"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/annis-pixel-elegy.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/pixel-elegy"
         },
         {
           "item": "Vapid Cuban Hermes (SCOOP container)",
@@ -3723,7 +3931,105 @@
             "https://www.sportskeeda.com/gta/all-hidden-cars-shipping-containers-gta-6-find",
             "Sportskeeda"
           ],
-          "thumb": "muscle"
+          "thumb": "muscle",
+          "img": "img/items/vapid-cuban-hermes.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/cuban-hermes"
+        },
+        {
+          "item": "Principe Burnished Alvino",
+          "location": "Garage of an estate on Sabal Circle, Starfish Island (watch for island security)",
+          "note": "Fastest motorcycle in the game (Speed 7.6); purple with gold wheels. No tracker or Key Cloner needed and cheap to register.",
+          "source": [
+            "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
+            "Insider Gaming"
+          ],
+          "thumb": "bike",
+          "img": "img/items/principe-burnished-alvino.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/burnished-alvino"
+        },
+        {
+          "item": "Principe Emilio's Lectro",
+          "location": "Garage behind Emilio's Auto Center, Rockridge",
+          "note": "Second-fastest bike (Speed 7.4); break into the garage, which can give a trespassing Wanted level.",
+          "source": [
+            "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
+            "Insider Gaming"
+          ],
+          "thumb": "bike",
+          "img": "img/items/principe-emilios-lectro.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/emilios-lectro"
+        },
+        {
+          "item": "Nagasaki KD's SFB 1000",
+          "location": "Reward from Dre'Quan's Gift (Chapter 3, after Photo/Shoot)",
+          "note": "Standout SFB 1000 (Speed 7.1); the base SFB 1000 has no fixed spawn.",
+          "source": [
+            "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
+            "Insider Gaming"
+          ],
+          "thumb": "bike",
+          "img": "img/items/nagasaki-kds-sfb-1000.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/kds-sfb-1000"
+        },
+        {
+          "item": "Nagasaki Smokescreen Carbon RS",
+          "location": "Scoop container at a construction site (Chapter 3+, needs the Cut-Off Tool)",
+          "note": "Use a nearby vehicle to shove the concrete blocking the door, then cut in; you may get a trespassing Wanted level.",
+          "source": [
+            "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
+            "Insider Gaming"
+          ],
+          "thumb": "bike",
+          "img": "img/items/nagasaki-smokescreen-carbon-rs.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/smokescreen-carbon-rs"
+        },
+        {
+          "item": "Nagasaki Hung Carbon RS",
+          "location": "Hanging from a tree just north of Belville, near a biker bar",
+          "note": "Shoot the two rope points and the bike drops down unlocked (Fine Art standout).",
+          "source": [
+            "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
+            "Insider Gaming"
+          ],
+          "thumb": "bike",
+          "img": "img/items/nagasaki-hung-carbon-rs.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/hung-carbon-rs"
+        },
+        {
+          "item": "Dante's Vitello",
+          "location": "Big single-door garage at Dante Fresh's mansion, Starfish Island (west side per GamesRadar)",
+          "note": "Parked beside two motorbikes. Key Cloner and advanced tracker; security guards and police nearby. Can stand in for Randy's Vitello.",
+          "source": [
+            "https://insider-gaming.com/where-to-find-dantes-pegassi-vitello-in-gta-6/",
+            "Insider Gaming"
+          ],
+          "thumb": "car",
+          "img": "img/items/dantes-vitello.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/dantes-vitello"
+        },
+        {
+          "item": "Lipgloss Vitello",
+          "location": "Under a yellow tent at Dolos Exotic Car Rental, south of Crosstown, Vice City",
+          "note": "Pink custom Vitello (GamesRadar calls it Lipstick). Open lot, so you can walk in; needs the Key Cloner.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pegassi-vitello/",
+            "GamesRadar+"
+          ],
+          "thumb": "car",
+          "img": "img/items/lipgloss-vitello.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/lipgloss-vitello"
+        },
+        {
+          "item": "Splattered Vitello",
+          "location": "Outside a paint-covered house on a peninsula, north-west coast of Capri",
+          "note": "Paint-sprayed Fine Art standout; Key Cloner, advanced tracker.",
+          "source": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pegassi-vitello/",
+            "GamesRadar+"
+          ],
+          "thumb": "car",
+          "img": "img/items/splattered-vitello.webp",
+          "imgSource": "https://www.gtabase.com/gta-6/vehicles/splattered-vitello"
         }
       ]
     },
@@ -5312,6 +5618,28 @@
             "Leonida Players"
           ],
           "thumb": "mission"
+        },
+        {
+          "item": "Four Horsemen mystery (Tallaloko ritual room)",
+          "location": "Burg facility email, Poppers store email (Watson Bay), then the Lake Tallaloko cabin",
+          "note": "Four riddles ('The desire that guides us' 7, 'The entrance to heavenly harmony' 3, 'The bell that honors the dead', 'The stallion feared by all' 4) give symbols you can scan with WAiNK; the room behind the door has a summoning circle, a $67,200 lockbox and the Tallaloko Knife.",
+          "source": [
+            "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/",
+            "Game Rant"
+          ],
+          "thumb": "egg",
+          "img": "img/items/four-horsemen-ritual-room.webp",
+          "imgSource": "https://gamerant.com/gta-6-four-horsemen-ritual-room-code-location/"
+        },
+        {
+          "item": "Mandy detour during the Chapter 1 escape",
+          "location": "Mandy's house, Key Lento, during the final Chapter 1 mission",
+          "note": "As Lucia flees the burning house, go to Mandy's instead of Andy's car: she's outside crying to the police and admits she wanted to set Jason's house on fire herself. After the fire she texts Jason; visit her solo for a porch talk and a final bath scene.",
+          "source": [
+            "https://insider-gaming.com/mandy-scenes-gta-6/",
+            "Insider Gaming"
+          ],
+          "thumb": "home"
         }
       ]
     },
@@ -6224,6 +6552,56 @@
             "Leonida Players"
           ],
           "thumb": "note"
+        },
+        {
+          "item": "Snap Gun (silent lockpicking)",
+          "location": "Reward from Yasmani after any one of his three jewellery jobs (Chapter 3, after Boobie Time)",
+          "note": "Picks locked doors quietly instead of kicking them: find the sweet spot with the left stick and press R2/RT. Very forgiving.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-snap-gun-guide-how-to-unlock-it-and-pick-every-lock-quietly",
+            "Leonida Players (TheGamer)"
+          ],
+          "thumb": "stealth"
+        },
+        {
+          "item": "Criminal Profile tiers",
+          "location": "Separate rating for Jason and Lucia",
+          "note": "Professional, Hardened, Violent, Psycho, Irredeemable. Stealthy, non-lethal play keeps it high; Rockstar says it was inspired by RDR2's honor system.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-criminal-profile-system-inspired-by-red-dead-redemption-2-rockstar-confirm",
+            "Leonida Players (PC Gamer)"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "No mission replay or gold medals",
+          "location": "Whole story",
+          "note": "Rockstar removed mission replay and medals so choices stick; use manual saves (15 slots) to revisit moments.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-no-mission-replay-why-rockstar-removed-it",
+            "Leonida Players (Kotaku)"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "No chainsaws or katanas",
+          "location": "Weapons",
+          "note": "Rockstar left both out as too violent for Jason and Lucia; chainsaws only appear as world props you can't pick up.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-chainsaws-were-left-out-because-rockstar-said-they-were-too-violent",
+            "Leonida Players (VGC)"
+          ],
+          "thumb": "note"
+        },
+        {
+          "item": "Gang bases adapt after a failed raid",
+          "location": "Gang hideouts and meth labs",
+          "note": "Fail a raid and NPCs patch the breach you used (fresh barbed wire), move guards and patrols, and shift loot. Plan a different entry next time.",
+          "source": [
+            "https://leonidaplayers.com/news/gta-6-enemy-ai-adapts-to-failed-raids-like-metal-gear-solid-5",
+            "Leonida Players (TheGamer)"
+          ],
+          "thumb": "stealth"
         }
       ],
       "steps": [
@@ -8219,6 +8597,36 @@
             "GTA6BUGS"
           ],
           "thumb": "note"
+        },
+        {
+          "item": "Discharge Time: can't shoot from the wheelchair",
+          "location": "Chapter 1 finale, first shotgun attacker (Xbox) #0443",
+          "note": "Fire does nothing, Jason dies, repeats after skipping the checkpoint. Try aiming first (LT) during Combat Focus, then RT, or set aim assist to lock-on.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-discharge-time-jason-cant-shoot-from-the-wheelchair-xbox-443",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Phone freezes once the photo gallery is full",
+          "location": "Phone gallery, 32-photo limit (PS5) #0444",
+          "note": "After the 'next photo will overwrite the oldest' notice, apps won't open and the phone won't close. Reloading the autosave fixed it; delete old photos first.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-phone-stuck-after-the-photo-gallery-fills-up-apps-wont-open-444",
+            "GTA6BUGS"
+          ],
+          "thumb": "stuck"
+        },
+        {
+          "item": "Delivery Day: Randy stuck on an NPC",
+          "location": "Randy's showroom job after his Wish List (PS5) #0445",
+          "note": "Randy is pinned against another man by a doorway and the mission can't continue. Restart from checkpoint or nudge the NPC away (don't hit him).",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-delivery-day-randy-gets-stuck-on-an-npc-and-the-mission-cant-445",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
         }
       ]
     }
