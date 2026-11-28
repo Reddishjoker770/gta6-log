@@ -1,6 +1,6 @@
 {
   "title": "GTA 6 Running Log",
-  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 28 Nov 2026, 8:16 AM AEST.",
+  "summary": "A running, topic-organised log of GTA 6 facts from our chats plus researched codes, locations, and secrets. Progress: Chapter 1, up to Discharge Time. Updated 28 Nov 2026, 3:11 PM AEST.",
   "calloutLead": "How to read this log",
   "calloutBody": "Items marked Our chats came from Tyas in this conversation and are listed exactly as given. Items with a link were added from post-launch guides and should be treated as community-sourced until confirmed in-game. Ordinary store-robbery keypad codes are randomised and are not listed. This page was built as the first research update on 21 Nov 2026, Australia/Brisbane.",
   "properties": [
@@ -10,7 +10,7 @@
     },
     {
       "label": "Last updated",
-      "value": "28 Nov 2026, 8:16 AM AEST"
+      "value": "28 Nov 2026, 3:11 PM AEST"
     },
     {
       "label": "Official patches",
@@ -68,7 +68,14 @@
     "https://leonidaplayers.com/news/gta-6-new-secrets-found-this-week-27-november",
     "https://www.vicevaulted.com/d/gta6-ambrosia-ufo-house-rooftop-flyby",
     "https://gta6bugs.com/guides/gta-6-permanent-stat-upgrades",
-    "https://gta6bugs.com/news/gta-6-jason-softlock-players-found-no-fix-rockstar-silent"
+    "https://gta6bugs.com/news/gta-6-jason-softlock-players-found-no-fix-rockstar-silent",
+    "https://gamerant.com/gta-6-frampton-island-bunker-code/",
+    "https://gta.tech4gamers.com/gta-6/collectibles/1010-murals/",
+    "https://www.videogameschronicle.com/guide/gta-6-all-unique-snapmatic-animal-locations-bret/",
+    "https://www.middleeastgamer.com/gta-6-leviathan-location/",
+    "https://leonidaplayers.com/guides/gta-6-capri-cops-mission-how-to-get-arrested-and-unlock-the-secret-quest",
+    "https://leonidaplayers.com/guides/gta-6-peewees-billboards-locations-mr-enigma-outfit",
+    "https://leonidaplayers.com/guides/gta-6-polar-bear-location-free-the-bear-sell-to-bret"
   ],
   "footer": "This is a living log. Future updates should edit this same Page rather than creating a new one.",
   "currentMission": "Discharge Time",
@@ -1357,6 +1364,30 @@
             "Leonida Players"
           ],
           "thumb": "safe"
+        },
+        {
+          "item": "Frampton Island bunker keypad",
+          "location": "3612",
+          "note": "Bunker door on the Frampton Islands, north-east of Lummox County (top of the map). Players brute-forced the code; inside are a dark stairwell, a sewer pipe and a hanging body, with nothing to loot so far.",
+          "source": [
+            "https://gamerant.com/gta-6-frampton-island-bunker-code/",
+            "Game Rant"
+          ],
+          "thumb": "door",
+          "img": "img/items/frampton-island-bunker.webp",
+          "imgSource": "https://gamerant.com/gta-6-frampton-island-bunker-code/"
+        },
+        {
+          "item": "Southside Storage garage (1010 Cheetah)",
+          "location": "1010",
+          "note": "Keypad garage at the south tip of Salton. Photograph all five 1010 murals with the phone Camera (WAiNK scans don't count) first; the one-car garage holds the 1010 '95 Grotti Cheetah.",
+          "source": [
+            "https://gta.tech4gamers.com/gta-6/collectibles/1010-murals/",
+            "Tech4Gamers"
+          ],
+          "thumb": "door",
+          "img": "img/items/southside-storage-1010-garage.webp",
+          "imgSource": "https://www.youtube.com/watch?v=IQpqRl7axu8"
         }
       ]
     },
@@ -2480,7 +2511,9 @@
             "https://www.vicevaulted.com/d/gta6-glider-crash-unique-weapon",
             "ViceVaulted"
           ],
-          "thumb": "sniper"
+          "thumb": "sniper",
+          "img": "img/items/glider-crash-unique-weapon.webp",
+          "imgSource": "https://www.youtube.com/watch?v=7IfhWb6SZfc"
         },
         {
           "item": "Gil's Kalinga",
@@ -2551,6 +2584,18 @@
           "thumb": "stealth",
           "img": "img/items/tallaloko-knife.webp",
           "imgSource": "https://www.gtabase.com/gta-6/weapons/tallaloko-knife"
+        },
+        {
+          "item": "CPD Moreland 850",
+          "location": "Open police-car trunk outside the Capri Cops holding cells (turn right out the door)",
+          "note": "Unique shotgun you keep for good, lying with your confiscated gear during the secret Capri arrest mission.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-capri-cops-mission-how-to-get-arrested-and-unlock-the-secret-quest",
+            "Leonida Players"
+          ],
+          "thumb": "shotgun",
+          "img": "img/items/cpd-moreland-850.webp",
+          "imgSource": "https://www.youtube.com/watch?v=s8cVlVZ6zM8"
         }
       ]
     },
@@ -2744,7 +2789,9 @@
             "https://gta6bugs.com/easter-eggs/birds-arent-real-hoax-shack-riquezas-keys",
             "GTA6BUGS"
           ],
-          "thumb": "pills"
+          "thumb": "pills",
+          "img": "img/items/birds-arent-real-shack.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/birds-arent-real-hoax-shack-riquezas-keys"
         },
         {
           "item": "Hollow Earther's crystal",
@@ -2754,7 +2801,9 @@
             "https://gta6bugs.com/easter-eggs/hollow-earther-emerald-springs",
             "GTA6BUGS"
           ],
-          "thumb": "pills"
+          "thumb": "pills",
+          "img": "img/items/hollow-earther.webp",
+          "imgSource": "https://gta6bugs.com/easter-eggs/hollow-earther-emerald-springs"
         },
         {
           "item": "B&G Ark Royal Ashore watch",
@@ -4299,7 +4348,9 @@
             "https://vicepulse.org/t/gta6-grotti-itali-rsx-vespucci-island",
             "VicePulse"
           ],
-          "thumb": "car"
+          "thumb": "car",
+          "img": "img/items/grotti-itali-rsx-vespucci.webp",
+          "imgSource": "https://www.youtube.com/watch?v=ryhgaZocZDQ"
         },
         {
           "item": "Blazing Mallard",
@@ -4464,6 +4515,28 @@
           "thumb": "car",
           "img": "img/items/splattered-vitello.webp",
           "imgSource": "https://www.gtabase.com/gta-6/vehicles/splattered-vitello"
+        },
+        {
+          "item": "1010 '95 Grotti Cheetah",
+          "location": "Southside Storage one-car garage, south tip of Salton (keypad 1010)",
+          "note": "Reward for photographing all five 1010 murals (Rockridge, two in Downtown, Ocean Beach, Crosstown); every edition can get it. Register it to keep it.",
+          "source": [
+            "https://gta.tech4gamers.com/gta-6/collectibles/1010-murals/",
+            "Tech4Gamers"
+          ],
+          "thumb": "car",
+          "img": "img/items/grotti-1010-cheetah.webp",
+          "imgSource": "https://www.youtube.com/watch?v=hgRzvJVzlJE"
+        },
+        {
+          "item": "Karin Rebel (Bret's White Fox reward)",
+          "location": "Given by Bret Vogel after you deliver the Unique White Fox",
+          "note": "Bret rewards the last unique hunt with a Karin Rebel truck you can register as your own. The fox lives by two small ponds on Emerald Springs' west border, north of Emerald River.",
+          "source": [
+            "https://www.videogameschronicle.com/guide/gta-6-all-unique-snapmatic-animal-locations-bret/",
+            "VGC"
+          ],
+          "thumb": "truck"
         }
       ]
     },
@@ -6427,7 +6500,9 @@
             "https://gta6bugs.com/easter-eggs/dolores-snake-survives-fire-nest-eggs-jasons-house-key-lento",
             "GTA6BUGS"
           ],
-          "thumb": "egg"
+          "thumb": "egg",
+          "img": "img/items/dolores-snake-survives.webp",
+          "imgSource": "https://www.youtube.com/watch?v=3Y56jaZEhsw"
         },
         {
           "item": "Stop! Don't Flush poster (The Final Flush)",
@@ -6711,7 +6786,9 @@
             "https://www.vicevaulted.com/d/gta6-influencer-eaten-by-python-pelican-river",
             "ViceVaulted"
           ],
-          "thumb": "egg"
+          "thumb": "egg",
+          "img": "img/items/python-eaten-influencer.webp",
+          "imgSource": "https://www.youtube.com/watch?v=wH85ZaPQWzc"
         },
         {
           "item": "Jimmy De Santa cameo",
@@ -6724,6 +6801,54 @@
           "thumb": "egg",
           "img": "img/items/jimmy-de-santa-cameo.webp",
           "imgSource": "https://www.youtube.com/watch?v=tsnbeQ4G7lk"
+        },
+        {
+          "item": "Capri Cops secret arrest mission",
+          "location": "Capri town centre: get a 1-2 star wanted level and surrender",
+          "note": "Corrupt cops kidnap you instead of a Busted screen. Mash melee to break the cage, take your gear and the CPD Moreland 850 from the car trunk, kill the cops, spare or kill the trainee, free the prisoners, then escape by car or boat.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-capri-cops-mission-how-to-get-arrested-and-unlock-the-secret-quest",
+            "Leonida Players"
+          ],
+          "thumb": "escape",
+          "img": "img/items/capri-cops-secret-mission.webp",
+          "imgSource": "https://www.youtube.com/watch?v=UbxIGGcT2SI"
+        },
+        {
+          "item": "Leviathan sea-monster skeleton",
+          "location": "Seabed west of Bobcat Key's airstrip spit, north-west of Watson Bay (Mariana County)",
+          "note": "A giant toothed skull and ribcage you can swim through. Needs a boat and scuba gear; no surface marker and no reward.",
+          "source": [
+            "https://www.middleeastgamer.com/gta-6-leviathan-location/",
+            "Middle East Gamer"
+          ],
+          "thumb": "egg",
+          "img": "img/items/leviathan-skeleton.webp",
+          "imgSource": "https://www.middleeastgamer.com/gta-6-leviathan-location/"
+        },
+        {
+          "item": "Peewees billboards (Mr Enigma outfit)",
+          "location": "4 billboards: Grassrivers/N. Mariana border, Balsero (Vice-Dale), Waning Sands, south-east of Grayson",
+          "note": "Scan each with WAiNK (hold D-pad Up) from the listed side, then talk to the manager at Peewees, Belville for the Mr Enigma x Peewees cap and T-shirt (both characters).",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-peewees-billboards-locations-mr-enigma-outfit",
+            "Leonida Players"
+          ],
+          "thumb": "hat",
+          "img": "img/items/peewees-billboards.webp",
+          "imgSource": "https://www.youtube.com/watch?v=A9Pi-eb53OE"
+        },
+        {
+          "item": "Polar bear in an animal truck",
+          "location": "Random encounter on Vice City highways: Live Animals truck under a freeway overpass",
+          "note": "Activists (The Dodos) can't break the lock; pick Break the lock and the bear turns on them. After Veteran Hunted, a clean kill photographed for Bret pays $9,800-$17,250.",
+          "source": [
+            "https://leonidaplayers.com/guides/gta-6-polar-bear-location-free-the-bear-sell-to-bret",
+            "Leonida Players"
+          ],
+          "thumb": "egg",
+          "img": "img/items/polar-bear-animal-truck.webp",
+          "imgSource": "https://www.youtube.com/watch?v=259izvu2SLs"
         }
       ]
     },
@@ -7726,6 +7851,18 @@
             "GTA6BUGS"
           ],
           "thumb": "pills"
+        },
+        {
+          "item": "Bret's unique animal hunts",
+          "location": "In order: Buck (NE of Grayson), Black Bear (S of Hamlet), Crocodile (W of Cottonmouth Lake), Swamp Alligator (Buckskin Swamp), Wild Boar (Wild Hog Point), Golf Course Crocodile (Leaf Links), Panther (Belpoint Island), Coyote (N of Belville), White Fox (Emerald Springs)",
+          "note": "Jason only. Bret texts vague leads with no map marker; he collects the big animals one at a time, while you deliver the Coyote and White Fox yourself. The fox earns a Karin Rebel.",
+          "source": [
+            "https://www.videogameschronicle.com/guide/gta-6-all-unique-snapmatic-animal-locations-bret/",
+            "VGC"
+          ],
+          "thumb": "rifle",
+          "img": "img/items/bret-unique-animals.webp",
+          "imgSource": "https://www.videogameschronicle.com/guide/gta-6-all-unique-snapmatic-animal-locations-bret/"
         }
       ],
       "steps": [
@@ -9791,6 +9928,56 @@
             "GTA6BUGS"
           ],
           "thumb": "glitch"
+        },
+        {
+          "item": "Bad Driver!: Andrea never calls",
+          "location": "After Party Hard, Chapter 4 (PS5) #0454",
+          "note": "Check the map for a mission marker on the Millport bar (either character can take it); otherwise sleep, switch characters or fully restart. The job is gone once Power Play starts.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-bad-driver-mission-andrea-not-calling-after-party-hard-454",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Body vanishes when picked up",
+          "location": "Free roam (Xbox Series X|S, also Xbox Cloud) #0455",
+          "note": "Bodies disappear the moment you pick them up. Loot the body first so nothing is lost; a full quit (not Quick Resume) is the suggested fix.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-body-disappears-when-you-pick-it-up-455",
+            "GTA6BUGS"
+          ],
+          "thumb": "despawn"
+        },
+        {
+          "item": "Focus stops highlighting unless aiming",
+          "location": "Free roam, mostly with Jason and Lucia together (PS5) #0456",
+          "note": "Outlines for enemies, cops, cars and loot vanish unless you aim; settings and reloads don't help. Fully closing and restarting the game fixed it for two players.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-focus-mode-not-highlighting-enemies-loot-or-cars-works-only-while-456",
+            "GTA6BUGS"
+          ],
+          "thumb": "focus"
+        },
+        {
+          "item": "Hidden Charges: no explosives or van after quitting",
+          "location": "Karim's cell-tower job before the Cartel Heist (PS5) #0453",
+          "note": "After switching off mid-mission the objective stays but the bags and van marker are gone. Look for the van in the garage in the alley next to the Vice City Courthouse, or switch characters; else reload the autosave.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-hidden-charges-cant-continue-after-quitting-mid-mission-no-453",
+            "GTA6BUGS"
+          ],
+          "thumb": "softlock"
+        },
+        {
+          "item": "Star-shaped light flares at night",
+          "location": "Streetlights and headlights at night (Xbox Series S) #0457",
+          "note": "Large 8-point star flares around lights, likely partly the game's heavy bloom and lens flare. Try TV sharpness 0, HDR off or recalibrated, and lower in-game brightness.",
+          "source": [
+            "https://gta6bugs.com/bugs/gta-6-huge-star-shaped-light-flares-at-night-on-xbox-series-s-457",
+            "GTA6BUGS"
+          ],
+          "thumb": "texture"
         }
       ]
     }
